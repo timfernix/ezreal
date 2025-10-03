@@ -11,8 +11,9 @@
       "media": [
         {
           "type": "splash",
-          "title": "classic splash",
-          "path": "assets/ezreal/skins/classic/splash/classic_splash.jpg"
+          "title": "Classic Splashart Reworked Ezreal",
+          "path": "assets/ezreal/skins/classic/splash/Classic-Splashart-Reworked-Ezreal.jpg",
+          "tags": []
         }
       ]
     }
