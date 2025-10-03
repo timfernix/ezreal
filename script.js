@@ -326,24 +326,42 @@ function openViewer(item){
     media.src = item.path || item.thumb || "";
   }
 
-  const caption = document.createElement("div");
-  caption.className = "viewer-caption";
-  caption.innerHTML = `
-    <div class="left">
-      <strong>${escapeHtml(item.title || "")}</strong>
-      <span class="badge">${escapeHtml(item.skinName)}</span>
-      <span class="badge">${escapeHtml(TYPE_LABEL[item.type] || item.type)}</span>
-      ${item.year ? `<span class="badge">${item.year}</span>` : ""}
-      ${(item.tags||[]).map(t => `<span class="badge">${escapeHtml(TAG_LABEL[t] || t)}</span>`).join("")}
-    </div>
-    <div class="right">
-      ${item.path ? `<a class="action" target="_blank" rel="noopener" href="${item.path}">Open raw</a>` : ""}
-      ${item.youtubeId ? `<a class="action" target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=${item.youtubeId}">YouTube</a>` : ""}
-    </div>
-  `;
+const caption = document.createElement("div");
+caption.className = "viewer-caption";
+caption.innerHTML = `
+  <div class="left">
+    <strong>${escapeHtml(item.title || "")}</strong>
+    <span class="badge">${escapeHtml(item.skinName)}</span>
+    <span class="badge">${escapeHtml(TYPE_LABEL[item.type] || item.type)}</span>
+    ${item.year ? `<span class="badge">${item.year}</span>` : ""}
+    ${(item.tags||[]).map(t => `<span class="badge">${escapeHtml(TAG_LABEL[t] || t)}</span>`).join("")}
+  </div>
+  <div class="right">
+    ${item.path ? `<a class="action" target="_blank" rel="noopener" href="${item.path}">Open raw</a>` : ""}
+    ${item.path ? `<button class="action js-copy" data-path="${item.path}" type="button">Copy path</button>` : ""}
+    ${item.youtubeId ? `<a class="action" target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=${item.youtubeId}">YouTube</a>` : ""}
+  </div>
+`;
 
-  wrap.appendChild(media);
-  wrap.appendChild(caption);
+wrap.appendChild(media);
+wrap.appendChild(caption);
+
+const copyBtn = caption.querySelector(".js-copy");
+if (copyBtn) {
+  copyBtn.addEventListener("click", async () => {
+    const raw = copyBtn.getAttribute("data-path") || "";
+    const base = location.origin + location.pathname.replace(/index\.html?$/,"");
+    const url  = base + raw.replace(/^\.\//,"");
+    try {
+      await navigator.clipboard.writeText(url);
+      copyBtn.textContent = "Copied";
+      setTimeout(() => (copyBtn.textContent = "Copy path"), 1200);
+    } catch {
+      copyBtn.textContent = "Failed";
+      setTimeout(() => (copyBtn.textContent = "Copy path"), 1200);
+    }
+  });
+}
 
   const closeBtn = dlg.querySelector(".viewer-close");
   closeBtn.onclick = () => dlg.close();
