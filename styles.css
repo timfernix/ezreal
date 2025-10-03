@@ -111,23 +111,24 @@ main{padding:1.25rem}
 .thumb{aspect-ratio:16/9;width:100%;object-fit:cover;display:block;background:var(--bg-soft)}
 .card video.thumb{background:#000}
 
-/* Meta area reserves space and pins actions bottom-right */
+/* Meta area uses column flex with an automatic spacer before actions */
 .card .meta{
-  position:relative;
-  padding:.75rem .85rem 3.2rem;
-}
-.card .meta .actions{
-  position:absolute;
-  right:.85rem;
-  bottom:.85rem;
   display:flex;
+  flex-direction:column;
   gap:.5rem;
+  padding:.75rem .85rem;
 }
-
-/* Card text & badges */
 .title{font-weight:600}
 .badges{display:flex;gap:.4rem;flex-wrap:wrap;margin-top:5px}
 .badge{font-size:.72rem;padding:.25rem .5rem;border-radius:999px;border:1px solid var(--border);background:rgba(255,255,255,.03)}
+
+/* Actions pinned bottom-right regardless of content height */
+.card .meta .actions{
+  margin-top:auto;
+  align-self:flex-end;
+  display:flex;
+  gap:.5rem;
+}
 
 /* Accent buttons on cards */
 .card .actions .action{
