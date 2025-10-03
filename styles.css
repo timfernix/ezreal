@@ -129,6 +129,8 @@ main{padding:1.25rem}
   margin-top:auto;
   align-self:flex-end;
   display:flex;
+  position: absolute;
+  bottom: 5%;
   gap:.5rem;
 }
 
