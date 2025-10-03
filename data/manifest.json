@@ -17,20 +17,80 @@
         },
         {
           "type": "splash",
-          "title": "Classic Ezreal (Old Ezreal 2nd Version) Splashart",
-          "path": "assets/ezreal/skins/classic/splash/Classic_Ezreal_(Old Ezreal_2nd_Version)_Splashart.jpg",
+          "title": "Classic Ezreal (Old) Splashart",
+          "path": "assets/ezreal/skins/classic/splash/Classic_Ezreal_(Old)_Splashart.jpg",
           "tags": []
         },
         {
           "type": "splash",
-          "title": "Classic Ezreal (Old Ezreal) Splashart",
-          "path": "assets/ezreal/skins/classic/splash/Classic_Ezreal_(Old_Ezreal)_Splashart.jpg",
+          "title": "Classic Ezreal (Old 2nd Version) Splashart",
+          "path": "assets/ezreal/skins/classic/splash/Classic_Ezreal_(Old_2nd_Version)_Splashart.jpg",
           "tags": []
         },
         {
           "type": "splash",
           "title": "Classic Ezreal (Reworked) Splashart",
           "path": "assets/ezreal/skins/classic/splash/Classic_Ezreal_(Reworked)_Splashart.jpg",
+          "tags": []
+        },
+        {
+          "type": "icon",
+          "title": "Classic Ezreal (Beta) Icon",
+          "path": "assets/ezreal/skins/classic/icon/Classic_Ezreal_(Beta)_Icon.png",
+          "tags": []
+        },
+        {
+          "type": "icon",
+          "title": "Classic Ezreal (Current) Icon",
+          "path": "assets/ezreal/skins/classic/icon/Classic_Ezreal_(Current)_Icon.png",
+          "tags": []
+        },
+        {
+          "type": "icon",
+          "title": "Classic Ezreal (Old Ezreal) Icon",
+          "path": "assets/ezreal/skins/classic/icon/Classic_Ezreal_(Old_Ezreal)_Icon.png",
+          "tags": []
+        },
+        {
+          "type": "icon",
+          "title": "Classic Ezreal (Old Ezreal 2nd Version) Icon",
+          "path": "assets/ezreal/skins/classic/icon/Classic_Ezreal_(Old_Ezreal_2nd_Version)_Icon.png",
+          "tags": []
+        },
+        {
+          "type": "icon",
+          "title": "Classic Ezreal (Old Ezreal China) Icon",
+          "path": "assets/ezreal/skins/classic/icon/Classic_Ezreal_(Old_Ezreal_China)_Icon.png",
+          "tags": []
+        },
+        {
+          "type": "loading",
+          "title": "Classic Ezreal (Beta 2nd Version) Loading",
+          "path": "assets/ezreal/skins/classic/loading/Classic_Ezreal_(Beta_2nd_Version)_Loading.jpg",
+          "tags": []
+        },
+        {
+          "type": "loading",
+          "title": "Classic Ezreal (Current) Loading",
+          "path": "assets/ezreal/skins/classic/loading/Classic_Ezreal_(Current)_Loading.jpg",
+          "tags": []
+        },
+        {
+          "type": "loading",
+          "title": "Classic Ezreal (Old) Loading",
+          "path": "assets/ezreal/skins/classic/loading/Classic_Ezreal_(Old)_Loading.jpg",
+          "tags": []
+        },
+        {
+          "type": "loading",
+          "title": "Classic Ezreal (Old 2nd Version) Loading",
+          "path": "assets/ezreal/skins/classic/loading/Classic_Ezreal_(Old_2nd_Version)_Loading.jpg",
+          "tags": []
+        },
+        {
+          "type": "loading",
+          "title": "Ezreal OriginalLoading Beta old",
+          "path": "assets/ezreal/skins/classic/loading/Ezreal_OriginalLoading_Beta_old.jpg",
           "tags": []
         }
       ]
