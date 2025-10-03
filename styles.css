@@ -177,9 +177,33 @@ main{padding:1.25rem}
 }
 .viewer::backdrop{background:rgba(0,0,0,.6); backdrop-filter: blur(3px)}
 .viewer-close{
-  position:absolute; right:.6rem; top:.6rem; background:var(--glass); border:1px solid var(--border); border-radius:10px; color:var(--text);
-  padding:.3rem .5rem; cursor:pointer;
+  position:absolute; right:.75rem; top:.75rem; z-index:10;
+
+  display:grid; place-items:center;
+  width:40px; height:40px; border-radius:12px;
+
+  background: rgba(0,0,0,.58); /* fallback */
+  background: color-mix(in oklab, #000 62%, transparent);
+  color:#fff;
+  border:1px solid rgba(255,255,255,.65);
+  backdrop-filter: blur(8px) saturate(1.15) contrast(1.05);
+
+  font-size:18px; font-weight:700;
+  text-shadow:
+    0 1px 1px rgba(0,0,0,.7),
+    0 0 4px rgba(0,0,0,.7);
+
+  cursor:pointer;
+  box-shadow: 0 6px 18px rgba(0,0,0,.35), inset 0 0 0 1px rgba(0,0,0,.2);
+  transition: transform .12s ease, background .12s ease;
 }
+.viewer-close:hover{ transform: translateY(-1px); background: color-mix(in oklab, #000 72%, transparent); }
+.viewer-close:active{ transform: translateY(0); }
+.viewer-close:focus-visible{
+  outline:3px solid color-mix(in oklab, var(--accent) 60%, transparent);
+  outline-offset:2px;
+}
+
 .viewer-content{padding:.75rem}
 .viewer-media{max-height:72vh; width:100%; object-fit:contain; background:#000; border-radius:10px}
 .viewer-caption{display:flex;justify-content:space-between;align-items:center;gap:1rem;margin-top:.6rem}

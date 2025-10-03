@@ -18,6 +18,7 @@ Over recent years I have been collecting more and more Ezreal media. So i though
 ## What’s included
 
 ### Types (media categories)
+
 - **Splash** — Official Splasharts (aswell as some concepts)
 - **Icon** — Character and Profile icons
 - **Promo** — Promo and key arts from releases and events
@@ -31,7 +32,7 @@ Over recent years I have been collecting more and more Ezreal media. So i though
 
 ## Contributing
 
-Found missing official art, a higher-res splash, or a WR/TFT/LotR variant that should be here?
+Found missing official art, a higher-res splash, or a WR/TFT/LoR variant that should be here?
 
 Open an **Issue** describing what’s missing (skin, type, tags, and where it appears).
 
