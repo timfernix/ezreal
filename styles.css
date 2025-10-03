@@ -20,11 +20,24 @@
 *{box-sizing:border-box}
 html,body{height:100%}
 body{
-  margin:0; font: 16px/1.55 system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif;
-  color:var(--text); background:
-    radial-gradient(1200px 600px at 10% -10%, rgba(124,198,255,.18), transparent 60%),
-    radial-gradient(1400px 800px at 110% 10%, rgba(167,139,250,.18), transparent 60%),
-    linear-gradient(180deg, var(--bg), var(--bg));
+  margin:0;
+  font: 16px/1.55 system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif;
+  color:var(--text);
+  background-color: var(--bg);
+
+  background-image:
+    radial-gradient(120vw 90vh at 10% -10%, rgba(124,198,255,.18), transparent 60%),
+    radial-gradient(140vw 100vh at 110% 10%, rgba(167,139,250,.18), transparent 60%),
+    radial-gradient(120vw 110vh at 50% 120%, rgba(124,198,255,.10), transparent 65%);
+  background-repeat: no-repeat;
+  background-attachment: fixed, fixed, fixed; 
+  background-position: center center, center center, center bottom;
+}
+
+@media (max-width: 900px){
+  body{
+    background-attachment: scroll, scroll, scroll;
+  }
 }
 
 .skip-link{position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden}
