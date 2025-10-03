@@ -3,5 +3,18 @@
     "champion": "Ezreal",
     "generated": "2025-10-03"
   },
-  "skins": []
+  "skins": [
+    {
+      "id": "base",
+      "name": "Base",
+      "release_year": null,
+      "media": [
+        {
+          "type": "splash",
+          "title": "base splash",
+          "path": "assets/ezreal/skins/base/splash/base_splash.jpg"
+        }
+      ]
+    }
+  ]
 }
