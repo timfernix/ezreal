@@ -330,12 +330,15 @@ function openViewer(item){
     media.className = "viewer-media";
     media.controls = true; media.autoplay = true; media.src = item.path; media.playsInline = true;
   } else if(item.type === "youtube" && item.youtubeId){
-    const iframe = document.createElement("iframe");
-    iframe.className = "viewer-media";
-    iframe.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
-    iframe.allowFullscreen = true;
-    iframe.src = `https://www.youtube.com/embed/${item.youtubeId}?autoplay=1`;
-    media = iframe;
+const frame = document.createElement("div");
+frame.className = "viewer-embed";
+const iframe = document.createElement("iframe");
+iframe.className = "viewer-iframe";
+iframe.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
+iframe.allowFullscreen = true;
+iframe.src = `https://www.youtube.com/embed/${item.youtubeId}?autoplay=1`;
+frame.appendChild(iframe);
+media = frame;
   } else {
     media = document.createElement("img");
     media.className = "viewer-media";

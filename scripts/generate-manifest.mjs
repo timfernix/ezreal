@@ -114,14 +114,26 @@ async function main(){
       }
     }
 
-    const ytTxt = path.join(skinPath, "youtube.txt");
-    if(await exists(ytTxt)){
-      const txt = await fs.readFile(ytTxt, "utf8");
-      for(const line of txt.split(/\r?\n/).map(s=>s.trim()).filter(Boolean)){
-        const id = extractYouTubeId(line);
-        if(id) skin.media.push({ type:"youtube", title:"YouTube", youtubeId:id, tags:[] });
-      }
-    }
+const ytTxt = path.join(skinPath, "youtube.txt");
+if (await exists(ytTxt)) {
+  const txt = await fs.readFile(ytTxt, "utf8");
+  for (const raw of txt.split(/\r?\n/).map(s => s.trim()).filter(Boolean)) {
+    const { url, inlineTitle } = parseYoutubeLine(raw);
+    const id = extractYouTubeId(url);
+    if (!id) continue;
+
+    const title = inlineTitle ? stripQuotes(inlineTitle).trim() : "YouTube";
+
+    skin.media.push({
+      type: "youtube",
+      title,
+      youtubeId: id,
+      thumb: `https://i.ytimg.com/vi/${id}/hqdefault.jpg`,
+      tags: []
+    });
+  }
+}
+
 
     if(skin.media.length) skins.push(skin);
   }
@@ -202,3 +214,36 @@ function inferTagsFromFilename(filename){
 }
 
 main().catch(err => { console.error(err); process.exit(1); });
+
+function parseYoutubeLine(line){
+  const raw = (line || "").trim();
+  if (!raw) return { url: "", inlineTitle: null };
+
+  const parts = raw.split("|");
+  const a0 = parts[0] !== undefined ? parts[0].trim() : "";
+  const b0 = parts[1] !== undefined ? parts.slice(1).join("|").trim() : "";
+
+  const a = stripQuotes(a0);
+  const b = stripQuotes(b0);
+
+  const isUrl = (s) => /^https?:\/\//i.test(s);
+
+  if (a && b) {
+    if (isUrl(a) && !isUrl(b)) return { url: a, inlineTitle: b };
+    if (!isUrl(a) && isUrl(b)) return { url: b, inlineTitle: a };
+    return { url: a, inlineTitle: b };
+  }
+
+  if (isUrl(a)) return { url: a, inlineTitle: null };
+  if (isUrl(b)) return { url: b, inlineTitle: a || null };
+
+  return { url: "", inlineTitle: a || b || null };
+}
+
+function stripQuotes(s){
+  if (!s) return s;
+  const t = s.trim();
+  const q = t[0];
+  if ((q === '"' || q === "'") && t.endsWith(q)) return t.slice(1, -1).trim();
+  return t;
+}
