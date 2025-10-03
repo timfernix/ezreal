@@ -291,26 +291,51 @@ card.appendChild(mediaEl);
     `;
     left.appendChild(badges);
 
-    const actions = document.createElement("div"); actions.className = "actions";
-    if(item.path){
-      const rawLink = document.createElement("a");
-      rawLink.className = "action";
-      rawLink.href = item.path;
-      rawLink.target = "_blank"; rawLink.rel = "noopener";
-      rawLink.textContent = "Open raw";
-      actions.appendChild(rawLink);
-    }
-    if(item.youtubeId){
-      const y = document.createElement("a");
-      y.className = "action";
-      y.href = `https://www.youtube.com/watch?v=${item.youtubeId}`;
-      y.target = "_blank"; y.rel = "noopener";
-      y.textContent = "Open on YouTube";
-      actions.appendChild(y);
-    }
+const actions = document.createElement("div");
+actions.className = "actions";
 
-    meta.appendChild(left);
-    meta.appendChild(actions);
+if (item.path) {
+  const rawLink = document.createElement("a");
+  rawLink.className = "action";
+  rawLink.href = item.path;
+  rawLink.target = "_blank";
+  rawLink.rel = "noopener";
+  rawLink.textContent = "Open raw";
+  actions.appendChild(rawLink);
+
+  const copyBtn = document.createElement("button");
+  copyBtn.className = "action js-copy";
+  copyBtn.type = "button";
+  copyBtn.dataset.path = item.path;
+  copyBtn.textContent = "Copy path";
+  copyBtn.addEventListener("click", async () => {
+    const base = location.origin + location.pathname.replace(/index\.html?$/,"");
+    const url  = base + item.path.replace(/^\.\//,"");
+    try {
+      await navigator.clipboard.writeText(url);
+      copyBtn.textContent = "Copied";
+      setTimeout(() => (copyBtn.textContent = "Copy path"), 1200);
+    } catch {
+      copyBtn.textContent = "Failed";
+      setTimeout(() => (copyBtn.textContent = "Copy path"), 1200);
+    }
+  });
+  actions.appendChild(copyBtn);
+}
+
+if (item.youtubeId) {
+  const y = document.createElement("a");
+  y.className = "action";
+  y.href = `https://www.youtube.com/watch?v=${item.youtubeId}`;
+  y.target = "_blank";
+  y.rel = "noopener";
+  y.textContent = "YouTube";
+  actions.appendChild(y);
+}
+
+meta.appendChild(left);
+meta.appendChild(actions);
+
     card.appendChild(meta);
 
     frag.appendChild(card);
