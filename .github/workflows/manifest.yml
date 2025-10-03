@@ -4,6 +4,7 @@ on:
     branches: [ main, master ]
     paths:
       - "assets/**"
+      - "assets/**/meta.json"
       - "scripts/generate-manifest.mjs"
       - ".github/workflows/manifest.yml"
   workflow_dispatch:
