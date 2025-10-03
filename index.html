@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="color-scheme" content="dark light">
+  <meta name="theme-color" content="#0b0f14" id="themeColorMeta">
+  <title>Ezreal — Media Archive</title>
+  <meta name="description" content="All official Ezreal arts in one place. Made by timfernix.">
+  <link rel="preload" as="style" href="styles.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#gallery">Skip to content</a>
+
+  <header class="site-header">
+    <div class="brand">
+      <div class="logo" aria-hidden="true">✦</div>
+      <h1>Ezreal — Media Archive</h1>
+    </div>
+
+    <button id="themeToggle" class="btn" aria-label="Toggle theme" title="Toggle theme">
+      <span class="icon">🌓</span><span class="btn-label">Theme</span>
+    </button>
+  </header>
+
+  <nav class="controls" aria-label="Filters">
+    <div class="filters">
+      <label>
+        <span>Skin</span>
+        <select id="skinFilter">
+          <option value="all">All skins</option>
+        </select>
+      </label>
+
+      <fieldset class="types">
+        <legend>Types</legend>
+        <label><input type="checkbox" name="type" value="splash" checked> Splasharts</label>
+        <label><input type="checkbox" name="type" value="icon" checked> Icons</label>
+        <label><input type="checkbox" name="type" value="promo" checked> Promoart</label>
+        <label><input type="checkbox" name="type" value="concept" checked> Concepts</label>
+        <label><input type="checkbox" name="type" value="video" checked> Videos</label>
+        <label><input type="checkbox" name="type" value="youtube" checked> YouTube Links</label>
+      </fieldset>
+
+      <label class="search">
+        <span>Search</span>
+        <input id="search" type="search" placeholder="Search title, skin, year…" autocomplete="off">
+      </label>
+
+      <label>
+        <span>Sort</span>
+        <select id="sortBy">
+          <option value="skin">Skin (A→Z)</option>
+          <option value="type">Type</option>
+          <option value="title">Title (A→Z)</option>
+          <option value="year">Year (new→old)</option>
+        </select>
+      </label>
+    </div>
+
+    <div role="tablist" aria-label="Views" class="tabs">
+      <button role="tab" aria-selected="true" class="tab active" data-tab="gallery">Gallery</button>
+      <button role="tab" aria-selected="false" class="tab" data-tab="files">Files</button>
+    </div>
+  </nav>
+
+  <main>
+    <section id="gallery" class="gallery-grid" aria-live="polite"></section>
+
+    <section id="files" class="files-tree" hidden>
+      <div class="tree" id="filesTree"></div>
+    </section>
+
+    <div id="empty" class="empty" hidden>
+      <p>End of results. Adjust filters or search for more.</p>
+    </div>
+  </main>
+
+  <dialog id="viewer" class="viewer">
+    <button class="viewer-close" aria-label="Close">✕</button>
+    <div class="viewer-content">
+      <!-- filled dynamically -->
+    </div>
+  </dialog>
+
+<footer class="site-footer">
+  <div class="made-by" role="contentinfo" aria-label="Site attribution">
+    <span class="twinkle" aria-hidden="true">✦</span>
+    <span class="made-by-text">Made by <a href="https://timfernix.github.io/" target="_blank" rel="noopener">timfernix</a></span>
+    <span class="twinkle" aria-hidden="true">✦</span>
+  </div>
+
+  <p class="legal">
+    This project was created under Riot Games’ &quot;Legal Jibber Jabber&quot; policy using assets owned by Riot Games.
+    Riot Games does not endorse or sponsor this project.
+  </p>
+</footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
