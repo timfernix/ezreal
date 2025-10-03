@@ -65,6 +65,12 @@
         },
         {
           "type": "loading",
+          "title": "Classic Ezreal (Beta) Loading",
+          "path": "assets/ezreal/skins/classic/loading/Classic_Ezreal_(Beta)_Loading.jpg",
+          "tags": []
+        },
+        {
+          "type": "loading",
           "title": "Classic Ezreal (Beta 2nd Version) Loading",
           "path": "assets/ezreal/skins/classic/loading/Classic_Ezreal_(Beta_2nd_Version)_Loading.jpg",
           "tags": []
@@ -85,12 +91,6 @@
           "type": "loading",
           "title": "Classic Ezreal (Old 2nd Version) Loading",
           "path": "assets/ezreal/skins/classic/loading/Classic_Ezreal_(Old_2nd_Version)_Loading.jpg",
-          "tags": []
-        },
-        {
-          "type": "loading",
-          "title": "Ezreal OriginalLoading Beta old",
-          "path": "assets/ezreal/skins/classic/loading/Ezreal_OriginalLoading_Beta_old.jpg",
           "tags": []
         }
       ]
