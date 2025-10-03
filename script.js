@@ -216,36 +216,62 @@ function renderGallery(){
 
     let mediaEl;
 
-    if(item.type === "video" && item.path){
-      mediaEl = document.createElement("video");
-      mediaEl.className = "thumb";
-      mediaEl.controls = true;
-      mediaEl.preload = "metadata";
-      mediaEl.playsInline = true;
-      mediaEl.src = item.path;
-      mediaEl.setAttribute("title", item.title);
-} else if (item.type === "youtube" && item.youtubeId){
-  const frame = document.createElement("div");
-  frame.className = "viewer-embed";
-  const iframe = document.createElement("iframe");
-  iframe.className = "viewer-iframe";
-  iframe.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
-  iframe.allowFullscreen = true;
-  iframe.src = `https://www.youtube.com/embed/${item.youtubeId}?autoplay=1`;
-  frame.appendChild(iframe);
-  media = frame;
-    } else {
-      const img = document.createElement("img");
-      img.className = "thumb";
-      img.alt = item.title;
-      img.loading = "lazy";
-      img.decoding = "async";
-      img.src = item.thumb || item.path || "";
-      img.addEventListener("click", () => openViewer(item));
-      mediaEl = img;
-    }
+if (item.type === "video" && item.path){
+  const v = document.createElement("video");
+  v.className = "thumb";
+  v.controls = true;
+  v.preload = "metadata";
+  v.playsInline = true;
+  v.src = item.path;
+  v.title = item.title;
+  mediaEl = v;
 
-    card.appendChild(mediaEl);
+} else if (item.type === "youtube" && item.youtubeId){
+  const btn = document.createElement("button");
+  btn.type = "button";
+  btn.className = "thumb";
+  btn.style.position = "relative";
+  btn.style.cursor = "pointer";
+  btn.setAttribute("aria-label", `Play on YouTube: ${item.title || item.youtubeId}`);
+
+  const img = document.createElement("img");
+  img.className = "thumb";
+  img.alt = item.title || "YouTube";
+  img.loading = "lazy";
+  img.decoding = "async";
+  img.src = item.thumb || `https://i.ytimg.com/vi/${item.youtubeId}/hqdefault.jpg`;
+  btn.appendChild(img);
+
+  const play = document.createElement("div");
+  play.style.position = "absolute";
+  play.style.inset = "0";
+  play.style.display = "grid";
+  play.style.placeItems = "center";
+  play.innerHTML =
+    '<div style="width:68px;height:48px;background:rgba(0,0,0,.6);border-radius:10px;display:grid;place-items:center;">' +
+    '<svg width="26" height="26" viewBox="0 0 24 24" fill="white" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>' +
+    "</div>";
+  btn.appendChild(play);
+
+  btn.addEventListener("click", () => openViewer(item));
+  mediaEl = btn; 
+} else {
+  const img = document.createElement("img");
+  img.className = "thumb";
+  img.alt = item.title || "";
+  img.loading = "lazy";
+  img.decoding = "async";
+  img.src = item.thumb || item.path || "";
+  img.addEventListener("click", () => openViewer(item));
+  mediaEl = img;
+}
+
+if (!(mediaEl instanceof Node)) {
+  console.warn("Skipping item with invalid media node:", item);
+  continue;
+}
+card.appendChild(mediaEl);
+
 
     const meta = document.createElement("div");
     meta.className = "meta";
