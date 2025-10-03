@@ -1,10 +1,9 @@
-/* === Variant B: Grid — Actions  === */
 :root{
   --bg:#0b0f14;
   --bg-soft:rgba(255,255,255,0.04);
   --text:#eaf1ff;
   --muted:#93a4bf;
-  --accent:#7cc6ff;
+  --accent:#7cc6ff
   --accent-2:#8d68ff;
   --glass:rgba(255,255,255,0.06);
   --border:rgba(255,255,255,0.12);
@@ -127,36 +126,33 @@ main{padding:1.25rem}
   grid-template-columns:repeat(auto-fill,minmax(var(--size),1fr));
 }
 
-/* --- Card als Grid: Thumb + Meta --- */
 .card{
   position:relative;overflow:hidden;border-radius:18px;background:var(--glass);border:1px solid var(--border);
   box-shadow:var(--shadow);
   display:grid;
-  grid-template-rows:auto 1fr; /* Row 1: Thumb, Row 2: Meta */
+  grid-template-rows:auto 1fr;
 }
 .thumb{
   aspect-ratio:16/9;width:100%;object-fit:cover;display:block;background:var(--bg-soft);
 }
 .card video.thumb{background:#000}
 
-/* Meta mit 3 Reihen: Titel/Tags | Spacer | Actions */
 .card .meta{
   padding:.75rem .85rem;
   display:grid;
   grid-template-rows:auto 1fr auto;
   gap:.45rem .7rem;
   align-items:start;
-  min-height:140px; /* sorgt für echten Platz für die unterste Zeile */
+  min-height:140px;
 }
 .card .meta .actions{
-  grid-row:3;           /* unterste Zeile */
-  justify-self:end;     /* rechtsbündig */
-  margin-left:0;        /* überschreibt globale .actions margin */
+  grid-row:3;
+  justify-self:end; 
+  margin-left:0;
   display:flex;
   gap:.5rem;
 }
 
-/* --- Buttons (Card) --- */
 .card .actions .action{
   -webkit-appearance:none;
   appearance:none;
@@ -206,7 +202,6 @@ main{padding:1.25rem}
   display:grid;place-items:center;min-height:40vh;color:var(--muted)
 }
 
-/* --- Viewer etc. unverändert --- */
 .viewer{
   width:min(96vw,1200px);max-height:90vh;border:none;border-radius:16px;padding:0;background:var(--bg);color:var(--text);
   box-shadow:var(--shadow);overflow:hidden;
