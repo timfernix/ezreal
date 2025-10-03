@@ -14,7 +14,7 @@ Under `assets/ezreal/skins/[skin]/` add folders for the categories. Available:
 - chroma
 - form
 - video
-- youtube (via) youtube.txt (one line) in the skins folder
+- youtube (links)
 
 > [!NOTE]
 > **Chroma** and **Form** automatially apply a tag.
@@ -31,4 +31,4 @@ You can set them by doing one of the things listed:
 
 ## YouTube links
 
-Put a new line with the link in the `youtube.txt` file.
+Put a new line with the link in the `youtube.txt` file in the skins folder.
