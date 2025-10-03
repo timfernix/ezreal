@@ -3,14 +3,5 @@
     "champion": "Ezreal",
     "generated": "2025-10-03"
   },
-  "skins": [
-    {
-      "id": "classic",
-      "name": "Classic",
-      "release_year": 2010,
-      "media": [
-        { "type": "splash",  "title": "Classic Splash", "path": "assets/base/splash/base_splash.jpg" }
-      ]
-    }
-  ]
+  "skins": []
 }
