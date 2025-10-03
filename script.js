@@ -1,17 +1,44 @@
-/* Ezreal Official Art Archive — static gallery */
 const STATE = {
   allItems: [],
   filtered: [],
   skin: "all",
-  types: new Set(["splash","icon","promo","concept","video","youtube"]),
+  types: new Set([
+    "splash","icon","promo","concept",
+    "loading","model","model-face",
+    "chroma","form","video","youtube"
+  ]),
+  tags: new Set(),
   search: "",
   sortBy: "skin",
   tab: "gallery",
 };
 
+const TYPE_LABEL = {
+  splash: "Splash",
+  icon: "Icon",
+  promo: "Promo",
+  concept: "Concept",
+  loading: "Loading",
+  model: "3D Model",
+  "model-face": "3D Face",
+  chroma: "Chroma",
+  form: "Form",
+  video: "Video",
+  youtube: "YouTube",
+};
+
+const TAG_LABEL = {
+  tft: "TFT",
+  wr: "Wild Rift",
+  lor: "Legends of Runeterra",
+  chroma: "Chroma",
+  form: "Form",
+};
+
 const els = {
   skinFilter: document.getElementById("skinFilter"),
   typeChecks: () => [...document.querySelectorAll('input[name="type"]')],
+  tagChecks:  () => [...document.querySelectorAll('input[name="tag"]')],
   search: document.getElementById("search"),
   sortBy: document.getElementById("sortBy"),
   gallery: document.getElementById("gallery"),
@@ -21,6 +48,7 @@ const els = {
   tabs: () => [...document.querySelectorAll(".tab")],
   themeToggle: document.getElementById("themeToggle"),
   viewer: document.getElementById("viewer"),
+  themeMeta: document.getElementById("themeColorMeta"),
 };
 
 init().catch(console.error);
@@ -36,20 +64,27 @@ async function init(){
 function hydrateTheme(){
   const saved = localStorage.getItem("theme");
   if(saved) document.documentElement.setAttribute("data-theme", saved);
-  els.themeToggle.addEventListener("click", () => {
-    const cur = document.documentElement.getAttribute("data-theme");
+  els.themeMeta?.setAttribute("content", (document.documentElement.getAttribute("data-theme")==="dark") ? "#0b0f14" : "#f6f9ff");
+
+  els.themeToggle?.addEventListener("click", () => {
+    const cur = document.documentElement.getAttribute("data-theme") || "dark";
     const next = cur === "dark" ? "light" : "dark";
     document.documentElement.setAttribute("data-theme", next);
     localStorage.setItem("theme", next);
-    document.getElementById("themeColorMeta").setAttribute("content", next === "dark" ? "#0b0f14" : "#f6f9ff");
+    els.themeMeta?.setAttribute("content", next === "dark" ? "#0b0f14" : "#f6f9ff");
   });
 }
 
 function wireUI(){
   els.skinFilter.addEventListener("change", e => { STATE.skin = e.target.value; applyFilters(); });
-  els.typeChecks().forEach(cb => cb.addEventListener("change", () => {
-    const val = cb.value;
-    if(cb.checked) STATE.types.add(val); else STATE.types.delete(val);
+  els.typeChecks().forEach(cb => cb.addEventListener("change", ev => {
+    const c = ev.currentTarget;
+    if(c.checked) STATE.types.add(c.value); else STATE.types.delete(c.value);
+    applyFilters();
+  }));
+  els.tagChecks().forEach(cb => cb.addEventListener("change", ev => {
+    const c = ev.currentTarget;
+    if(c.checked) STATE.tags.add(c.value); else STATE.tags.delete(c.value);
     applyFilters();
   }));
   els.search.addEventListener("input", e => { STATE.search = e.target.value.trim().toLowerCase(); applyFilters(); });
@@ -58,25 +93,53 @@ function wireUI(){
   document.addEventListener("keydown", e => { if(e.key === "Escape" && els.viewer.open) els.viewer.close(); });
 }
 
+function onTab(e){
+  const tab = e.currentTarget.dataset.tab;
+  STATE.tab = tab;
+
+  els.tabs().forEach(t => {
+    const is = t.dataset.tab === tab;
+    t.classList.toggle("active", is);
+    t.setAttribute("aria-selected", String(is));
+  });
+
+  const galleryActive = tab === "gallery";
+  els.gallery.hidden = !galleryActive;
+  els.files.hidden = galleryActive;
+  if(!galleryActive){
+    renderFilesTree();
+  }
+
+  els.empty.hidden = !(galleryActive && STATE.filtered.length === 0);
+}
+
 async function loadManifest(){
   try{
-    const res = await fetch("data/manifest.json", {cache:"no-store"});
+    const res = await fetch("data/manifest.json", { cache: "no-store" });
     if(!res.ok) throw new Error(`manifest ${res.status}`);
     const data = await res.json();
 
-    // Flatten into items
     const items = [];
     for(const skin of data.skins || []){
+      const skinId = skin.id;
+      const skinName = skin.name || skinId;
+      const year = skin.release_year || null;
+
       for(const m of skin.media || []){
+        const tags = normalizeTags(m.tags || []);
+        if(m.type === "chroma" && !tags.includes("chroma")) tags.push("chroma");
+        if(m.type === "form"   && !tags.includes("form"))   tags.push("form");
+
         items.push({
-          skinId: skin.id,
-          skinName: skin.name || skin.id,
-          year: skin.release_year || null,
+          skinId,
+          skinName,
+          year,
           type: m.type,
           title: m.title || inferTitleFromPath(m.path, m.youtubeId),
           path: m.path || null,
           youtubeId: m.youtubeId || null,
-          thumb: m.thumb || null
+          thumb: m.thumb || null,
+          tags
         });
       }
     }
@@ -107,21 +170,33 @@ function applyFilters(){
   if(STATE.skin !== "all") out = out.filter(i => i.skinId === STATE.skin);
   out = out.filter(i => STATE.types.has(i.type));
 
+  if(STATE.tags.size > 0){
+    out = out.filter(i => {
+      const t = new Set(i.tags || []);
+      for(const need of STATE.tags) if(!t.has(need)) return false;
+      return true;
+    });
+  }
+
   if(STATE.search){
-    const q = STATE.search.toLowerCase();
+    const q = STATE.search;
     out = out.filter(i =>
       (i.title||"").toLowerCase().includes(q) ||
       (i.skinName||"").toLowerCase().includes(q) ||
       (i.type||"").toLowerCase().includes(q) ||
-      String(i.year||"").includes(q)
+      String(i.year||"").includes(q) ||
+      (i.tags||[]).join(" ").toLowerCase().includes(q)
     );
   }
 
   switch(STATE.sortBy){
     case "title": out.sort((a,b)=> (a.title||"").localeCompare(b.title||"")); break;
-    case "type":  out.sort((a,b)=> a.type.localeCompare(b.type)); break;
+    case "type":  out.sort((a,b)=> (TYPE_LABEL[a.type]||a.type).localeCompare(TYPE_LABEL[b.type]||b.type)); break;
     case "year":  out.sort((a,b)=> (b.year||0)-(a.year||0) || (a.title||"").localeCompare(b.title||"")); break;
-    default:      out.sort((a,b)=> (a.skinName||"").localeCompare(b.skinName||"") || a.type.localeCompare(b.type) || (a.title||"").localeCompare(b.title||""));
+    default:
+      out.sort((a,b)=> (a.skinName||"").localeCompare(b.skinName||"")
+        || (TYPE_LABEL[a.type]||a.type).localeCompare(TYPE_LABEL[b.type]||b.type)
+        || (a.title||"").localeCompare(b.title||""));
   }
 
   STATE.filtered = out;
@@ -129,27 +204,6 @@ function applyFilters(){
 
   els.empty.hidden = !(STATE.tab === "gallery" && out.length === 0);
 }
-
-function onTab(e){
-  const tab = e.currentTarget.dataset.tab;
-  STATE.tab = tab;
-
-  els.tabs().forEach(t => {
-    const is = t.dataset.tab === tab;
-    t.classList.toggle("active", is);
-    t.setAttribute("aria-selected", String(is));
-  });
-
-  const galleryActive = tab === "gallery";
-  els.gallery.hidden = !galleryActive;
-  els.files.hidden = galleryActive;
-  if(!galleryActive){
-    renderFilesTree();
-  }
-
-  els.empty.hidden = !(galleryActive && STATE.filtered.length === 0);
-}
-
 
 function renderGallery(){
   const g = els.gallery;
@@ -177,19 +231,16 @@ function renderGallery(){
       btn.style.position = "relative";
       btn.style.cursor = "pointer";
       btn.setAttribute("aria-label", "Play YouTube video");
-      // lightweight thumbnail
       const img = document.createElement("img");
       img.className = "thumb";
       img.alt = item.title;
       img.loading = "lazy";
       img.src = `https://i.ytimg.com/vi/${item.youtubeId}/hqdefault.jpg`;
       btn.appendChild(img);
-
       const play = document.createElement("div");
       play.style.position="absolute"; play.style.inset="0"; play.style.display="grid"; play.style.placeItems="center";
       play.innerHTML = '<div style="width:68px;height:48px;background:rgba(0,0,0,.6);border-radius:10px;display:grid;place-items:center;"><svg width="26" height="26" viewBox="0 0 24 24" fill="white" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></div>';
       btn.appendChild(play);
-
       btn.addEventListener("click", () => openViewer(item));
       mediaEl = btn;
     } else {
@@ -216,14 +267,15 @@ function renderGallery(){
 
     const badges = document.createElement("div"); badges.className = "badges";
     badges.innerHTML = `
-      <span class="badge">${item.skinName}</span>
-      <span class="badge">${item.type}</span>
+      <span class="badge">${escapeHtml(item.skinName)}</span>
+      <span class="badge">${escapeHtml(TYPE_LABEL[item.type] || item.type)}</span>
       ${item.year ? `<span class="badge">${item.year}</span>` : ""}
+      ${(item.tags||[]).map(t => `<span class="badge">${escapeHtml(TAG_LABEL[t] || t)}</span>`).join("")}
     `;
     left.appendChild(badges);
 
     const actions = document.createElement("div"); actions.className = "actions";
-    if(item.path){ // raw local file
+    if(item.path){
       const rawLink = document.createElement("a");
       rawLink.className = "action";
       rawLink.href = item.path;
@@ -279,9 +331,10 @@ function openViewer(item){
   caption.innerHTML = `
     <div class="left">
       <strong>${escapeHtml(item.title || "")}</strong>
-      <span class="badge">${item.skinName}</span>
-      <span class="badge">${item.type}</span>
+      <span class="badge">${escapeHtml(item.skinName)}</span>
+      <span class="badge">${escapeHtml(TYPE_LABEL[item.type] || item.type)}</span>
       ${item.year ? `<span class="badge">${item.year}</span>` : ""}
+      ${(item.tags||[]).map(t => `<span class="badge">${escapeHtml(TAG_LABEL[t] || t)}</span>`).join("")}
     </div>
     <div class="right">
       ${item.path ? `<a class="action" target="_blank" rel="noopener" href="${item.path}">Open raw</a>` : ""}
@@ -304,7 +357,7 @@ function renderFilesTree(){
 
   for(const [skin, items] of bySkin){
     const skinNode = mkNode(skin);
-    const byType = groupBy(items, i => i.type);
+    const byType = groupBy(items, i => TYPE_LABEL[i.type] || i.type);
     for(const [type, arr] of byType){
       const typeNode = mkNode(type);
       for(const it of arr){
@@ -329,7 +382,12 @@ function renderFilesTree(){
   container.querySelectorAll("button.copy").forEach(btn=>{
     btn.addEventListener("click", async e=>{
       const t = e.currentTarget.getAttribute("data-text");
-      try{ await navigator.clipboard.writeText(location.origin + location.pathname.replace(/index\.html?$/,"") + t.replace(/^\.\//,"")); e.currentTarget.textContent="copied"; setTimeout(()=>e.currentTarget.textContent="copy path",1200);}catch{}
+      try{
+        const base = location.origin + location.pathname.replace(/index\.html?$/,"");
+        await navigator.clipboard.writeText(base + t.replace(/^\.\//,""));
+        e.currentTarget.textContent="copied";
+        setTimeout(()=>e.currentTarget.textContent="copy path",1200);
+      }catch{}
     });
   });
 
@@ -359,5 +417,14 @@ function inferTitleFromPath(p, yt){
 }
 
 function escapeHtml(s){
-  return s.replace(/[&<>"']/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[m]));
+  return String(s).replace(/[&<>"']/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[m]));
+}
+
+function normalizeTags(arr){
+  const set = new Set();
+  for(const t of (arr||[])){
+    if(!t) continue;
+    set.add(String(t).toLowerCase());
+  }
+  return [...set];
 }

@@ -5,83 +5,134 @@ const ROOT = process.cwd();
 const ASSETS_EZREAL = path.join(ROOT, "assets", "ezreal");
 const CANDIDATES = [ path.join(ASSETS_EZREAL, "skins"), ASSETS_EZREAL ];
 const OUT = path.join(ROOT, "data", "manifest.json");
-const GLOBAL_META_PATH = path.join(ROOT, "data", "skins-meta.json"); // optional
 
 const IMAGE_EXT = new Set([".png",".jpg",".jpeg",".webp",".gif"]);
 const VIDEO_EXT = new Set([".mp4",".webm",".mov",".m4v"]);
-const TYPES = ["splash","icon","promo","concept","video"];
 
-async function pickFirstExisting(paths){
-  for (const p of paths){ try{ const s = await fs.stat(p); if (s.isDirectory()) return p; } catch {} }
-  return null;
-}
+// Canonical type -> alias folder names we accept
+const TYPE_ALIASES = new Map([
+  ["splash",      ["splash","splashes"]],
+  ["icon",        ["icon","icons"]],
+  ["promo",       ["promo","promoart","key-art","keyart"]],
+  ["concept",     ["concept","concepts"]],
+  ["loading",     ["loading","loadingscreen","loading-screen","loading_splash"]],
+  ["model",       ["model","3d","3d-model","model3d"]],
+  ["model-face",  ["model-face","3d-face","face"]],
+  ["chroma",      ["chroma","chromas"]],
+  ["form",        ["form","forms"]],
+  ["video",       ["video","videos"]],
+]);
+
+// tag slugs -> alias folder/file tokens we accept
+const TAG_ALIASES = new Map([
+  ["tft", ["tft","teamfighttactics","teamfight-tactics"]],
+  ["wr",  ["wr","wildrift","wild-rift"]],
+  ["lor", ["lor","runeterra","legends-of-runeterra","legends_of_runeterra"]],
+  ["chroma", ["chroma","chromas"]],
+  ["form",   ["form","forms"]]
+]);
+
 const SKINS_ROOT = await pickFirstExisting(CANDIDATES);
 
 async function main(){
   if(!SKINS_ROOT){
-    console.error("No assets directory found under assets/ezreal[/skins].");
-    await writeManifest({ metaOnly:true });
+    await writeManifest([]);
     return;
   }
 
-  const globalMeta = await readJson(GLOBAL_META_PATH) ?? {};
   const skinDirs = await readDirsOnly(SKINS_ROOT);
   const skins = [];
 
   for(const skinId of skinDirs){
     const skinPath = path.join(SKINS_ROOT, skinId);
-
-    // ---- read per-skin meta.json (preferred) ----
-    const metaJson = await readJson(path.join(skinPath, "meta.json")) ?? {};
     const skin = {
       id: skinId,
-      name: metaJson.name || toTitleCase(skinId.replace(/-/g," ")),
-      release_year: Number.isInteger(metaJson.release_year) ? metaJson.release_year : null,
+      name: toTitleCase(skinId.replace(/-/g," ")),
+      release_year: null,
       media: []
     };
 
-    // ---- scan media subfolders ----
-    for(const type of TYPES){
-      const dir = path.join(skinPath, type);
-      const files = await readFilesOnly(dir);
-      for(const f of files){
-        const full = path.join(dir, f);
-        const rel = toPosix(path.relative(ROOT, full));
-        const ext = path.extname(f).toLowerCase();
-        if(type === "video" && VIDEO_EXT.has(ext)){
-          skin.media.push({ type:"video", title: fileBaseTitle(f), path: rel });
-        } else if(type !== "video" && IMAGE_EXT.has(ext)){
-          skin.media.push({ type, title: fileBaseTitle(f), path: rel });
+    // Optional per-skin meta.json
+    const meta = await readJson(path.join(skinPath, "meta.json"));
+    if(meta){
+      if(typeof meta.name === "string") skin.name = meta.name;
+      if(Number.isInteger(meta.release_year)) skin.release_year = meta.release_year;
+    }
+
+    for(const [canonical, aliases] of TYPE_ALIASES.entries()){
+      for(const alias of aliases){
+        const typeDir = path.join(skinPath, alias);
+        if(!(await isDir(typeDir))) continue;
+
+        // optionale titles/tags-Overrides
+        const titlesMap = (await readJson(path.join(typeDir, "titles.json"))) || {};
+        const tagsMap   = (await readJson(path.join(typeDir, "tags.json")))   || {};
+
+        await collectFiles(typeDir, f => {
+          const rel = relPosix(path.join(typeDir, f));
+          const ext = path.extname(f).toLowerCase();
+          if(canonical === "video" ? VIDEO_EXT.has(ext) : IMAGE_EXT.has(ext)){
+            const tags = normalizeTags([
+              ...inferTagsFromFilename(f),
+              ...(Array.isArray(tagsMap[f]) ? tagsMap[f] : [])
+            ]);
+            if(canonical === "chroma" && !tags.includes("chroma")) tags.push("chroma");
+            if(canonical === "form"   && !tags.includes("form"))   tags.push("form");
+            skin.media.push({
+              type: canonical,
+              title: titlesMap[f] || fileBaseTitle(f),
+              path: rel,
+              tags
+            });
+          }
+        });
+
+        const subdirs = await readDirsOnly(typeDir);
+        for(const sub of subdirs){
+          const subDir = path.join(typeDir, sub);
+          const subTagSlugs = normalizeTags(inferTagsFromDirname(sub));
+          await collectFiles(subDir, f => {
+            const rel = relPosix(path.join(subDir, f));
+            const ext = path.extname(f).toLowerCase();
+            if(canonical === "video" ? VIDEO_EXT.has(ext) : IMAGE_EXT.has(ext)){
+              const tags = normalizeTags([
+                ...subTagSlugs,
+                ...inferTagsFromFilename(f),
+                ...(Array.isArray(tagsMap[path.join(sub, f)]) ? tagsMap[path.join(sub, f)] : [])
+              ]);
+              if(canonical === "chroma" && !tags.includes("chroma")) tags.push("chroma");
+              if(canonical === "form"   && !tags.includes("form"))   tags.push("form");
+              skin.media.push({
+                type: canonical,
+                title: titlesMap[path.join(sub, f)] || fileBaseTitle(f),
+                path: rel,
+                tags
+              });
+            }
+          });
         }
       }
     }
 
-    // ---- youtube.txt support ----
     const ytTxt = path.join(skinPath, "youtube.txt");
     if(await exists(ytTxt)){
       const txt = await fs.readFile(ytTxt, "utf8");
       for(const line of txt.split(/\r?\n/).map(s=>s.trim()).filter(Boolean)){
         const id = extractYouTubeId(line);
-        if(id) skin.media.push({ type:"youtube", title:"YouTube", youtubeId:id });
+        if(id) skin.media.push({ type:"youtube", title:"YouTube", youtubeId:id, tags:[] });
       }
-    }
-
-    // ---- heuristic: try year from folder name ----
-    if(skin.release_year == null){
-      const yr = skinId.match(/\b(19|20)\d{2}\b/);
-      if(yr) skin.release_year = Number(yr[0]);
     }
 
     if(skin.media.length) skins.push(skin);
   }
 
-  await writeManifest({ skins });
+  await writeManifest(skins);
 }
 
-async function writeManifest({ skins = [], metaOnly = false }){
+async function writeManifest(skins){
   const manifest = {
-    meta: { champion:"Ezreal", generated:new Date().toISOString().slice(0,10) },
-    skins: metaOnly ? [] : skins
+    meta: { champion: "Ezreal", generated: new Date().toISOString().slice(0,10) },
+    skins
   };
   await fs.mkdir(path.dirname(OUT), { recursive:true });
   await fs.writeFile(OUT, JSON.stringify(manifest, null, 2), "utf8");
@@ -90,11 +141,64 @@ async function writeManifest({ skins = [], metaOnly = false }){
 
 function fileBaseTitle(filename){ return filename.replace(/\.[a-z0-9]+$/i,"").replace(/[-_]/g," ").trim(); }
 function toTitleCase(s){ return s.replace(/\b\w/g, m=>m.toUpperCase()); }
-function toPosix(p){ return p.split(path.sep).join("/"); }
-async function readDirsOnly(dir){ try{ const e = await fs.readdir(dir,{withFileTypes:true}); return e.filter(x=>x.isDirectory()).map(x=>x.name);}catch{ return []; } }
-async function readFilesOnly(dir){ try{ const e = await fs.readdir(dir,{withFileTypes:true}); return e.filter(x=>x.isFile()).map(x=>x.name);}catch{ return []; } }
-async function readJson(p){ try{ const t = await fs.readFile(p,"utf8"); return JSON.parse(t); } catch { return null; } }
+function relPosix(p){ return path.relative(ROOT, p).split(path.sep).join("/"); }
+
+async function pickFirstExisting(paths){ for (const p of paths){ try{ const s = await fs.stat(p); if (s.isDirectory()) return p; } catch{} } return null; }
+async function readDirsOnly(dir){ try{ const e=await fs.readdir(dir,{withFileTypes:true}); return e.filter(x=>x.isDirectory()).map(x=>x.name); } catch{ return []; } }
+async function collectFiles(dir, fn){ try{ const e=await fs.readdir(dir,{withFileTypes:true}); for(const x of e){ if(x.isFile()) fn(x.name); } } catch{} }
 async function exists(p){ try{ await fs.access(p); return true; } catch{ return false; } }
-function extractYouTubeId(url){ const m1=url.match(/youtu\.be\/([A-Za-z0-9_-]{6,})/); const m2=url.match(/[?&]v=([A-Za-z0-9_-]{6,})/); return m1?.[1]||m2?.[1]||null; }
+async function isDir(p){ try{ return (await fs.stat(p)).isDirectory(); } catch{ return false; } }
+async function readJson(p){ try{ return JSON.parse(await fs.readFile(p,"utf8")); } catch{ return null; } }
+
+function extractYouTubeId(url){
+  const m1=url.match(/youtu\.be\/([A-Za-z0-9_-]{6,})/);
+  const m2=url.match(/[?&]v=([A-Za-z0-9_-]{6,})/);
+  return m1?.[1]||m2?.[1]||null;
+}
+
+/* ---- Tags ---- */
+function normalizeTags(list){
+  const out = new Set();
+  for(const raw of list){
+    const slug = toTagSlug(raw);
+    if(slug) out.add(slug);
+  }
+  return [...out];
+}
+function toTagSlug(raw){
+  if(!raw) return null;
+  const s = String(raw).toLowerCase();
+  for(const [slug, aliases] of TAG_ALIASES.entries()){
+    if(aliases.includes(s)) return slug;
+  }
+  if (TAG_ALIASES.has(s)) return s;
+  return null;
+}
+function inferTagsFromDirname(name){
+  const token = name.toLowerCase().replace(/\s+/g,"-").replace(/_/g,"-");
+  const parts = token.split(/[^a-z0-9]+/).filter(Boolean);
+  const tags = [];
+  for(const p of parts){
+    for(const [slug, aliases] of TAG_ALIASES.entries()){
+      if(aliases.includes(p)) tags.push(slug);
+    }
+  }
+  return tags;
+}
+function inferTagsFromFilename(filename){
+  const base = filename.toLowerCase();
+  const tags = [];
+
+  // Pattern: [tft], [wr], [lor]
+  const bracket = [...base.matchAll(/\[([^\]]+)\]/g)].map(m=>m[1]);
+  // or: __tft, __wr, __lor
+  const underscores = [...base.matchAll(/__([a-z0-9-]+)/g)].map(m=>m[1]);
+
+  for(const token of [...bracket, ...underscores]){
+    const slug = toTagSlug(token);
+    if(slug) tags.push(slug);
+  }
+  return tags;
+}
 
 main().catch(err => { console.error(err); process.exit(1); });
