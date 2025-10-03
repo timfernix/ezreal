@@ -5,14 +5,14 @@
   },
   "skins": [
     {
-      "id": "base",
-      "name": "Base",
-      "release_year": null,
+      "id": "classic",
+      "name": "Classic",
+      "release_year": 2010,
       "media": [
         {
           "type": "splash",
-          "title": "base splash",
-          "path": "assets/ezreal/skins/base/splash/base_splash.jpg"
+          "title": "classic splash",
+          "path": "assets/ezreal/skins/classic/splash/classic_splash.jpg"
         }
       ]
     }
