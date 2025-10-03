@@ -155,8 +155,9 @@
         },
         {
           "type": "youtube",
-          "title": "YouTube",
+          "title": "Classic Ezreal Champion Spotlight",
           "youtubeId": "GfeNQ_dbPvE",
+          "thumb": "https://i.ytimg.com/vi/GfeNQ_dbPvE/hqdefault.jpg",
           "tags": []
         }
       ]
