@@ -11,8 +11,26 @@
       "media": [
         {
           "type": "splash",
-          "title": "Classic Splashart Reworked Ezreal",
-          "path": "assets/ezreal/skins/classic/splash/Classic-Splashart-Reworked-Ezreal.jpg",
+          "title": "Classic Ezreal (Current) Splashart",
+          "path": "assets/ezreal/skins/classic/splash/Classic_Ezreal_(Current)_Splashart.jpg",
+          "tags": []
+        },
+        {
+          "type": "splash",
+          "title": "Classic Ezreal (Old Ezreal) Splashart",
+          "path": "assets/ezreal/skins/classic/splash/Classic_Ezreal_(Old Ezreal)_Splashart.jpg",
+          "tags": []
+        },
+        {
+          "type": "splash",
+          "title": "Classic Ezreal (Old Ezreal, 2nd Version) Splashart",
+          "path": "assets/ezreal/skins/classic/splash/Classic_Ezreal_(Old Ezreal, 2nd Version)_Splashart.jpg",
+          "tags": []
+        },
+        {
+          "type": "splash",
+          "title": "Classic Ezreal (Reworked) Splashart",
+          "path": "assets/ezreal/skins/classic/splash/Classic_Ezreal_(Reworked)_Splashart.jpg",
           "tags": []
         }
       ]
