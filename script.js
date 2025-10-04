@@ -120,12 +120,12 @@ async function loadManifest(){
     const data = await res.json();
 
     const items = [];
-    for(const skin of data.skins || []){
+    for(const skin of (data.skins || [])){
       const skinId = skin.id;
       const skinName = skin.name || skinId;
       const year = skin.release_year || null;
 
-      for(const m of skin.media || []){
+      for(const m of (skin.media || [])){
         const tags = normalizeTags(m.tags || []);
         if(m.type === "chroma" && !tags.includes("chroma")) tags.push("chroma");
         if(m.type === "form"   && !tags.includes("form"))   tags.push("form");
@@ -216,62 +216,62 @@ function renderGallery(){
 
     let mediaEl;
 
-if (item.type === "video" && item.path){
-  const v = document.createElement("video");
-  v.className = "thumb";
-  v.controls = true;
-  v.preload = "metadata";
-  v.playsInline = true;
-  v.src = item.path;
-  v.title = item.title;
-  mediaEl = v;
+    if (item.type === "video" && item.path){
+      const v = document.createElement("video");
+      v.className = "thumb";
+      v.controls = true;
+      v.preload = "metadata";
+      v.playsInline = true;
+      v.src = buildAbsoluteUrl(item.path);
+      v.title = item.title;
+      mediaEl = v;
 
-} else if (item.type === "youtube" && item.youtubeId){
-  const btn = document.createElement("button");
-  btn.type = "button";
-  btn.className = "thumb";
-  btn.style.position = "relative";
-  btn.style.cursor = "pointer";
-  btn.setAttribute("aria-label", `Play on YouTube: ${item.title || item.youtubeId}`);
+    } else if (item.type === "youtube" && item.youtubeId){
+      const btn = document.createElement("button");
+      btn.type = "button";
+      btn.className = "thumb";
+      btn.style.position = "relative";
+      btn.style.cursor = "pointer";
+      btn.setAttribute("aria-label", `Play on YouTube: ${item.title || item.youtubeId}`);
 
-  const img = document.createElement("img");
-  img.className = "thumb";
-  img.alt = item.title || "YouTube";
-  img.loading = "lazy";
-  img.decoding = "async";
-  img.src = item.thumb || `https://i.ytimg.com/vi/${item.youtubeId}/hqdefault.jpg`;
-  btn.appendChild(img);
+      const img = document.createElement("img");
+      img.className = "thumb";
+      img.alt = item.title || "YouTube";
+      img.loading = "lazy";
+      img.decoding = "async";
+      img.src = buildAbsoluteUrl(item.thumb || `https://i.ytimg.com/vi/${item.youtubeId}/hqdefault.jpg`);
+      btn.appendChild(img);
 
-  const play = document.createElement("div");
-  play.style.position = "absolute";
-  play.style.inset = "0";
-  play.style.display = "grid";
-  play.style.placeItems = "center";
-  play.innerHTML =
-    '<div style="width:68px;height:48px;background:rgba(0,0,0,.6);border-radius:10px;display:grid;place-items:center;">' +
-    '<svg width="26" height="26" viewBox="0 0 24 24" fill="white" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>' +
-    "</div>";
-  btn.appendChild(play);
+      const play = document.createElement("div");
+      play.style.position = "absolute";
+      play.style.inset = "0";
+      play.style.display = "grid";
+      play.style.placeItems = "center";
+      play.innerHTML =
+        '<div style="width:68px;height:48px;background:rgba(0,0,0,.6);border-radius:10px;display:grid;place-items:center;">' +
+        '<svg width="26" height="26" viewBox="0 0 24 24" fill="white" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>' +
+        "</div>";
+      btn.appendChild(play);
 
-  btn.addEventListener("click", () => openViewer(item));
-  mediaEl = btn; 
-} else {
-  const img = document.createElement("img");
-  img.className = "thumb";
-  img.alt = item.title || "";
-  img.loading = "lazy";
-  img.decoding = "async";
-  img.src = item.thumb || item.path || "";
-  img.addEventListener("click", () => openViewer(item));
-  mediaEl = img;
-}
+      btn.addEventListener("click", () => openViewer(item));
+      mediaEl = btn;
 
-if (!(mediaEl instanceof Node)) {
-  console.warn("Skipping item with invalid media node:", item);
-  continue;
-}
-card.appendChild(mediaEl);
+    } else {
+      const img = document.createElement("img");
+      img.className = "thumb";
+      img.alt = item.title || "";
+      img.loading = "lazy";
+      img.decoding = "async";
+      img.src = buildAbsoluteUrl(item.thumb || item.path || "");
+      img.addEventListener("click", () => openViewer(item));
+      mediaEl = img;
+    }
 
+    if (!(mediaEl instanceof Node)) {
+      console.warn("Skipping item with invalid media node:", item);
+      continue;
+    }
+    card.appendChild(mediaEl);
 
     const meta = document.createElement("div");
     meta.className = "meta";
@@ -291,51 +291,48 @@ card.appendChild(mediaEl);
     `;
     left.appendChild(badges);
 
-const actions = document.createElement("div");
-actions.className = "actions";
+    const actions = document.createElement("div");
+    actions.className = "actions";
 
-if (item.path) {
-  const rawLink = document.createElement("a");
-  rawLink.className = "action";
-  rawLink.href = item.path;
-  rawLink.target = "_blank";
-  rawLink.rel = "noopener";
-  rawLink.textContent = "Open raw";
-  actions.appendChild(rawLink);
+    if (item.path) {
+      const rawLink = document.createElement("a");
+      rawLink.className = "action";
+      rawLink.href = buildAbsoluteUrl(item.path);
+      rawLink.target = "_blank";
+      rawLink.rel = "noopener";
+      rawLink.textContent = "Open raw";
+      actions.appendChild(rawLink);
 
-  const copyBtn = document.createElement("button");
-  copyBtn.className = "action js-copy";
-  copyBtn.type = "button";
-  copyBtn.dataset.path = item.path;
-  copyBtn.textContent = "Copy path";
-  copyBtn.addEventListener("click", async () => {
-    const base = location.origin + location.pathname.replace(/index\.html?$/,"");
-    const url  = base + item.path.replace(/^\.\//,"");
-    try {
-      await navigator.clipboard.writeText(url);
-      copyBtn.textContent = "Copied";
-      setTimeout(() => (copyBtn.textContent = "Copy path"), 1200);
-    } catch {
-      copyBtn.textContent = "Failed";
-      setTimeout(() => (copyBtn.textContent = "Copy path"), 1200);
+      const copyBtn = document.createElement("button");
+      copyBtn.className = "action js-copy";
+      copyBtn.type = "button";
+      copyBtn.textContent = "Copy path";
+      copyBtn.addEventListener("click", async () => {
+        const url = buildAbsoluteUrl(item.path);
+        try {
+          await navigator.clipboard.writeText(url);
+          copyBtn.textContent = "Copied";
+          setTimeout(() => (copyBtn.textContent = "Copy path"), 1200);
+        } catch {
+          copyBtn.textContent = "Failed";
+          setTimeout(() => (copyBtn.textContent = "Copy path"), 1200);
+        }
+      });
+      actions.appendChild(copyBtn);
     }
-  });
-  actions.appendChild(copyBtn);
-}
 
-if (item.youtubeId) {
-  const y = document.createElement("a");
-  y.className = "action";
-  y.href = `https://www.youtube.com/watch?v=${item.youtubeId}`;
-  y.target = "_blank";
-  y.rel = "noopener";
-  y.textContent = "YouTube";
-  actions.appendChild(y);
-}
+    if (item.youtubeId) {
+      const y = document.createElement("a");
+      y.className = "action";
+      y.href = `https://www.youtube.com/watch?v=${item.youtubeId}`;
+      y.target = "_blank";
+      y.rel = "noopener";
+      y.textContent = "YouTube";
+      actions.appendChild(y);
+    }
 
-meta.appendChild(left);
-meta.appendChild(actions);
-
+    meta.appendChild(left);
+    meta.appendChild(actions);
     card.appendChild(meta);
 
     frag.appendChild(card);
@@ -353,60 +350,60 @@ function openViewer(item){
   if(item.type === "video" && item.path){
     media = document.createElement("video");
     media.className = "viewer-media";
-    media.controls = true; media.autoplay = true; media.src = item.path; media.playsInline = true;
+    media.controls = true; media.autoplay = true; media.src = buildAbsoluteUrl(item.path); media.playsInline = true;
   } else if(item.type === "youtube" && item.youtubeId){
-const frame = document.createElement("div");
-frame.className = "viewer-embed";
-const iframe = document.createElement("iframe");
-iframe.className = "viewer-iframe";
-iframe.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
-iframe.allowFullscreen = true;
-iframe.src = `https://www.youtube.com/embed/${item.youtubeId}?autoplay=1`;
-frame.appendChild(iframe);
-media = frame;
+    const frame = document.createElement("div");
+    frame.className = "viewer-embed";
+    const iframe = document.createElement("iframe");
+    iframe.className = "viewer-iframe";
+    iframe.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
+    iframe.allowFullscreen = true;
+    iframe.src = `https://www.youtube.com/embed/${item.youtubeId}?autoplay=1`;
+    frame.appendChild(iframe);
+    media = frame;
   } else {
     media = document.createElement("img");
     media.className = "viewer-media";
     media.alt = item.title;
-    media.src = item.path || item.thumb || "";
+    media.src = buildAbsoluteUrl(item.path || item.thumb || "");
   }
 
-const caption = document.createElement("div");
-caption.className = "viewer-caption";
-caption.innerHTML = `
-  <div class="left">
-    <strong>${escapeHtml(item.title || "")}</strong>
-    <span class="badge">${escapeHtml(item.skinName)}</span>
-    <span class="badge">${escapeHtml(TYPE_LABEL[item.type] || item.type)}</span>
-    ${item.year ? `<span class="badge">${item.year}</span>` : ""}
-    ${(item.tags||[]).map(t => `<span class="badge">${escapeHtml(TAG_LABEL[t] || t)}</span>`).join("")}
-  </div>
-  <div class="right">
-    ${item.path ? `<a class="action" target="_blank" rel="noopener" href="${item.path}">Open raw</a>` : ""}
-    ${item.path ? `<button class="action js-copy" data-path="${item.path}" type="button">Copy path</button>` : ""}
-    ${item.youtubeId ? `<a class="action" target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=${item.youtubeId}">YouTube</a>` : ""}
-  </div>
-`;
+  const rawAbs = item.path ? buildAbsoluteUrl(item.path) : null;
 
-wrap.appendChild(media);
-wrap.appendChild(caption);
+  const caption = document.createElement("div");
+  caption.className = "viewer-caption";
+  caption.innerHTML = `
+    <div class="left">
+      <strong>${escapeHtml(item.title || "")}</strong>
+      <span class="badge">${escapeHtml(item.skinName)}</span>
+      <span class="badge">${escapeHtml(TYPE_LABEL[item.type] || item.type)}</span>
+      ${item.year ? `<span class="badge">${item.year}</span>` : ""}
+      ${(item.tags||[]).map(t => `<span class="badge">${escapeHtml(TAG_LABEL[t] || t)}</span>`).join("")}
+    </div>
+    <div class="right">
+      ${rawAbs ? `<a class="action" target="_blank" rel="noopener" href="${rawAbs}">Open raw</a>` : ""}
+      ${rawAbs ? `<button class="action js-copy" data-path="${rawAbs}" type="button">Copy path</button>` : ""}
+      ${item.youtubeId ? `<a class="action" target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=${item.youtubeId}">YouTube</a>` : ""}
+    </div>
+  `;
 
-const copyBtn = caption.querySelector(".js-copy");
-if (copyBtn) {
-  copyBtn.addEventListener("click", async () => {
-    const raw = copyBtn.getAttribute("data-path") || "";
-    const base = location.origin + location.pathname.replace(/index\.html?$/,"");
-    const url  = base + raw.replace(/^\.\//,"");
-    try {
-      await navigator.clipboard.writeText(url);
-      copyBtn.textContent = "Copied";
-      setTimeout(() => (copyBtn.textContent = "Copy path"), 1200);
-    } catch {
-      copyBtn.textContent = "Failed";
-      setTimeout(() => (copyBtn.textContent = "Copy path"), 1200);
-    }
-  });
-}
+  wrap.appendChild(media);
+  wrap.appendChild(caption);
+
+  const copyBtn = caption.querySelector(".js-copy");
+  if (copyBtn) {
+    copyBtn.addEventListener("click", async () => {
+      const url = copyBtn.getAttribute("data-path") || "";
+      try {
+        await navigator.clipboard.writeText(url);
+        copyBtn.textContent = "Copied";
+        setTimeout(() => (copyBtn.textContent = "Copy path"), 1200);
+      } catch {
+        copyBtn.textContent = "Failed";
+        setTimeout(() => (copyBtn.textContent = "Copy path"), 1200);
+      }
+    });
+  }
 
   const closeBtn = dlg.querySelector(".viewer-close");
   closeBtn.onclick = () => dlg.close();
@@ -427,12 +424,13 @@ function renderFilesTree(){
         const leaf = document.createElement("div");
         leaf.className = "node";
         const name = it.path ? it.path.split("/").slice(-1)[0] : (it.youtubeId || it.title);
+        const abs = it.path ? buildAbsoluteUrl(it.path) : "";
         leaf.innerHTML = `
           <span>${escapeHtml(name)}</span>
           <span class="file-actions">
-            ${it.path ? `<a href="${it.path}" target="_blank" rel="noopener">open</a>` : ""}
+            ${it.path ? `<a href="${abs}" target="_blank" rel="noopener">open</a>` : ""}
             ${it.youtubeId ? `<a href="https://www.youtube.com/watch?v=${it.youtubeId}" target="_blank" rel="noopener">youtube</a>` : ""}
-            ${it.path ? `<button class="copy" data-text="${it.path}">copy path</button>` : ""}
+            ${it.path ? `<button class="copy" data-text="${abs}">copy path</button>` : ""}
           </span>
         `;
         typeNode.appendChild(leaf);
@@ -444,10 +442,9 @@ function renderFilesTree(){
 
   container.querySelectorAll("button.copy").forEach(btn=>{
     btn.addEventListener("click", async e=>{
-      const t = e.currentTarget.getAttribute("data-text");
+      const url = e.currentTarget.getAttribute("data-text") || "";
       try{
-        const base = location.origin + location.pathname.replace(/index\.html?$/,"");
-        await navigator.clipboard.writeText(base + t.replace(/^\.\//,""));
+        await navigator.clipboard.writeText(url);
         e.currentTarget.textContent="copied";
         setTimeout(()=>e.currentTarget.textContent="copy path",1200);
       }catch{}
@@ -490,4 +487,23 @@ function normalizeTags(arr){
     set.add(String(t).toLowerCase());
   }
   return [...set];
+}
+
+/* ---------- URL helpers: encode spaces/unsafe chars and build absolute URL ---------- */
+function buildAbsoluteUrl(p){
+  if(!p) return "";
+  if (/^https?:\/\//i.test(p)) return p;
+  const base = location.origin + location.pathname.replace(/index\.html?$/,"");
+  return base + encodePathSegments(p);
+}
+function encodePathSegments(p){
+  const noDot = String(p).replace(/^\.\//,"");
+  const parts = noDot.split("/");
+  const enc = parts.map(seg => seg === "" ? "" : encodeURIComponent(safeDecode(seg)));
+  return enc.join("/");
+}
+function safeDecode(s){
+  try{ return decodeURIComponent(s); }catch(_){}
+  try{ return decodeURI(s); }catch(_){}
+  return s;
 }
