@@ -1053,6 +1053,12 @@
           "tags": []
         },
         {
+          "type": "video",
+          "title": "Classic Wild Rift Video",
+          "path": "assets/ezreal/skins/classic/video/Classic_Wild_Rift_Video.mp4",
+          "tags": []
+        },
+        {
           "type": "emote",
           "title": "Classic CC Immune Emote",
           "path": "assets/ezreal/skins/classic/emote/Classic_CC_Immune_Emote.png",
