@@ -706,7 +706,7 @@
     {
       "id": "Crystal Rose",
       "name": "Crystal Rose",
-      "release_year": null,
+      "release_year": 2024,
       "media": [
         {
           "type": "splash",
@@ -859,6 +859,63 @@
           "type": "splash",
           "title": "Debonair (old) Splashart",
           "path": "assets/ezreal/skins/Debonair/splash/Debonair_(old)_Splashart.jpg",
+          "tags": []
+        },
+        {
+          "type": "icon",
+          "title": "Debonair Icon",
+          "path": "assets/ezreal/skins/Debonair/icon/Debonair_Icon.jpg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Debonair Valentines Day 2015 Card Promo 1 by Oscar Vega",
+          "path": "assets/ezreal/skins/Debonair/promo/Debonair_Valentines_Day_2015_Card_Promo_1_by_Oscar_Vega.jpg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Debonair Valentines Day 2015 Card Promo 2 by Oscar Vega",
+          "path": "assets/ezreal/skins/Debonair/promo/Debonair_Valentines_Day_2015_Card_Promo_2_by_Oscar_Vega.jpg",
+          "tags": []
+        },
+        {
+          "type": "concept",
+          "title": "Debonair Ezreal and Vi Concept by Larry Ray",
+          "path": "assets/ezreal/skins/Debonair/concept/Debonair_Ezreal_and_Vi_Concept_by_Larry_Ray.jpg",
+          "tags": []
+        },
+        {
+          "type": "loading",
+          "title": "Debonair Loading",
+          "path": "assets/ezreal/skins/Debonair/loading/Debonair_Loading.jpg",
+          "tags": []
+        },
+        {
+          "type": "model",
+          "title": "Debonair Update Model",
+          "path": "assets/ezreal/skins/Debonair/model/Debonair_Update_Model.png",
+          "tags": []
+        },
+        {
+          "type": "youtube",
+          "title": "Debonair Ezreal Skin Spotlight (2014)",
+          "youtubeId": "sB1SNow2pac",
+          "thumb": "https://i.ytimg.com/vi/sB1SNow2pac/hqdefault.jpg",
+          "tags": []
+        },
+        {
+          "type": "youtube",
+          "title": "Debonair Ezreal Wild Rift Skin Spotlight",
+          "youtubeId": "1j4Mnv1lg-U",
+          "thumb": "https://i.ytimg.com/vi/1j4Mnv1lg-U/hqdefault.jpg",
+          "tags": []
+        },
+        {
+          "type": "youtube",
+          "title": "Debonair Ezreal Skin Spotlight (2018)",
+          "youtubeId": "EXfiNIjPHW8",
+          "thumb": "https://i.ytimg.com/vi/EXfiNIjPHW8/hqdefault.jpg",
           "tags": []
         }
       ]
