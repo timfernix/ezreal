@@ -21,6 +21,7 @@ const TYPE_ALIASES = new Map([
   ["chroma",      ["chroma","chromas"]],
   ["form",        ["form","forms"]],
   ["video",       ["video","videos"]],
+  ["emote",       ["emote","emotes","emoticon","emoticons","emote-icon","emote-icons"]],
 ]);
 
 // tag slugs -> alias folder/file tokens we accept

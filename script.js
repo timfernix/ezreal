@@ -5,7 +5,7 @@ const STATE = {
   types: new Set([
     "splash","icon","promo","concept",
     "loading","model","model-face",
-    "chroma","form","video","youtube"
+    "chroma","form","video","youtube", "emote"
   ]),
   tags: new Set(),
   search: "",
@@ -25,6 +25,7 @@ const TYPE_LABEL = {
   form: "Form",
   video: "Video",
   youtube: "YouTube",
+  emote: "Emote",
 };
 
 const TAG_LABEL = {
