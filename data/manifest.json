@@ -35,6 +35,14 @@
         },
         {
           "type": "icon",
+          "title": "Ability Ezreals Mystic Shot  LOR",
+          "path": "assets/ezreal/skins/Ability/icon/Ability_Ezreals_Mystic_Shot__LOR.png",
+          "tags": [
+            "lor"
+          ]
+        },
+        {
+          "type": "icon",
           "title": "Ability Mystic Shot",
           "path": "assets/ezreal/skins/Ability/icon/Ability_Mystic_Shot.png",
           "tags": []
@@ -68,6 +76,30 @@
           "title": "Ability Trueshot Barrage (old)",
           "path": "assets/ezreal/skins/Ability/icon/Ability_Trueshot_Barrage_(old).png",
           "tags": []
+        },
+        {
+          "type": "icon",
+          "title": "Ezreal Level 1  LOR",
+          "path": "assets/ezreal/skins/Ability/icon/Ezreal_Level_1__LOR.png",
+          "tags": [
+            "lor"
+          ]
+        },
+        {
+          "type": "icon",
+          "title": "Ezreal Level 2  LOR",
+          "path": "assets/ezreal/skins/Ability/icon/Ezreal_Level_2__LOR.png",
+          "tags": [
+            "lor"
+          ]
+        },
+        {
+          "type": "icon",
+          "title": "Ezreals Mystic Shot Icon  LOR",
+          "path": "assets/ezreal/skins/Ability/icon/Ezreals_Mystic_Shot_Icon__LOR.png",
+          "tags": [
+            "lor"
+          ]
         }
       ]
     },
@@ -205,6 +237,20 @@
           "type": "model",
           "title": "Arcade Model",
           "path": "assets/ezreal/skins/Arcade/model/Arcade_Model.png",
+          "tags": []
+        },
+        {
+          "type": "emote",
+          "title": "Arcade Looking for Something Emote  WR",
+          "path": "assets/ezreal/skins/Arcade/emote/Arcade_Looking_for_Something_Emote__WR.png",
+          "tags": [
+            "wr"
+          ]
+        },
+        {
+          "type": "emote",
+          "title": "Arcade Oops Emote",
+          "path": "assets/ezreal/skins/Arcade/emote/Arcade_Oops_Emote.png",
           "tags": []
         },
         {
@@ -586,6 +632,14 @@
       "media": [
         {
           "type": "splash",
+          "title": "Classic Chibi Splashart  TFT",
+          "path": "assets/ezreal/skins/classic/splash/Classic_Chibi_Splashart__TFT.png",
+          "tags": [
+            "tft"
+          ]
+        },
+        {
+          "type": "splash",
           "title": "Classic Ezreal (Current) Splashart",
           "path": "assets/ezreal/skins/classic/splash/Classic_Ezreal_(Current)_Splashart.jpg",
           "tags": []
@@ -636,6 +690,48 @@
           "type": "icon",
           "title": "Classic Ezreal (Old Ezreal China) Icon",
           "path": "assets/ezreal/skins/classic/icon/Classic_Ezreal_(Old_Ezreal_China)_Icon.png",
+          "tags": []
+        },
+        {
+          "type": "icon",
+          "title": "Classic Ezreal Champie II Profileicon",
+          "path": "assets/ezreal/skins/classic/icon/Classic_Ezreal_Champie_II_Profileicon.jpg",
+          "tags": []
+        },
+        {
+          "type": "icon",
+          "title": "Classic Ezreal Champie Profileicon",
+          "path": "assets/ezreal/skins/classic/icon/Classic_Ezreal_Champie_Profileicon.png",
+          "tags": []
+        },
+        {
+          "type": "icon",
+          "title": "Classic Ezreal Icon",
+          "path": "assets/ezreal/skins/classic/icon/Classic_Ezreal_Icon.jpg",
+          "tags": []
+        },
+        {
+          "type": "icon",
+          "title": "Classic Ezreal Illustration Profileicon",
+          "path": "assets/ezreal/skins/classic/icon/Classic_Ezreal_Illustration_Profileicon.jpg",
+          "tags": []
+        },
+        {
+          "type": "icon",
+          "title": "Ez be real Profileicon",
+          "path": "assets/ezreal/skins/classic/icon/Ez-be-real_Profileicon.jpg",
+          "tags": []
+        },
+        {
+          "type": "icon",
+          "title": "Ezreal Poro Icon",
+          "path": "assets/ezreal/skins/classic/icon/Ezreal_Poro_Icon.png",
+          "tags": []
+        },
+        {
+          "type": "icon",
+          "title": "Tencent Ezreal Profileicon",
+          "path": "assets/ezreal/skins/classic/icon/Tencent_Ezreal_Profileicon.png",
           "tags": []
         },
         {
