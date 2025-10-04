@@ -319,33 +319,36 @@
         },
         {
           "type": "splash",
-          "title": "Battle Academia Mythic Chroma Splash  WR",
-          "path": "assets/ezreal/skins/Battle Academia/splash/Battle_Academia_Mythic_Chroma_Splash__WR.jpg",
+          "title": "Battle Academia Sprite  TFT",
+          "path": "assets/ezreal/skins/Battle Academia/splash/Battle_Academia_Sprite__TFT.png",
           "tags": [
+            "tft"
+          ]
+        },
+        {
+          "type": "splash",
+          "title": "Battle Academia Mythic Chroma Splash  WR",
+          "path": "assets/ezreal/skins/Battle Academia/splash/chroma/Battle_Academia_Mythic_Chroma_Splash__WR.jpg",
+          "tags": [
+            "chroma",
             "wr"
           ]
         },
         {
           "type": "splash",
           "title": "Battle Academia Splash Set 13  TFT",
-          "path": "assets/ezreal/skins/Battle Academia/splash/Battle_Academia_Splash_Set_13__TFT.png",
+          "path": "assets/ezreal/skins/Battle Academia/splash/chroma/Battle_Academia_Splash_Set_13__TFT.png",
           "tags": [
+            "chroma",
             "tft"
           ]
         },
         {
           "type": "splash",
           "title": "Battle Academia Splash Set 15  TFT",
-          "path": "assets/ezreal/skins/Battle Academia/splash/Battle_Academia_Splash_Set_15__TFT.png",
+          "path": "assets/ezreal/skins/Battle Academia/splash/chroma/Battle_Academia_Splash_Set_15__TFT.png",
           "tags": [
-            "tft"
-          ]
-        },
-        {
-          "type": "splash",
-          "title": "Battle Academia Sprite  TFT",
-          "path": "assets/ezreal/skins/Battle Academia/splash/Battle_Academia_Sprite__TFT.png",
-          "tags": [
+            "chroma",
             "tft"
           ]
         },
@@ -363,21 +366,25 @@
         },
         {
           "type": "icon",
-          "title": "Battle Academia Mythic Chroma Profileicon",
-          "path": "assets/ezreal/skins/Battle Academia/icon/Battle_Academia_Mythic_Chroma_Profileicon.jpg",
+          "title": "Battle Academia Profileicon",
+          "path": "assets/ezreal/skins/Battle Academia/icon/Battle_Academia_Profileicon.png",
           "tags": []
+        },
+        {
+          "type": "icon",
+          "title": "Battle Academia Mythic Chroma Profileicon",
+          "path": "assets/ezreal/skins/Battle Academia/icon/chroma/Battle_Academia_Mythic_Chroma_Profileicon.jpg",
+          "tags": [
+            "chroma"
+          ]
         },
         {
           "type": "icon",
           "title": "Battle Academia Mythic Chroma Profileicon HD",
-          "path": "assets/ezreal/skins/Battle Academia/icon/Battle_Academia_Mythic_Chroma_Profileicon_HD.jpg",
-          "tags": []
-        },
-        {
-          "type": "icon",
-          "title": "Battle Academia Profileicon",
-          "path": "assets/ezreal/skins/Battle Academia/icon/Battle_Academia_Profileicon.png",
-          "tags": []
+          "path": "assets/ezreal/skins/Battle Academia/icon/chroma/Battle_Academia_Mythic_Chroma_Profileicon_HD.jpg",
+          "tags": [
+            "chroma"
+          ]
         },
         {
           "type": "promo",
@@ -399,21 +406,27 @@
         },
         {
           "type": "promo",
-          "title": "Battle Academia Illustration 1 by Kudos Productions",
-          "path": "assets/ezreal/skins/Battle Academia/promo/Battle_Academia_Illustration_1_by_Kudos_Productions.png",
-          "tags": []
+          "title": "Battle Academia Illustration 1 by Kudos Productions  LOR",
+          "path": "assets/ezreal/skins/Battle Academia/promo/Battle_Academia_Illustration_1_by_Kudos_Productions__LOR.png",
+          "tags": [
+            "lor"
+          ]
         },
         {
           "type": "promo",
-          "title": "Battle Academia Illustration 2 by Kudos Productions",
-          "path": "assets/ezreal/skins/Battle Academia/promo/Battle_Academia_Illustration_2_by_Kudos_Productions.png",
-          "tags": []
+          "title": "Battle Academia Illustration 2 by Kudos Productions  LOR",
+          "path": "assets/ezreal/skins/Battle Academia/promo/Battle_Academia_Illustration_2_by_Kudos_Productions__LOR.png",
+          "tags": [
+            "lor"
+          ]
         },
         {
           "type": "promo",
-          "title": "Battle Academia LoR Ezreal Card Back",
-          "path": "assets/ezreal/skins/Battle Academia/promo/Battle_Academia_LoR_Ezreal_Card_Back.png",
-          "tags": []
+          "title": "Battle Academia LoR Ezreal Card Back  LOR",
+          "path": "assets/ezreal/skins/Battle Academia/promo/Battle_Academia_LoR_Ezreal_Card_Back__LOR.png",
+          "tags": [
+            "lor"
+          ]
         },
         {
           "type": "promo",
@@ -455,6 +468,78 @@
           "type": "promo",
           "title": "Battle Academia Wild Rift Promo",
           "path": "assets/ezreal/skins/Battle Academia/promo/Battle_Academia_Wild_Rift_Promo.jpeg",
+          "tags": []
+        },
+        {
+          "type": "concept",
+          "title": "Battle Academia Concept 1 by Simon Dubuc",
+          "path": "assets/ezreal/skins/Battle Academia/concept/Battle_Academia_Concept_1_by_Simon_Dubuc.jpeg",
+          "tags": []
+        },
+        {
+          "type": "concept",
+          "title": "Battle Academia Concept 2 by Simon Dubuc",
+          "path": "assets/ezreal/skins/Battle Academia/concept/Battle_Academia_Concept_2_by_Simon_Dubuc.jpg",
+          "tags": []
+        },
+        {
+          "type": "concept",
+          "title": "Battle Academia Concept 3 by Simon Dubuc",
+          "path": "assets/ezreal/skins/Battle Academia/concept/Battle_Academia_Concept_3_by_Simon_Dubuc.gif",
+          "tags": []
+        },
+        {
+          "type": "concept",
+          "title": "Battle Academia Concept 4 by Simon Dubuc",
+          "path": "assets/ezreal/skins/Battle Academia/concept/Battle_Academia_Concept_4_by_Simon_Dubuc.gif",
+          "tags": []
+        },
+        {
+          "type": "concept",
+          "title": "Battle Academia Concept 5 by Simon Dubuc",
+          "path": "assets/ezreal/skins/Battle Academia/concept/Battle_Academia_Concept_5_by_Simon_Dubuc.gif",
+          "tags": []
+        },
+        {
+          "type": "concept",
+          "title": "Battle Academia Concept 6 by Simon Dubuc",
+          "path": "assets/ezreal/skins/Battle Academia/concept/Battle_Academia_Concept_6_by_Simon_Dubuc.gif",
+          "tags": []
+        },
+        {
+          "type": "concept",
+          "title": "Battle Academia Concept 7 by Simon Dubuc",
+          "path": "assets/ezreal/skins/Battle Academia/concept/Battle_Academia_Concept_7_by_Simon_Dubuc.gif",
+          "tags": []
+        },
+        {
+          "type": "concept",
+          "title": "Battle Academia Fight for Yours Concept 1 by Miguel Velez",
+          "path": "assets/ezreal/skins/Battle Academia/concept/Battle_Academia_Fight_for_Yours_Concept_1_by_Miguel_Velez.jpg",
+          "tags": []
+        },
+        {
+          "type": "concept",
+          "title": "Battle Academia Fight for Yours Concept 2 by Miguel Velez",
+          "path": "assets/ezreal/skins/Battle Academia/concept/Battle_Academia_Fight_for_Yours_Concept_2_by_Miguel_Velez.jpg",
+          "tags": []
+        },
+        {
+          "type": "concept",
+          "title": "Battle Academia Fight for Yours Concept 3 by Miguel Velez",
+          "path": "assets/ezreal/skins/Battle Academia/concept/Battle_Academia_Fight_for_Yours_Concept_3_by_Miguel_Velez.jpg",
+          "tags": []
+        },
+        {
+          "type": "concept",
+          "title": "Battle Academia Fight for Yours Concept 4 by Miguel Velez",
+          "path": "assets/ezreal/skins/Battle Academia/concept/Battle_Academia_Fight_for_Yours_Concept_4_by_Miguel_Velez.jpg",
+          "tags": []
+        },
+        {
+          "type": "concept",
+          "title": "Battle Academia Promo Concept by 2P Studios",
+          "path": "assets/ezreal/skins/Battle Academia/concept/Battle_Academia_Promo_Concept_by_2P_Studios.jpg",
           "tags": []
         },
         {
@@ -519,21 +604,41 @@
         },
         {
           "type": "model",
-          "title": "Battle Academia Model Turnaorund",
-          "path": "assets/ezreal/skins/Battle Academia/model/Battle_Academia_Model_Turnaorund.png",
-          "tags": []
-        },
-        {
-          "type": "model",
           "title": "Battle Academia Mythic Chroma 1 by Kudos Productions",
-          "path": "assets/ezreal/skins/Battle Academia/model/Battle_Academia_Mythic_Chroma_1_by_Kudos_Productions.jpg",
-          "tags": []
+          "path": "assets/ezreal/skins/Battle Academia/model/chroma/Battle_Academia_Mythic_Chroma_1_by_Kudos_Productions.jpg",
+          "tags": [
+            "chroma"
+          ]
         },
         {
           "type": "model",
           "title": "Battle Academia Mythic Chroma 2 by Kudos Productions",
-          "path": "assets/ezreal/skins/Battle Academia/model/Battle_Academia_Mythic_Chroma_2_by_Kudos_Productions.jpg",
+          "path": "assets/ezreal/skins/Battle Academia/model/chroma/Battle_Academia_Mythic_Chroma_2_by_Kudos_Productions.jpg",
+          "tags": [
+            "chroma"
+          ]
+        },
+        {
+          "type": "emote",
+          "title": "Battle Academia Challenge Accepted Emote  LOR",
+          "path": "assets/ezreal/skins/Battle Academia/emote/Battle_Academia_Challenge_Accepted_Emote__LOR.png",
+          "tags": [
+            "lor"
+          ]
+        },
+        {
+          "type": "emote",
+          "title": "Battle Academia Crimson Cobalt Sparkle Emote",
+          "path": "assets/ezreal/skins/Battle Academia/emote/Battle_Academia_Crimson_Cobalt_Sparkle_Emote.png",
           "tags": []
+        },
+        {
+          "type": "emote",
+          "title": "Battle Academia Excuse Me Emote  WR",
+          "path": "assets/ezreal/skins/Battle Academia/emote/Battle_Academia_Excuse_Me_Emote__WR.png",
+          "tags": [
+            "wr"
+          ]
         }
       ]
     },
