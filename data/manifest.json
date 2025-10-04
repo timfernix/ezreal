@@ -736,11 +736,35 @@
         },
         {
           "type": "promo",
+          "title": "Classic (1) Warriors Videoframe",
+          "path": "assets/ezreal/skins/classic/promo/Classic_(1)_Warriors_Videoframe.jpg",
+          "tags": []
+        },
+        {
+          "type": "promo",
           "title": "Classic (2) Illustration by Sixmorevodka Studio  LOR",
           "path": "assets/ezreal/skins/classic/promo/Classic_(2)_Illustration_by_Sixmorevodka_Studio__LOR.png",
           "tags": [
             "lor"
           ]
+        },
+        {
+          "type": "promo",
+          "title": "Classic (2) Warriors Videoframe",
+          "path": "assets/ezreal/skins/classic/promo/Classic_(2)_Warriors_Videoframe.png",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Classic (3) Warriors Videoframe",
+          "path": "assets/ezreal/skins/classic/promo/Classic_(3)_Warriors_Videoframe.png",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Classic (4) Warriors Videoframe",
+          "path": "assets/ezreal/skins/classic/promo/Classic_(4)_Warriors_Videoframe.png",
+          "tags": []
         },
         {
           "type": "promo",
