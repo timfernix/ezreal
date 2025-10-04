@@ -592,22 +592,6 @@
         },
         {
           "type": "model",
-          "title": "Battle Academia Set 13 Render  TFT",
-          "path": "assets/ezreal/skins/Battle Academia/model/Battle_Academia_Set_13_Render__TFT.png",
-          "tags": [
-            "tft"
-          ]
-        },
-        {
-          "type": "model",
-          "title": "Battle Academia Set 15 Render  TFT",
-          "path": "assets/ezreal/skins/Battle Academia/model/Battle_Academia_Set_15_Render__TFT.png",
-          "tags": [
-            "tft"
-          ]
-        },
-        {
-          "type": "model",
           "title": "Battle Academia Mythic Chroma 1 by Kudos Productions",
           "path": "assets/ezreal/skins/Battle Academia/model/chroma/Battle_Academia_Mythic_Chroma_1_by_Kudos_Productions.jpg",
           "tags": [
@@ -620,6 +604,24 @@
           "path": "assets/ezreal/skins/Battle Academia/model/chroma/Battle_Academia_Mythic_Chroma_2_by_Kudos_Productions.jpg",
           "tags": [
             "chroma"
+          ]
+        },
+        {
+          "type": "model",
+          "title": "Battle Academia Set 13 Render  TFT",
+          "path": "assets/ezreal/skins/Battle Academia/model/chroma/Battle_Academia_Set_13_Render__TFT.png",
+          "tags": [
+            "chroma",
+            "tft"
+          ]
+        },
+        {
+          "type": "model",
+          "title": "Battle Academia Set 15 Render  TFT",
+          "path": "assets/ezreal/skins/Battle Academia/model/chroma/Battle_Academia_Set_15_Render__TFT.png",
+          "tags": [
+            "chroma",
+            "tft"
           ]
         },
         {
