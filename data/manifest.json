@@ -975,8 +975,8 @@
         },
         {
           "type": "loading",
-          "title": "Ezreal 4",
-          "path": "assets/ezreal/skins/Explorer/loading/Ezreal_4.jpg",
+          "title": "Explorer Loading",
+          "path": "assets/ezreal/skins/Explorer/loading/Explorer_Loading.jpg",
           "tags": []
         },
         {
@@ -1010,6 +1010,148 @@
           "type": "splash",
           "title": "Faerie Court (Current) Splashart",
           "path": "assets/ezreal/skins/Faerie Court/splash/Faerie_Court_(Current)_Splashart.jpg",
+          "tags": []
+        },
+        {
+          "type": "splash",
+          "title": "Faerie Court Chibi",
+          "path": "assets/ezreal/skins/Faerie Court/splash/Faerie_Court_Chibi.jpeg",
+          "tags": []
+        },
+        {
+          "type": "splash",
+          "title": "Faerie Court Chroma Splashart",
+          "path": "assets/ezreal/skins/Faerie Court/splash/chroma/Faerie_Court_Chroma_Splashart.jpg",
+          "tags": [
+            "chroma"
+          ]
+        },
+        {
+          "type": "icon",
+          "title": "Faerie Court Chroma Profileicon",
+          "path": "assets/ezreal/skins/Faerie Court/icon/Faerie_Court_Chroma_Profileicon.jpg",
+          "tags": []
+        },
+        {
+          "type": "icon",
+          "title": "Faerie Court Icon",
+          "path": "assets/ezreal/skins/Faerie Court/icon/Faerie_Court_Icon.jpg",
+          "tags": []
+        },
+        {
+          "type": "icon",
+          "title": "Faerie Court Profileicon",
+          "path": "assets/ezreal/skins/Faerie Court/icon/Faerie_Court_Profileicon.jpg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Faerie Court Chibi Videoframe",
+          "path": "assets/ezreal/skins/Faerie Court/promo/Faerie_Court_Chibi_Videoframe.jpg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Faerie Court Promoart",
+          "path": "assets/ezreal/skins/Faerie Court/promo/Faerie_Court_Promoart.jpeg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Faerie Court Promoart (cropped)",
+          "path": "assets/ezreal/skins/Faerie Court/promo/Faerie_Court_Promoart_(cropped).png",
+          "tags": []
+        },
+        {
+          "type": "concept",
+          "title": "Faerie Court Concept 1 by Vlad Bacescu",
+          "path": "assets/ezreal/skins/Faerie Court/concept/Faerie_Court_Concept_1_by_Vlad_Bacescu.jpg",
+          "tags": []
+        },
+        {
+          "type": "concept",
+          "title": "Faerie Court Concept 2 by Vlad Bacescu",
+          "path": "assets/ezreal/skins/Faerie Court/concept/Faerie_Court_Concept_2_by_Vlad_Bacescu.jpg",
+          "tags": []
+        },
+        {
+          "type": "concept",
+          "title": "Faerie Court Concept 3 by Vlad Bacescu",
+          "path": "assets/ezreal/skins/Faerie Court/concept/Faerie_Court_Concept_3_by_Vlad_Bacescu.jpg",
+          "tags": []
+        },
+        {
+          "type": "concept",
+          "title": "Faerie Court Concept 4 by Vlad Bacescu",
+          "path": "assets/ezreal/skins/Faerie Court/concept/Faerie_Court_Concept_4_by_Vlad_Bacescu.jpg",
+          "tags": []
+        },
+        {
+          "type": "concept",
+          "title": "Faerie Court Concept 5 by Vlad Bacescu",
+          "path": "assets/ezreal/skins/Faerie Court/concept/Faerie_Court_Concept_5_by_Vlad_Bacescu.jpeg",
+          "tags": []
+        },
+        {
+          "type": "concept",
+          "title": "Faerie Court Splash Concept 1 by Exia Xiaotong",
+          "path": "assets/ezreal/skins/Faerie Court/concept/Faerie_Court_Splash_Concept_1_by_Exia_Xiaotong.jpg",
+          "tags": []
+        },
+        {
+          "type": "concept",
+          "title": "Faerie Court Splash Concept 2 by Exia Xiaotong",
+          "path": "assets/ezreal/skins/Faerie Court/concept/Faerie_Court_Splash_Concept_2_by_Exia_Xiaotong.gif",
+          "tags": []
+        },
+        {
+          "type": "concept",
+          "title": "Faerie Court Splash Concept 3 by Exia Xiaotong",
+          "path": "assets/ezreal/skins/Faerie Court/concept/Faerie_Court_Splash_Concept_3_by_Exia_Xiaotong.jpg",
+          "tags": []
+        },
+        {
+          "type": "loading",
+          "title": "Faerie Court Border Loading",
+          "path": "assets/ezreal/skins/Faerie Court/loading/Faerie_Court_Border_Loading.jpg",
+          "tags": []
+        },
+        {
+          "type": "loading",
+          "title": "Faerie Court Loading",
+          "path": "assets/ezreal/skins/Faerie Court/loading/Faerie_Court_Loading.jpg",
+          "tags": []
+        },
+        {
+          "type": "model",
+          "title": "Faerie Court Model 1 by Kudos Productions",
+          "path": "assets/ezreal/skins/Faerie Court/model/Faerie_Court_Model_1_by_Kudos_Productions.jpg",
+          "tags": []
+        },
+        {
+          "type": "model",
+          "title": "Faerie Court Model 2 by Kudos Productions",
+          "path": "assets/ezreal/skins/Faerie Court/model/Faerie_Court_Model_2_by_Kudos_Productions.jpg",
+          "tags": []
+        },
+        {
+          "type": "model",
+          "title": "Faerie Court Model 3 by Kudos Productions",
+          "path": "assets/ezreal/skins/Faerie Court/model/Faerie_Court_Model_3_by_Kudos_Productions.jpg",
+          "tags": []
+        },
+        {
+          "type": "youtube",
+          "title": "Faerie Court Cinematic",
+          "youtubeId": "I5IDuJymGrM",
+          "thumb": "https://i.ytimg.com/vi/I5IDuJymGrM/hqdefault.jpg",
+          "tags": []
+        },
+        {
+          "type": "youtube",
+          "title": "Faerie Court Ezreal Skin Spotlight",
+          "youtubeId": "qh5tcCvpB9k",
+          "thumb": "https://i.ytimg.com/vi/qh5tcCvpB9k/hqdefault.jpg",
           "tags": []
         }
       ]
