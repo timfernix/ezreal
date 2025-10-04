@@ -5,6 +5,73 @@
   },
   "skins": [
     {
+      "id": "Ability",
+      "name": "Ability",
+      "release_year": null,
+      "media": [
+        {
+          "type": "icon",
+          "title": "Ability Arcane Shift",
+          "path": "assets/ezreal/skins/Ability/icon/Ability_Arcane_Shift.png",
+          "tags": []
+        },
+        {
+          "type": "icon",
+          "title": "Ability Arcane Shift (old)",
+          "path": "assets/ezreal/skins/Ability/icon/Ability_Arcane_Shift_(old).png",
+          "tags": []
+        },
+        {
+          "type": "icon",
+          "title": "Ability Essence Flux",
+          "path": "assets/ezreal/skins/Ability/icon/Ability_Essence_Flux.png",
+          "tags": []
+        },
+        {
+          "type": "icon",
+          "title": "Ability Essence Flux (old)",
+          "path": "assets/ezreal/skins/Ability/icon/Ability_Essence_Flux_(old).png",
+          "tags": []
+        },
+        {
+          "type": "icon",
+          "title": "Ability Mystic Shot",
+          "path": "assets/ezreal/skins/Ability/icon/Ability_Mystic_Shot.png",
+          "tags": []
+        },
+        {
+          "type": "icon",
+          "title": "Ability Mystic Shot (old)",
+          "path": "assets/ezreal/skins/Ability/icon/Ability_Mystic_Shot_(old).png",
+          "tags": []
+        },
+        {
+          "type": "icon",
+          "title": "Ability Rising Spell Force",
+          "path": "assets/ezreal/skins/Ability/icon/Ability_Rising_Spell_Force.png",
+          "tags": []
+        },
+        {
+          "type": "icon",
+          "title": "Ability Rising Spell Force (old)",
+          "path": "assets/ezreal/skins/Ability/icon/Ability_Rising_Spell_Force_(old).png",
+          "tags": []
+        },
+        {
+          "type": "icon",
+          "title": "Ability Trueshot Barrage",
+          "path": "assets/ezreal/skins/Ability/icon/Ability_Trueshot_Barrage.png",
+          "tags": []
+        },
+        {
+          "type": "icon",
+          "title": "Ability Trueshot Barrage (old)",
+          "path": "assets/ezreal/skins/Ability/icon/Ability_Trueshot_Barrage_(old).png",
+          "tags": []
+        }
+      ]
+    },
+    {
       "id": "Ace of Spades",
       "name": "Ace of Spades",
       "release_year": 2015,
@@ -424,66 +491,6 @@
           "type": "splash",
           "title": "Classic Ezreal (Reworked) Splashart",
           "path": "assets/ezreal/skins/classic/splash/Classic_Ezreal_(Reworked)_Splashart.jpg",
-          "tags": []
-        },
-        {
-          "type": "icon",
-          "title": "Ability Arcane Shift",
-          "path": "assets/ezreal/skins/classic/icon/Ability_Arcane_Shift.png",
-          "tags": []
-        },
-        {
-          "type": "icon",
-          "title": "Ability Arcane Shift (old)",
-          "path": "assets/ezreal/skins/classic/icon/Ability_Arcane_Shift_(old).png",
-          "tags": []
-        },
-        {
-          "type": "icon",
-          "title": "Ability Essence Flux",
-          "path": "assets/ezreal/skins/classic/icon/Ability_Essence_Flux.png",
-          "tags": []
-        },
-        {
-          "type": "icon",
-          "title": "Ability Essence Flux (old)",
-          "path": "assets/ezreal/skins/classic/icon/Ability_Essence_Flux_(old).png",
-          "tags": []
-        },
-        {
-          "type": "icon",
-          "title": "Ability Mystic Shot",
-          "path": "assets/ezreal/skins/classic/icon/Ability_Mystic_Shot.png",
-          "tags": []
-        },
-        {
-          "type": "icon",
-          "title": "Ability Mystic Shot (old)",
-          "path": "assets/ezreal/skins/classic/icon/Ability_Mystic_Shot_(old).png",
-          "tags": []
-        },
-        {
-          "type": "icon",
-          "title": "Ability Rising Spell Force",
-          "path": "assets/ezreal/skins/classic/icon/Ability_Rising_Spell_Force.png",
-          "tags": []
-        },
-        {
-          "type": "icon",
-          "title": "Ability Rising Spell Force (old)",
-          "path": "assets/ezreal/skins/classic/icon/Ability_Rising_Spell_Force_(old).png",
-          "tags": []
-        },
-        {
-          "type": "icon",
-          "title": "Ability Trueshot Barrage",
-          "path": "assets/ezreal/skins/classic/icon/Ability_Trueshot_Barrage.png",
-          "tags": []
-        },
-        {
-          "type": "icon",
-          "title": "Ability Trueshot Barrage (old)",
-          "path": "assets/ezreal/skins/classic/icon/Ability_Trueshot_Barrage_(old).png",
           "tags": []
         },
         {
