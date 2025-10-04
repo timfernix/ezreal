@@ -942,6 +942,62 @@
           "title": "Explorer (old 2nd Version) Splashart",
           "path": "assets/ezreal/skins/Explorer/splash/Explorer_(old_2nd_Version)_Splashart.jpg",
           "tags": []
+        },
+        {
+          "type": "icon",
+          "title": "Explorer Icon",
+          "path": "assets/ezreal/skins/Explorer/icon/Explorer_Icon.jpg",
+          "tags": []
+        },
+        {
+          "type": "concept",
+          "title": "Explorer Update Concept 1 by Brahim Bensehoul",
+          "path": "assets/ezreal/skins/Explorer/concept/Explorer_Update_Concept_1_by_Brahim_Bensehoul.jpg",
+          "tags": []
+        },
+        {
+          "type": "concept",
+          "title": "Explorer Update Concept 2 by Brahim Bensehoul",
+          "path": "assets/ezreal/skins/Explorer/concept/Explorer_Update_Concept_2_by_Brahim_Bensehoul.jpg",
+          "tags": []
+        },
+        {
+          "type": "concept",
+          "title": "Explorer Update Splash Concept 1 by Sangsoo Jeong",
+          "path": "assets/ezreal/skins/Explorer/concept/Explorer_Update_Splash_Concept_1_by_Sangsoo_Jeong.jpeg",
+          "tags": []
+        },
+        {
+          "type": "concept",
+          "title": "Explorer Update Splash Concept 2 by Sangsoo Jeong",
+          "path": "assets/ezreal/skins/Explorer/concept/Explorer_Update_Splash_Concept_2_by_Sangsoo_Jeong.jpg",
+          "tags": []
+        },
+        {
+          "type": "loading",
+          "title": "Ezreal 4",
+          "path": "assets/ezreal/skins/Explorer/loading/Ezreal_4.jpg",
+          "tags": []
+        },
+        {
+          "type": "model",
+          "title": "Explorer Model",
+          "path": "assets/ezreal/skins/Explorer/model/Explorer_Model.png",
+          "tags": []
+        },
+        {
+          "type": "youtube",
+          "title": "Explorer Ezreal Skin Spotlight (2012)",
+          "youtubeId": "-WlRx6rNgp4",
+          "thumb": "https://i.ytimg.com/vi/-WlRx6rNgp4/hqdefault.jpg",
+          "tags": []
+        },
+        {
+          "type": "youtube",
+          "title": "Explorer Ezreal Skin Spotlight (2018)",
+          "youtubeId": "kZK-kTJ_jhc",
+          "thumb": "https://i.ytimg.com/vi/kZK-kTJ_jhc/hqdefault.jpg",
+          "tags": []
         }
       ]
     },
