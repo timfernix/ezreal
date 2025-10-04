@@ -20,6 +20,9 @@ Under `assets/ezreal/skins/[skin]/` add folders for the categories. Available:
 > [!NOTE]
 > **Chroma** and **Form** automatially apply a tag.
 
+Those can also be set via subfolders:
+Example: `assets/ezreal/Battle Acadmia/icon/chroma/...`
+
 ## Tags
 
 Currently there are tags for `tft`, `wr`(Wild Rift) and `lor`(Legends of Runeterra) aswell as the tags `chroma`and `form`.
