@@ -550,18 +550,6 @@
         },
         {
           "type": "model",
-          "title": "199px Ezreal BattleAcademia TFT Render old",
-          "path": "assets/ezreal/skins/Battle Academia/model/199px-Ezreal_BattleAcademia_TFT_Render_old.png",
-          "tags": []
-        },
-        {
-          "type": "model",
-          "title": "218px Ezreal BattleAcademia TFT Render",
-          "path": "assets/ezreal/skins/Battle Academia/model/218px-Ezreal_BattleAcademia_TFT_Render.png",
-          "tags": []
-        },
-        {
-          "type": "model",
           "title": "Battle Academia Model 1 by Duy Khanh Nguyen",
           "path": "assets/ezreal/skins/Battle Academia/model/Battle_Academia_Model_1_by_Duy_Khanh_Nguyen.jpg",
           "tags": []
@@ -604,6 +592,22 @@
         },
         {
           "type": "model",
+          "title": "Battle Academia Set 13 Render  TFT",
+          "path": "assets/ezreal/skins/Battle Academia/model/Battle_Academia_Set_13_Render__TFT.png",
+          "tags": [
+            "tft"
+          ]
+        },
+        {
+          "type": "model",
+          "title": "Battle Academia Set 15 Render  TFT",
+          "path": "assets/ezreal/skins/Battle Academia/model/Battle_Academia_Set_15_Render__TFT.png",
+          "tags": [
+            "tft"
+          ]
+        },
+        {
+          "type": "model",
           "title": "Battle Academia Mythic Chroma 1 by Kudos Productions",
           "path": "assets/ezreal/skins/Battle Academia/model/chroma/Battle_Academia_Mythic_Chroma_1_by_Kudos_Productions.jpg",
           "tags": [
@@ -617,6 +621,12 @@
           "tags": [
             "chroma"
           ]
+        },
+        {
+          "type": "video",
+          "title": "Battle Academia 2019 Animation",
+          "path": "assets/ezreal/skins/Battle Academia/video/Battle_Academia_2019_Animation.mp4",
+          "tags": []
         },
         {
           "type": "emote",
@@ -639,6 +649,55 @@
           "tags": [
             "wr"
           ]
+        },
+        {
+          "type": "youtube",
+          "title": "Battle Academia 2019 Skins Trailer",
+          "youtubeId": "JRGez6bNwHY",
+          "thumb": "https://i.ytimg.com/vi/JRGez6bNwHY/hqdefault.jpg",
+          "tags": []
+        },
+        {
+          "type": "youtube",
+          "title": "Battle Academia Ezreal Skin Spotlight",
+          "youtubeId": "tRmdh3sW5UA",
+          "thumb": "https://i.ytimg.com/vi/tRmdh3sW5UA/hqdefault.jpg",
+          "tags": []
+        },
+        {
+          "type": "youtube",
+          "title": "Battle Academia Ezreal Special Interactions",
+          "youtubeId": "SI3BJgXzKoE",
+          "thumb": "https://i.ytimg.com/vi/SI3BJgXzKoE/hqdefault.jpg",
+          "tags": []
+        },
+        {
+          "type": "youtube",
+          "title": "Battle Academia Ezreal Wild Rift Skin Spotlight",
+          "youtubeId": "x2YbfVFFT60",
+          "thumb": "https://i.ytimg.com/vi/x2YbfVFFT60/hqdefault.jpg",
+          "tags": []
+        },
+        {
+          "type": "youtube",
+          "title": "Battle Academia Ezreal Mythic Chroma Wild Rift Skin Spotlight",
+          "youtubeId": "OtLKkBQmV-o",
+          "thumb": "https://i.ytimg.com/vi/OtLKkBQmV-o/hqdefault.jpg",
+          "tags": []
+        },
+        {
+          "type": "youtube",
+          "title": "Battle Academia Ezreal Mythic Chroma Comparison",
+          "youtubeId": "sofbT05PUUE",
+          "thumb": "https://i.ytimg.com/vi/sofbT05PUUE/hqdefault.jpg",
+          "tags": []
+        },
+        {
+          "type": "youtube",
+          "title": "Battle Academia Ezreal Voice [SUBBED]",
+          "youtubeId": "vu5-eY_mzR8",
+          "thumb": "https://i.ytimg.com/vi/vu5-eY_mzR8/hqdefault.jpg",
+          "tags": []
         }
       ]
     },
