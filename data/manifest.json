@@ -704,6 +704,147 @@
       ]
     },
     {
+      "id": "Crystal_Rose",
+      "name": "Crystal_Rose",
+      "release_year": null,
+      "media": [
+        {
+          "type": "splash",
+          "title": "Crystal Rose Splashart  WR",
+          "path": "assets/ezreal/skins/Crystal_Rose/splash/Crystal_Rose_Splashart__WR.jpeg",
+          "tags": [
+            "wr"
+          ]
+        },
+        {
+          "type": "icon",
+          "title": "Crystal Rose Icon  WR",
+          "path": "assets/ezreal/skins/Crystal_Rose/icon/Crystal_Rose_Icon__WR.jpeg",
+          "tags": [
+            "wr"
+          ]
+        },
+        {
+          "type": "promo",
+          "title": "Crystal Rose 2021 Wild Rift Banner 1 by Anna Podedworna  WR.jpg",
+          "path": "assets/ezreal/skins/Crystal_Rose/promo/Crystal_Rose_2021_Wild_Rift_Banner_1_by_Anna_Podedworna__WR.jpg.jpg",
+          "tags": [
+            "wr"
+          ]
+        },
+        {
+          "type": "promo",
+          "title": "Crystal Rose 2021 Wild Rift Lineup  WR",
+          "path": "assets/ezreal/skins/Crystal_Rose/promo/Crystal_Rose_2021_Wild_Rift_Lineup__WR.jpg",
+          "tags": [
+            "wr"
+          ]
+        },
+        {
+          "type": "promo",
+          "title": "Crystal Rose 2021 Wild Rift Promo 1 by Anna Podedworna  WR.jpg.jpg",
+          "path": "assets/ezreal/skins/Crystal_Rose/promo/Crystal_Rose_2021_Wild_Rift_Promo_1_by_Anna_Podedworna__WR.jpg.jpg.jpg",
+          "tags": [
+            "wr"
+          ]
+        },
+        {
+          "type": "promo",
+          "title": "Crystal Rose 2021 Wild Rift Promo 2 by Alsie Lau  WR",
+          "path": "assets/ezreal/skins/Crystal_Rose/promo/Crystal_Rose_2021_Wild_Rift_Promo_2_by_Alsie_Lau__WR.jpg",
+          "tags": [
+            "wr"
+          ]
+        },
+        {
+          "type": "promo",
+          "title": "Crystal Rose 2021 Wild Rift  WR",
+          "path": "assets/ezreal/skins/Crystal_Rose/promo/Crystal_Rose_2021_Wild_Rift__WR.png",
+          "tags": [
+            "wr"
+          ]
+        },
+        {
+          "type": "promo",
+          "title": "Crystal Rose Wild Rift Promo Full  WR.jpg",
+          "path": "assets/ezreal/skins/Crystal_Rose/promo/Crystal_Rose_Wild_Rift_Promo_Full__WR.jpg.jpg",
+          "tags": [
+            "wr"
+          ]
+        },
+        {
+          "type": "promo",
+          "title": "Crystal Rose Wild Rift Promo Thumb  WR.jpg",
+          "path": "assets/ezreal/skins/Crystal_Rose/promo/Crystal_Rose_Wild_Rift_Promo_Thumb__WR.jpg.jpg",
+          "tags": [
+            "wr"
+          ]
+        },
+        {
+          "type": "promo",
+          "title": "Crystal Rose Wild Rift Promo  WR",
+          "path": "assets/ezreal/skins/Crystal_Rose/promo/Crystal_Rose_Wild_Rift_Promo__WR.jpg",
+          "tags": [
+            "wr"
+          ]
+        },
+        {
+          "type": "concept",
+          "title": "Crystal Rose 2021 Promo Concept  WR",
+          "path": "assets/ezreal/skins/Crystal_Rose/concept/Crystal_Rose_2021_Promo_Concept__WR.jpg",
+          "tags": [
+            "wr"
+          ]
+        },
+        {
+          "type": "concept",
+          "title": "Crystal Rose Wild Rift Concept 1 by XHE 1992  WR",
+          "path": "assets/ezreal/skins/Crystal_Rose/concept/Crystal_Rose_Wild_Rift_Concept_1_by_XHE_1992__WR.jpeg",
+          "tags": [
+            "wr"
+          ]
+        },
+        {
+          "type": "concept",
+          "title": "Crystal Rose Wild Rift Concept 2 by XHE 1992  WR",
+          "path": "assets/ezreal/skins/Crystal_Rose/concept/Crystal_Rose_Wild_Rift_Concept_2_by_XHE_1992__WR.jpg",
+          "tags": [
+            "wr"
+          ]
+        },
+        {
+          "type": "concept",
+          "title": "Crystal Rose Wild Rift Concept 3 by XHE 1992  WR",
+          "path": "assets/ezreal/skins/Crystal_Rose/concept/Crystal_Rose_Wild_Rift_Concept_3_by_XHE_1992__WR.jpg",
+          "tags": [
+            "wr"
+          ]
+        },
+        {
+          "type": "emote",
+          "title": "Crystal Rose Need A Hand Emote  WR",
+          "path": "assets/ezreal/skins/Crystal_Rose/emote/Crystal_Rose_Need_A_Hand_Emote__WR.png",
+          "tags": [
+            "wr"
+          ]
+        },
+        {
+          "type": "youtube",
+          "title": "Crystal Rose Ezreal Wild Rift Skin Spotlight",
+          "youtubeId": "vj7QJ6sply8",
+          "thumb": "https://i.ytimg.com/vi/vj7QJ6sply8/hqdefault.jpg",
+          "tags": []
+        },
+        {
+          "type": "youtube",
+          "title": "Crystal Rose Ezreal Wild Rift Voice",
+          "youtubeId": "5uJ4B6TPaJU",
+          "thumb": "https://i.ytimg.com/vi/5uJ4B6TPaJU/hqdefault.jpg",
+          "tags": []
+        }
+      ]
+    },
+    {
       "id": "Debonair",
       "name": "Debonair",
       "release_year": 2014,
@@ -1346,12 +1487,6 @@
         },
         {
           "type": "promo",
-          "title": "Classic Barom Grubs (cropped) Promoart",
-          "path": "assets/ezreal/skins/classic/promo/Classic_Barom_Grubs_(cropped)_Promoart.png",
-          "tags": []
-        },
-        {
-          "type": "promo",
           "title": "Classic Chibi China Promoart",
           "path": "assets/ezreal/skins/classic/promo/Classic_Chibi_China_Promoart.jpeg",
           "tags": []
@@ -1440,6 +1575,12 @@
           "type": "promo",
           "title": "Classic Riftbound Promoart",
           "path": "assets/ezreal/skins/classic/promo/Classic_Riftbound_Promoart.jpeg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Classic Season 2024 (cropped) Key Promoart",
+          "path": "assets/ezreal/skins/classic/promo/Classic_Season_2024_(cropped)_Key_Promoart.png",
           "tags": []
         },
         {
