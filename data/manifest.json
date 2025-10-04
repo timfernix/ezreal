@@ -95,6 +95,18 @@
           "tags": []
         },
         {
+          "type": "icon",
+          "title": "Ace of Spades Icon",
+          "path": "assets/ezreal/skins/Ace of Spades/icon/Ace_of_Spades_Icon.jpg",
+          "tags": []
+        },
+        {
+          "type": "loading",
+          "title": "Ace of Spades Loadingscreen",
+          "path": "assets/ezreal/skins/Ace of Spades/loading/Ace_of_Spades_Loadingscreen.jpg",
+          "tags": []
+        },
+        {
           "type": "model",
           "title": "Ace of Spades (updated) Model by Andrey Petrashov",
           "path": "assets/ezreal/skins/Ace of Spades/model/Ace_of_Spades_(updated)_Model_by_Andrey_Petrashov.jpg",
@@ -137,6 +149,56 @@
           "type": "splash",
           "title": "Arcade (old) Splashart",
           "path": "assets/ezreal/skins/Arcade/splash/Arcade_(old)_Splashart.jpg",
+          "tags": []
+        },
+        {
+          "type": "icon",
+          "title": "Arcade Icon  WR",
+          "path": "assets/ezreal/skins/Arcade/icon/Arcade_Icon__WR.png",
+          "tags": [
+            "wr"
+          ]
+        },
+        {
+          "type": "icon",
+          "title": "Arcade Pixel Summonericon",
+          "path": "assets/ezreal/skins/Arcade/icon/Arcade_Pixel_Summonericon.png",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Arcade (cut) Promoart",
+          "path": "assets/ezreal/skins/Arcade/promo/Arcade_(cut)_Promoart.jpeg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Arcade Animation",
+          "path": "assets/ezreal/skins/Arcade/promo/Arcade_Animation.gif",
+          "tags": []
+        },
+        {
+          "type": "concept",
+          "title": "Arcade Concept by  Sunny Koda",
+          "path": "assets/ezreal/skins/Arcade/concept/Arcade_Concept_by_ Sunny_Koda.jpg",
+          "tags": []
+        },
+        {
+          "type": "concept",
+          "title": "Arcade Concept by Crow God",
+          "path": "assets/ezreal/skins/Arcade/concept/Arcade_Concept_by_Crow_God.jpg",
+          "tags": []
+        },
+        {
+          "type": "loading",
+          "title": "Arcade Loadingscreen",
+          "path": "assets/ezreal/skins/Arcade/loading/Arcade_Loadingscreen.jpg",
+          "tags": []
+        },
+        {
+          "type": "model",
+          "title": "Arcade Model",
+          "path": "assets/ezreal/skins/Arcade/model/Arcade_Model.png",
           "tags": []
         }
       ]
@@ -581,9 +643,37 @@
         },
         {
           "type": "youtube",
-          "title": "Classic Ezreal Champion Spotlight",
+          "title": "Classic Ezreal Champion Spotlight (2010)",
           "youtubeId": "GfeNQ_dbPvE",
           "thumb": "https://i.ytimg.com/vi/GfeNQ_dbPvE/hqdefault.jpg",
+          "tags": []
+        },
+        {
+          "type": "youtube",
+          "title": "Classic Ezreal Champion Spotlight (2012)",
+          "youtubeId": "0dGYt0Ibw94",
+          "thumb": "https://i.ytimg.com/vi/0dGYt0Ibw94/hqdefault.jpg",
+          "tags": []
+        },
+        {
+          "type": "youtube",
+          "title": "LilyPichu & sleightlymusical: Duo",
+          "youtubeId": "CSnUmaXQS30",
+          "thumb": "https://i.ytimg.com/vi/CSnUmaXQS30/hqdefault.jpg",
+          "tags": []
+        },
+        {
+          "type": "youtube",
+          "title": "Ezreal Gameplay Preview (2018)",
+          "youtubeId": "3EElFyFcaEk",
+          "thumb": "https://i.ytimg.com/vi/3EElFyFcaEk/hqdefault.jpg",
+          "tags": []
+        },
+        {
+          "type": "youtube",
+          "title": "Warriors - Season 2020 Cinematic",
+          "youtubeId": "aR-KAldshAE",
+          "thumb": "https://i.ytimg.com/vi/aR-KAldshAE/hqdefault.jpg",
           "tags": []
         }
       ]
