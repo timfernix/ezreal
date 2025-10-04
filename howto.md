@@ -6,6 +6,7 @@ Under `assets/ezreal/skins/[skin]/` add folders for the categories. Available:
 
 - splash
 - icon
+- emote
 - promo
 - concept
 - loading
