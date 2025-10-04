@@ -736,8 +736,80 @@
         },
         {
           "type": "promo",
+          "title": "Classic (1) Valoran Town Videoframe",
+          "path": "assets/ezreal/skins/classic/promo/Classic_(1)_Valoran_Town_Videoframe.jpeg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Classic (1) Valoran Town Videoframe",
+          "path": "assets/ezreal/skins/classic/promo/Classic_(1)_Valoran_Town_Videoframe.png",
+          "tags": []
+        },
+        {
+          "type": "promo",
           "title": "Classic (1) Warriors Videoframe",
           "path": "assets/ezreal/skins/classic/promo/Classic_(1)_Warriors_Videoframe.jpg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Classic (10) Valoran Town Videoframe",
+          "path": "assets/ezreal/skins/classic/promo/Classic_(10)_Valoran_Town_Videoframe.jpeg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Classic (11) Valoran Town Videoframe",
+          "path": "assets/ezreal/skins/classic/promo/Classic_(11)_Valoran_Town_Videoframe.jpeg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Classic (12) Valoran Town Videoframe",
+          "path": "assets/ezreal/skins/classic/promo/Classic_(12)_Valoran_Town_Videoframe.jpeg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Classic (13) Valoran Town Videoframe",
+          "path": "assets/ezreal/skins/classic/promo/Classic_(13)_Valoran_Town_Videoframe.jpeg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Classic (14) Valoran Town Videoframe",
+          "path": "assets/ezreal/skins/classic/promo/Classic_(14)_Valoran_Town_Videoframe.jpeg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Classic (15) Valoran Town Videoframe",
+          "path": "assets/ezreal/skins/classic/promo/Classic_(15)_Valoran_Town_Videoframe.jpeg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Classic (16) Valoran Town Videoframe",
+          "path": "assets/ezreal/skins/classic/promo/Classic_(16)_Valoran_Town_Videoframe.jpeg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Classic (17) Valoran Town Videoframe",
+          "path": "assets/ezreal/skins/classic/promo/Classic_(17)_Valoran_Town_Videoframe.jpeg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Classic (18) Valoran Town Videoframe",
+          "path": "assets/ezreal/skins/classic/promo/Classic_(18)_Valoran_Town_Videoframe.jpeg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Classic (19) Valoran Town Videoframe",
+          "path": "assets/ezreal/skins/classic/promo/Classic_(19)_Valoran_Town_Videoframe.jpeg",
           "tags": []
         },
         {
@@ -750,8 +822,32 @@
         },
         {
           "type": "promo",
+          "title": "Classic (2) Valoran Town Videoframe",
+          "path": "assets/ezreal/skins/classic/promo/Classic_(2)_Valoran_Town_Videoframe.jpeg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Classic (2) Valoran Town Videoframe",
+          "path": "assets/ezreal/skins/classic/promo/Classic_(2)_Valoran_Town_Videoframe.png",
+          "tags": []
+        },
+        {
+          "type": "promo",
           "title": "Classic (2) Warriors Videoframe",
           "path": "assets/ezreal/skins/classic/promo/Classic_(2)_Warriors_Videoframe.png",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Classic (3) Valoran Town Videoframe",
+          "path": "assets/ezreal/skins/classic/promo/Classic_(3)_Valoran_Town_Videoframe.jpeg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Classic (3) Valoran Town Videoframe",
+          "path": "assets/ezreal/skins/classic/promo/Classic_(3)_Valoran_Town_Videoframe.png",
           "tags": []
         },
         {
@@ -762,8 +858,56 @@
         },
         {
           "type": "promo",
+          "title": "Classic (4) Valoran Town Videoframe",
+          "path": "assets/ezreal/skins/classic/promo/Classic_(4)_Valoran_Town_Videoframe.jpeg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Classic (4) Valoran Town Videoframe",
+          "path": "assets/ezreal/skins/classic/promo/Classic_(4)_Valoran_Town_Videoframe.png",
+          "tags": []
+        },
+        {
+          "type": "promo",
           "title": "Classic (4) Warriors Videoframe",
           "path": "assets/ezreal/skins/classic/promo/Classic_(4)_Warriors_Videoframe.png",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Classic (5) Valoran Town Videoframe",
+          "path": "assets/ezreal/skins/classic/promo/Classic_(5)_Valoran_Town_Videoframe.jpeg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Classic (5) Valoran Town Videoframe",
+          "path": "assets/ezreal/skins/classic/promo/Classic_(5)_Valoran_Town_Videoframe.png",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Classic (6) Valoran Town Videoframe",
+          "path": "assets/ezreal/skins/classic/promo/Classic_(6)_Valoran_Town_Videoframe.jpeg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Classic (7) Valoran Town Videoframe",
+          "path": "assets/ezreal/skins/classic/promo/Classic_(7)_Valoran_Town_Videoframe.jpeg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Classic (8) Valoran Town Videoframe",
+          "path": "assets/ezreal/skins/classic/promo/Classic_(8)_Valoran_Town_Videoframe.jpeg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Classic (9) Valoran Town Videoframe",
+          "path": "assets/ezreal/skins/classic/promo/Classic_(9)_Valoran_Town_Videoframe.jpeg",
           "tags": []
         },
         {
@@ -874,6 +1018,18 @@
           "type": "promo",
           "title": "Classic Riftbound Promoart",
           "path": "assets/ezreal/skins/classic/promo/Classic_Riftbound_Promoart.jpeg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Classic Valoran Town Videoframe",
+          "path": "assets/ezreal/skins/classic/promo/Classic_Valoran_Town_Videoframe.jpeg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Classic Valoran Town Videoframe",
+          "path": "assets/ezreal/skins/classic/promo/Classic_Valoran_Town_Videoframe.png",
           "tags": []
         },
         {
