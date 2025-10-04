@@ -847,6 +847,158 @@
           "tags": []
         },
         {
+          "type": "model",
+          "title": "Classic (Gauntlet) Model by Kudos Productions  LOR",
+          "path": "assets/ezreal/skins/classic/model/Classic_(Gauntlet)_Model_by_Kudos_Productions__LOR.jpg",
+          "tags": [
+            "lor"
+          ]
+        },
+        {
+          "type": "model",
+          "title": "Classic Legends of Runeterra Model  LOR",
+          "path": "assets/ezreal/skins/classic/model/Classic_Legends_of_Runeterra_Model__LOR.jpg",
+          "tags": [
+            "lor"
+          ]
+        },
+        {
+          "type": "model",
+          "title": "Classic Model  WR",
+          "path": "assets/ezreal/skins/classic/model/Classic_Model__WR.png",
+          "tags": [
+            "wr"
+          ]
+        },
+        {
+          "type": "model",
+          "title": "Classic Portrait  LOR",
+          "path": "assets/ezreal/skins/classic/model/Classic_Portrait__LOR.png",
+          "tags": [
+            "lor"
+          ]
+        },
+        {
+          "type": "model",
+          "title": "Classic Render Model",
+          "path": "assets/ezreal/skins/classic/model/Classic_Render_Model.png",
+          "tags": []
+        },
+        {
+          "type": "model",
+          "title": "Classic Update Model by Edgar Monteon",
+          "path": "assets/ezreal/skins/classic/model/Classic_Update_Model_by_Edgar_Monteon.png",
+          "tags": []
+        },
+        {
+          "type": "model",
+          "title": "Classic Warriors Model 1 by Blur Studio",
+          "path": "assets/ezreal/skins/classic/model/Classic_Warriors_Model_1_by_Blur_Studio.jpg",
+          "tags": []
+        },
+        {
+          "type": "model",
+          "title": "Classic Warriors Model 2 by Blur Studio",
+          "path": "assets/ezreal/skins/classic/model/Classic_Warriors_Model_2_by_Blur_Studio.jpg",
+          "tags": []
+        },
+        {
+          "type": "emote",
+          "title": "Classic CC Immune Emote",
+          "path": "assets/ezreal/skins/classic/emote/Classic_CC_Immune_Emote.png",
+          "tags": []
+        },
+        {
+          "type": "emote",
+          "title": "Classic Easy E Z Emote",
+          "path": "assets/ezreal/skins/classic/emote/Classic_Easy_E-Z_Emote.png",
+          "tags": []
+        },
+        {
+          "type": "emote",
+          "title": "Classic Emotional Breakdown Emote",
+          "path": "assets/ezreal/skins/classic/emote/Classic_Emotional_Breakdown_Emote.png",
+          "tags": []
+        },
+        {
+          "type": "emote",
+          "title": "Classic Facebook Emote",
+          "path": "assets/ezreal/skins/classic/emote/Classic_Facebook_Emote.gif",
+          "tags": []
+        },
+        {
+          "type": "emote",
+          "title": "Classic Give Em A Hand Bauble  WR",
+          "path": "assets/ezreal/skins/classic/emote/Classic_Give_Em_A_Hand_Bauble__WR.png",
+          "tags": [
+            "wr"
+          ]
+        },
+        {
+          "type": "emote",
+          "title": "Classic Go Team! Emote",
+          "path": "assets/ezreal/skins/classic/emote/Classic_Go_Team!_Emote.png",
+          "tags": []
+        },
+        {
+          "type": "emote",
+          "title": "Classic Gotta Run! Emote",
+          "path": "assets/ezreal/skins/classic/emote/Classic_Gotta_Run!_Emote.png",
+          "tags": []
+        },
+        {
+          "type": "emote",
+          "title": "Classic LJL DFM   Nice Try Emote",
+          "path": "assets/ezreal/skins/classic/emote/Classic_LJL_DFM_-_Nice_Try_Emote.png",
+          "tags": []
+        },
+        {
+          "type": "emote",
+          "title": "Classic Nighty Night Emote",
+          "path": "assets/ezreal/skins/classic/emote/Classic_Nighty_Night_Emote.png",
+          "tags": []
+        },
+        {
+          "type": "emote",
+          "title": "Classic PCS PSG   That's Just Great Emote",
+          "path": "assets/ezreal/skins/classic/emote/Classic_PCS_PSG_-_That's_Just_Great_Emote.png",
+          "tags": []
+        },
+        {
+          "type": "emote",
+          "title": "Classic Pfffft! Emote  WR",
+          "path": "assets/ezreal/skins/classic/emote/Classic_Pfffft!_Emote__WR.png",
+          "tags": [
+            "wr"
+          ]
+        },
+        {
+          "type": "emote",
+          "title": "Classic Rose China Emote",
+          "path": "assets/ezreal/skins/classic/emote/Classic_Rose_China_Emote.jpg",
+          "tags": []
+        },
+        {
+          "type": "emote",
+          "title": "Classic Speechless Emote",
+          "path": "assets/ezreal/skins/classic/emote/Classic_Speechless_Emote.png",
+          "tags": []
+        },
+        {
+          "type": "emote",
+          "title": "Classic Sweating Emote  LOR",
+          "path": "assets/ezreal/skins/classic/emote/Classic_Sweating_Emote__LOR.png",
+          "tags": [
+            "lor"
+          ]
+        },
+        {
+          "type": "emote",
+          "title": "Classic Tears of Joy Emote",
+          "path": "assets/ezreal/skins/classic/emote/Classic_Tears_of_Joy_Emote.png",
+          "tags": []
+        },
+        {
           "type": "youtube",
           "title": "Classic Ezreal Champion Spotlight (2010)",
           "youtubeId": "GfeNQ_dbPvE",
