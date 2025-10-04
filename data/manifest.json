@@ -153,6 +153,12 @@
         },
         {
           "type": "icon",
+          "title": "Arcade Icon",
+          "path": "assets/ezreal/skins/Arcade/icon/Arcade_Icon.jpg",
+          "tags": []
+        },
+        {
+          "type": "icon",
           "title": "Arcade Icon  WR",
           "path": "assets/ezreal/skins/Arcade/icon/Arcade_Icon__WR.png",
           "tags": [
