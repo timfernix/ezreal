@@ -735,6 +735,88 @@
           "tags": []
         },
         {
+          "type": "concept",
+          "title": "Classic (1) Concept",
+          "path": "assets/ezreal/skins/classic/concept/Classic_(1)_Concept.jpeg",
+          "tags": []
+        },
+        {
+          "type": "concept",
+          "title": "Classic (1) Concept by Edmundo Sanchez",
+          "path": "assets/ezreal/skins/classic/concept/Classic_(1)_Concept_by_Edmundo_Sanchez.png",
+          "tags": []
+        },
+        {
+          "type": "concept",
+          "title": "Classic (2) Concept",
+          "path": "assets/ezreal/skins/classic/concept/Classic_(2)_Concept.jpeg",
+          "tags": []
+        },
+        {
+          "type": "concept",
+          "title": "Classic (2) Concept by Edmundo Sanchez",
+          "path": "assets/ezreal/skins/classic/concept/Classic_(2)_Concept_by_Edmundo_Sanchez.jpg",
+          "tags": []
+        },
+        {
+          "type": "concept",
+          "title": "Classic (3) Concept",
+          "path": "assets/ezreal/skins/classic/concept/Classic_(3)_Concept.jpeg",
+          "tags": []
+        },
+        {
+          "type": "concept",
+          "title": "Classic (3) Concept by Edmundo Sanchez",
+          "path": "assets/ezreal/skins/classic/concept/Classic_(3)_Concept_by_Edmundo_Sanchez.png",
+          "tags": []
+        },
+        {
+          "type": "concept",
+          "title": "Classic (4) Concept",
+          "path": "assets/ezreal/skins/classic/concept/Classic_(4)_Concept.jpeg",
+          "tags": []
+        },
+        {
+          "type": "concept",
+          "title": "Classic (5) Concept",
+          "path": "assets/ezreal/skins/classic/concept/Classic_(5)_Concept.jpeg",
+          "tags": []
+        },
+        {
+          "type": "concept",
+          "title": "Classic (Gauntlet) Concept",
+          "path": "assets/ezreal/skins/classic/concept/Classic_(Gauntlet)_Concept.jpeg",
+          "tags": []
+        },
+        {
+          "type": "concept",
+          "title": "Classic Concept by Lin Chang  WR",
+          "path": "assets/ezreal/skins/classic/concept/Classic_Concept_by_Lin_Chang__WR.jpg",
+          "tags": [
+            "wr"
+          ]
+        },
+        {
+          "type": "concept",
+          "title": "Classic Concept by Sixmorevodka Studio  LOR",
+          "path": "assets/ezreal/skins/classic/concept/Classic_Concept_by_Sixmorevodka_Studio__LOR.jpg",
+          "tags": [
+            "lor"
+          ]
+        },
+        {
+          "type": "concept",
+          "title": "Classic Warriors Concept 1 by Jason Chan",
+          "path": "assets/ezreal/skins/classic/concept/Classic_Warriors_Concept_1_by_Jason_Chan.jpg",
+          "tags": []
+        },
+        {
+          "type": "concept",
+          "title": "Classic Warriors Concept 2 by Jason Chan",
+          "path": "assets/ezreal/skins/classic/concept/Classic_Warriors_Concept_2_by_Jason_Chan.jpg",
+          "tags": []
+        },
+        {
           "type": "loading",
           "title": "Classic Ezreal (Beta) Loading",
           "path": "assets/ezreal/skins/classic/loading/Classic_Ezreal_(Beta)_Loading.jpg",
