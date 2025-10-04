@@ -1309,7 +1309,7 @@
         },
         {
           "type": "youtube",
-          "title": "Frosted Ezreal Paragon Crhoma Showcase",
+          "title": "Frosted Ezreal Paragon Chroma Showcase",
           "youtubeId": "2SZ7XJy8_Fo",
           "thumb": "https://i.ytimg.com/vi/2SZ7XJy8_Fo/hqdefault.jpg",
           "tags": []
@@ -1326,6 +1326,92 @@
           "title": "HEARTSTEEL (Current) Splashart",
           "path": "assets/ezreal/skins/HEARTSTEEL/splash/HEARTSTEEL_(Current)_Splashart.jpg",
           "tags": []
+        },
+        {
+          "type": "splash",
+          "title": "Heartsteel Splashart",
+          "path": "assets/ezreal/skins/HEARTSTEEL/splash/Heartsteel_Splashart.jpeg",
+          "tags": []
+        },
+        {
+          "type": "splash",
+          "title": "Heartsteel Splashart (cropped)",
+          "path": "assets/ezreal/skins/HEARTSTEEL/splash/Heartsteel_Splashart_(cropped).jpg",
+          "tags": []
+        },
+        {
+          "type": "splash",
+          "title": "HEARTSTEEL Chroma Splashart Season 10  TFT",
+          "path": "assets/ezreal/skins/HEARTSTEEL/splash/chroma/HEARTSTEEL_Chroma_Splashart_Season_10__TFT.png",
+          "tags": [
+            "chroma",
+            "tft"
+          ]
+        },
+        {
+          "type": "splash",
+          "title": "Heartsteel Chroma Citrine Splashart",
+          "path": "assets/ezreal/skins/HEARTSTEEL/splash/chroma/Heartsteel_Chroma_Citrine_Splashart.jpeg",
+          "tags": [
+            "chroma"
+          ]
+        },
+        {
+          "type": "splash",
+          "title": "Heartsteel Chroma Rose Quartz Splashart",
+          "path": "assets/ezreal/skins/HEARTSTEEL/splash/chroma/Heartsteel_Chroma_Rose_Quartz_Splashart.jpeg",
+          "tags": [
+            "chroma"
+          ]
+        },
+        {
+          "type": "splash",
+          "title": "Heartsteel Chroma Ruby Splashart",
+          "path": "assets/ezreal/skins/HEARTSTEEL/splash/chroma/Heartsteel_Chroma_Ruby_Splashart.jpeg",
+          "tags": [
+            "chroma"
+          ]
+        },
+        {
+          "type": "model",
+          "title": "HEARTSTEEL Model 1 by Zhennan Xuan",
+          "path": "assets/ezreal/skins/HEARTSTEEL/model/HEARTSTEEL_Model_1_by_Zhennan_Xuan.jpg",
+          "tags": []
+        },
+        {
+          "type": "model",
+          "title": "HEARTSTEEL Model 2 by Zhennan Xuan",
+          "path": "assets/ezreal/skins/HEARTSTEEL/model/HEARTSTEEL_Model_2_by_Zhennan_Xuan.jpg",
+          "tags": []
+        },
+        {
+          "type": "model",
+          "title": "Heartsteel Model",
+          "path": "assets/ezreal/skins/HEARTSTEEL/model/Heartsteel_Model.jpeg",
+          "tags": []
+        },
+        {
+          "type": "model",
+          "title": "Heartsteel Model Render Concept",
+          "path": "assets/ezreal/skins/HEARTSTEEL/model/Heartsteel_Model_Render_Concept.jpg",
+          "tags": []
+        },
+        {
+          "type": "model",
+          "title": "Heartsteel Wild Rift Model  WR",
+          "path": "assets/ezreal/skins/HEARTSTEEL/model/Heartsteel_Wild_Rift_Model__WR.jpeg",
+          "tags": [
+            "wr"
+          ]
+        },
+        {
+          "type": "model",
+          "title": "HEARTSTEEL Chroma Model Render Season 10  TFT",
+          "path": "assets/ezreal/skins/HEARTSTEEL/model/chroma/HEARTSTEEL_Chroma_Model_Render_Season_10__TFT.png",
+          "tags": [
+            "chroma",
+            "tft"
+          ]
         }
       ]
     },
