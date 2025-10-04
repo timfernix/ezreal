@@ -5,6 +5,189 @@
   },
   "skins": [
     {
+      "id": "Ace of Spades",
+      "name": "Ace of Spades",
+      "release_year": 2015,
+      "media": [
+        {
+          "type": "splash",
+          "title": "Ace of Spades (old) Splashart",
+          "path": "assets/ezreal/skins/Ace of Spades/splash/Ace_of_Spades_(old)_Splashart.jpg",
+          "tags": []
+        },
+        {
+          "type": "splash",
+          "title": "Ace of Spades (old 2nd Version) Splashart",
+          "path": "assets/ezreal/skins/Ace of Spades/splash/Ace_of_Spades_(old_2nd_Version)_Splashart.jpg",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": "Arcade",
+      "name": "Arcade",
+      "release_year": 2016,
+      "media": [
+        {
+          "type": "splash",
+          "title": "Arcade (old) Splashart",
+          "path": "assets/ezreal/skins/Arcade/splash/Arcade_(old)_Splashart.jpg",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": "Debonair",
+      "name": "Debonair",
+      "release_year": 2014,
+      "media": [
+        {
+          "type": "splash",
+          "title": "Debonair (old) Splashart",
+          "path": "assets/ezreal/skins/Debonair/splash/Debonair_(old)_Splashart.jpg",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": "Explorer",
+      "name": "Explorer",
+      "release_year": 2010,
+      "media": [
+        {
+          "type": "splash",
+          "title": "Explorer (old) Splashart",
+          "path": "assets/ezreal/skins/Explorer/splash/Explorer_(old)_Splashart.jpg",
+          "tags": []
+        },
+        {
+          "type": "splash",
+          "title": "Explorer (old 2nd Version) Splashart",
+          "path": "assets/ezreal/skins/Explorer/splash/Explorer_(old_2nd_Version)_Splashart.jpg",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": "Frosted",
+      "name": "Frosted",
+      "release_year": 2010,
+      "media": [
+        {
+          "type": "splash",
+          "title": "Frosted (old) Splashart",
+          "path": "assets/ezreal/skins/Frosted/splash/Frosted_(old)_Splashart.jpg",
+          "tags": []
+        },
+        {
+          "type": "splash",
+          "title": "Frosted (old 2nd Version) Splashart",
+          "path": "assets/ezreal/skins/Frosted/splash/Frosted_(old_2nd_Version)_Splashart.jpg",
+          "tags": []
+        },
+        {
+          "type": "splash",
+          "title": "Frosted (old 3rd Version) Splashart",
+          "path": "assets/ezreal/skins/Frosted/splash/Frosted_(old_3rd_Version)_Splashart.jpg",
+          "tags": []
+        },
+        {
+          "type": "splash",
+          "title": "Frosted (old 4th Version) Splashart",
+          "path": "assets/ezreal/skins/Frosted/splash/Frosted_(old_4th_Version)_Splashart.jpg",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": "Nottingham",
+      "name": "Nottingham",
+      "release_year": 2010,
+      "media": [
+        {
+          "type": "splash",
+          "title": "Nottingham (old) Splashart",
+          "path": "assets/ezreal/skins/Nottingham/splash/Nottingham_(old)_Splashart.jpg",
+          "tags": []
+        },
+        {
+          "type": "splash",
+          "title": "Nottingham (old 2nd Version) Splashart",
+          "path": "assets/ezreal/skins/Nottingham/splash/Nottingham_(old_2nd_Version)_Splashart.jpg",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": "Pulsefire",
+      "name": "Pulsefire",
+      "release_year": 2012,
+      "media": [
+        {
+          "type": "splash",
+          "title": "Pulsefire (old) Splashart",
+          "path": "assets/ezreal/skins/Pulsefire/splash/Pulsefire_(old)_Splashart.jpg",
+          "tags": []
+        },
+        {
+          "type": "splash",
+          "title": "Pulsefire (old upgraded) Splashart",
+          "path": "assets/ezreal/skins/Pulsefire/splash/Pulsefire_(old_upgraded)_Splashart.jpg",
+          "tags": []
+        },
+        {
+          "type": "splash",
+          "title": "Pulsefire (unused) Splashart",
+          "path": "assets/ezreal/skins/Pulsefire/splash/Pulsefire_(unused)_Splashart.jpg",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": "Striker",
+      "name": "Striker",
+      "release_year": 2010,
+      "media": [
+        {
+          "type": "splash",
+          "title": "Striker (old) Splashart",
+          "path": "assets/ezreal/skins/Striker/splash/Striker_(old)_Splashart.jpg",
+          "tags": []
+        },
+        {
+          "type": "splash",
+          "title": "Striker (old 2nd Version) Splashart",
+          "path": "assets/ezreal/skins/Striker/splash/Striker_(old_2nd_Version)_Splashart.jpg",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": "TPA",
+      "name": "TPA",
+      "release_year": 2013,
+      "media": [
+        {
+          "type": "splash",
+          "title": "TPA (old) Splashart",
+          "path": "assets/ezreal/skins/TPA/splash/TPA_(old)_Splashart.jpg",
+          "tags": []
+        },
+        {
+          "type": "splash",
+          "title": "TPA (old 2nd Version) Splashart",
+          "path": "assets/ezreal/skins/TPA/splash/TPA_(old_2nd_Version)_Splashart.jpg",
+          "tags": []
+        },
+        {
+          "type": "splash",
+          "title": "TPA (old 3rd Version) Splashart",
+          "path": "assets/ezreal/skins/TPA/splash/TPA_(old_3rd_Version)_Splashart.jpg",
+          "tags": []
+        }
+      ]
+    },
+    {
       "id": "classic",
       "name": "Classic",
       "release_year": 2010,
