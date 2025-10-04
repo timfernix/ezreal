@@ -222,6 +222,12 @@
           "tags": []
         },
         {
+          "type": "promo",
+          "title": "Arcade Wild Rift 2023 Promoart",
+          "path": "assets/ezreal/skins/Arcade/promo/Arcade_Wild_Rift_2023_Promoart.jpeg",
+          "tags": []
+        },
+        {
           "type": "concept",
           "title": "Arcade Concept by  Sunny Koda",
           "path": "assets/ezreal/skins/Arcade/concept/Arcade_Concept_by_ Sunny_Koda.jpg",
@@ -391,6 +397,14 @@
           "title": "Battle Academia 2019 Promo by 2P Studios",
           "path": "assets/ezreal/skins/Battle Academia/promo/Battle_Academia_2019_Promo_by_2P_Studios.jpg",
           "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Battle Academia Animation Season 15 Chroma  TFT",
+          "path": "assets/ezreal/skins/Battle Academia/promo/Battle_Academia_Animation_Season_15_Chroma__TFT.gif",
+          "tags": [
+            "tft"
+          ]
         },
         {
           "type": "promo",
@@ -1094,6 +1108,12 @@
         },
         {
           "type": "concept",
+          "title": "Faerie Court Concept 6",
+          "path": "assets/ezreal/skins/Faerie Court/concept/Faerie_Court_Concept_6.jpg",
+          "tags": []
+        },
+        {
+          "type": "concept",
           "title": "Faerie Court Splash Concept 1 by Exia Xiaotong",
           "path": "assets/ezreal/skins/Faerie Court/concept/Faerie_Court_Splash_Concept_1_by_Exia_Xiaotong.jpg",
           "tags": []
@@ -1169,8 +1189,8 @@
         },
         {
           "type": "splash",
-          "title": "Frosted (old) Splashart",
-          "path": "assets/ezreal/skins/Frosted/splash/Frosted_(old)_Splashart.jpg",
+          "title": "Frosted (old 1st Version) Splashart",
+          "path": "assets/ezreal/skins/Frosted/splash/Frosted_(old_1st_Version)_Splashart.jpg",
           "tags": []
         },
         {
@@ -1189,6 +1209,109 @@
           "type": "splash",
           "title": "Frosted (old 4th Version) Splashart",
           "path": "assets/ezreal/skins/Frosted/splash/Frosted_(old_4th_Version)_Splashart.jpg",
+          "tags": []
+        },
+        {
+          "type": "splash",
+          "title": "Frosted Chroma Splash  TFT",
+          "path": "assets/ezreal/skins/Frosted/splash/chroma/Frosted_Chroma_Splash__TFT.jpg",
+          "tags": [
+            "chroma",
+            "tft"
+          ]
+        },
+        {
+          "type": "icon",
+          "title": "Frosted Hall Of Legends 2025 Glacial Shower Profileicon",
+          "path": "assets/ezreal/skins/Frosted/icon/Frosted_Hall_Of_Legends_2025_Glacial_Shower_Profileicon.jpg",
+          "tags": []
+        },
+        {
+          "type": "icon",
+          "title": "Frosted Hall Of Legends 2025 Glacial Shower Profileicon HD",
+          "path": "assets/ezreal/skins/Frosted/icon/Frosted_Hall_Of_Legends_2025_Glacial_Shower_Profileicon_HD.jpg",
+          "tags": []
+        },
+        {
+          "type": "icon",
+          "title": "Frosted Icon",
+          "path": "assets/ezreal/skins/Frosted/icon/Frosted_Icon.jpg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Frosted Paragon Chroma Videoframe",
+          "path": "assets/ezreal/skins/Frosted/promo/chroma/Frosted_Paragon_Chroma_Videoframe.webp",
+          "tags": [
+            "chroma"
+          ]
+        },
+        {
+          "type": "concept",
+          "title": "Frosted Update Splash Concept 1 by Yan Li",
+          "path": "assets/ezreal/skins/Frosted/concept/Frosted_Update_Splash_Concept_1_by_Yan_Li.jpg",
+          "tags": []
+        },
+        {
+          "type": "concept",
+          "title": "Frosted Update Splash Concept 2 by Yan Li",
+          "path": "assets/ezreal/skins/Frosted/concept/Frosted_Update_Splash_Concept_2_by_Yan_Li.jpg",
+          "tags": []
+        },
+        {
+          "type": "loading",
+          "title": "Frosted Loading",
+          "path": "assets/ezreal/skins/Frosted/loading/Frosted_Loading.jpg",
+          "tags": []
+        },
+        {
+          "type": "model",
+          "title": "Frosted Model Wild Rift  WR",
+          "path": "assets/ezreal/skins/Frosted/model/Frosted_Model_Wild_Rift__WR.jpeg",
+          "tags": [
+            "wr"
+          ]
+        },
+        {
+          "type": "model",
+          "title": "Frosted Model by Bombete Mikael",
+          "path": "assets/ezreal/skins/Frosted/model/Frosted_Model_by_Bombete_Mikael.jpg",
+          "tags": []
+        },
+        {
+          "type": "model",
+          "title": "Frosted Update Model",
+          "path": "assets/ezreal/skins/Frosted/model/Frosted_Update_Model.png",
+          "tags": []
+        },
+        {
+          "type": "model",
+          "title": "Frosted Chroma Model Render  TFT",
+          "path": "assets/ezreal/skins/Frosted/model/chroma/Frosted_Chroma_Model_Render__TFT.png",
+          "tags": [
+            "chroma",
+            "tft"
+          ]
+        },
+        {
+          "type": "youtube",
+          "title": "Frosted Ezreal Skin Spotlight (2018)",
+          "youtubeId": "zE2KbWQ-08g",
+          "thumb": "https://i.ytimg.com/vi/zE2KbWQ-08g/hqdefault.jpg",
+          "tags": []
+        },
+        {
+          "type": "youtube",
+          "title": "Frosted Ezreal Wild Rift Skin Spotlight",
+          "youtubeId": "5yXXLIRNFxc",
+          "thumb": "https://i.ytimg.com/vi/5yXXLIRNFxc/hqdefault.jpg",
+          "tags": []
+        },
+        {
+          "type": "youtube",
+          "title": "Frosted Ezreal Paragon Crhoma Showcase",
+          "youtubeId": "2SZ7XJy8_Fo",
+          "thumb": "https://i.ytimg.com/vi/2SZ7XJy8_Fo/hqdefault.jpg",
           "tags": []
         }
       ]
@@ -1545,6 +1668,14 @@
           "title": "Ezreal Poro Icon",
           "path": "assets/ezreal/skins/classic/icon/Ezreal_Poro_Icon.png",
           "tags": []
+        },
+        {
+          "type": "icon",
+          "title": "Ezreal Profileicon (unused)  WR",
+          "path": "assets/ezreal/skins/classic/icon/Ezreal_Profileicon_(unused)__WR.jpg",
+          "tags": [
+            "wr"
+          ]
         },
         {
           "type": "icon",
