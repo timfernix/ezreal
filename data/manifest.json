@@ -854,6 +854,18 @@
         },
         {
           "type": "promo",
+          "title": "Classic Warriors Videoframe",
+          "path": "assets/ezreal/skins/classic/promo/Classic_Warriors_Videoframe.jpg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Classic Warriors Videoframe",
+          "path": "assets/ezreal/skins/classic/promo/Classic_Warriors_Videoframe.png",
+          "tags": []
+        },
+        {
+          "type": "promo",
           "title": "Classic Wild Rift Augmented ARAM Promoart  WR",
           "path": "assets/ezreal/skins/classic/promo/Classic_Wild_Rift_Augmented_ARAM_Promoart__WR.jpeg",
           "tags": [
