@@ -93,6 +93,32 @@
           "title": "Ace of Spades (old 2nd Version) Splashart",
           "path": "assets/ezreal/skins/Ace of Spades/splash/Ace_of_Spades_(old_2nd_Version)_Splashart.jpg",
           "tags": []
+        },
+        {
+          "type": "model",
+          "title": "Ace of Spades (updated) Model by Andrey Petrashov",
+          "path": "assets/ezreal/skins/Ace of Spades/model/Ace_of_Spades_(updated)_Model_by_Andrey_Petrashov.jpg",
+          "tags": []
+        },
+        {
+          "type": "model",
+          "title": "Ace of Spades (updated) Model by Andrey Petrashov",
+          "path": "assets/ezreal/skins/Ace of Spades/model/Ace_of_Spades_(updated)_Model_by_Andrey_Petrashov.png",
+          "tags": []
+        },
+        {
+          "type": "youtube",
+          "title": "Ace of Spades Ezreal Skin Spotlight (2018)",
+          "youtubeId": "qEZVFrTQbQI",
+          "thumb": "https://i.ytimg.com/vi/qEZVFrTQbQI/hqdefault.jpg",
+          "tags": []
+        },
+        {
+          "type": "youtube",
+          "title": "Ace of Spades Ezreal Skin Spotlight (2015)",
+          "youtubeId": "rnTeljcAvzA",
+          "thumb": "https://i.ytimg.com/vi/rnTeljcAvzA/hqdefault.jpg",
+          "tags": []
         }
       ]
     },
