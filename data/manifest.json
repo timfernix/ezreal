@@ -200,6 +200,27 @@
           "title": "Arcade Model",
           "path": "assets/ezreal/skins/Arcade/model/Arcade_Model.png",
           "tags": []
+        },
+        {
+          "type": "youtube",
+          "title": "Arcade Ezreal Wild Rift Skin Spotlight",
+          "youtubeId": "YE8tDan-_EU",
+          "thumb": "https://i.ytimg.com/vi/YE8tDan-_EU/hqdefault.jpg",
+          "tags": []
+        },
+        {
+          "type": "youtube",
+          "title": "Arcade Ezreal Skin Spotlight (2016)",
+          "youtubeId": "bikN6Kvv7Rs",
+          "thumb": "https://i.ytimg.com/vi/bikN6Kvv7Rs/hqdefault.jpg",
+          "tags": []
+        },
+        {
+          "type": "youtube",
+          "title": "Arcade Ezreal Skin Spotlight (2018)",
+          "youtubeId": "OKMVhAcmD3o",
+          "thumb": "https://i.ytimg.com/vi/OKMVhAcmD3o/hqdefault.jpg",
+          "tags": []
         }
       ]
     },
