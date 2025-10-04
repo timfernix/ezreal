@@ -735,6 +735,156 @@
           "tags": []
         },
         {
+          "type": "promo",
+          "title": "Classic (2) Illustration by Sixmorevodka Studio  LOR",
+          "path": "assets/ezreal/skins/classic/promo/Classic_(2)_Illustration_by_Sixmorevodka_Studio__LOR.png",
+          "tags": [
+            "lor"
+          ]
+        },
+        {
+          "type": "promo",
+          "title": "Classic (Gauntlet) Update Teaser by David Ko",
+          "path": "assets/ezreal/skins/classic/promo/Classic_(Gauntlet)_Update_Teaser_by_David_Ko.jpg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Classic Article Promoart",
+          "path": "assets/ezreal/skins/classic/promo/Classic_Article_Promoart.jpg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Classic Barom Grubs (cropped) Promoart",
+          "path": "assets/ezreal/skins/classic/promo/Classic_Barom_Grubs_(cropped)_Promoart.png",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Classic Chibi China Promoart",
+          "path": "assets/ezreal/skins/classic/promo/Classic_Chibi_China_Promoart.jpeg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Classic Chibi Promoart",
+          "path": "assets/ezreal/skins/classic/promo/Classic_Chibi_Promoart.jpeg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Classic Ezreal Poro Promoart",
+          "path": "assets/ezreal/skins/classic/promo/Classic_Ezreal_Poro_Promoart.jpg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Classic Illustration An Explorers Journey 2 by Grace Kum",
+          "path": "assets/ezreal/skins/classic/promo/Classic_Illustration_An_Explorers_Journey_2_by_Grace_Kum.jpg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Classic Illustration An Explorers Journey 3 by Grace Kum",
+          "path": "assets/ezreal/skins/classic/promo/Classic_Illustration_An_Explorers_Journey_3_by_Grace_Kum.jpg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Classic Illustration An Explorers Journey by Grace Kum",
+          "path": "assets/ezreal/skins/classic/promo/Classic_Illustration_An_Explorers_Journey_by_Grace_Kum.jpg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Classic Illustration The Curators Gambit by Maddie Julyk",
+          "path": "assets/ezreal/skins/classic/promo/Classic_Illustration_The_Curators_Gambit_by_Maddie_Julyk.jpg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Classic Illustration The Elixir of Uloa 1 by Maddie Julyk",
+          "path": "assets/ezreal/skins/classic/promo/Classic_Illustration_The_Elixir_of_Uloa_1_by_Maddie_Julyk.jpg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Classic Illustration The Elixir of Uloa 2",
+          "path": "assets/ezreal/skins/classic/promo/Classic_Illustration_The_Elixir_of_Uloa_2.jpg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Classic Illustration by Sixmorevodka Studio  LOR",
+          "path": "assets/ezreal/skins/classic/promo/Classic_Illustration_by_Sixmorevodka_Studio__LOR.jpg",
+          "tags": [
+            "lor"
+          ]
+        },
+        {
+          "type": "promo",
+          "title": "Classic Promoart by Hika  WR",
+          "path": "assets/ezreal/skins/classic/promo/Classic_Promoart_by_Hika__WR.jpg",
+          "tags": [
+            "wr"
+          ]
+        },
+        {
+          "type": "promo",
+          "title": "Classic Promoart by Qifeng Lin  WR",
+          "path": "assets/ezreal/skins/classic/promo/Classic_Promoart_by_Qifeng_Lin__WR.jpg",
+          "tags": [
+            "wr"
+          ]
+        },
+        {
+          "type": "promo",
+          "title": "Classic Promoart by Sixmorevodka Studio  LOR",
+          "path": "assets/ezreal/skins/classic/promo/Classic_Promoart_by_Sixmorevodka_Studio__LOR.jpg",
+          "tags": [
+            "lor"
+          ]
+        },
+        {
+          "type": "promo",
+          "title": "Classic Riftbound Promoart",
+          "path": "assets/ezreal/skins/classic/promo/Classic_Riftbound_Promoart.jpeg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Classic Wild Rift Augmented ARAM Promoart  WR",
+          "path": "assets/ezreal/skins/classic/promo/Classic_Wild_Rift_Augmented_ARAM_Promoart__WR.jpeg",
+          "tags": [
+            "wr"
+          ]
+        },
+        {
+          "type": "promo",
+          "title": "Classic Wild Rift Happy 2022 Promoart by Cindy Feng  WR",
+          "path": "assets/ezreal/skins/classic/promo/Classic_Wild_Rift_Happy_2022_Promoart_by_Cindy_Feng__WR.jpg",
+          "tags": [
+            "wr"
+          ]
+        },
+        {
+          "type": "promo",
+          "title": "Classic Wild Rift S11 Event Promoart by Lion Song  WR",
+          "path": "assets/ezreal/skins/classic/promo/Classic_Wild_Rift_S11_Event_Promoart_by_Lion_Song__WR.jpg",
+          "tags": [
+            "wr"
+          ]
+        },
+        {
+          "type": "promo",
+          "title": "Classic Wild Rift x Coca Cola Promoart  WR",
+          "path": "assets/ezreal/skins/classic/promo/Classic_Wild_Rift_x_Coca-Cola_Promoart__WR.jpg",
+          "tags": [
+            "wr"
+          ]
+        },
+        {
           "type": "concept",
           "title": "Classic (1) Concept",
           "path": "assets/ezreal/skins/classic/concept/Classic_(1)_Concept.jpeg",
