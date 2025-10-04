@@ -151,6 +151,12 @@
           "tags": []
         },
         {
+          "type": "model",
+          "title": "Ace of Spades Model",
+          "path": "assets/ezreal/skins/Ace of Spades/model/Ace_of_Spades_Model.jpeg",
+          "tags": []
+        },
+        {
           "type": "youtube",
           "title": "Ace of Spades Ezreal Skin Spotlight (2018)",
           "youtubeId": "qEZVFrTQbQI",
@@ -185,17 +191,17 @@
         },
         {
           "type": "icon",
-          "title": "Arcade Icon",
-          "path": "assets/ezreal/skins/Arcade/icon/Arcade_Icon.jpg",
-          "tags": []
-        },
-        {
-          "type": "icon",
-          "title": "Arcade Icon  WR",
-          "path": "assets/ezreal/skins/Arcade/icon/Arcade_Icon__WR.png",
+          "title": "Arcade Gaming All Night Icon  WR",
+          "path": "assets/ezreal/skins/Arcade/icon/Arcade_Gaming_All_Night_Icon__WR.png",
           "tags": [
             "wr"
           ]
+        },
+        {
+          "type": "icon",
+          "title": "Arcade Icon",
+          "path": "assets/ezreal/skins/Arcade/icon/Arcade_Icon.jpg",
+          "tags": []
         },
         {
           "type": "icon",
@@ -285,6 +291,140 @@
           "type": "splash",
           "title": "Battle Academia (Current) Splashart",
           "path": "assets/ezreal/skins/Battle Academia/splash/Battle_Academia_(Current)_Splashart.jpg",
+          "tags": []
+        },
+        {
+          "type": "splash",
+          "title": "Battle Academia Chibi (cropped) 2  TFT",
+          "path": "assets/ezreal/skins/Battle Academia/splash/Battle_Academia_Chibi_(cropped)_2__TFT.png",
+          "tags": [
+            "tft"
+          ]
+        },
+        {
+          "type": "splash",
+          "title": "Battle Academia Chibi (cropped)  TFT",
+          "path": "assets/ezreal/skins/Battle Academia/splash/Battle_Academia_Chibi_(cropped)__TFT.webp",
+          "tags": [
+            "tft"
+          ]
+        },
+        {
+          "type": "splash",
+          "title": "Battle Academia Chibi Splash  TFT",
+          "path": "assets/ezreal/skins/Battle Academia/splash/Battle_Academia_Chibi_Splash__TFT.jpg",
+          "tags": [
+            "tft"
+          ]
+        },
+        {
+          "type": "splash",
+          "title": "Battle Academia Mythic Chroma Splash  WR",
+          "path": "assets/ezreal/skins/Battle Academia/splash/Battle_Academia_Mythic_Chroma_Splash__WR.jpg",
+          "tags": [
+            "wr"
+          ]
+        },
+        {
+          "type": "splash",
+          "title": "Battle Academia Splash Set 13  TFT",
+          "path": "assets/ezreal/skins/Battle Academia/splash/Battle_Academia_Splash_Set_13__TFT.png",
+          "tags": [
+            "tft"
+          ]
+        },
+        {
+          "type": "splash",
+          "title": "Battle Academia Splash Set 15  TFT",
+          "path": "assets/ezreal/skins/Battle Academia/splash/Battle_Academia_Splash_Set_15__TFT.png",
+          "tags": [
+            "tft"
+          ]
+        },
+        {
+          "type": "splash",
+          "title": "Battle Academia Sprite  TFT",
+          "path": "assets/ezreal/skins/Battle Academia/splash/Battle_Academia_Sprite__TFT.png",
+          "tags": [
+            "tft"
+          ]
+        },
+        {
+          "type": "promo",
+          "title": "Battle Academia 2019 Promo by 2P Studios",
+          "path": "assets/ezreal/skins/Battle Academia/promo/Battle_Academia_2019_Promo_by_2P_Studios.jpg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Battle Academia Chibi Promo Videoframe",
+          "path": "assets/ezreal/skins/Battle Academia/promo/Battle_Academia_Chibi_Promo_Videoframe.jpeg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Battle Academia Ezreal Promo",
+          "path": "assets/ezreal/skins/Battle Academia/promo/Battle_Academia_Ezreal_Promo.jpeg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Battle Academia Illustration 1 by Kudos Productions",
+          "path": "assets/ezreal/skins/Battle Academia/promo/Battle_Academia_Illustration_1_by_Kudos_Productions.png",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Battle Academia Illustration 2 by Kudos Productions",
+          "path": "assets/ezreal/skins/Battle Academia/promo/Battle_Academia_Illustration_2_by_Kudos_Productions.png",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Battle Academia LoR Ezreal Card Back",
+          "path": "assets/ezreal/skins/Battle Academia/promo/Battle_Academia_LoR_Ezreal_Card_Back.png",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Battle Academia Promo 01",
+          "path": "assets/ezreal/skins/Battle Academia/promo/Battle_Academia_Promo_01.jpg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Battle Academia Promo 02",
+          "path": "assets/ezreal/skins/Battle Academia/promo/Battle_Academia_Promo_02.jpg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Battle Academia Promo 03",
+          "path": "assets/ezreal/skins/Battle Academia/promo/Battle_Academia_Promo_03.jpg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Battle Academia Promo 03 (cropped)",
+          "path": "assets/ezreal/skins/Battle Academia/promo/Battle_Academia_Promo_03_(cropped).jpg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Battle Academia Promo Thumb",
+          "path": "assets/ezreal/skins/Battle Academia/promo/Battle_Academia_Promo_Thumb.jpg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Battle Academia Promoart (cropped)",
+          "path": "assets/ezreal/skins/Battle Academia/promo/Battle_Academia_Promoart_(cropped).jpeg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Battle Academia Wild Rift Promo",
+          "path": "assets/ezreal/skins/Battle Academia/promo/Battle_Academia_Wild_Rift_Promo.jpeg",
           "tags": []
         }
       ]
@@ -630,6 +770,14 @@
       "name": "Classic",
       "release_year": 2010,
       "media": [
+        {
+          "type": "splash",
+          "title": "Classic Chibi Splashart Full  TFT",
+          "path": "assets/ezreal/skins/classic/splash/Classic_Chibi_Splashart_Full__TFT.webp",
+          "tags": [
+            "tft"
+          ]
+        },
         {
           "type": "splash",
           "title": "Classic Chibi Splashart  TFT",
