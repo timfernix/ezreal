@@ -350,6 +350,36 @@
           ]
         },
         {
+          "type": "icon",
+          "title": "Battle Academia Chibi Profileicon",
+          "path": "assets/ezreal/skins/Battle Academia/icon/Battle_Academia_Chibi_Profileicon.jpg",
+          "tags": []
+        },
+        {
+          "type": "icon",
+          "title": "Battle Academia Icon",
+          "path": "assets/ezreal/skins/Battle Academia/icon/Battle_Academia_Icon.jpg",
+          "tags": []
+        },
+        {
+          "type": "icon",
+          "title": "Battle Academia Mythic Chroma Profileicon",
+          "path": "assets/ezreal/skins/Battle Academia/icon/Battle_Academia_Mythic_Chroma_Profileicon.jpg",
+          "tags": []
+        },
+        {
+          "type": "icon",
+          "title": "Battle Academia Mythic Chroma Profileicon HD",
+          "path": "assets/ezreal/skins/Battle Academia/icon/Battle_Academia_Mythic_Chroma_Profileicon_HD.jpg",
+          "tags": []
+        },
+        {
+          "type": "icon",
+          "title": "Battle Academia Profileicon",
+          "path": "assets/ezreal/skins/Battle Academia/icon/Battle_Academia_Profileicon.png",
+          "tags": []
+        },
+        {
           "type": "promo",
           "title": "Battle Academia 2019 Promo by 2P Studios",
           "path": "assets/ezreal/skins/Battle Academia/promo/Battle_Academia_2019_Promo_by_2P_Studios.jpg",
@@ -425,6 +455,84 @@
           "type": "promo",
           "title": "Battle Academia Wild Rift Promo",
           "path": "assets/ezreal/skins/Battle Academia/promo/Battle_Academia_Wild_Rift_Promo.jpeg",
+          "tags": []
+        },
+        {
+          "type": "loading",
+          "title": "Battle Academia Loading",
+          "path": "assets/ezreal/skins/Battle Academia/loading/Battle_Academia_Loading.jpg",
+          "tags": []
+        },
+        {
+          "type": "model",
+          "title": "199px Ezreal BattleAcademia TFT Render old",
+          "path": "assets/ezreal/skins/Battle Academia/model/199px-Ezreal_BattleAcademia_TFT_Render_old.png",
+          "tags": []
+        },
+        {
+          "type": "model",
+          "title": "218px Ezreal BattleAcademia TFT Render",
+          "path": "assets/ezreal/skins/Battle Academia/model/218px-Ezreal_BattleAcademia_TFT_Render.png",
+          "tags": []
+        },
+        {
+          "type": "model",
+          "title": "Battle Academia Model 1 by Duy Khanh Nguyen",
+          "path": "assets/ezreal/skins/Battle Academia/model/Battle_Academia_Model_1_by_Duy_Khanh_Nguyen.jpg",
+          "tags": []
+        },
+        {
+          "type": "model",
+          "title": "Battle Academia Model 2 by Duy Khanh Nguyen",
+          "path": "assets/ezreal/skins/Battle Academia/model/Battle_Academia_Model_2_by_Duy_Khanh_Nguyen.jpg",
+          "tags": []
+        },
+        {
+          "type": "model",
+          "title": "Battle Academia Model 3 by Duy Khanh Nguyen",
+          "path": "assets/ezreal/skins/Battle Academia/model/Battle_Academia_Model_3_by_Duy_Khanh_Nguyen.jpg",
+          "tags": []
+        },
+        {
+          "type": "model",
+          "title": "Battle Academia Model 4 by Duy Khanh Nguyen",
+          "path": "assets/ezreal/skins/Battle Academia/model/Battle_Academia_Model_4_by_Duy_Khanh_Nguyen.jpg",
+          "tags": []
+        },
+        {
+          "type": "model",
+          "title": "Battle Academia Model 5 by Duy Khanh Nguyen",
+          "path": "assets/ezreal/skins/Battle Academia/model/Battle_Academia_Model_5_by_Duy_Khanh_Nguyen.jpg",
+          "tags": []
+        },
+        {
+          "type": "model",
+          "title": "Battle Academia Model 6 by Duy Khanh Nguyen",
+          "path": "assets/ezreal/skins/Battle Academia/model/Battle_Academia_Model_6_by_Duy_Khanh_Nguyen.jpg",
+          "tags": []
+        },
+        {
+          "type": "model",
+          "title": "Battle Academia Model 7 by Duy Khanh Nguyen",
+          "path": "assets/ezreal/skins/Battle Academia/model/Battle_Academia_Model_7_by_Duy_Khanh_Nguyen.png",
+          "tags": []
+        },
+        {
+          "type": "model",
+          "title": "Battle Academia Model Turnaorund",
+          "path": "assets/ezreal/skins/Battle Academia/model/Battle_Academia_Model_Turnaorund.png",
+          "tags": []
+        },
+        {
+          "type": "model",
+          "title": "Battle Academia Mythic Chroma 1 by Kudos Productions",
+          "path": "assets/ezreal/skins/Battle Academia/model/Battle_Academia_Mythic_Chroma_1_by_Kudos_Productions.jpg",
+          "tags": []
+        },
+        {
+          "type": "model",
+          "title": "Battle Academia Mythic Chroma 2 by Kudos Productions",
+          "path": "assets/ezreal/skins/Battle Academia/model/Battle_Academia_Mythic_Chroma_2_by_Kudos_Productions.jpg",
           "tags": []
         }
       ]
