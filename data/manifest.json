@@ -11,6 +11,12 @@
       "media": [
         {
           "type": "splash",
+          "title": "Ace of Spades (Current) Splashart",
+          "path": "assets/ezreal/skins/Ace of Spades/splash/Ace_of_Spades_(Current)_Splashart.jpg",
+          "tags": []
+        },
+        {
+          "type": "splash",
           "title": "Ace of Spades (old) Splashart",
           "path": "assets/ezreal/skins/Ace of Spades/splash/Ace_of_Spades_(old)_Splashart.jpg",
           "tags": []
@@ -30,8 +36,27 @@
       "media": [
         {
           "type": "splash",
+          "title": "Arcade (Current) Splashart",
+          "path": "assets/ezreal/skins/Arcade/splash/Arcade_(Current)_Splashart.jpg",
+          "tags": []
+        },
+        {
+          "type": "splash",
           "title": "Arcade (old) Splashart",
           "path": "assets/ezreal/skins/Arcade/splash/Arcade_(old)_Splashart.jpg",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": "Battle Academia",
+      "name": "Battle Academia",
+      "release_year": 2019,
+      "media": [
+        {
+          "type": "splash",
+          "title": "Battle Academia (Current) Splashart",
+          "path": "assets/ezreal/skins/Battle Academia/splash/Battle_Academia_(Current)_Splashart.jpg",
           "tags": []
         }
       ]
@@ -41,6 +66,12 @@
       "name": "Debonair",
       "release_year": 2014,
       "media": [
+        {
+          "type": "splash",
+          "title": "Debonair (Current) Splashart",
+          "path": "assets/ezreal/skins/Debonair/splash/Debonair_(Current)_Splashart.jpg",
+          "tags": []
+        },
         {
           "type": "splash",
           "title": "Debonair (old) Splashart",
@@ -56,6 +87,12 @@
       "media": [
         {
           "type": "splash",
+          "title": "Explorer (Current) Splashart",
+          "path": "assets/ezreal/skins/Explorer/splash/Explorer_(Current)_Splashart.jpg",
+          "tags": []
+        },
+        {
+          "type": "splash",
           "title": "Explorer (old) Splashart",
           "path": "assets/ezreal/skins/Explorer/splash/Explorer_(old)_Splashart.jpg",
           "tags": []
@@ -69,10 +106,29 @@
       ]
     },
     {
+      "id": "Faerie Court",
+      "name": "Faerie Court",
+      "release_year": 2023,
+      "media": [
+        {
+          "type": "splash",
+          "title": "Faerie Court (Current) Splashart",
+          "path": "assets/ezreal/skins/Faerie Court/splash/Faerie_Court_(Current)_Splashart.jpg",
+          "tags": []
+        }
+      ]
+    },
+    {
       "id": "Frosted",
       "name": "Frosted",
       "release_year": 2010,
       "media": [
+        {
+          "type": "splash",
+          "title": "Frosted (Current) Splashart",
+          "path": "assets/ezreal/skins/Frosted/splash/Frosted_(Current)_Splashart.jpg",
+          "tags": []
+        },
         {
           "type": "splash",
           "title": "Frosted (old) Splashart",
@@ -100,10 +156,55 @@
       ]
     },
     {
+      "id": "HEARTSTEEL",
+      "name": "HEARTSTEEL",
+      "release_year": 2023,
+      "media": [
+        {
+          "type": "splash",
+          "title": "HEARTSTEEL (Current) Splashart",
+          "path": "assets/ezreal/skins/HEARTSTEEL/splash/HEARTSTEEL_(Current)_Splashart.jpg",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": "Heavenscale",
+      "name": "Heavenscale",
+      "release_year": 2024,
+      "media": [
+        {
+          "type": "splash",
+          "title": "Heavenscale (Current) Splashart",
+          "path": "assets/ezreal/skins/Heavenscale/splash/Heavenscale_(Current)_Splashart.jpg",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": "Masque of the Black Rose",
+      "name": "Masque of the Black Rose",
+      "release_year": 2025,
+      "media": [
+        {
+          "type": "splash",
+          "title": "Masque of the Black Rose (Current) Splashart",
+          "path": "assets/ezreal/skins/Masque of the Black Rose/splash/Masque_of_the_Black_Rose_(Current)_Splashart.jpg",
+          "tags": []
+        }
+      ]
+    },
+    {
       "id": "Nottingham",
       "name": "Nottingham",
       "release_year": 2010,
       "media": [
+        {
+          "type": "splash",
+          "title": "Nottingham (Current) Splashart",
+          "path": "assets/ezreal/skins/Nottingham/splash/Nottingham_(Current)_Splashart.jpg",
+          "tags": []
+        },
         {
           "type": "splash",
           "title": "Nottingham (old) Splashart",
@@ -119,10 +220,81 @@
       ]
     },
     {
+      "id": "Pajama Guardian",
+      "name": "Pajama Guardian",
+      "release_year": 2018,
+      "media": [
+        {
+          "type": "splash",
+          "title": "Pajama Guardian (Current) Splashart",
+          "path": "assets/ezreal/skins/Pajama Guardian/splash/Pajama_Guardian_(Current)_Splashart.jpg",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": "Porcelain Protector",
+      "name": "Porcelain Protector",
+      "release_year": 2022,
+      "media": [
+        {
+          "type": "splash",
+          "title": "Porcelain Protector (Current) Splashart",
+          "path": "assets/ezreal/skins/Porcelain Protector/splash/Porcelain_Protector_(Current)_Splashart.jpg",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": "Prestige Heavenscale",
+      "name": "Prestige Heavenscale",
+      "release_year": 2024,
+      "media": [
+        {
+          "type": "splash",
+          "title": "Prestige Heavenscale (Current) Splashart",
+          "path": "assets/ezreal/skins/Prestige Heavenscale/splash/Prestige_Heavenscale_(Current)_Splashart.jpg",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": "Prestige PsyOps",
+      "name": "Prestige PsyOps",
+      "release_year": 2020,
+      "media": [
+        {
+          "type": "splash",
+          "title": "Prestige PsyOps (Current) Splashart",
+          "path": "assets/ezreal/skins/Prestige PsyOps/splash/Prestige_PsyOps_(Current)_Splashart.jpg",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": "PsyOps",
+      "name": "PsyOps",
+      "release_year": 2020,
+      "media": [
+        {
+          "type": "splash",
+          "title": "PsyOps (Current) Splashart",
+          "path": "assets/ezreal/skins/PsyOps/splash/PsyOps_(Current)_Splashart.jpg",
+          "tags": []
+        }
+      ]
+    },
+    {
       "id": "Pulsefire",
       "name": "Pulsefire",
       "release_year": 2012,
       "media": [
+        {
+          "type": "splash",
+          "title": "Pulsefire (Current) Splashart",
+          "path": "assets/ezreal/skins/Pulsefire/splash/Pulsefire_(Current)_Splashart.jpg",
+          "tags": []
+        },
         {
           "type": "splash",
           "title": "Pulsefire (old) Splashart",
@@ -144,10 +316,42 @@
       ]
     },
     {
+      "id": "SSG",
+      "name": "SSG",
+      "release_year": 2018,
+      "media": [
+        {
+          "type": "splash",
+          "title": "SSG (Current) Splashart",
+          "path": "assets/ezreal/skins/SSG/splash/SSG_(Current)_Splashart.jpg",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": "Star Guardian",
+      "name": "Star Guardian",
+      "release_year": 2017,
+      "media": [
+        {
+          "type": "splash",
+          "title": "Sttar Guardian (Current) Splashart",
+          "path": "assets/ezreal/skins/Star Guardian/splash/Sttar_Guardian_(Current)_Splashart.jpg",
+          "tags": []
+        }
+      ]
+    },
+    {
       "id": "Striker",
       "name": "Striker",
       "release_year": 2010,
       "media": [
+        {
+          "type": "splash",
+          "title": "Striker (Current) Splashart",
+          "path": "assets/ezreal/skins/Striker/splash/Striker_(Current)_Splashart.jpg",
+          "tags": []
+        },
         {
           "type": "splash",
           "title": "Striker (old) Splashart",
@@ -167,6 +371,12 @@
       "name": "TPA",
       "release_year": 2013,
       "media": [
+        {
+          "type": "splash",
+          "title": "TPA (Current) Splashart",
+          "path": "assets/ezreal/skins/TPA/splash/TPA_(Current)_Splashart.jpg",
+          "tags": []
+        },
         {
           "type": "splash",
           "title": "TPA (old) Splashart",
