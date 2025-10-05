@@ -17,8 +17,8 @@
         },
         {
           "type": "icon",
-          "title": "Ability Arcane Shift (old)",
-          "path": "assets/ezreal/skins/Ability/icon/Ability_Arcane_Shift_(old).png",
+          "title": "Ability Arcane Shift old",
+          "path": "assets/ezreal/skins/Ability/icon/Ability_Arcane_Shift_old.png",
           "tags": []
         },
         {
@@ -29,8 +29,8 @@
         },
         {
           "type": "icon",
-          "title": "Ability Essence Flux (old)",
-          "path": "assets/ezreal/skins/Ability/icon/Ability_Essence_Flux_(old).png",
+          "title": "Ability Essence Flux old",
+          "path": "assets/ezreal/skins/Ability/icon/Ability_Essence_Flux_old.png",
           "tags": []
         },
         {
@@ -49,8 +49,8 @@
         },
         {
           "type": "icon",
-          "title": "Ability Mystic Shot (old)",
-          "path": "assets/ezreal/skins/Ability/icon/Ability_Mystic_Shot_(old).png",
+          "title": "Ability Mystic Shot old",
+          "path": "assets/ezreal/skins/Ability/icon/Ability_Mystic_Shot_old.png",
           "tags": []
         },
         {
@@ -61,8 +61,8 @@
         },
         {
           "type": "icon",
-          "title": "Ability Rising Spell Force (old)",
-          "path": "assets/ezreal/skins/Ability/icon/Ability_Rising_Spell_Force_(old).png",
+          "title": "Ability Rising Spell Force old",
+          "path": "assets/ezreal/skins/Ability/icon/Ability_Rising_Spell_Force_old.png",
           "tags": []
         },
         {
@@ -73,8 +73,8 @@
         },
         {
           "type": "icon",
-          "title": "Ability Trueshot Barrage (old)",
-          "path": "assets/ezreal/skins/Ability/icon/Ability_Trueshot_Barrage_(old).png",
+          "title": "Ability Trueshot Barrage old",
+          "path": "assets/ezreal/skins/Ability/icon/Ability_Trueshot_Barrage_old.png",
           "tags": []
         },
         {
@@ -140,32 +140,32 @@
         },
         {
           "type": "model",
-          "title": "Ace of Spades (updated) Model by Andrey Petrashov",
-          "path": "assets/ezreal/skins/Ace of Spades/model/Ace_of_Spades_(updated)_Model_by_Andrey_Petrashov.jpg",
-          "tags": []
-        },
-        {
-          "type": "model",
-          "title": "Ace of Spades (updated) Model by Andrey Petrashov",
-          "path": "assets/ezreal/skins/Ace of Spades/model/Ace_of_Spades_(updated)_Model_by_Andrey_Petrashov.png",
-          "tags": []
-        },
-        {
-          "type": "model",
           "title": "Ace of Spades Model",
           "path": "assets/ezreal/skins/Ace of Spades/model/Ace_of_Spades_Model.jpeg",
           "tags": []
         },
         {
+          "type": "model",
+          "title": "Ace of Spades Update Model 2 by Andrey Petrashov",
+          "path": "assets/ezreal/skins/Ace of Spades/model/Ace_of_Spades_Update_Model_2_by_Andrey_Petrashov.jpg",
+          "tags": []
+        },
+        {
+          "type": "model",
+          "title": "Ace of Spades Update Model by Andrey Petrashov",
+          "path": "assets/ezreal/skins/Ace of Spades/model/Ace_of_Spades_Update_Model_by_Andrey_Petrashov.png",
+          "tags": []
+        },
+        {
           "type": "youtube",
-          "title": "Ace of Spades Ezreal Skin Spotlight (2018)",
+          "title": "Ace of Spades Ezreal Skin Spotlight 2018",
           "youtubeId": "qEZVFrTQbQI",
           "thumb": "https://i.ytimg.com/vi/qEZVFrTQbQI/hqdefault.jpg",
           "tags": []
         },
         {
           "type": "youtube",
-          "title": "Ace of Spades Ezreal Skin Spotlight (2015)",
+          "title": "Ace of Spades Ezreal Skin Spotlight 2015",
           "youtubeId": "rnTeljcAvzA",
           "thumb": "https://i.ytimg.com/vi/rnTeljcAvzA/hqdefault.jpg",
           "tags": []
