@@ -2057,6 +2057,122 @@
           "title": "Heavenscale (Current) Splashart",
           "path": "assets/ezreal/skins/Heavenscale/splash/Heavenscale_(Current)_Splashart.jpg",
           "tags": []
+        },
+        {
+          "type": "splash",
+          "title": "Heavenscale Skinline Splashart",
+          "path": "assets/ezreal/skins/Heavenscale/splash/Heavenscale_Skinline_Splashart.jpg",
+          "tags": []
+        },
+        {
+          "type": "splash",
+          "title": "Heavescale Chroma Auspacious Splashart",
+          "path": "assets/ezreal/skins/Heavenscale/splash/chroma/Heavescale_Chroma_Auspacious_Splashart.jpeg",
+          "tags": [
+            "chroma"
+          ]
+        },
+        {
+          "type": "splash",
+          "title": "Heavescale Chroma Obsidian Splashart",
+          "path": "assets/ezreal/skins/Heavenscale/splash/chroma/Heavescale_Chroma_Obsidian_Splashart.jpeg",
+          "tags": [
+            "chroma"
+          ]
+        },
+        {
+          "type": "splash",
+          "title": "Heavescale Chroma Sapphire Splashart",
+          "path": "assets/ezreal/skins/Heavenscale/splash/chroma/Heavescale_Chroma_Sapphire_Splashart.jpg",
+          "tags": [
+            "chroma"
+          ]
+        },
+        {
+          "type": "icon",
+          "title": "Heavenscale Chroma Profileicon",
+          "path": "assets/ezreal/skins/Heavenscale/icon/Heavenscale_Chroma_Profileicon.jpg",
+          "tags": []
+        },
+        {
+          "type": "icon",
+          "title": "Heavenscale Icon",
+          "path": "assets/ezreal/skins/Heavenscale/icon/Heavenscale_Icon.jpg",
+          "tags": []
+        },
+        {
+          "type": "icon",
+          "title": "Heavenscale Profileicon",
+          "path": "assets/ezreal/skins/Heavenscale/icon/Heavenscale_Profileicon.jpg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Heavenscale Promoart Poster",
+          "path": "assets/ezreal/skins/Heavenscale/promo/Heavenscale_Promoart_Poster.jpg",
+          "tags": []
+        },
+        {
+          "type": "concept",
+          "title": "Ezreal Heavenscale Splash Concept 01",
+          "path": "assets/ezreal/skins/Heavenscale/concept/Ezreal_Heavenscale_Splash_Concept_01.jpg",
+          "tags": []
+        },
+        {
+          "type": "concept",
+          "title": "Heavenscale Concept 1",
+          "path": "assets/ezreal/skins/Heavenscale/concept/Heavenscale_Concept_1.jpg",
+          "tags": []
+        },
+        {
+          "type": "concept",
+          "title": "Heavenscale Concept 2",
+          "path": "assets/ezreal/skins/Heavenscale/concept/Heavenscale_Concept_2.jpg",
+          "tags": []
+        },
+        {
+          "type": "concept",
+          "title": "Heavenscale Concept Splashart by Joshua Raphael",
+          "path": "assets/ezreal/skins/Heavenscale/concept/Heavenscale_Concept_Splashart_by_Joshua_Raphael.jpg",
+          "tags": []
+        },
+        {
+          "type": "loading",
+          "title": "Heavenscale Border Loading",
+          "path": "assets/ezreal/skins/Heavenscale/loading/Heavenscale_Border_Loading.jpg",
+          "tags": []
+        },
+        {
+          "type": "loading",
+          "title": "Heavenscale Loading",
+          "path": "assets/ezreal/skins/Heavenscale/loading/Heavenscale_Loading.jpg",
+          "tags": []
+        },
+        {
+          "type": "emote",
+          "title": "Heavenscale A Gift For You Emote",
+          "path": "assets/ezreal/skins/Heavenscale/emote/Heavenscale_A_Gift_For_You_Emote.png",
+          "tags": []
+        },
+        {
+          "type": "emote",
+          "title": "Heavenscale No Plan Survives Emote",
+          "path": "assets/ezreal/skins/Heavenscale/emote/Heavenscale_No_Plan_Survives_Emote.png",
+          "tags": []
+        },
+        {
+          "type": "youtube",
+          "title": "Heavenscale Ezreal Skin Spotlight",
+          "youtubeId": "uP3htZnobn0",
+          "thumb": "https://i.ytimg.com/vi/uP3htZnobn0/hqdefault.jpg",
+          "tags": []
+        },
+        {
+          "type": "youtube",
+          "title": "Lunar Revel 2024 - Official Event Theme",
+          "youtubeId": "qcL3nk6sYv0",
+          "thumb": "https://i.ytimg.com/vi/qcL3nk6sYv0/hqdefault.jpg",
+          "tags": []
         }
       ]
     },
