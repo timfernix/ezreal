@@ -2470,32 +2470,8 @@
         },
         {
           "type": "icon",
-          "title": "Classic Ezreal (Beta) Icon",
-          "path": "assets/ezreal/skins/classic/icon/Classic_Ezreal_(Beta)_Icon.png",
-          "tags": []
-        },
-        {
-          "type": "icon",
-          "title": "Classic Ezreal (Current) Icon",
-          "path": "assets/ezreal/skins/classic/icon/Classic_Ezreal_(Current)_Icon.png",
-          "tags": []
-        },
-        {
-          "type": "icon",
-          "title": "Classic Ezreal (Old Ezreal) Icon",
-          "path": "assets/ezreal/skins/classic/icon/Classic_Ezreal_(Old_Ezreal)_Icon.png",
-          "tags": []
-        },
-        {
-          "type": "icon",
-          "title": "Classic Ezreal (Old Ezreal 2nd Version) Icon",
-          "path": "assets/ezreal/skins/classic/icon/Classic_Ezreal_(Old_Ezreal_2nd_Version)_Icon.png",
-          "tags": []
-        },
-        {
-          "type": "icon",
-          "title": "Classic Ezreal (Old Ezreal China) Icon",
-          "path": "assets/ezreal/skins/classic/icon/Classic_Ezreal_(Old_Ezreal_China)_Icon.png",
+          "title": "Classic Ezreal Beta Icon",
+          "path": "assets/ezreal/skins/classic/icon/Classic_Ezreal_Beta_Icon.png",
           "tags": []
         },
         {
@@ -2512,6 +2488,12 @@
         },
         {
           "type": "icon",
+          "title": "Classic Ezreal Current Icon",
+          "path": "assets/ezreal/skins/classic/icon/Classic_Ezreal_Current_Icon.png",
+          "tags": []
+        },
+        {
+          "type": "icon",
           "title": "Classic Ezreal Icon",
           "path": "assets/ezreal/skins/classic/icon/Classic_Ezreal_Icon.jpg",
           "tags": []
@@ -2520,6 +2502,24 @@
           "type": "icon",
           "title": "Classic Ezreal Illustration Profileicon",
           "path": "assets/ezreal/skins/classic/icon/Classic_Ezreal_Illustration_Profileicon.jpg",
+          "tags": []
+        },
+        {
+          "type": "icon",
+          "title": "Classic Ezreal Old 1st Version Icon",
+          "path": "assets/ezreal/skins/classic/icon/Classic_Ezreal_Old_1st_Version_Icon.png",
+          "tags": []
+        },
+        {
+          "type": "icon",
+          "title": "Classic Ezreal Old 2nd Version Icon",
+          "path": "assets/ezreal/skins/classic/icon/Classic_Ezreal_Old_2nd_Version_Icon.png",
+          "tags": []
+        },
+        {
+          "type": "icon",
+          "title": "Classic Ezreal Old China Icon",
+          "path": "assets/ezreal/skins/classic/icon/Classic_Ezreal_Old_China_Icon.png",
           "tags": []
         },
         {
@@ -2536,8 +2536,8 @@
         },
         {
           "type": "icon",
-          "title": "Ezreal Profileicon (unused)  WR",
-          "path": "assets/ezreal/skins/classic/icon/Ezreal_Profileicon_(unused)__WR.jpg",
+          "title": "Ezreal Profileicon unused  WR",
+          "path": "assets/ezreal/skins/classic/icon/Ezreal_Profileicon_unused__WR.jpg",
           "tags": [
             "wr"
           ]
@@ -2970,36 +2970,6 @@
           "type": "concept",
           "title": "Classic Warriors Concept 2 by Jason Chan",
           "path": "assets/ezreal/skins/classic/concept/Classic_Warriors_Concept_2_by_Jason_Chan.jpg",
-          "tags": []
-        },
-        {
-          "type": "loading",
-          "title": "Classic Ezreal (Beta) Loadingscreen",
-          "path": "assets/ezreal/skins/classic/loading/Classic_Ezreal_(Beta)_Loadingscreen.jpg",
-          "tags": []
-        },
-        {
-          "type": "loading",
-          "title": "Classic Ezreal (Beta 2nd Version) Loadingscreen",
-          "path": "assets/ezreal/skins/classic/loading/Classic_Ezreal_(Beta_2nd_Version)_Loadingscreen.jpg",
-          "tags": []
-        },
-        {
-          "type": "loading",
-          "title": "Classic Ezreal (Current) Loadingscreen",
-          "path": "assets/ezreal/skins/classic/loading/Classic_Ezreal_(Current)_Loadingscreen.jpg",
-          "tags": []
-        },
-        {
-          "type": "loading",
-          "title": "Classic Ezreal (Old) Loadingscreen",
-          "path": "assets/ezreal/skins/classic/loading/Classic_Ezreal_(Old)_Loadingscreen.jpg",
-          "tags": []
-        },
-        {
-          "type": "loading",
-          "title": "Classic Ezreal (Old 2nd Version) Loadingscreen",
-          "path": "assets/ezreal/skins/classic/loading/Classic_Ezreal_(Old_2nd_Version)_Loadingscreen.jpg",
           "tags": []
         },
         {
