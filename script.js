@@ -50,6 +50,7 @@ const els = {
   themeToggle: document.getElementById("themeToggle"),
   viewer: document.getElementById("viewer"),
   themeMeta: document.getElementById("themeColorMeta"),
+  counts: document.getElementById("counts"),
 };
 
 init().catch(console.error);
@@ -57,6 +58,17 @@ init().catch(console.error);
 async function init(){
   hydrateTheme();
   wireUI();
+
+  if (!els.counts) {
+    const mount = document.createElement("div");
+    mount.id = "counts";
+    mount.className = "counts";
+    mount.setAttribute("aria-live", "polite");
+    mount.setAttribute("aria-atomic", "true");
+    document.querySelector(".controls")?.appendChild(mount);
+    els.counts = mount;
+  }
+
   await loadManifest();
   renderFilters();
   applyFilters();
@@ -112,6 +124,7 @@ function onTab(e){
   }
 
   els.empty.hidden = !(galleryActive && STATE.filtered.length === 0);
+  renderCounts();
 }
 
 async function loadManifest(){
@@ -145,9 +158,11 @@ async function loadManifest(){
       }
     }
     STATE.allItems = items;
+    renderCounts();
   }catch(err){
     console.warn("Failed to load manifest:", err);
     STATE.allItems = [];
+    renderCounts();
   }
 }
 
@@ -204,6 +219,7 @@ function applyFilters(){
   renderGallery();
 
   els.empty.hidden = !(STATE.tab === "gallery" && out.length === 0);
+  renderCounts();
 }
 
 function renderGallery(){
@@ -312,12 +328,9 @@ function renderGallery(){
         const url = buildAbsoluteUrl(item.path);
         try {
           await navigator.clipboard.writeText(url);
-          copyBtn.textContent = "Copied";
-          setTimeout(() => (copyBtn.textContent = "Copy path"), 1200);
-        } catch {
-          copyBtn.textContent = "Failed";
-          setTimeout(() => (copyBtn.textContent = "Copy path"), 1200);
-        }
+        } catch {}
+        copyBtn.textContent = "Copied";
+        setTimeout(() => (copyBtn.textContent = "Copy path"), 1200);
       });
       actions.appendChild(copyBtn);
     }
@@ -397,12 +410,9 @@ function openViewer(item){
       const url = copyBtn.getAttribute("data-path") || "";
       try {
         await navigator.clipboard.writeText(url);
-        copyBtn.textContent = "Copied";
-        setTimeout(() => (copyBtn.textContent = "Copy path"), 1200);
-      } catch {
-        copyBtn.textContent = "Failed";
-        setTimeout(() => (copyBtn.textContent = "Copy path"), 1200);
-      }
+      } catch {}
+      copyBtn.textContent = "Copied";
+      setTimeout(() => (copyBtn.textContent = "Copy path"), 1200);
     });
   }
 
@@ -488,6 +498,13 @@ function normalizeTags(arr){
     set.add(String(t).toLowerCase());
   }
   return [...set];
+}
+
+function renderCounts(){
+  if (!els.counts) return;
+  const total = STATE.allItems.length;
+  const visible = STATE.filtered.length;
+  els.counts.textContent = `Showing ${visible} of ${total}`;
 }
 
 /* ---------- URL helpers: encode spaces/unsafe chars and build absolute URL ---------- */
