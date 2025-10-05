@@ -2177,6 +2177,37 @@
       ]
     },
     {
+      "id": "Hidden Dragon",
+      "name": "Hidden Dragon",
+      "release_year": 2024,
+      "media": [
+        {
+          "type": "splash",
+          "title": "Hidden Dragon Chibi Golden Spatula Splashart",
+          "path": "assets/ezreal/skins/Hidden Dragon/splash/Hidden_Dragon_Chibi_Golden_Spatula_Splashart.jpeg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Hidden Dragon Chibi Promoart Golden Spatula Videoframe",
+          "path": "assets/ezreal/skins/Hidden Dragon/promo/Hidden_Dragon_Chibi_Promoart_Golden_Spatula_Videoframe.jpg",
+          "tags": []
+        },
+        {
+          "type": "concept",
+          "title": "Hidden Dragon Chibi Concept Golden Spatula Videoframe",
+          "path": "assets/ezreal/skins/Hidden Dragon/concept/Hidden_Dragon_Chibi_Concept_Golden_Spatula_Videoframe.jpeg",
+          "tags": []
+        },
+        {
+          "type": "video",
+          "title": "Hidden Dragon Chibi Golden Spatula Trailer",
+          "path": "assets/ezreal/skins/Hidden Dragon/video/Hidden_Dragon_Chibi_Golden_Spatula_Trailer.mp4",
+          "tags": []
+        }
+      ]
+    },
+    {
       "id": "Masque of the Black Rose",
       "name": "Masque of the Black Rose",
       "release_year": 2025,
