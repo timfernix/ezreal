@@ -2892,56 +2892,50 @@
         },
         {
           "type": "concept",
-          "title": "Classic (1) Concept",
-          "path": "assets/ezreal/skins/classic/concept/Classic_(1)_Concept.jpeg",
+          "title": "Classic Concept 1",
+          "path": "assets/ezreal/skins/classic/concept/Classic_Concept_1.jpeg",
           "tags": []
         },
         {
           "type": "concept",
-          "title": "Classic (1) Concept by Edmundo Sanchez",
-          "path": "assets/ezreal/skins/classic/concept/Classic_(1)_Concept_by_Edmundo_Sanchez.png",
+          "title": "Classic Concept 1 by Edmundo Sanchez",
+          "path": "assets/ezreal/skins/classic/concept/Classic_Concept_1_by_Edmundo_Sanchez.png",
           "tags": []
         },
         {
           "type": "concept",
-          "title": "Classic (2) Concept",
-          "path": "assets/ezreal/skins/classic/concept/Classic_(2)_Concept.jpeg",
+          "title": "Classic Concept 2",
+          "path": "assets/ezreal/skins/classic/concept/Classic_Concept_2.jpeg",
           "tags": []
         },
         {
           "type": "concept",
-          "title": "Classic (2) Concept by Edmundo Sanchez",
-          "path": "assets/ezreal/skins/classic/concept/Classic_(2)_Concept_by_Edmundo_Sanchez.jpg",
+          "title": "Classic Concept 2 by Edmundo Sanchez",
+          "path": "assets/ezreal/skins/classic/concept/Classic_Concept_2_by_Edmundo_Sanchez.jpg",
           "tags": []
         },
         {
           "type": "concept",
-          "title": "Classic (3) Concept",
-          "path": "assets/ezreal/skins/classic/concept/Classic_(3)_Concept.jpeg",
+          "title": "Classic Concept 3",
+          "path": "assets/ezreal/skins/classic/concept/Classic_Concept_3.jpeg",
           "tags": []
         },
         {
           "type": "concept",
-          "title": "Classic (3) Concept by Edmundo Sanchez",
-          "path": "assets/ezreal/skins/classic/concept/Classic_(3)_Concept_by_Edmundo_Sanchez.png",
+          "title": "Classic Concept 3 by Edmundo Sanchez",
+          "path": "assets/ezreal/skins/classic/concept/Classic_Concept_3_by_Edmundo_Sanchez.png",
           "tags": []
         },
         {
           "type": "concept",
-          "title": "Classic (4) Concept",
-          "path": "assets/ezreal/skins/classic/concept/Classic_(4)_Concept.jpeg",
+          "title": "Classic Concept 4",
+          "path": "assets/ezreal/skins/classic/concept/Classic_Concept_4.jpeg",
           "tags": []
         },
         {
           "type": "concept",
-          "title": "Classic (5) Concept",
-          "path": "assets/ezreal/skins/classic/concept/Classic_(5)_Concept.jpeg",
-          "tags": []
-        },
-        {
-          "type": "concept",
-          "title": "Classic (Gauntlet) Concept",
-          "path": "assets/ezreal/skins/classic/concept/Classic_(Gauntlet)_Concept.jpeg",
+          "title": "Classic Concept 5",
+          "path": "assets/ezreal/skins/classic/concept/Classic_Concept_5.jpeg",
           "tags": []
         },
         {
@@ -2959,6 +2953,12 @@
           "tags": [
             "lor"
           ]
+        },
+        {
+          "type": "concept",
+          "title": "Classic Gauntlet Concept",
+          "path": "assets/ezreal/skins/classic/concept/Classic_Gauntlet_Concept.jpeg",
+          "tags": []
         },
         {
           "type": "concept",
@@ -3102,8 +3102,8 @@
         },
         {
           "type": "emote",
-          "title": "Classic Easy E Z Emote",
-          "path": "assets/ezreal/skins/classic/emote/Classic_Easy_E-Z_Emote.png",
+          "title": "Classic Easy EZ Emote",
+          "path": "assets/ezreal/skins/classic/emote/Classic_Easy_EZ_Emote.png",
           "tags": []
         },
         {
@@ -3140,8 +3140,8 @@
         },
         {
           "type": "emote",
-          "title": "Classic LJL DFM   Nice Try Emote",
-          "path": "assets/ezreal/skins/classic/emote/Classic_LJL_DFM_-_Nice_Try_Emote.png",
+          "title": "Classic LJL DFM Nice Try Emote",
+          "path": "assets/ezreal/skins/classic/emote/Classic_LJL_DFM_Nice_Try_Emote.png",
           "tags": []
         },
         {
@@ -3152,8 +3152,8 @@
         },
         {
           "type": "emote",
-          "title": "Classic PCS PSG   That's Just Great Emote",
-          "path": "assets/ezreal/skins/classic/emote/Classic_PCS_PSG_-_That's_Just_Great_Emote.png",
+          "title": "Classic PCS PSG That's Just Great Emote",
+          "path": "assets/ezreal/skins/classic/emote/Classic_PCS_PSG_That's_Just_Great_Emote.png",
           "tags": []
         },
         {
@@ -3192,14 +3192,14 @@
         },
         {
           "type": "youtube",
-          "title": "Classic Ezreal Champion Spotlight (2010)",
+          "title": "Classic Ezreal Champion Spotlight 2010",
           "youtubeId": "GfeNQ_dbPvE",
           "thumb": "https://i.ytimg.com/vi/GfeNQ_dbPvE/hqdefault.jpg",
           "tags": []
         },
         {
           "type": "youtube",
-          "title": "Classic Ezreal Champion Spotlight (2012)",
+          "title": "Classic Ezreal Champion Spotlight 2012",
           "youtubeId": "0dGYt0Ibw94",
           "thumb": "https://i.ytimg.com/vi/0dGYt0Ibw94/hqdefault.jpg",
           "tags": []
@@ -3213,7 +3213,7 @@
         },
         {
           "type": "youtube",
-          "title": "Ezreal Gameplay Preview (2018)",
+          "title": "Ezreal Gameplay Preview 2018",
           "youtubeId": "3EElFyFcaEk",
           "thumb": "https://i.ytimg.com/vi/3EElFyFcaEk/hqdefault.jpg",
           "tags": []
