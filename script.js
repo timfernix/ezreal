@@ -214,7 +214,7 @@ async function loadManifest() {
           skinName,
           year,
           type: m.type,
-          title: m.title || inferTitleFromPath(m.path, m.youtubeId),
+          title: cleanTitle(m.title || inferTitleFromPath(m.path, m.youtubeId)),
           path: m.path || null,
           youtubeId: m.youtubeId || null,
           thumb: m.thumb || null,
@@ -591,11 +591,12 @@ function groupBy(arr, keyFn) {
   return map;
 }
 
-function inferTitleFromPath(p, yt) {
+function inferTitleFromPath(p, yt){
   if (yt) return `YouTube ${yt}`;
   if (!p) return "";
   const base = p.split("/").pop() || p;
-  return base.replace(/\.[a-z0-9]+$/i, "").replace(/[-_]/g, " ");
+  const noExt = base.replace(/\.[a-z0-9]+$/i,"");
+  return stripTagTokensFromFilename(noExt);
 }
 
 function escapeHtml(s) {
@@ -624,7 +625,7 @@ function renderCounts() {
   els.counts.textContent = `Showing ${visible} of ${total}`;
 }
 
-/* ---------- URL helpers: encode spaces/unsafe chars and build absolute URL ---------- */
+/* ---------- helpers ---------- */
 function buildAbsoluteUrl(p) {
   if (!p) return "";
   if (/^https?:\/\//i.test(p)) return p;
@@ -647,4 +648,32 @@ function safeDecode(s) {
     return decodeURI(s);
   } catch (_) {}
   return s;
+}
+
+// --- strip [WR], [TFT], ... and __wr/__tft/__lor/__chroma/__form from titles
+const TAG_TOKEN_RE = /(wr|wild[-_ ]?rift|tft|lor|legends[-_ ]?of[-_ ]?runeterra|runeterra|chroma|chromas?|forms?)/i;
+
+function stripTagTokensFromFilename(name){
+  if (!name) return "";
+  let s = String(name);
+
+  // remove [wr], [tft], [lor], [chroma], [form] (case-insensitive)
+  s = s.replace(/\[([^\]]+)\]/gi, (m, t) => TAG_TOKEN_RE.test(t) ? "" : m);
+
+  // remove __wr / __tft / __lor / __chroma / __form tokens
+  s = s.replace(/__([a-z0-9 _.-]+)/gi, (m, t) => TAG_TOKEN_RE.test(t) ? "" : m);
+
+  // tidy up
+  s = s.replace(/[-_]+/g, " ").replace(/\s+/g, " ").trim();
+  return s;
+}
+
+function cleanTitle(t){ return stripTagTokensFromFilename(t || ""); }
+
+function inferTitleFromPath(p, yt){
+  if(yt) return `YouTube ${yt}`;
+  if(!p) return "";
+  const base = p.split("/").pop() || p;
+  const noExt = base.replace(/\.[a-z0-9]+$/i,"");
+  return stripTagTokensFromFilename(noExt);
 }
