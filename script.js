@@ -475,8 +475,7 @@ function openViewer(item) {
 
   const caption = document.createElement("div");
   caption.className = "viewer-caption";
-  caption.innerHTML = `
-    <<div class="left">
+  caption.innerHTML = `<div class="left">
   <strong>${escapeHtml(item.title || "")}</strong>
   ${renderBadgesHTML(item)}
 </div>
