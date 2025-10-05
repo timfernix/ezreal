@@ -179,14 +179,14 @@
       "media": [
         {
           "type": "splash",
-          "title": "Arcade (Current) Splashart",
-          "path": "assets/ezreal/skins/Arcade/splash/Arcade_(Current)_Splashart.jpg",
+          "title": "Arcade Current Splashart",
+          "path": "assets/ezreal/skins/Arcade/splash/Arcade_Current_Splashart.jpg",
           "tags": []
         },
         {
           "type": "splash",
-          "title": "Arcade (old) Splashart",
-          "path": "assets/ezreal/skins/Arcade/splash/Arcade_(old)_Splashart.jpg",
+          "title": "Arcade old Splashart",
+          "path": "assets/ezreal/skins/Arcade/splash/Arcade_old_Splashart.jpg",
           "tags": []
         },
         {
@@ -211,14 +211,14 @@
         },
         {
           "type": "promo",
-          "title": "Arcade (cut) Promoart",
-          "path": "assets/ezreal/skins/Arcade/promo/Arcade_(cut)_Promoart.jpeg",
+          "title": "Arcade Animation",
+          "path": "assets/ezreal/skins/Arcade/promo/Arcade_Animation.gif",
           "tags": []
         },
         {
           "type": "promo",
-          "title": "Arcade Animation",
-          "path": "assets/ezreal/skins/Arcade/promo/Arcade_Animation.gif",
+          "title": "Arcade Promoart cropped",
+          "path": "assets/ezreal/skins/Arcade/promo/Arcade_Promoart_cropped.jpeg",
           "tags": []
         },
         {
@@ -274,14 +274,14 @@
         },
         {
           "type": "youtube",
-          "title": "Arcade Ezreal Skin Spotlight (2016)",
+          "title": "Arcade Ezreal Skin Spotlight 2016",
           "youtubeId": "bikN6Kvv7Rs",
           "thumb": "https://i.ytimg.com/vi/bikN6Kvv7Rs/hqdefault.jpg",
           "tags": []
         },
         {
           "type": "youtube",
-          "title": "Arcade Ezreal Skin Spotlight (2018)",
+          "title": "Arcade Ezreal Skin Spotlight 2018",
           "youtubeId": "OKMVhAcmD3o",
           "thumb": "https://i.ytimg.com/vi/OKMVhAcmD3o/hqdefault.jpg",
           "tags": []
@@ -295,33 +295,33 @@
       "media": [
         {
           "type": "splash",
-          "title": "Battle Academia (Current) Splashart",
-          "path": "assets/ezreal/skins/Battle Academia/splash/Battle_Academia_(Current)_Splashart.jpg",
-          "tags": []
-        },
-        {
-          "type": "splash",
-          "title": "Battle Academia Chibi (cropped) 2  TFT",
-          "path": "assets/ezreal/skins/Battle Academia/splash/Battle_Academia_Chibi_(cropped)_2__TFT.png",
-          "tags": [
-            "tft"
-          ]
-        },
-        {
-          "type": "splash",
-          "title": "Battle Academia Chibi (cropped)  TFT",
-          "path": "assets/ezreal/skins/Battle Academia/splash/Battle_Academia_Chibi_(cropped)__TFT.webp",
-          "tags": [
-            "tft"
-          ]
-        },
-        {
-          "type": "splash",
           "title": "Battle Academia Chibi Splash  TFT",
           "path": "assets/ezreal/skins/Battle Academia/splash/Battle_Academia_Chibi_Splash__TFT.jpg",
           "tags": [
             "tft"
           ]
+        },
+        {
+          "type": "splash",
+          "title": "Battle Academia Chibi cropped 2  TFT",
+          "path": "assets/ezreal/skins/Battle Academia/splash/Battle_Academia_Chibi_cropped_2__TFT.png",
+          "tags": [
+            "tft"
+          ]
+        },
+        {
+          "type": "splash",
+          "title": "Battle Academia Chibi cropped  TFT",
+          "path": "assets/ezreal/skins/Battle Academia/splash/Battle_Academia_Chibi_cropped__TFT.webp",
+          "tags": [
+            "tft"
+          ]
+        },
+        {
+          "type": "splash",
+          "title": "Battle Academia Current Splashart",
+          "path": "assets/ezreal/skins/Battle Academia/splash/Battle_Academia_Current_Splashart.jpg",
+          "tags": []
         },
         {
           "type": "splash",
@@ -462,8 +462,8 @@
         },
         {
           "type": "promo",
-          "title": "Battle Academia Promo 03 (cropped)",
-          "path": "assets/ezreal/skins/Battle Academia/promo/Battle_Academia_Promo_03_(cropped).jpg",
+          "title": "Battle Academia Promo 03 cropped",
+          "path": "assets/ezreal/skins/Battle Academia/promo/Battle_Academia_Promo_03_cropped.jpg",
           "tags": []
         },
         {
@@ -710,7 +710,7 @@
         },
         {
           "type": "youtube",
-          "title": "Battle Academia Ezreal Voice [SUBBED]",
+          "title": "Battle Academia Ezreal Voice",
           "youtubeId": "vu5-eY_mzR8",
           "thumb": "https://i.ytimg.com/vi/vu5-eY_mzR8/hqdefault.jpg",
           "tags": []
