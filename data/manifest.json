@@ -1022,14 +1022,14 @@
       "media": [
         {
           "type": "splash",
-          "title": "Faerie Court (Current) Splashart",
-          "path": "assets/ezreal/skins/Faerie Court/splash/Faerie_Court_(Current)_Splashart.jpg",
+          "title": "Faerie Court Chibi",
+          "path": "assets/ezreal/skins/Faerie Court/splash/Faerie_Court_Chibi.jpeg",
           "tags": []
         },
         {
           "type": "splash",
-          "title": "Faerie Court Chibi",
-          "path": "assets/ezreal/skins/Faerie Court/splash/Faerie_Court_Chibi.jpeg",
+          "title": "Faerie Court Current Splashart",
+          "path": "assets/ezreal/skins/Faerie Court/splash/Faerie_Court_Current_Splashart.jpg",
           "tags": []
         },
         {
@@ -1072,8 +1072,8 @@
         },
         {
           "type": "promo",
-          "title": "Faerie Court Promoart (cropped)",
-          "path": "assets/ezreal/skins/Faerie Court/promo/Faerie_Court_Promoart_(cropped).png",
+          "title": "Faerie Court Promoart cropped",
+          "path": "assets/ezreal/skins/Faerie Court/promo/Faerie_Court_Promoart_cropped.png",
           "tags": []
         },
         {
@@ -1183,32 +1183,32 @@
       "media": [
         {
           "type": "splash",
-          "title": "Frosted (Current) Splashart",
-          "path": "assets/ezreal/skins/Frosted/splash/Frosted_(Current)_Splashart.jpg",
+          "title": "Frosted Current Splashart",
+          "path": "assets/ezreal/skins/Frosted/splash/Frosted_Current_Splashart.jpg",
           "tags": []
         },
         {
           "type": "splash",
-          "title": "Frosted (old 1st Version) Splashart",
-          "path": "assets/ezreal/skins/Frosted/splash/Frosted_(old_1st_Version)_Splashart.jpg",
+          "title": "Frosted old 1st Version Splashart",
+          "path": "assets/ezreal/skins/Frosted/splash/Frosted_old_1st_Version_Splashart.jpg",
           "tags": []
         },
         {
           "type": "splash",
-          "title": "Frosted (old 2nd Version) Splashart",
-          "path": "assets/ezreal/skins/Frosted/splash/Frosted_(old_2nd_Version)_Splashart.jpg",
+          "title": "Frosted old 2nd Version Splashart",
+          "path": "assets/ezreal/skins/Frosted/splash/Frosted_old_2nd_Version_Splashart.jpg",
           "tags": []
         },
         {
           "type": "splash",
-          "title": "Frosted (old 3rd Version) Splashart",
-          "path": "assets/ezreal/skins/Frosted/splash/Frosted_(old_3rd_Version)_Splashart.jpg",
+          "title": "Frosted old 3rd Version Splashart",
+          "path": "assets/ezreal/skins/Frosted/splash/Frosted_old_3rd_Version_Splashart.jpg",
           "tags": []
         },
         {
           "type": "splash",
-          "title": "Frosted (old 4th Version) Splashart",
-          "path": "assets/ezreal/skins/Frosted/splash/Frosted_(old_4th_Version)_Splashart.jpg",
+          "title": "Frosted old 4th Version Splashart",
+          "path": "assets/ezreal/skins/Frosted/splash/Frosted_old_4th_Version_Splashart.jpg",
           "tags": []
         },
         {
@@ -1295,7 +1295,7 @@
         },
         {
           "type": "youtube",
-          "title": "Frosted Ezreal Skin Spotlight (2018)",
+          "title": "Frosted Ezreal Skin Spotlight 2018",
           "youtubeId": "zE2KbWQ-08g",
           "thumb": "https://i.ytimg.com/vi/zE2KbWQ-08g/hqdefault.jpg",
           "tags": []
