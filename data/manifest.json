@@ -865,14 +865,14 @@
       "media": [
         {
           "type": "splash",
-          "title": "Debonair (Current) Splashart",
-          "path": "assets/ezreal/skins/Debonair/splash/Debonair_(Current)_Splashart.jpg",
+          "title": "Debonair Current Splashart",
+          "path": "assets/ezreal/skins/Debonair/splash/Debonair_Current_Splashart.jpg",
           "tags": []
         },
         {
           "type": "splash",
-          "title": "Debonair (old) Splashart",
-          "path": "assets/ezreal/skins/Debonair/splash/Debonair_(old)_Splashart.jpg",
+          "title": "Debonair old Splashart",
+          "path": "assets/ezreal/skins/Debonair/splash/Debonair_old_Splashart.jpg",
           "tags": []
         },
         {
@@ -913,7 +913,7 @@
         },
         {
           "type": "youtube",
-          "title": "Debonair Ezreal Skin Spotlight (2014)",
+          "title": "Debonair Ezreal Skin Spotlight 2014",
           "youtubeId": "sB1SNow2pac",
           "thumb": "https://i.ytimg.com/vi/sB1SNow2pac/hqdefault.jpg",
           "tags": []
@@ -927,7 +927,7 @@
         },
         {
           "type": "youtube",
-          "title": "Debonair Ezreal Skin Spotlight (2018)",
+          "title": "Debonair Ezreal Skin Spotlight 2018",
           "youtubeId": "EXfiNIjPHW8",
           "thumb": "https://i.ytimg.com/vi/EXfiNIjPHW8/hqdefault.jpg",
           "tags": []
@@ -941,20 +941,20 @@
       "media": [
         {
           "type": "splash",
-          "title": "Explorer (Current) Splashart",
-          "path": "assets/ezreal/skins/Explorer/splash/Explorer_(Current)_Splashart.jpg",
+          "title": "Explorer Current Splashart",
+          "path": "assets/ezreal/skins/Explorer/splash/Explorer_Current_Splashart.jpg",
           "tags": []
         },
         {
           "type": "splash",
-          "title": "Explorer (old) Splashart",
-          "path": "assets/ezreal/skins/Explorer/splash/Explorer_(old)_Splashart.jpg",
+          "title": "Explorer old 1st: Version Splashart",
+          "path": "assets/ezreal/skins/Explorer/splash/Explorer_old_1st:_Version_Splashart.jpg",
           "tags": []
         },
         {
           "type": "splash",
-          "title": "Explorer (old 2nd Version) Splashart",
-          "path": "assets/ezreal/skins/Explorer/splash/Explorer_(old_2nd_Version)_Splashart.jpg",
+          "title": "Explorer old 2nd Version Splashart",
+          "path": "assets/ezreal/skins/Explorer/splash/Explorer_old_2nd_Version_Splashart.jpg",
           "tags": []
         },
         {
@@ -1001,14 +1001,14 @@
         },
         {
           "type": "youtube",
-          "title": "Explorer Ezreal Skin Spotlight (2012)",
+          "title": "Explorer Ezreal Skin Spotlight 2012",
           "youtubeId": "-WlRx6rNgp4",
           "thumb": "https://i.ytimg.com/vi/-WlRx6rNgp4/hqdefault.jpg",
           "tags": []
         },
         {
           "type": "youtube",
-          "title": "Explorer Ezreal Skin Spotlight (2018)",
+          "title": "Explorer Ezreal Skin Spotlight 2018",
           "youtubeId": "kZK-kTJ_jhc",
           "thumb": "https://i.ytimg.com/vi/kZK-kTJ_jhc/hqdefault.jpg",
           "tags": []
