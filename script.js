@@ -650,30 +650,39 @@ function safeDecode(s) {
   return s;
 }
 
-// --- strip [WR], [TFT], ... and __wr/__tft/__lor/__chroma/__form from titles
-const TAG_TOKEN_RE = /(wr|wild[-_ ]?rift|tft|lor|legends[-_ ]?of[-_ ]?runeterra|runeterra|chroma|chromas?|forms?)/i;
+const TAG_WORDS = new Set([
+  "wr","wild rift",
+  "tft",
+  "lor","legends of runeterra","runeterra",
+  "chroma","chromas",
+  "form","forms"
+]);
 
-function stripTagTokensFromFilename(name){
-  if (!name) return "";
-  let s = String(name);
+function isTagWord(s){
+  return TAG_WORDS.has(s.toLowerCase().replace(/[_-]+/g," ").trim());
+}
 
-  // remove [wr], [tft], [lor], [chroma], [form] (case-insensitive)
-  s = s.replace(/\[([^\]]+)\]/gi, (m, t) => TAG_TOKEN_RE.test(t) ? "" : m);
+/** Remove tag tokens like [WR], (WR), {WR}, __wr, -wr/_wr, and loose tag words */
+function cleanTitle(input){
+  if (!input) return "";
+  let s = String(input);
+  s = s.replace(/\.[a-z0-9]+$/i,"");
+  s = s.replace(/([\[\(\{])([^}\)\]]+)([\]\)\}])/g, (m, l, inner, r) =>
+    isTagWord(inner) ? "" : m
+  );
+  s = s.replace(/__([a-z0-9._-]+)/gi, (m, t) => isTagWord(t) ? "" : m);
+  s = s
+    .replace(/(^|[ _.-])(wr|tft|lor|chroma|chromas?|form|forms)(?=($|[ _.-]))/gi, " ")
+    .replace(/[-_]+/g, " ");
 
-  // remove __wr / __tft / __lor / __chroma / __form tokens
-  s = s.replace(/__([a-z0-9 _.-]+)/gi, (m, t) => TAG_TOKEN_RE.test(t) ? "" : m);
-
-  // tidy up
-  s = s.replace(/[-_]+/g, " ").replace(/\s+/g, " ").trim();
+  s = s.replace(/\s{2,}/g," ").replace(/\s*([()\[\]\{\}])\s*/g,"$1").trim();
   return s;
 }
 
-function cleanTitle(t){ return stripTagTokensFromFilename(t || ""); }
-
 function inferTitleFromPath(p, yt){
-  if(yt) return `YouTube ${yt}`;
-  if(!p) return "";
+  if (yt) return `YouTube ${yt}`;
+  if (!p) return "";
   const base = p.split("/").pop() || p;
   const noExt = base.replace(/\.[a-z0-9]+$/i,"");
-  return stripTagTokensFromFilename(noExt);
+  return cleanTitle(noExt);
 }
