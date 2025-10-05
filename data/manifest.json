@@ -1,7 +1,7 @@
 {
   "meta": {
     "champion": "Ezreal",
-    "generated": "2025-10-04"
+    "generated": "2025-10-05"
   },
   "skins": [
     {
@@ -1415,6 +1415,330 @@
           "tags": []
         },
         {
+          "type": "promo",
+          "title": "HEARTSTEEL Ezreal Promoart 3",
+          "path": "assets/ezreal/skins/HEARTSTEEL/promo/HEARTSTEEL_Ezreal_Promoart_3.jpg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "HEARTSTEEL Ezreal Promoart 4",
+          "path": "assets/ezreal/skins/HEARTSTEEL/promo/HEARTSTEEL_Ezreal_Promoart_4.jpg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Heartsteel Ezreal Cosplay Guidel",
+          "path": "assets/ezreal/skins/HEARTSTEEL/promo/Heartsteel_Ezreal_Cosplay_Guidel.webp",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Heartsteel Ezreal Meet the Band",
+          "path": "assets/ezreal/skins/HEARTSTEEL/promo/Heartsteel_Ezreal_Meet_the_Band.jpg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Heartsteel Ezreal Promoart 5",
+          "path": "assets/ezreal/skins/HEARTSTEEL/promo/Heartsteel_Ezreal_Promoart_5.jpg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Heartsteel Ezreal Signature",
+          "path": "assets/ezreal/skins/HEARTSTEEL/promo/Heartsteel_Ezreal_Signature.jpg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Heartsteel Paranoia Album Cover",
+          "path": "assets/ezreal/skins/HEARTSTEEL/promo/Heartsteel_Paranoia_Album_Cover.jpg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Heartsteel Paranoia Song Cover",
+          "path": "assets/ezreal/skins/HEARTSTEEL/promo/Heartsteel_Paranoia_Song_Cover.jpeg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Heartsteel Paranoia Videoframe 1",
+          "path": "assets/ezreal/skins/HEARTSTEEL/promo/Heartsteel_Paranoia_Videoframe_1.jpg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Heartsteel Paranoia Videoframe 10",
+          "path": "assets/ezreal/skins/HEARTSTEEL/promo/Heartsteel_Paranoia_Videoframe_10.jpg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Heartsteel Paranoia Videoframe 11",
+          "path": "assets/ezreal/skins/HEARTSTEEL/promo/Heartsteel_Paranoia_Videoframe_11.jpg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Heartsteel Paranoia Videoframe 12",
+          "path": "assets/ezreal/skins/HEARTSTEEL/promo/Heartsteel_Paranoia_Videoframe_12.jpg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Heartsteel Paranoia Videoframe 13",
+          "path": "assets/ezreal/skins/HEARTSTEEL/promo/Heartsteel_Paranoia_Videoframe_13.jpeg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Heartsteel Paranoia Videoframe 14",
+          "path": "assets/ezreal/skins/HEARTSTEEL/promo/Heartsteel_Paranoia_Videoframe_14.jpeg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Heartsteel Paranoia Videoframe 15",
+          "path": "assets/ezreal/skins/HEARTSTEEL/promo/Heartsteel_Paranoia_Videoframe_15.jpeg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Heartsteel Paranoia Videoframe 16",
+          "path": "assets/ezreal/skins/HEARTSTEEL/promo/Heartsteel_Paranoia_Videoframe_16.jpeg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Heartsteel Paranoia Videoframe 17",
+          "path": "assets/ezreal/skins/HEARTSTEEL/promo/Heartsteel_Paranoia_Videoframe_17.jpeg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Heartsteel Paranoia Videoframe 18",
+          "path": "assets/ezreal/skins/HEARTSTEEL/promo/Heartsteel_Paranoia_Videoframe_18.jpeg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Heartsteel Paranoia Videoframe 19",
+          "path": "assets/ezreal/skins/HEARTSTEEL/promo/Heartsteel_Paranoia_Videoframe_19.png",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Heartsteel Paranoia Videoframe 2",
+          "path": "assets/ezreal/skins/HEARTSTEEL/promo/Heartsteel_Paranoia_Videoframe_2.jpg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Heartsteel Paranoia Videoframe 20",
+          "path": "assets/ezreal/skins/HEARTSTEEL/promo/Heartsteel_Paranoia_Videoframe_20.jpeg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Heartsteel Paranoia Videoframe 21",
+          "path": "assets/ezreal/skins/HEARTSTEEL/promo/Heartsteel_Paranoia_Videoframe_21.jpeg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Heartsteel Paranoia Videoframe 22",
+          "path": "assets/ezreal/skins/HEARTSTEEL/promo/Heartsteel_Paranoia_Videoframe_22.jpeg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Heartsteel Paranoia Videoframe 23",
+          "path": "assets/ezreal/skins/HEARTSTEEL/promo/Heartsteel_Paranoia_Videoframe_23.jpeg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Heartsteel Paranoia Videoframe 24",
+          "path": "assets/ezreal/skins/HEARTSTEEL/promo/Heartsteel_Paranoia_Videoframe_24.jpeg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Heartsteel Paranoia Videoframe 25",
+          "path": "assets/ezreal/skins/HEARTSTEEL/promo/Heartsteel_Paranoia_Videoframe_25.jpeg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Heartsteel Paranoia Videoframe 26",
+          "path": "assets/ezreal/skins/HEARTSTEEL/promo/Heartsteel_Paranoia_Videoframe_26.jpeg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Heartsteel Paranoia Videoframe 27",
+          "path": "assets/ezreal/skins/HEARTSTEEL/promo/Heartsteel_Paranoia_Videoframe_27.jpeg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Heartsteel Paranoia Videoframe 28",
+          "path": "assets/ezreal/skins/HEARTSTEEL/promo/Heartsteel_Paranoia_Videoframe_28.jpeg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Heartsteel Paranoia Videoframe 29",
+          "path": "assets/ezreal/skins/HEARTSTEEL/promo/Heartsteel_Paranoia_Videoframe_29.jpeg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Heartsteel Paranoia Videoframe 3",
+          "path": "assets/ezreal/skins/HEARTSTEEL/promo/Heartsteel_Paranoia_Videoframe_3.jpg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Heartsteel Paranoia Videoframe 4",
+          "path": "assets/ezreal/skins/HEARTSTEEL/promo/Heartsteel_Paranoia_Videoframe_4.jpg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Heartsteel Paranoia Videoframe 5",
+          "path": "assets/ezreal/skins/HEARTSTEEL/promo/Heartsteel_Paranoia_Videoframe_5.jpg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Heartsteel Paranoia Videoframe 6",
+          "path": "assets/ezreal/skins/HEARTSTEEL/promo/Heartsteel_Paranoia_Videoframe_6.jpg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Heartsteel Paranoia Videoframe 7",
+          "path": "assets/ezreal/skins/HEARTSTEEL/promo/Heartsteel_Paranoia_Videoframe_7.jpg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Heartsteel Paranoia Videoframe 8",
+          "path": "assets/ezreal/skins/HEARTSTEEL/promo/Heartsteel_Paranoia_Videoframe_8.jpg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Heartsteel Paranoia Videoframe 9",
+          "path": "assets/ezreal/skins/HEARTSTEEL/promo/Heartsteel_Paranoia_Videoframe_9.jpg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Heartsteel Poster",
+          "path": "assets/ezreal/skins/HEARTSTEEL/promo/Heartsteel_Poster.webp",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Heartsteel Promo Baekhyun of Exo as Ezreal",
+          "path": "assets/ezreal/skins/HEARTSTEEL/promo/Heartsteel_Promo_Baekhyun_of_Exo_as_Ezreal.jpg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Heartsteel Promoart 1 Concept",
+          "path": "assets/ezreal/skins/HEARTSTEEL/promo/Heartsteel_Promoart_1_Concept.jpg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Heartsteel Promoart 1 by Julia Shi and Envar Studio",
+          "path": "assets/ezreal/skins/HEARTSTEEL/promo/Heartsteel_Promoart_1_by_Julia_Shi_and_Envar_Studio.jpg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Heartsteel Promoart 2",
+          "path": "assets/ezreal/skins/HEARTSTEEL/promo/Heartsteel_Promoart_2.jpg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Heartsteel Promoart 3",
+          "path": "assets/ezreal/skins/HEARTSTEEL/promo/Heartsteel_Promoart_3.jpg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Heartsteel Promoart 4",
+          "path": "assets/ezreal/skins/HEARTSTEEL/promo/Heartsteel_Promoart_4.jpg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Heartsteel Promoart 5",
+          "path": "assets/ezreal/skins/HEARTSTEEL/promo/Heartsteel_Promoart_5.jpg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Heartsteel Promoart 5 Concept",
+          "path": "assets/ezreal/skins/HEARTSTEEL/promo/Heartsteel_Promoart_5_Concept.jpg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Heartsteel Promoart 6",
+          "path": "assets/ezreal/skins/HEARTSTEEL/promo/Heartsteel_Promoart_6.jpg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Heartsteel Promoart 7",
+          "path": "assets/ezreal/skins/HEARTSTEEL/promo/Heartsteel_Promoart_7.jpg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Heartsteel Standee",
+          "path": "assets/ezreal/skins/HEARTSTEEL/promo/Heartsteel_Standee.jpg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Heartsteel Teaser Promoart",
+          "path": "assets/ezreal/skins/HEARTSTEEL/promo/Heartsteel_Teaser_Promoart.jpeg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Heartsteel Wild Rift Promoart 1  WR",
+          "path": "assets/ezreal/skins/HEARTSTEEL/promo/Heartsteel_Wild_Rift_Promoart_1__WR.jpg",
+          "tags": [
+            "wr"
+          ]
+        },
+        {
+          "type": "promo",
+          "title": "Heartsteel Wild Rift Promoart 2  WR",
+          "path": "assets/ezreal/skins/HEARTSTEEL/promo/Heartsteel_Wild_Rift_Promoart_2__WR.jpg",
+          "tags": [
+            "wr"
+          ]
+        },
+        {
+          "type": "promo",
+          "title": "Heartsteel Wild Rift Promoart 3  WR",
+          "path": "assets/ezreal/skins/HEARTSTEEL/promo/Heartsteel_Wild_Rift_Promoart_3__WR.jpg",
+          "tags": [
+            "wr"
+          ]
+        },
+        {
           "type": "concept",
           "title": "HEARTSTEEL Concept 1 by Citemer Liu",
           "path": "assets/ezreal/skins/HEARTSTEEL/concept/HEARTSTEEL_Concept_1_by_Citemer_Liu.jpg",
@@ -1595,6 +1919,18 @@
           "tags": []
         },
         {
+          "type": "loading",
+          "title": "Heartsteel Border Loading",
+          "path": "assets/ezreal/skins/HEARTSTEEL/loading/Heartsteel_Border_Loading.jpg",
+          "tags": []
+        },
+        {
+          "type": "loading",
+          "title": "Heartsteel Loading",
+          "path": "assets/ezreal/skins/HEARTSTEEL/loading/Heartsteel_Loading.jpg",
+          "tags": []
+        },
+        {
           "type": "model",
           "title": "HEARTSTEEL Model 1 by Zhennan Xuan",
           "path": "assets/ezreal/skins/HEARTSTEEL/model/HEARTSTEEL_Model_1_by_Zhennan_Xuan.jpg",
@@ -1672,6 +2008,48 @@
           "tags": [
             "wr"
           ]
+        },
+        {
+          "type": "youtube",
+          "title": "Heartsteel Ezreal Skin Spotlight",
+          "youtubeId": "lv8IyYe5ukA",
+          "thumb": "https://i.ytimg.com/vi/lv8IyYe5ukA/hqdefault.jpg",
+          "tags": []
+        },
+        {
+          "type": "youtube",
+          "title": "HEARTSTEEL - PARANOIA Music Video",
+          "youtubeId": "MDErQ1KTzaI",
+          "thumb": "https://i.ytimg.com/vi/MDErQ1KTzaI/hqdefault.jpg",
+          "tags": []
+        },
+        {
+          "type": "youtube",
+          "title": "HEARTSTEEL - MEET THE BAND - Skins Trailer",
+          "youtubeId": "oV5C44BR50Y",
+          "thumb": "https://i.ytimg.com/vi/oV5C44BR50Y/hqdefault.jpg",
+          "tags": []
+        },
+        {
+          "type": "youtube",
+          "title": "HEARTSTEEL - PARANOIA Music Video Bloopers",
+          "youtubeId": "rUPocq8frr4",
+          "thumb": "https://i.ytimg.com/vi/rUPocq8frr4/hqdefault.jpg",
+          "tags": []
+        },
+        {
+          "type": "youtube",
+          "title": "HEARTSTEEL - PARANOIA Music Video Teaser",
+          "youtubeId": "zgm8S1Z9U5E",
+          "thumb": "https://i.ytimg.com/vi/zgm8S1Z9U5E/hqdefault.jpg",
+          "tags": []
+        },
+        {
+          "type": "youtube",
+          "title": "Heartsteel Ezreal Skin Spotlight - Pre-Release",
+          "youtubeId": "BNrDZjeqfx0",
+          "thumb": "https://i.ytimg.com/vi/BNrDZjeqfx0/hqdefault.jpg",
+          "tags": []
         }
       ]
     },
