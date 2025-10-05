@@ -558,8 +558,8 @@
         },
         {
           "type": "loading",
-          "title": "Battle Academia Loading",
-          "path": "assets/ezreal/skins/Battle Academia/loading/Battle_Academia_Loading.jpg",
+          "title": "Battle Academia Loadingscreen",
+          "path": "assets/ezreal/skins/Battle Academia/loading/Battle_Academia_Loadingscreen.jpg",
           "tags": []
         },
         {
@@ -901,8 +901,8 @@
         },
         {
           "type": "loading",
-          "title": "Debonair Loading",
-          "path": "assets/ezreal/skins/Debonair/loading/Debonair_Loading.jpg",
+          "title": "Debonair Loadingscreen",
+          "path": "assets/ezreal/skins/Debonair/loading/Debonair_Loadingscreen.jpg",
           "tags": []
         },
         {
@@ -989,8 +989,8 @@
         },
         {
           "type": "loading",
-          "title": "Explorer Loading",
-          "path": "assets/ezreal/skins/Explorer/loading/Explorer_Loading.jpg",
+          "title": "Explorer Loadingscreen",
+          "path": "assets/ezreal/skins/Explorer/loading/Explorer_Loadingscreen.jpg",
           "tags": []
         },
         {
@@ -1132,14 +1132,14 @@
         },
         {
           "type": "loading",
-          "title": "Faerie Court Border Loading",
-          "path": "assets/ezreal/skins/Faerie Court/loading/Faerie_Court_Border_Loading.jpg",
+          "title": "Faerie Court Border Loadingscreen",
+          "path": "assets/ezreal/skins/Faerie Court/loading/Faerie_Court_Border_Loadingscreen.jpg",
           "tags": []
         },
         {
           "type": "loading",
-          "title": "Faerie Court Loading",
-          "path": "assets/ezreal/skins/Faerie Court/loading/Faerie_Court_Loading.jpg",
+          "title": "Faerie Court Loadingscreen",
+          "path": "assets/ezreal/skins/Faerie Court/loading/Faerie_Court_Loadingscreen.jpg",
           "tags": []
         },
         {
@@ -1260,8 +1260,8 @@
         },
         {
           "type": "loading",
-          "title": "Frosted Loading",
-          "path": "assets/ezreal/skins/Frosted/loading/Frosted_Loading.jpg",
+          "title": "Frosted Loadingscreen",
+          "path": "assets/ezreal/skins/Frosted/loading/Frosted_Loadingscreen.jpg",
           "tags": []
         },
         {
@@ -1914,14 +1914,14 @@
         },
         {
           "type": "loading",
-          "title": "Heartsteel Border Loading",
-          "path": "assets/ezreal/skins/HEARTSTEEL/loading/Heartsteel_Border_Loading.jpg",
+          "title": "Heartsteel Border Loadingscreen",
+          "path": "assets/ezreal/skins/HEARTSTEEL/loading/Heartsteel_Border_Loadingscreen.jpg",
           "tags": []
         },
         {
           "type": "loading",
-          "title": "Heartsteel Loading",
-          "path": "assets/ezreal/skins/HEARTSTEEL/loading/Heartsteel_Loading.jpg",
+          "title": "Heartsteel Loadingscreen",
+          "path": "assets/ezreal/skins/HEARTSTEEL/loading/Heartsteel_Loadingscreen.jpg",
           "tags": []
         },
         {
@@ -2138,14 +2138,14 @@
         },
         {
           "type": "loading",
-          "title": "Heavenscale Border Loading",
-          "path": "assets/ezreal/skins/Heavenscale/loading/Heavenscale_Border_Loading.jpg",
+          "title": "Heavenscale Border Loadingscreen",
+          "path": "assets/ezreal/skins/Heavenscale/loading/Heavenscale_Border_Loadingscreen.jpg",
           "tags": []
         },
         {
           "type": "loading",
-          "title": "Heavenscale Loading",
-          "path": "assets/ezreal/skins/Heavenscale/loading/Heavenscale_Loading.jpg",
+          "title": "Heavenscale Loadingscreen",
+          "path": "assets/ezreal/skins/Heavenscale/loading/Heavenscale_Loadingscreen.jpg",
           "tags": []
         },
         {
@@ -2974,32 +2974,32 @@
         },
         {
           "type": "loading",
-          "title": "Classic Ezreal (Beta) Loading",
-          "path": "assets/ezreal/skins/classic/loading/Classic_Ezreal_(Beta)_Loading.jpg",
+          "title": "Classic Ezreal (Beta) Loadingscreen",
+          "path": "assets/ezreal/skins/classic/loading/Classic_Ezreal_(Beta)_Loadingscreen.jpg",
           "tags": []
         },
         {
           "type": "loading",
-          "title": "Classic Ezreal (Beta 2nd Version) Loading",
-          "path": "assets/ezreal/skins/classic/loading/Classic_Ezreal_(Beta_2nd_Version)_Loading.jpg",
+          "title": "Classic Ezreal (Beta 2nd Version) Loadingscreen",
+          "path": "assets/ezreal/skins/classic/loading/Classic_Ezreal_(Beta_2nd_Version)_Loadingscreen.jpg",
           "tags": []
         },
         {
           "type": "loading",
-          "title": "Classic Ezreal (Current) Loading",
-          "path": "assets/ezreal/skins/classic/loading/Classic_Ezreal_(Current)_Loading.jpg",
+          "title": "Classic Ezreal (Current) Loadingscreen",
+          "path": "assets/ezreal/skins/classic/loading/Classic_Ezreal_(Current)_Loadingscreen.jpg",
           "tags": []
         },
         {
           "type": "loading",
-          "title": "Classic Ezreal (Old) Loading",
-          "path": "assets/ezreal/skins/classic/loading/Classic_Ezreal_(Old)_Loading.jpg",
+          "title": "Classic Ezreal (Old) Loadingscreen",
+          "path": "assets/ezreal/skins/classic/loading/Classic_Ezreal_(Old)_Loadingscreen.jpg",
           "tags": []
         },
         {
           "type": "loading",
-          "title": "Classic Ezreal (Old 2nd Version) Loading",
-          "path": "assets/ezreal/skins/classic/loading/Classic_Ezreal_(Old_2nd_Version)_Loading.jpg",
+          "title": "Classic Ezreal (Old 2nd Version) Loadingscreen",
+          "path": "assets/ezreal/skins/classic/loading/Classic_Ezreal_(Old_2nd_Version)_Loadingscreen.jpg",
           "tags": []
         },
         {
