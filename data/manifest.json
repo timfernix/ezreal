@@ -1323,8 +1323,8 @@
       "media": [
         {
           "type": "splash",
-          "title": "HEARTSTEEL (Current) Splashart",
-          "path": "assets/ezreal/skins/HEARTSTEEL/splash/HEARTSTEEL_(Current)_Splashart.jpg",
+          "title": "HEARTSTEEL Current Splashart",
+          "path": "assets/ezreal/skins/HEARTSTEEL/splash/HEARTSTEEL_Current_Splashart.jpg",
           "tags": []
         },
         {
@@ -1335,8 +1335,8 @@
         },
         {
           "type": "splash",
-          "title": "Heartsteel Splashart (cropped)",
-          "path": "assets/ezreal/skins/HEARTSTEEL/splash/Heartsteel_Splashart_(cropped).jpg",
+          "title": "Heartsteel Splashart cropped",
+          "path": "assets/ezreal/skins/HEARTSTEEL/splash/Heartsteel_Splashart_cropped.jpg",
           "tags": []
         },
         {
@@ -1979,14 +1979,14 @@
         },
         {
           "type": "emote",
-          "title": "Heartsteel CBLOL FX   Shame Emote",
-          "path": "assets/ezreal/skins/HEARTSTEEL/emote/Heartsteel_CBLOL_FX_-_Shame_Emote.png",
+          "title": "Heartsteel CBLOL FX Shame Emote",
+          "path": "assets/ezreal/skins/HEARTSTEEL/emote/Heartsteel_CBLOL_FX_Shame_Emote.png",
           "tags": []
         },
         {
           "type": "emote",
-          "title": "Heartsteel LCS FLY   2024 Emote",
-          "path": "assets/ezreal/skins/HEARTSTEEL/emote/Heartsteel_LCS_FLY_-_2024_Emote.png",
+          "title": "Heartsteel LCS FLY 2024 Emote",
+          "path": "assets/ezreal/skins/HEARTSTEEL/emote/Heartsteel_LCS_FLY_2024_Emote.png",
           "tags": []
         },
         {
@@ -2054,8 +2054,8 @@
       "media": [
         {
           "type": "splash",
-          "title": "Heavenscale (Current) Splashart",
-          "path": "assets/ezreal/skins/Heavenscale/splash/Heavenscale_(Current)_Splashart.jpg",
+          "title": "Heavenscale Current Splashart",
+          "path": "assets/ezreal/skins/Heavenscale/splash/Heavenscale_Current_Splashart.jpg",
           "tags": []
         },
         {
