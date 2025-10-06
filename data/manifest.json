@@ -2884,6 +2884,60 @@
           "title": "Prestige Heavenscale Current Splashart",
           "path": "assets/ezreal/skins/Prestige Heavenscale/splash/Prestige_Heavenscale_Current_Splashart.jpg",
           "tags": []
+        },
+        {
+          "type": "icon",
+          "title": "Prestige Heavenscale Icon",
+          "path": "assets/ezreal/skins/Prestige Heavenscale/icon/Prestige_Heavenscale_Icon.jpg",
+          "tags": []
+        },
+        {
+          "type": "icon",
+          "title": "Prestige Heavenscale Profileicon",
+          "path": "assets/ezreal/skins/Prestige Heavenscale/icon/Prestige_Heavenscale_Profileicon.jpg",
+          "tags": []
+        },
+        {
+          "type": "concept",
+          "title": "Prestige Heavenscale Splash Concept",
+          "path": "assets/ezreal/skins/Prestige Heavenscale/concept/Prestige_Heavenscale_Splash_Concept.jpg",
+          "tags": []
+        },
+        {
+          "type": "concept",
+          "title": "Prestige Heavenscale Splash Concept A",
+          "path": "assets/ezreal/skins/Prestige Heavenscale/concept/Prestige_Heavenscale_Splash_Concept_A.jpeg",
+          "tags": []
+        },
+        {
+          "type": "concept",
+          "title": "Prestige Heavenscale Splash Concept B",
+          "path": "assets/ezreal/skins/Prestige Heavenscale/concept/Prestige_Heavenscale_Splash_Concept_B.jpeg",
+          "tags": []
+        },
+        {
+          "type": "concept",
+          "title": "Prestige Heavenscale Splash Concept D",
+          "path": "assets/ezreal/skins/Prestige Heavenscale/concept/Prestige_Heavenscale_Splash_Concept_D.jpeg",
+          "tags": []
+        },
+        {
+          "type": "concept",
+          "title": "Prestige Heavenscale Splash Concept E",
+          "path": "assets/ezreal/skins/Prestige Heavenscale/concept/Prestige_Heavenscale_Splash_Concept_E.jpeg",
+          "tags": []
+        },
+        {
+          "type": "loading",
+          "title": "Prestige Heavenscale Border Loadingscreen",
+          "path": "assets/ezreal/skins/Prestige Heavenscale/loading/Prestige_Heavenscale_Border_Loadingscreen.jpg",
+          "tags": []
+        },
+        {
+          "type": "loading",
+          "title": "Prestige Heavenscale Loadingscreen",
+          "path": "assets/ezreal/skins/Prestige Heavenscale/loading/Prestige_Heavenscale_Loadingscreen.jpg",
+          "tags": []
         }
       ]
     },
