@@ -11,10 +11,11 @@ const STATE = {
     "model",
     "model-face",
     "chroma",
-    "form",
     "video",
     "youtube",
     "emote",
+    "tenor",
+    "other",
   ]),
   tags: new Set(),
   search: "",
@@ -28,13 +29,14 @@ const TYPE_LABEL = {
   promo: "Promo",
   concept: "Concept",
   loading: "Loading",
-  model: "3D Model",
-  "model-face": "3D Face",
+  model: "Model",
+  "model-face": "Face",
   chroma: "Chroma",
-  form: "Form",
   video: "Video",
   youtube: "YouTube",
+  tenor: "Tenor",
   emote: "Emote",
+  other: "Other",
 };
 
 const TAG_LABEL = {
@@ -42,7 +44,6 @@ const TAG_LABEL = {
   wr: "Wild Rift",
   lor: "Legends of Runeterra",
   chroma: "Chroma",
-  form: "Form",
 };
 
 const TAG_HINT = {
@@ -50,12 +51,10 @@ const TAG_HINT = {
   wr: "Asset from Wild Rift",
   lor: "Asset from Legends of Runeterra",
   chroma: "Chroma variant",
-  form: "Alternate form / upgrade",
 };
 
 function renderBadgesHTML(item) {
-  const yearTip =
-    "Release year of the base skin (not the individual asset date)";
+  const yearTip = "Release year of the base skin";
   const parts = [
     `<span class="badge" title="Skin">${escapeHtml(item.skinName)}</span>`,
     `<span class="badge" title="Type">${escapeHtml(
@@ -204,19 +203,35 @@ async function loadManifest() {
       const year = skin.release_year || null;
 
       for (const m of skin.media || []) {
-        const tags = normalizeTags(m.tags || []);
-        if (m.type === "chroma" && !tags.includes("chroma"))
-          tags.push("chroma");
-        if (m.type === "form" && !tags.includes("form")) tags.push("form");
+        const rawType = m.type;
+        const type = rawType === "form" ? "other" : rawType; // legacy remap
+
+        const tagsRaw = normalizeTags(m.tags || []);
+        const tags = tagsRaw.filter((t) => t !== "form"); // purge legacy tag
+        if (type === "chroma" && !tags.includes("chroma")) tags.push("chroma");
+
+        const tenorId =
+          type === "tenor"
+            ? m.tenorId || extractTenorId(m.url || m.path || "")
+            : null;
+        const tenorUrl =
+          type === "tenor"
+            ? m.url || (tenorId ? `https://tenor.com/view/${tenorId}` : null)
+            : null;
 
         items.push({
           skinId,
           skinName,
           year,
-          type: m.type,
-          title: cleanTitle(m.title || inferTitleFromPath(m.path, m.youtubeId)),
+          type,
+          title: cleanTitle(
+            m.title ||
+              inferTitleFromPath(m.path || m.url, m.youtubeId || tenorId)
+          ),
           path: m.path || null,
-          youtubeId: m.youtubeId || null,
+          youtubeId: type === "youtube" ? m.youtubeId || null : null,
+          tenorId,
+          tenorUrl,
           thumb: m.thumb || null,
           tags,
         });
@@ -362,6 +377,50 @@ function renderGallery() {
 
       btn.addEventListener("click", () => openViewer(item));
       mediaEl = btn;
+    } else if (item.type === "tenor" && (item.tenorId || item.tenorUrl)) {
+      const btn = document.createElement("button");
+      btn.type = "button";
+      btn.className = "thumb";
+      btn.style.position = "relative";
+      btn.style.cursor = "pointer";
+      btn.setAttribute(
+        "aria-label",
+        `Open Tenor: ${item.title || item.tenorId || ""}`
+      );
+
+      if (item.thumb) {
+        const img = document.createElement("img");
+        img.className = "thumb";
+        img.alt = item.title || "Tenor GIF";
+        img.loading = "lazy";
+        img.decoding = "async";
+        img.src = buildAbsoluteUrl(item.thumb);
+        btn.appendChild(img);
+      } else {
+        const ph = document.createElement("div");
+        ph.className = "thumb";
+        ph.style.display = "grid";
+        ph.style.placeItems = "center";
+        ph.style.fontWeight = "700";
+        ph.style.letterSpacing = "0.5px";
+        ph.textContent = "TENOR GIF";
+        btn.appendChild(ph);
+      }
+
+      const badge = document.createElement("div");
+      badge.style.position = "absolute";
+      badge.style.right = "10px";
+      badge.style.bottom = "8px";
+      badge.style.padding = ".25rem .5rem";
+      badge.style.borderRadius = "999px";
+      badge.style.background = "rgba(0,0,0,.55)";
+      badge.style.color = "#fff";
+      badge.style.fontSize = ".78rem";
+      badge.textContent = "Open";
+      btn.appendChild(badge);
+
+      btn.addEventListener("click", () => openViewer(item));
+      mediaEl = btn;
     } else {
       const img = document.createElement("img");
       img.className = "thumb";
@@ -430,6 +489,16 @@ function renderGallery() {
       actions.appendChild(y);
     }
 
+    if (item.type === "tenor" && (item.tenorId || item.tenorUrl)) {
+      const link = document.createElement("a");
+      link.className = "action";
+      link.href = item.tenorUrl || `https://tenor.com/view/${item.tenorId}`;
+      link.target = "_blank";
+      link.rel = "noopener";
+      link.textContent = "Tenor";
+      actions.appendChild(link);
+    }
+
     meta.appendChild(left);
     meta.appendChild(actions);
     card.appendChild(meta);
@@ -464,6 +533,28 @@ function openViewer(item) {
     iframe.src = `https://www.youtube.com/embed/${item.youtubeId}?autoplay=1`;
     frame.appendChild(iframe);
     media = frame;
+  } else if (item.type === "tenor" && (item.tenorId || item.tenorUrl)) {
+    const id = item.tenorId || extractTenorId(item.tenorUrl || "");
+    const frame = document.createElement("div");
+    frame.className = "viewer-embed";
+    if (id) {
+      const iframe = document.createElement("iframe");
+      iframe.className = "viewer-iframe";
+      iframe.allow =
+        "autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share";
+      iframe.allowFullscreen = true;
+      iframe.src = `https://tenor.com/embed/${id}`;
+      frame.appendChild(iframe);
+    } else {
+      const a = document.createElement("a");
+      a.href = item.tenorUrl || "#";
+      a.target = "_blank";
+      a.rel = "noopener";
+      a.textContent = "Open on Tenor";
+      a.className = "action";
+      frame.appendChild(a);
+    }
+    media = frame;
   } else {
     media = document.createElement("img");
     media.className = "viewer-media";
@@ -475,10 +566,11 @@ function openViewer(item) {
 
   const caption = document.createElement("div");
   caption.className = "viewer-caption";
-  caption.innerHTML = `<div class="left">
-  <strong>${escapeHtml(item.title || "")}</strong>
-  ${renderBadgesHTML(item)}
-</div>
+  caption.innerHTML = `
+    <div class="left">
+      <strong>${escapeHtml(item.title || "")}</strong>
+      ${renderBadgesHTML(item)}
+    </div>
     <div class="right">
       ${
         rawAbs
@@ -493,6 +585,13 @@ function openViewer(item) {
       ${
         item.youtubeId
           ? `<a class="action" target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=${item.youtubeId}">YouTube</a>`
+          : ""
+      }
+      ${
+        item.type === "tenor" && (item.tenorId || item.tenorUrl)
+          ? `<a class="action" target="_blank" rel="noopener" href="${
+              item.tenorUrl || `https://tenor.com/view/${item.tenorId}`
+            }">Tenor</a>`
           : ""
       }
     </div>
@@ -533,8 +632,14 @@ function renderFilesTree() {
         leaf.className = "node";
         const name = it.path
           ? it.path.split("/").slice(-1)[0]
-          : it.youtubeId || it.title;
+          : it.youtubeId || it.tenorId || it.title;
         const abs = it.path ? buildAbsoluteUrl(it.path) : "";
+        const tenorHref =
+          it.type === "tenor"
+            ? it.tenorUrl ||
+              (it.tenorId ? `https://tenor.com/view/${it.tenorId}` : "")
+            : "";
+
         leaf.innerHTML = `
           <span>${escapeHtml(name)}</span>
           <span class="file-actions">
@@ -546,6 +651,11 @@ function renderFilesTree() {
             ${
               it.youtubeId
                 ? `<a href="https://www.youtube.com/watch?v=${it.youtubeId}" target="_blank" rel="noopener">youtube</a>`
+                : ""
+            }
+            ${
+              tenorHref
+                ? `<a href="${tenorHref}" target="_blank" rel="noopener">tenor</a>`
                 : ""
             }
             ${
@@ -591,12 +701,55 @@ function groupBy(arr, keyFn) {
   return map;
 }
 
-function inferTitleFromPath(p, yt){
+// --- title cleaning: strip tokens like [WR], (WR), __wr, etc.
+const TAG_WORDS = new Set([
+  "wr",
+  "wild rift",
+  "tft",
+  "lor",
+  "legends of runeterra",
+  "runeterra",
+  "chroma",
+  "chromas",
+]);
+
+function isTagWord(s) {
+  return TAG_WORDS.has(s.toLowerCase().replace(/[_-]+/g, " ").trim());
+}
+
+function cleanTitle(input) {
+  if (!input) return "";
+  let s = String(input);
+  s = s.replace(/\.[a-z0-9]+$/i, "");
+  s = s.replace(/([\[\(\{])([^}\)\]]+)([\]\)\}])/g, (m, l, inner, r) =>
+    isTagWord(inner) ? "" : m
+  );
+  s = s.replace(/__([a-z0-9._-]+)/gi, (m, t) => (isTagWord(t) ? "" : m));
+  s = s
+    .replace(/(^|[ _.-])(wr|tft|lor|chroma|chromas?)(?=($|[ _.-]))/gi, " ")
+    .replace(/[-_]+/g, " ");
+  s = s
+    .replace(/\s{2,}/g, " ")
+    .replace(/\s*([()\[\]\{\}])\s*/g, "$1")
+    .trim();
+  return s;
+}
+
+function inferTitleFromPath(p, yt) {
   if (yt) return `YouTube ${yt}`;
   if (!p) return "";
   const base = p.split("/").pop() || p;
-  const noExt = base.replace(/\.[a-z0-9]+$/i,"");
-  return stripTagTokensFromFilename(noExt);
+  const noExt = base.replace(/\.[a-z0-9]+$/i, "");
+  return cleanTitle(noExt);
+}
+
+// Tenor helpers
+function extractTenorId(url) {
+  if (!url) return null;
+  const m = String(url).match(
+    /tenor\.com\/view\/[a-z0-9-]*-([0-9]+)(?:[^0-9]|$)/i
+  );
+  return m ? m[1] : null;
 }
 
 function escapeHtml(s) {
@@ -625,7 +778,7 @@ function renderCounts() {
   els.counts.textContent = `Showing ${visible} of ${total}`;
 }
 
-/* ---------- helpers ---------- */
+/* ---------- URL helpers ---------- */
 function buildAbsoluteUrl(p) {
   if (!p) return "";
   if (/^https?:\/\//i.test(p)) return p;
@@ -648,41 +801,4 @@ function safeDecode(s) {
     return decodeURI(s);
   } catch (_) {}
   return s;
-}
-
-const TAG_WORDS = new Set([
-  "wr","wild rift",
-  "tft",
-  "lor","legends of runeterra","runeterra",
-  "chroma","chromas",
-  "form","forms"
-]);
-
-function isTagWord(s){
-  return TAG_WORDS.has(s.toLowerCase().replace(/[_-]+/g," ").trim());
-}
-
-/** Remove tag tokens like [WR], (WR), {WR}, __wr, -wr/_wr, and loose tag words */
-function cleanTitle(input){
-  if (!input) return "";
-  let s = String(input);
-  s = s.replace(/\.[a-z0-9]+$/i,"");
-  s = s.replace(/([\[\(\{])([^}\)\]]+)([\]\)\}])/g, (m, l, inner, r) =>
-    isTagWord(inner) ? "" : m
-  );
-  s = s.replace(/__([a-z0-9._-]+)/gi, (m, t) => isTagWord(t) ? "" : m);
-  s = s
-    .replace(/(^|[ _.-])(wr|tft|lor|chroma|chromas?|form|forms)(?=($|[ _.-]))/gi, " ")
-    .replace(/[-_]+/g, " ");
-
-  s = s.replace(/\s{2,}/g," ").replace(/\s*([()\[\]\{\}])\s*/g,"$1").trim();
-  return s;
-}
-
-function inferTitleFromPath(p, yt){
-  if (yt) return `YouTube ${yt}`;
-  if (!p) return "";
-  const base = p.split("/").pop() || p;
-  const noExt = base.replace(/\.[a-z0-9]+$/i,"");
-  return cleanTitle(noExt);
 }

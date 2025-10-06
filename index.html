@@ -56,7 +56,16 @@
             loading="eager"
           />
         </div>
-        <h1>Ezreal Media Archive</h1>
+        <h1>
+          Ezreal Media Archive
+          <a
+            class="byline"
+            href="https://timfernix.github.io/"
+            target="_blank"
+            rel="noopener"
+            >by timfernix</a
+          >
+        </h1>
       </div>
 
       <button
@@ -105,20 +114,16 @@
             Loading Screens</label
           >
           <label
-            ><input type="checkbox" name="type" value="model" checked /> 3D
+            ><input type="checkbox" name="type" value="model" checked />
             Model</label
           >
           <label
-            ><input type="checkbox" name="type" value="model-face" checked /> 3D
-            Model — Face</label
+            ><input type="checkbox" name="type" value="model-face" checked />
+            Face</label
           >
           <label
             ><input type="checkbox" name="type" value="chroma" checked />
             Chromas</label
-          >
-          <label
-            ><input type="checkbox" name="type" value="form" checked />
-            Forms</label
           >
           <label
             ><input type="checkbox" name="type" value="video" checked />
@@ -127,6 +132,14 @@
           <label
             ><input type="checkbox" name="type" value="youtube" checked />
             YouTube Links</label
+          >
+          <label
+            ><input type="checkbox" name="type" value="tenor" checked /> Tenor
+            GIFs</label
+          >
+          <label
+            ><input type="checkbox" name="type" value="other" checked />
+            Other</label
           >
         </fieldset>
 
@@ -199,9 +212,7 @@
 
     <dialog id="viewer" class="viewer">
       <button class="viewer-close" aria-label="Close">✕</button>
-      <div class="viewer-content">
-        <!-- filled dynamically -->
-      </div>
+      <div class="viewer-content"></div>
     </dialog>
 
     <footer class="site-footer">

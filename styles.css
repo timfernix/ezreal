@@ -81,7 +81,7 @@ body {
 .site-header {
   position: sticky;
   top: 0;
-  z-index: 50;
+  z-index: 1000;
   backdrop-filter: blur(10px);
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.35), transparent);
   border-bottom: 1px solid var(--border);
@@ -95,24 +95,37 @@ body {
   gap: 0.8rem;
   align-items: center;
 }
-.logo{
-  width:32px;height:32px;
-  display:grid;place-items:center;
-  border-radius:12px;
-  background:var(--glass);
-  box-shadow:var(--shadow);
-  overflow:hidden;
+.logo {
+  width: 32px;
+  height: 32px;
+  display: grid;
+  place-items: center;
+  border-radius: 12px;
+  background: var(--glass);
+  box-shadow: var(--shadow);
+  overflow: hidden;
 }
-.logo img{
-  width:100%;
-  height:100%;
-  display:block;
-  object-fit:cover;
+.logo img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
 }
 
 h1 {
   font-size: 1.15rem;
   margin: 0;
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+}
+h1 .byline {
+  font-size: 0.9rem;
+  color: var(--muted);
+  text-decoration: none;
+}
+h1 .byline:hover {
+  text-decoration: underline;
 }
 
 .btn {
