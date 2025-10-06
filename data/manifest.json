@@ -3106,6 +3106,101 @@
       ]
     },
     {
+      "id": "Prestige Select Weather Entity",
+      "name": "Prestige Select Weather Entity",
+      "release_year": 2025,
+      "media": [
+        {
+          "type": "splash",
+          "title": "Prestige Select Weather Entity Wild Rift Splashart  WR",
+          "path": "assets/ezreal/skins/Prestige Select Weather Entity/splash/Prestige_Select_Weather_Entity_Wild_Rift_Splashart__WR.jpg",
+          "tags": [
+            "wr"
+          ]
+        },
+        {
+          "type": "icon",
+          "title": "Prestige Select Weather Entity Wild Rift Icon  WR",
+          "path": "assets/ezreal/skins/Prestige Select Weather Entity/icon/Prestige_Select_Weather_Entity_Wild_Rift_Icon__WR.png",
+          "tags": [
+            "wr"
+          ]
+        },
+        {
+          "type": "promo",
+          "title": "Prestige Select Weather Entity Wild Rift Videoframe 1  WR",
+          "path": "assets/ezreal/skins/Prestige Select Weather Entity/promo/Prestige_Select_Weather_Entity_Wild_Rift_Videoframe_1__WR.jpeg",
+          "tags": [
+            "wr"
+          ]
+        },
+        {
+          "type": "promo",
+          "title": "Prestige Select Weather Entity Wild Rift Videoframe 2  WR",
+          "path": "assets/ezreal/skins/Prestige Select Weather Entity/promo/Prestige_Select_Weather_Entity_Wild_Rift_Videoframe_2__WR.jpeg",
+          "tags": [
+            "wr"
+          ]
+        },
+        {
+          "type": "promo",
+          "title": "Prestige Select Weather Entity Wild Rift Videoframe 3  WR",
+          "path": "assets/ezreal/skins/Prestige Select Weather Entity/promo/Prestige_Select_Weather_Entity_Wild_Rift_Videoframe_3__WR.jpeg",
+          "tags": [
+            "wr"
+          ]
+        },
+        {
+          "type": "promo",
+          "title": "Prestige Select Weather Entity Wild Rift Videoframe 4  WR",
+          "path": "assets/ezreal/skins/Prestige Select Weather Entity/promo/Prestige_Select_Weather_Entity_Wild_Rift_Videoframe_4__WR.jpeg",
+          "tags": [
+            "wr"
+          ]
+        },
+        {
+          "type": "concept",
+          "title": "Prestige Select Weather Entity Wild Rift Promoart Concept by Lion Song 1  WR",
+          "path": "assets/ezreal/skins/Prestige Select Weather Entity/concept/Prestige_Select_Weather_Entity_Wild_Rift_Promoart_Concept_by_Lion_Song_1__WR.jpg",
+          "tags": [
+            "wr"
+          ]
+        },
+        {
+          "type": "concept",
+          "title": "Prestige Select Weather Entity Wild Rift Promoart Concept by Lion Song 2  WR",
+          "path": "assets/ezreal/skins/Prestige Select Weather Entity/concept/Prestige_Select_Weather_Entity_Wild_Rift_Promoart_Concept_by_Lion_Song_2__WR.jpg",
+          "tags": [
+            "wr"
+          ]
+        },
+        {
+          "type": "concept",
+          "title": "Prestige Select Weather Entity Wild Rift Promoart Concept by Lion Song 3  WR",
+          "path": "assets/ezreal/skins/Prestige Select Weather Entity/concept/Prestige_Select_Weather_Entity_Wild_Rift_Promoart_Concept_by_Lion_Song_3__WR.jpg",
+          "tags": [
+            "wr"
+          ]
+        },
+        {
+          "type": "concept",
+          "title": "Prestige Select Weather Entity Wild Rift Splashart Concept by Qi Mang  WR",
+          "path": "assets/ezreal/skins/Prestige Select Weather Entity/concept/Prestige_Select_Weather_Entity_Wild_Rift_Splashart_Concept_by_Qi_Mang__WR.jpg",
+          "tags": [
+            "wr"
+          ]
+        },
+        {
+          "type": "emote",
+          "title": "Prestige Select Weather Entity Wild Rift Emote  WR",
+          "path": "assets/ezreal/skins/Prestige Select Weather Entity/emote/Prestige_Select_Weather_Entity_Wild_Rift_Emote__WR.png",
+          "tags": [
+            "wr"
+          ]
+        }
+      ]
+    },
+    {
       "id": "PsyOps",
       "name": "PsyOps",
       "release_year": 2020,
