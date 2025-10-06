@@ -3427,6 +3427,90 @@
           "title": "Pulsefire unused Splashart",
           "path": "assets/ezreal/skins/Pulsefire/splash/Pulsefire_unused_Splashart.jpg",
           "tags": []
+        },
+        {
+          "type": "splash",
+          "title": "Pulsefire TFT Splashart  TFT",
+          "path": "assets/ezreal/skins/Pulsefire/splash/chroma/Pulsefire_TFT_Splashart__TFT.png",
+          "tags": [
+            "chroma",
+            "tft"
+          ]
+        },
+        {
+          "type": "promo",
+          "title": "Pulsefire Chibi Golden Spatula Event",
+          "path": "assets/ezreal/skins/Pulsefire/promo/Pulsefire_Chibi_Golden_Spatula_Event.jpg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Pulsefire Chibi Golden Spatula Fortunes Favor  Gamemode Art",
+          "path": "assets/ezreal/skins/Pulsefire/promo/Pulsefire_Chibi_Golden_Spatula_Fortunes_Favor_ Gamemode_Art.jpg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Pulsefire Chibi Golden Spatula Promoart 1",
+          "path": "assets/ezreal/skins/Pulsefire/promo/Pulsefire_Chibi_Golden_Spatula_Promoart_1.jpeg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Pulsefire Chibi Golden Spatula Promoart 2",
+          "path": "assets/ezreal/skins/Pulsefire/promo/Pulsefire_Chibi_Golden_Spatula_Promoart_2.jpg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Pulsefire Chibi Golden Spatula Promoart 3",
+          "path": "assets/ezreal/skins/Pulsefire/promo/Pulsefire_Chibi_Golden_Spatula_Promoart_3.jpg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Pulsefire Key Art TFT Glitched Out Golden Spatula",
+          "path": "assets/ezreal/skins/Pulsefire/promo/Pulsefire_Key_Art_TFT_Glitched_Out_Golden_Spatula.jpeg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Pulsefire Out of Time Illustration by Grafit Studio",
+          "path": "assets/ezreal/skins/Pulsefire/promo/Pulsefire_Out_of_Time_Illustration_by_Grafit_Studio.jpg",
+          "tags": []
+        },
+        {
+          "type": "model",
+          "title": "Pulsefire Model 1",
+          "path": "assets/ezreal/skins/Pulsefire/model/Pulsefire_Model_1.png",
+          "tags": []
+        },
+        {
+          "type": "model",
+          "title": "Pulsefire Model 1 by Moakai Xiao",
+          "path": "assets/ezreal/skins/Pulsefire/model/Pulsefire_Model_1_by_Moakai_Xiao.jpg",
+          "tags": []
+        },
+        {
+          "type": "model",
+          "title": "Pulsefire Model 2",
+          "path": "assets/ezreal/skins/Pulsefire/model/Pulsefire_Model_2.png",
+          "tags": []
+        },
+        {
+          "type": "model",
+          "title": "Pulsefire TFT Model Render  TFT",
+          "path": "assets/ezreal/skins/Pulsefire/model/chroma/Pulsefire_TFT_Model_Render__TFT.png",
+          "tags": [
+            "chroma",
+            "tft"
+          ]
+        },
+        {
+          "type": "video",
+          "title": "Pulsefire Chibi Golden Spatula Trailer",
+          "path": "assets/ezreal/skins/Pulsefire/video/Pulsefire_Chibi_Golden_Spatula_Trailer.mp4",
+          "tags": []
         }
       ]
     },
