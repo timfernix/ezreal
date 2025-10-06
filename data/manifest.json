@@ -3438,6 +3438,24 @@
           ]
         },
         {
+          "type": "icon",
+          "title": "Pulsefire Icon",
+          "path": "assets/ezreal/skins/Pulsefire/icon/Pulsefire_Icon.jpg",
+          "tags": []
+        },
+        {
+          "type": "icon",
+          "title": "Pulsefire Profileicon",
+          "path": "assets/ezreal/skins/Pulsefire/icon/Pulsefire_Profileicon.png",
+          "tags": []
+        },
+        {
+          "type": "icon",
+          "title": "Pulsefire Time Portal Profileicon",
+          "path": "assets/ezreal/skins/Pulsefire/icon/Pulsefire_Time_Portal_Profileicon.png",
+          "tags": []
+        },
+        {
           "type": "promo",
           "title": "Pulsefire Chibi Golden Spatula Event",
           "path": "assets/ezreal/skins/Pulsefire/promo/Pulsefire_Chibi_Golden_Spatula_Event.jpg",
@@ -3480,6 +3498,54 @@
           "tags": []
         },
         {
+          "type": "concept",
+          "title": "Pulsefire Concept 1 by Moakai Xiao",
+          "path": "assets/ezreal/skins/Pulsefire/concept/Pulsefire_Concept_1_by_Moakai_Xiao.jpg",
+          "tags": []
+        },
+        {
+          "type": "concept",
+          "title": "Pulsefire Concept 2 by Moakai Xiao",
+          "path": "assets/ezreal/skins/Pulsefire/concept/Pulsefire_Concept_2_by_Moakai_Xiao.jpg",
+          "tags": []
+        },
+        {
+          "type": "concept",
+          "title": "Pulsefire Concept Forms 1 by Alexsey Bayura",
+          "path": "assets/ezreal/skins/Pulsefire/concept/Pulsefire_Concept_Forms_1_by_Alexsey_Bayura.jpeg",
+          "tags": []
+        },
+        {
+          "type": "concept",
+          "title": "Pulsefire Concept Forms 2 by Alexsey Bayura",
+          "path": "assets/ezreal/skins/Pulsefire/concept/Pulsefire_Concept_Forms_2_by_Alexsey_Bayura.jpeg",
+          "tags": []
+        },
+        {
+          "type": "concept",
+          "title": "Pulsefire Concept Update Splash 1 by Jennifer Wuestling",
+          "path": "assets/ezreal/skins/Pulsefire/concept/Pulsefire_Concept_Update_Splash_1_by_Jennifer_Wuestling.jpeg",
+          "tags": []
+        },
+        {
+          "type": "concept",
+          "title": "Pulsefire Concept Update Splash 2 by Jennifer Wuestling",
+          "path": "assets/ezreal/skins/Pulsefire/concept/Pulsefire_Concept_Update_Splash_2_by_Jennifer_Wuestling.jpg",
+          "tags": []
+        },
+        {
+          "type": "concept",
+          "title": "Pulsefire Concept Update Splash 3 by Jennifer Wuestling",
+          "path": "assets/ezreal/skins/Pulsefire/concept/Pulsefire_Concept_Update_Splash_3_by_Jennifer_Wuestling.gif",
+          "tags": []
+        },
+        {
+          "type": "loading",
+          "title": "Ezreal 5",
+          "path": "assets/ezreal/skins/Pulsefire/loading/Ezreal_5.jpg",
+          "tags": []
+        },
+        {
           "type": "model",
           "title": "Pulsefire Model 1",
           "path": "assets/ezreal/skins/Pulsefire/model/Pulsefire_Model_1.png",
@@ -3510,6 +3576,36 @@
           "type": "video",
           "title": "Pulsefire Chibi Golden Spatula Trailer",
           "path": "assets/ezreal/skins/Pulsefire/video/Pulsefire_Chibi_Golden_Spatula_Trailer.mp4",
+          "tags": []
+        },
+        {
+          "type": "emote",
+          "title": "Pulsefire Behold, the Golden Spatula Trophy Emote",
+          "path": "assets/ezreal/skins/Pulsefire/emote/Pulsefire_Behold,_the_Golden_Spatula_Trophy_Emote.png",
+          "tags": []
+        },
+        {
+          "type": "emote",
+          "title": "Pulsefire Ezreals Go! Emote",
+          "path": "assets/ezreal/skins/Pulsefire/emote/Pulsefire_Ezreals_Go!_Emote.png",
+          "tags": []
+        },
+        {
+          "type": "emote",
+          "title": "Pulsefire Golden Spatula Emotes",
+          "path": "assets/ezreal/skins/Pulsefire/emote/Pulsefire_Golden_Spatula_Emotes.jpg",
+          "tags": []
+        },
+        {
+          "type": "emote",
+          "title": "Pulsefire Looking Good! Emote",
+          "path": "assets/ezreal/skins/Pulsefire/emote/Pulsefire_Looking_Good!_Emote.png",
+          "tags": []
+        },
+        {
+          "type": "emote",
+          "title": "Pulsefire Twice As Good Emote",
+          "path": "assets/ezreal/skins/Pulsefire/emote/Pulsefire_Twice_As_Good_Emote.png",
           "tags": []
         }
       ]
