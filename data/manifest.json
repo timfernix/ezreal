@@ -3170,6 +3170,22 @@
         },
         {
           "type": "promo",
+          "title": "Prestige Select Weather Entity Wild Rift Promoart Wallpaper  WR",
+          "path": "assets/ezreal/skins/Prestige Select Weather Entity/promo/Prestige_Select_Weather_Entity_Wild_Rift_Promoart_Wallpaper__WR.jpeg",
+          "tags": [
+            "wr"
+          ]
+        },
+        {
+          "type": "promo",
+          "title": "Prestige Select Weather Entity Wild Rift Promoart  WR",
+          "path": "assets/ezreal/skins/Prestige Select Weather Entity/promo/Prestige_Select_Weather_Entity_Wild_Rift_Promoart__WR.jpeg",
+          "tags": [
+            "wr"
+          ]
+        },
+        {
+          "type": "promo",
           "title": "Prestige Select Weather Entity Wild Rift Videoframe 1  WR",
           "path": "assets/ezreal/skins/Prestige Select Weather Entity/promo/Prestige_Select_Weather_Entity_Wild_Rift_Videoframe_1__WR.jpeg",
           "tags": [
@@ -3196,6 +3212,14 @@
           "type": "promo",
           "title": "Prestige Select Weather Entity Wild Rift Videoframe 4  WR",
           "path": "assets/ezreal/skins/Prestige Select Weather Entity/promo/Prestige_Select_Weather_Entity_Wild_Rift_Videoframe_4__WR.jpeg",
+          "tags": [
+            "wr"
+          ]
+        },
+        {
+          "type": "promo",
+          "title": "Prestige Select Weather Entity Wild Rift Videoframe 5  WR",
+          "path": "assets/ezreal/skins/Prestige Select Weather Entity/promo/Prestige_Select_Weather_Entity_Wild_Rift_Videoframe_5__WR.jpeg",
           "tags": [
             "wr"
           ]
@@ -3231,6 +3255,12 @@
           "tags": [
             "wr"
           ]
+        },
+        {
+          "type": "model",
+          "title": "Prestige Select Weather Entity Wild Rift Model Ingame Form",
+          "path": "assets/ezreal/skins/Prestige Select Weather Entity/model/Prestige_Select_Weather_Entity_Wild_Rift_Model_Ingame_Form.png",
+          "tags": []
         },
         {
           "type": "emote",
@@ -4063,6 +4093,117 @@
           "title": "TPA Update Model",
           "path": "assets/ezreal/skins/TPA/model/TPA_Update_Model.png",
           "tags": []
+        }
+      ]
+    },
+    {
+      "id": "Weather Entity",
+      "name": "Weather Entity",
+      "release_year": 2025,
+      "media": [
+        {
+          "type": "splash",
+          "title": "Weather Entity Splashart  WR",
+          "path": "assets/ezreal/skins/Weather Entity/splash/Weather_Entity_Splashart__WR.jpeg",
+          "tags": [
+            "wr"
+          ]
+        },
+        {
+          "type": "icon",
+          "title": "Weather Entity Icon 2  WR",
+          "path": "assets/ezreal/skins/Weather Entity/icon/Weather_Entity_Icon_2__WR.jpeg",
+          "tags": [
+            "wr"
+          ]
+        },
+        {
+          "type": "icon",
+          "title": "Weather Entity Icon  WR",
+          "path": "assets/ezreal/skins/Weather Entity/icon/Weather_Entity_Icon__WR.jpeg",
+          "tags": [
+            "wr"
+          ]
+        },
+        {
+          "type": "icon",
+          "title": "Weather Entity The Sky Explorer Profileicon  WR",
+          "path": "assets/ezreal/skins/Weather Entity/icon/Weather_Entity_The_Sky_Explorer_Profileicon__WR.png",
+          "tags": [
+            "wr"
+          ]
+        },
+        {
+          "type": "promo",
+          "title": "Weather Entity Promoart 1  WR",
+          "path": "assets/ezreal/skins/Weather Entity/promo/Weather_Entity_Promoart_1__WR.jpeg",
+          "tags": [
+            "wr"
+          ]
+        },
+        {
+          "type": "promo",
+          "title": "Weather Entity Promoart 2  WR",
+          "path": "assets/ezreal/skins/Weather Entity/promo/Weather_Entity_Promoart_2__WR.jpeg",
+          "tags": [
+            "wr"
+          ]
+        },
+        {
+          "type": "promo",
+          "title": "Weather Entity Promoart 3 cropped  WR",
+          "path": "assets/ezreal/skins/Weather Entity/promo/Weather_Entity_Promoart_3_cropped__WR.jpg",
+          "tags": [
+            "wr"
+          ]
+        },
+        {
+          "type": "promo",
+          "title": "Weather Entity Wild Rift Promoart Wallpaper  WR",
+          "path": "assets/ezreal/skins/Weather Entity/promo/Weather_Entity_Wild_Rift_Promoart_Wallpaper__WR.jpeg",
+          "tags": [
+            "wr"
+          ]
+        },
+        {
+          "type": "concept",
+          "title": "Weather Entity Wild Rift Model Concept  WR.jpeg",
+          "path": "assets/ezreal/skins/Weather Entity/concept/Weather_Entity_Wild_Rift_Model_Concept__WR.jpeg.jpg",
+          "tags": [
+            "wr"
+          ]
+        },
+        {
+          "type": "model",
+          "title": "Weather Entity Wild Rift Model Ingame 1  WR",
+          "path": "assets/ezreal/skins/Weather Entity/model/Weather_Entity_Wild_Rift_Model_Ingame_1__WR.jpeg",
+          "tags": [
+            "wr"
+          ]
+        },
+        {
+          "type": "model",
+          "title": "Weather Entity Wild Rift Model Ingame 2  WR",
+          "path": "assets/ezreal/skins/Weather Entity/model/Weather_Entity_Wild_Rift_Model_Ingame_2__WR.png",
+          "tags": [
+            "wr"
+          ]
+        },
+        {
+          "type": "emote",
+          "title": "Weather Entity Emote  WR",
+          "path": "assets/ezreal/skins/Weather Entity/emote/Weather_Entity_Emote__WR.png",
+          "tags": [
+            "wr"
+          ]
+        },
+        {
+          "type": "emote",
+          "title": "Weather Entity Things are looking sunny! Emote  WR",
+          "path": "assets/ezreal/skins/Weather Entity/emote/Weather_Entity_Things_are_looking_sunny!_Emote__WR.png",
+          "tags": [
+            "wr"
+          ]
         }
       ]
     },
