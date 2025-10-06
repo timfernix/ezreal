@@ -3146,6 +3146,30 @@
         },
         {
           "type": "promo",
+          "title": "Prestige Select Weather Entity Wild Rift Ionia Cup Promoart 1  WR",
+          "path": "assets/ezreal/skins/Prestige Select Weather Entity/promo/Prestige_Select_Weather_Entity_Wild_Rift_Ionia_Cup_Promoart_1__WR.jpg",
+          "tags": [
+            "wr"
+          ]
+        },
+        {
+          "type": "promo",
+          "title": "Prestige Select Weather Entity Wild Rift Ionia Cup Promoart 2  WR",
+          "path": "assets/ezreal/skins/Prestige Select Weather Entity/promo/Prestige_Select_Weather_Entity_Wild_Rift_Ionia_Cup_Promoart_2__WR.webp",
+          "tags": [
+            "wr"
+          ]
+        },
+        {
+          "type": "promo",
+          "title": "Prestige Select Weather Entity Wild Rift Ionia Cup Promoart 3 cropped  WR",
+          "path": "assets/ezreal/skins/Prestige Select Weather Entity/promo/Prestige_Select_Weather_Entity_Wild_Rift_Ionia_Cup_Promoart_3_cropped__WR.jpg",
+          "tags": [
+            "wr"
+          ]
+        },
+        {
+          "type": "promo",
           "title": "Prestige Select Weather Entity Wild Rift Videoframe 1  WR",
           "path": "assets/ezreal/skins/Prestige Select Weather Entity/promo/Prestige_Select_Weather_Entity_Wild_Rift_Videoframe_1__WR.jpeg",
           "tags": [
@@ -3227,6 +3251,150 @@
           "type": "splash",
           "title": "PsyOps Current Splashart",
           "path": "assets/ezreal/skins/PsyOps/splash/PsyOps_Current_Splashart.jpg",
+          "tags": []
+        },
+        {
+          "type": "splash",
+          "title": "PsyOps Chroma Splashart Set 8  TFT",
+          "path": "assets/ezreal/skins/PsyOps/splash/chroma/PsyOps_Chroma_Splashart_Set_8__TFT.jpg",
+          "tags": [
+            "chroma",
+            "tft"
+          ]
+        },
+        {
+          "type": "icon",
+          "title": "PsyOps Icon",
+          "path": "assets/ezreal/skins/PsyOps/icon/PsyOps_Icon.jpg",
+          "tags": []
+        },
+        {
+          "type": "icon",
+          "title": "PsyOps Profileicon",
+          "path": "assets/ezreal/skins/PsyOps/icon/PsyOps_Profileicon.png",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "PsyOps Skinline 2020 Promoart by Dan Norton",
+          "path": "assets/ezreal/skins/PsyOps/promo/PsyOps_Skinline_2020_Promoart_by_Dan_Norton.jpg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "PsyOps Skinline Project Promoart",
+          "path": "assets/ezreal/skins/PsyOps/promo/PsyOps_Skinline_Project_Promoart.jpg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "PsyOps Skinline Project Promoart by Parallax Studios",
+          "path": "assets/ezreal/skins/PsyOps/promo/PsyOps_Skinline_Project_Promoart_by_Parallax_Studios.jpg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "PsyOps Skinline Videoframe 1 cropped",
+          "path": "assets/ezreal/skins/PsyOps/promo/PsyOps_Skinline_Videoframe_1_cropped.png",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "PsyOps Skinline Videoframe 2 cropped",
+          "path": "assets/ezreal/skins/PsyOps/promo/PsyOps_Skinline_Videoframe_2_cropped.jpeg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "PsyOps Skinline Videoframe 3",
+          "path": "assets/ezreal/skins/PsyOps/promo/PsyOps_Skinline_Videoframe_3.jpg",
+          "tags": []
+        },
+        {
+          "type": "concept",
+          "title": "PsyOps Concept 1 by Brahim Bensehoul",
+          "path": "assets/ezreal/skins/PsyOps/concept/PsyOps_Concept_1_by_Brahim_Bensehoul.jpg",
+          "tags": []
+        },
+        {
+          "type": "concept",
+          "title": "PsyOps Concept 2 Gauntlet by Brahim Bensehoul",
+          "path": "assets/ezreal/skins/PsyOps/concept/PsyOps_Concept_2_Gauntlet_by_Brahim_Bensehoul.jpg",
+          "tags": []
+        },
+        {
+          "type": "concept",
+          "title": "PsyOps Concept 3 Abilities by Brahim Bensehoul",
+          "path": "assets/ezreal/skins/PsyOps/concept/PsyOps_Concept_3_Abilities_by_Brahim_Bensehoul.jpg",
+          "tags": []
+        },
+        {
+          "type": "concept",
+          "title": "PsyOps Concept 4 Model by Brahim Bensehoul",
+          "path": "assets/ezreal/skins/PsyOps/concept/PsyOps_Concept_4_Model_by_Brahim_Bensehoul.jpg",
+          "tags": []
+        },
+        {
+          "type": "concept",
+          "title": "PsyOps Concept 5 by Nancy Kiml",
+          "path": "assets/ezreal/skins/PsyOps/concept/PsyOps_Concept_5_by_Nancy_Kiml.jpg",
+          "tags": []
+        },
+        {
+          "type": "concept",
+          "title": "PsyOps Concept Splashart 1 by Bo Chen",
+          "path": "assets/ezreal/skins/PsyOps/concept/PsyOps_Concept_Splashart_1_by_Bo_Chen.jpg",
+          "tags": []
+        },
+        {
+          "type": "concept",
+          "title": "PsyOps Concept Splashart 2 by Bo Chen",
+          "path": "assets/ezreal/skins/PsyOps/concept/PsyOps_Concept_Splashart_2_by_Bo_Chen.gif",
+          "tags": []
+        },
+        {
+          "type": "concept",
+          "title": "PsyOps Concept Splashart 3 by Bo Chen",
+          "path": "assets/ezreal/skins/PsyOps/concept/PsyOps_Concept_Splashart_3_by_Bo_Chen.jpg",
+          "tags": []
+        },
+        {
+          "type": "concept",
+          "title": "PsyOps Skinline Video Concept",
+          "path": "assets/ezreal/skins/PsyOps/concept/PsyOps_Skinline_Video_Concept.jpg",
+          "tags": []
+        },
+        {
+          "type": "loading",
+          "title": "PsyOps Border Loadingscreen",
+          "path": "assets/ezreal/skins/PsyOps/loading/PsyOps_Border_Loadingscreen.jpg",
+          "tags": []
+        },
+        {
+          "type": "loading",
+          "title": "PsyOps Loadingscreen",
+          "path": "assets/ezreal/skins/PsyOps/loading/PsyOps_Loadingscreen.jpg",
+          "tags": []
+        },
+        {
+          "type": "model",
+          "title": "PsyOps Model by Dragonfly Studio.",
+          "path": "assets/ezreal/skins/PsyOps/model/PsyOps_Model_by_Dragonfly_Studio..png",
+          "tags": []
+        },
+        {
+          "type": "model",
+          "title": "PsyOps Model Render Set 8  TFT",
+          "path": "assets/ezreal/skins/PsyOps/model/chroma/PsyOps_Model_Render_Set_8__TFT.png",
+          "tags": [
+            "chroma",
+            "tft"
+          ]
+        },
+        {
+          "type": "emote",
+          "title": "PsyOps Wait Until You See My Tricks! Emote",
+          "path": "assets/ezreal/skins/PsyOps/emote/PsyOps_Wait_Until_You_See_My_Tricks!_Emote.png",
           "tags": []
         }
       ]
