@@ -285,6 +285,20 @@
           "youtubeId": "OKMVhAcmD3o",
           "thumb": "https://i.ytimg.com/vi/OKMVhAcmD3o/hqdefault.jpg",
           "tags": []
+        },
+        {
+          "type": "youtube",
+          "title": "Arcade 2016 Game On - Skins Trailer",
+          "youtubeId": "pB4y-aHs0RA",
+          "thumb": "https://i.ytimg.com/vi/pB4y-aHs0RA/hqdefault.jpg",
+          "tags": []
+        },
+        {
+          "type": "youtube",
+          "title": "Arcade 2017 Villains Rule - Skins Trailer",
+          "youtubeId": "oYNbbrPfiIM",
+          "thumb": "https://i.ytimg.com/vi/oYNbbrPfiIM/hqdefault.jpg",
+          "tags": []
         }
       ]
     },
@@ -713,6 +727,27 @@
           "title": "Battle Academia Ezreal Voice",
           "youtubeId": "vu5-eY_mzR8",
           "thumb": "https://i.ytimg.com/vi/vu5-eY_mzR8/hqdefault.jpg",
+          "tags": []
+        },
+        {
+          "type": "youtube",
+          "title": "The Faceless - Trials House Trailer",
+          "youtubeId": "_fUG0PlZgJ0",
+          "thumb": "https://i.ytimg.com/vi/_fUG0PlZgJ0/hqdefault.jpg",
+          "tags": []
+        },
+        {
+          "type": "youtube",
+          "title": "Battle Academia Ezreal VFX",
+          "youtubeId": "D3TktlLSEYw",
+          "thumb": "https://i.ytimg.com/vi/D3TktlLSEYw/hqdefault.jpg",
+          "tags": []
+        },
+        {
+          "type": "youtube",
+          "title": "Battle Academia 2019 Loginscreen",
+          "youtubeId": "TL1iTOj2K6I",
+          "thumb": "https://i.ytimg.com/vi/TL1iTOj2K6I/hqdefault.jpg",
           "tags": []
         }
       ]
@@ -1172,6 +1207,13 @@
           "title": "Faerie Court Ezreal Skin Spotlight",
           "youtubeId": "qh5tcCvpB9k",
           "thumb": "https://i.ytimg.com/vi/qh5tcCvpB9k/hqdefault.jpg",
+          "tags": []
+        },
+        {
+          "type": "youtube",
+          "title": "Faerie Court 2023 Music Theme",
+          "youtubeId": "-E5IhfdMoyk",
+          "thumb": "https://i.ytimg.com/vi/-E5IhfdMoyk/hqdefault.jpg",
           "tags": []
         }
       ]
@@ -2273,6 +2315,20 @@
           "title": "Ink Keeper Chibi Golden Spatula Emotes",
           "path": "assets/ezreal/skins/Ink Keeper/promo/Ink_Keeper_Chibi_Golden_Spatula_Emotes.jpg",
           "tags": []
+        },
+        {
+          "type": "youtube",
+          "title": "Ink Keeper Chibis Ezreal, Yasuo & Sona",
+          "youtubeId": "M8l8omZB2kQ",
+          "thumb": "https://i.ytimg.com/vi/M8l8omZB2kQ/hqdefault.jpg",
+          "tags": []
+        },
+        {
+          "type": "youtube",
+          "title": "Ink Keeper Chibi Ezreal Preview",
+          "youtubeId": "jwtLAdKpoAQ",
+          "thumb": "https://i.ytimg.com/vi/jwtLAdKpoAQ/hqdefault.jpg",
+          "tags": []
         }
       ]
     },
@@ -2328,6 +2384,13 @@
           "tags": [
             "lor"
           ]
+        },
+        {
+          "type": "youtube",
+          "title": "Jarro Lightfeather Voice Lines",
+          "youtubeId": "d6WLX6bypBA",
+          "thumb": "https://i.ytimg.com/vi/d6WLX6bypBA/hqdefault.jpg",
+          "tags": []
         }
       ]
     },
@@ -2404,6 +2467,13 @@
           "type": "model",
           "title": "Lovestruck Project Cover",
           "path": "assets/ezreal/skins/Lovestruck/model/Lovestruck_Project_Cover.jpg",
+          "tags": []
+        },
+        {
+          "type": "youtube",
+          "title": "Lovestruck Ezreal Wild Rift Skin Spotlight",
+          "youtubeId": "N7FMLStLHa0",
+          "thumb": "https://i.ytimg.com/vi/N7FMLStLHa0/hqdefault.jpg",
           "tags": []
         }
       ]
@@ -2490,6 +2560,20 @@
           "title": "Masque of the Black Rose Gentleman Thief Emote",
           "path": "assets/ezreal/skins/Masque of the Black Rose/emote/Masque_of_the_Black_Rose_Gentleman_Thief_Emote.png",
           "tags": []
+        },
+        {
+          "type": "youtube",
+          "title": "Masque of the Black Rose Ezreal Skin Spotlight",
+          "youtubeId": "__amuB4kq1s",
+          "thumb": "https://i.ytimg.com/vi/__amuB4kq1s/hqdefault.jpg",
+          "tags": []
+        },
+        {
+          "type": "youtube",
+          "title": "Masque of the Black Rose Ezreal Skin Spotlight - Pre-Release",
+          "youtubeId": "PoAs1CBofUY",
+          "thumb": "https://i.ytimg.com/vi/PoAs1CBofUY/hqdefault.jpg",
+          "tags": []
         }
       ]
     },
@@ -2544,6 +2628,54 @@
           "type": "model",
           "title": "Nottingham Model",
           "path": "assets/ezreal/skins/Nottingham/model/Nottingham_Model.png",
+          "tags": []
+        },
+        {
+          "type": "youtube",
+          "title": "Nottingham Ezreal 2018 Skin Spotlight",
+          "youtubeId": "-Nq4RybybqU",
+          "thumb": "https://i.ytimg.com/vi/-Nq4RybybqU/hqdefault.jpg",
+          "tags": []
+        },
+        {
+          "type": "youtube",
+          "title": "Nottingham Ezreal 2012 Skin Spotlight",
+          "youtubeId": "SgoWqVfmoeo",
+          "thumb": "https://i.ytimg.com/vi/SgoWqVfmoeo/hqdefault.jpg",
+          "tags": []
+        },
+        {
+          "type": "youtube",
+          "title": "Nottingham Ezreal 2018 Skin Spotlight - Pre-Release",
+          "youtubeId": "KG4L_dX5N3s",
+          "thumb": "https://i.ytimg.com/vi/KG4L_dX5N3s/hqdefault.jpg",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": "Other",
+      "name": "Other",
+      "release_year": null,
+      "media": [
+        {
+          "type": "emote",
+          "title": "Why Am I Here Emote",
+          "path": "assets/ezreal/skins/Other/emote/Why_Am_I_Here_Emote.png",
+          "tags": []
+        },
+        {
+          "type": "youtube",
+          "title": "Doom Bots 2024 Chinese Loginscreen",
+          "youtubeId": "JWLpeSf90zY",
+          "thumb": "https://i.ytimg.com/vi/JWLpeSf90zY/hqdefault.jpg",
+          "tags": []
+        },
+        {
+          "type": "youtube",
+          "title": "Forge Your Path Loginscreen",
+          "youtubeId": "AXM-iSG-hMI",
+          "thumb": "https://i.ytimg.com/vi/AXM-iSG-hMI/hqdefault.jpg",
           "tags": []
         }
       ]
@@ -2648,6 +2780,20 @@
           "tags": [
             "wr"
           ]
+        },
+        {
+          "type": "youtube",
+          "title": "Pajama Guardian Ezreal Skin Spotlight",
+          "youtubeId": "Q1xxErh4PtA",
+          "thumb": "https://i.ytimg.com/vi/Q1xxErh4PtA/hqdefault.jpg",
+          "tags": []
+        },
+        {
+          "type": "youtube",
+          "title": "Pajama Guardian Ezreal Wild Rift Skin Spotlight",
+          "youtubeId": "2LwEC8yDgkk",
+          "thumb": "https://i.ytimg.com/vi/2LwEC8yDgkk/hqdefault.jpg",
+          "tags": []
         }
       ]
     },
@@ -2895,6 +3041,48 @@
           "tags": [
             "chroma"
           ]
+        },
+        {
+          "type": "youtube",
+          "title": "A Hero Awakens Cinematic",
+          "youtubeId": "N-yEhErUIn0",
+          "thumb": "https://i.ytimg.com/vi/N-yEhErUIn0/hqdefault.jpg",
+          "tags": []
+        },
+        {
+          "type": "youtube",
+          "title": "Porcelain Music Theme",
+          "youtubeId": "jtfgXd_aDlA",
+          "thumb": "https://i.ytimg.com/vi/jtfgXd_aDlA/hqdefault.jpg",
+          "tags": []
+        },
+        {
+          "type": "youtube",
+          "title": "Porcelain Protector Ezreal Skin Spotlight",
+          "youtubeId": "uuD-d7fVcgg",
+          "thumb": "https://i.ytimg.com/vi/uuD-d7fVcgg/hqdefault.jpg",
+          "tags": []
+        },
+        {
+          "type": "youtube",
+          "title": "Porcelain Protector Ezreal Skin Spotlight Pre-Release",
+          "youtubeId": "4F99RZdBoOo",
+          "thumb": "https://i.ytimg.com/vi/4F99RZdBoOo/hqdefault.jpg",
+          "tags": []
+        },
+        {
+          "type": "youtube",
+          "title": "Porcelain Protector Ezreal Special Interactions",
+          "youtubeId": "DDkOOvKp1TI",
+          "thumb": "https://i.ytimg.com/vi/DDkOOvKp1TI/hqdefault.jpg",
+          "tags": []
+        },
+        {
+          "type": "youtube",
+          "title": "Porcelain Protector Ezreal Voice - English",
+          "youtubeId": "RkayKwuvYCA",
+          "thumb": "https://i.ytimg.com/vi/RkayKwuvYCA/hqdefault.jpg",
+          "tags": []
         }
       ]
     },
@@ -2961,6 +3149,20 @@
           "type": "loading",
           "title": "Prestige Heavenscale Loadingscreen",
           "path": "assets/ezreal/skins/Prestige Heavenscale/loading/Prestige_Heavenscale_Loadingscreen.jpg",
+          "tags": []
+        },
+        {
+          "type": "youtube",
+          "title": "Prestige Heavenscale Ezreal Skin Spotlight",
+          "youtubeId": "OQakxcwWcFs",
+          "thumb": "https://i.ytimg.com/vi/OQakxcwWcFs/hqdefault.jpg",
+          "tags": []
+        },
+        {
+          "type": "youtube",
+          "title": "Prestige Heavenscale Ezreal Skin Spotlight - Pre-Release",
+          "youtubeId": "z3bzzK0Cgk8",
+          "thumb": "https://i.ytimg.com/vi/z3bzzK0Cgk8/hqdefault.jpg",
           "tags": []
         }
       ]
@@ -3065,6 +3267,20 @@
           "tags": [
             "tft"
           ]
+        },
+        {
+          "type": "youtube",
+          "title": "Prestige Porcelain Ezreal Chibi Spotlight",
+          "youtubeId": "FI_-XohO_io",
+          "thumb": "https://i.ytimg.com/vi/FI_-XohO_io/hqdefault.jpg",
+          "tags": []
+        },
+        {
+          "type": "youtube",
+          "title": "Prestige Porcelain Ezreal Chibi Champion Showcase - TFT",
+          "youtubeId": "Uzt906GhkLI",
+          "thumb": "https://i.ytimg.com/vi/Uzt906GhkLI/hqdefault.jpg",
+          "tags": []
         }
       ]
     },
@@ -3119,6 +3335,20 @@
           "type": "model",
           "title": "Prestige PsyOps Model 3 by Joey Zhang",
           "path": "assets/ezreal/skins/Prestige PsyOps/model/Prestige_PsyOps_Model_3_by_Joey_Zhang.jpg",
+          "tags": []
+        },
+        {
+          "type": "youtube",
+          "title": "Prestige PsyOps Ezreal Skin Spotlight",
+          "youtubeId": "ki2ubpowNa4",
+          "thumb": "https://i.ytimg.com/vi/ki2ubpowNa4/hqdefault.jpg",
+          "tags": []
+        },
+        {
+          "type": "youtube",
+          "title": "Prestige PsyOps Ezreal Skin Spotlight - Pre-Release",
+          "youtubeId": "eXgm7ChHOkQ",
+          "thumb": "https://i.ytimg.com/vi/eXgm7ChHOkQ/hqdefault.jpg",
           "tags": []
         }
       ]
@@ -3269,6 +3499,13 @@
           "tags": [
             "wr"
           ]
+        },
+        {
+          "type": "youtube",
+          "title": "Prestige Select Weather Entity Ezreal Wild Rift Skin Spotlight",
+          "youtubeId": "6iKxeml3snU",
+          "thumb": "https://i.ytimg.com/vi/6iKxeml3snU/hqdefault.jpg",
+          "tags": []
         }
       ]
     },
@@ -3425,6 +3662,41 @@
           "type": "emote",
           "title": "PsyOps Wait Until You See My Tricks! Emote",
           "path": "assets/ezreal/skins/PsyOps/emote/PsyOps_Wait_Until_You_See_My_Tricks!_Emote.png",
+          "tags": []
+        },
+        {
+          "type": "youtube",
+          "title": "PsyOps 2020 Event Trailer",
+          "youtubeId": "RpXKHY0KB1w",
+          "thumb": "https://i.ytimg.com/vi/RpXKHY0KB1w/hqdefault.jpg",
+          "tags": []
+        },
+        {
+          "type": "youtube",
+          "title": "PsyOps 2020 Skins Music Theme",
+          "youtubeId": "VWUk-ZMK8w4",
+          "thumb": "https://i.ytimg.com/vi/VWUk-ZMK8w4/hqdefault.jpg",
+          "tags": []
+        },
+        {
+          "type": "youtube",
+          "title": "PsyOps OPERATION: SONGBIRD - Skins Trailer",
+          "youtubeId": "2Eu0EenOLRU",
+          "thumb": "https://i.ytimg.com/vi/2Eu0EenOLRU/hqdefault.jpg",
+          "tags": []
+        },
+        {
+          "type": "youtube",
+          "title": "PsyOps Ezreal Skin Spotlight",
+          "youtubeId": "zor3QF7Mg08",
+          "thumb": "https://i.ytimg.com/vi/zor3QF7Mg08/hqdefault.jpg",
+          "tags": []
+        },
+        {
+          "type": "youtube",
+          "title": "PsyOps Ezreal Skin Spotlight - Pre-Release",
+          "youtubeId": "nt9ecqas0WY",
+          "thumb": "https://i.ytimg.com/vi/nt9ecqas0WY/hqdefault.jpg",
           "tags": []
         }
       ]
@@ -3637,6 +3909,62 @@
           "title": "Pulsefire Twice As Good Emote",
           "path": "assets/ezreal/skins/Pulsefire/emote/Pulsefire_Twice_As_Good_Emote.png",
           "tags": []
+        },
+        {
+          "type": "youtube",
+          "title": "Pulsefire Ezreal Skin Trailer 2012",
+          "youtubeId": "7ebQTanjbys",
+          "thumb": "https://i.ytimg.com/vi/7ebQTanjbys/hqdefault.jpg",
+          "tags": []
+        },
+        {
+          "type": "youtube",
+          "title": "Pulsefire 2020 Event Trailer",
+          "youtubeId": "8GbMaKOAT0g",
+          "thumb": "https://i.ytimg.com/vi/8GbMaKOAT0g/hqdefault.jpg",
+          "tags": []
+        },
+        {
+          "type": "youtube",
+          "title": "Pulsefire Ezreal Loginscreen Update 2018",
+          "youtubeId": "NSM31U-4Eik",
+          "thumb": "https://i.ytimg.com/vi/NSM31U-4Eik/hqdefault.jpg",
+          "tags": []
+        },
+        {
+          "type": "youtube",
+          "title": "Pulsefire Ezreal Loginscreen 2015",
+          "youtubeId": "TK72r5NTDnQ",
+          "thumb": "https://i.ytimg.com/vi/TK72r5NTDnQ/hqdefault.jpg",
+          "tags": []
+        },
+        {
+          "type": "youtube",
+          "title": "Pulsefire Ezreal 2018 Skin Spotlight",
+          "youtubeId": "h8f-Pd0HXb8",
+          "thumb": "https://i.ytimg.com/vi/h8f-Pd0HXb8/hqdefault.jpg",
+          "tags": []
+        },
+        {
+          "type": "youtube",
+          "title": "Pulsefire Ezreal Special Interactions 2018",
+          "youtubeId": "tlgD3GhABBU",
+          "thumb": "https://i.ytimg.com/vi/tlgD3GhABBU/hqdefault.jpg",
+          "tags": []
+        },
+        {
+          "type": "youtube",
+          "title": "Pulsefire Ezreal 2012 Skin Spotlight",
+          "youtubeId": "_RXjDym_cJE",
+          "thumb": "https://i.ytimg.com/vi/_RXjDym_cJE/hqdefault.jpg",
+          "tags": []
+        },
+        {
+          "type": "youtube",
+          "title": "Pulsefire Ezreal Special Interactions 2017",
+          "youtubeId": "REExoFb7JlI",
+          "thumb": "https://i.ytimg.com/vi/REExoFb7JlI/hqdefault.jpg",
+          "tags": []
         }
       ]
     },
@@ -3710,6 +4038,41 @@
             "chroma",
             "tft"
           ]
+        },
+        {
+          "type": "youtube",
+          "title": "SSG - Making of the SSG 2017 Skins",
+          "youtubeId": "ADxfkpOhxPs",
+          "thumb": "https://i.ytimg.com/vi/ADxfkpOhxPs/hqdefault.jpg",
+          "tags": []
+        },
+        {
+          "type": "youtube",
+          "title": "SSG - Samsung Galaxy Ezreal Skin VFX",
+          "youtubeId": "rdwfvocz6qI",
+          "thumb": "https://i.ytimg.com/vi/rdwfvocz6qI/hqdefault.jpg",
+          "tags": []
+        },
+        {
+          "type": "youtube",
+          "title": "SSG Ezreal 2018 Skin Spotlight",
+          "youtubeId": "bZr_6_quUnU",
+          "thumb": "https://i.ytimg.com/vi/bZr_6_quUnU/hqdefault.jpg",
+          "tags": []
+        },
+        {
+          "type": "youtube",
+          "title": "SSG Ezreal Skin Spotlight 2018",
+          "youtubeId": "CmfCyVtw-Lw",
+          "thumb": "https://i.ytimg.com/vi/CmfCyVtw-Lw/hqdefault.jpg",
+          "tags": []
+        },
+        {
+          "type": "youtube",
+          "title": "SSG Ezreal Skin Spotlight - Pre-Release",
+          "youtubeId": "6KgeIsPNtzs",
+          "thumb": "https://i.ytimg.com/vi/6KgeIsPNtzs/hqdefault.jpg",
+          "tags": []
         }
       ]
     },
@@ -3983,6 +4346,55 @@
           "title": "Star Guardian Message Board Sticker",
           "path": "assets/ezreal/skins/Star Guardian/emote/Star_Guardian_Message_Board_Sticker.png",
           "tags": []
+        },
+        {
+          "type": "youtube",
+          "title": "Star Guardian Ezreal VFX",
+          "youtubeId": "vxod4t6OYRs",
+          "thumb": "https://i.ytimg.com/vi/vxod4t6OYRs/hqdefault.jpg",
+          "tags": []
+        },
+        {
+          "type": "youtube",
+          "title": "Star Guardian - A New Horizon - Ahri Animated Trailer",
+          "youtubeId": "-lx_1kgEjOk",
+          "thumb": "https://i.ytimg.com/vi/-lx_1kgEjOk/hqdefault.jpg",
+          "tags": []
+        },
+        {
+          "type": "youtube",
+          "title": "Star Guardian - Light A New Horizon - 2017 Skins Trailer",
+          "youtubeId": "bXLuW4elRL0",
+          "thumb": "https://i.ytimg.com/vi/bXLuW4elRL0/hqdefault.jpg",
+          "tags": []
+        },
+        {
+          "type": "youtube",
+          "title": "Star Guardian 2017 Loginscreen Theme",
+          "youtubeId": "_0vaA-8EXjk",
+          "thumb": "https://i.ytimg.com/vi/_0vaA-8EXjk/hqdefault.jpg",
+          "tags": []
+        },
+        {
+          "type": "youtube",
+          "title": "Star Guardian Ezreal 2018 Skin Spotlight",
+          "youtubeId": "gaAPS72Cl_Q",
+          "thumb": "https://i.ytimg.com/vi/gaAPS72Cl_Q/hqdefault.jpg",
+          "tags": []
+        },
+        {
+          "type": "youtube",
+          "title": "Star Guardian Ezreal Wild Rift Skin Spotlight",
+          "youtubeId": "zUIhAF1tZYc",
+          "thumb": "https://i.ytimg.com/vi/zUIhAF1tZYc/hqdefault.jpg",
+          "tags": []
+        },
+        {
+          "type": "youtube",
+          "title": "Star Guardian Ezreal Skin Spotlight 2017",
+          "youtubeId": "-fp--SaQumE",
+          "thumb": "https://i.ytimg.com/vi/-fp--SaQumE/hqdefault.jpg",
+          "tags": []
         }
       ]
     },
@@ -4038,6 +4450,20 @@
           "title": "Striker Update Model",
           "path": "assets/ezreal/skins/Striker/model/Striker_Update_Model.png",
           "tags": []
+        },
+        {
+          "type": "youtube",
+          "title": "Striker Ezreal 2018 Skin Spotlight",
+          "youtubeId": "oPfZCwAv5jM",
+          "thumb": "https://i.ytimg.com/vi/oPfZCwAv5jM/hqdefault.jpg",
+          "tags": []
+        },
+        {
+          "type": "youtube",
+          "title": "Striker Ezreal Skin Spotlight 2012",
+          "youtubeId": "993kIX_behI",
+          "thumb": "https://i.ytimg.com/vi/993kIX_behI/hqdefault.jpg",
+          "tags": []
         }
       ]
     },
@@ -4092,6 +4518,27 @@
           "type": "model",
           "title": "TPA Update Model",
           "path": "assets/ezreal/skins/TPA/model/TPA_Update_Model.png",
+          "tags": []
+        },
+        {
+          "type": "youtube",
+          "title": "TPA Ezreal 2018 Skin Spotlight",
+          "youtubeId": "ibltKFEYiuQ",
+          "thumb": "https://i.ytimg.com/vi/ibltKFEYiuQ/hqdefault.jpg",
+          "tags": []
+        },
+        {
+          "type": "youtube",
+          "title": "TPA Ezreal Skin Spotlight 2013",
+          "youtubeId": "r_Deyo8KUm0",
+          "thumb": "https://i.ytimg.com/vi/r_Deyo8KUm0/hqdefault.jpg",
+          "tags": []
+        },
+        {
+          "type": "youtube",
+          "title": "TPA Ezreal Pre-Release Teaser 2013",
+          "youtubeId": "3yjYyQWh-vw",
+          "thumb": "https://i.ytimg.com/vi/3yjYyQWh-vw/hqdefault.jpg",
           "tags": []
         }
       ]
@@ -4204,6 +4651,27 @@
           "tags": [
             "wr"
           ]
+        },
+        {
+          "type": "youtube",
+          "title": "Weather Entity Ezreal Wild Rift Skin Spotlight",
+          "youtubeId": "m8kEEIsQbm4",
+          "thumb": "https://i.ytimg.com/vi/m8kEEIsQbm4/hqdefault.jpg",
+          "tags": []
+        },
+        {
+          "type": "youtube",
+          "title": "Weather Entity Cinematic Trailer",
+          "youtubeId": "lfR6plC2ssg",
+          "thumb": "https://i.ytimg.com/vi/lfR6plC2ssg/hqdefault.jpg",
+          "tags": []
+        },
+        {
+          "type": "youtube",
+          "title": "Weather Entity Ezreal English Voice & Interactions",
+          "youtubeId": "Q5R6oNtXlf8",
+          "thumb": "https://i.ytimg.com/vi/Q5R6oNtXlf8/hqdefault.jpg",
+          "tags": []
         }
       ]
     },
