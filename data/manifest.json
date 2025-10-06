@@ -2823,6 +2823,30 @@
           "title": "Porcelain Protector Model 4 by Liem Nguyen",
           "path": "assets/ezreal/skins/Porcelain Protector/model/Porcelain_Protector_Model_4_by_Liem_Nguyen.jpg",
           "tags": []
+        },
+        {
+          "type": "model",
+          "title": "Porcelain Protector Chroma Rose Quartz Model",
+          "path": "assets/ezreal/skins/Porcelain Protector/model/chroma/Porcelain_Protector_Chroma_Rose_Quartz_Model.png",
+          "tags": [
+            "chroma"
+          ]
+        },
+        {
+          "type": "model",
+          "title": "Porcelain Protector Chroma Ruby Model",
+          "path": "assets/ezreal/skins/Porcelain Protector/model/chroma/Porcelain_Protector_Chroma_Ruby_Model.png",
+          "tags": [
+            "chroma"
+          ]
+        },
+        {
+          "type": "model",
+          "title": "Porcelain Protector Chroma Tanzanite Model",
+          "path": "assets/ezreal/skins/Porcelain Protector/model/chroma/Porcelain_Protector_Chroma_Tanzanite_Model.png",
+          "tags": [
+            "chroma"
+          ]
         }
       ]
     },
