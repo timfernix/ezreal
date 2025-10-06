@@ -3713,9 +3713,239 @@
           "tags": []
         },
         {
+          "type": "promo",
+          "title": "Star Guardian A New Horizon Illustration",
+          "path": "assets/ezreal/skins/Star Guardian/promo/Star_Guardian_A_New_Horizon_Illustration.jpg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Star Guardian Introducing Galaxies TFT Post  TFT",
+          "path": "assets/ezreal/skins/Star Guardian/promo/Star_Guardian_Introducing_Galaxies_TFT_Post__TFT.jpg",
+          "tags": [
+            "tft"
+          ]
+        },
+        {
+          "type": "promo",
+          "title": "Star Guardian Promo croppedl",
+          "path": "assets/ezreal/skins/Star Guardian/promo/Star_Guardian_Promo_croppedl.jpg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Star Guardian Starfall Illustration 1 by Katherine Su",
+          "path": "assets/ezreal/skins/Star Guardian/promo/Star_Guardian_Starfall_Illustration_1_by_Katherine_Su.jpg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Star Guardian Starfall Illustration 2 by Katherine Su",
+          "path": "assets/ezreal/skins/Star Guardian/promo/Star_Guardian_Starfall_Illustration_2_by_Katherine_Su.jpg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Star Guardian Starfall Illustration 3 by Katherine Su",
+          "path": "assets/ezreal/skins/Star Guardian/promo/Star_Guardian_Starfall_Illustration_3_by_Katherine_Su.jpg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Star Guardian Wild Rift Animation  WR",
+          "path": "assets/ezreal/skins/Star Guardian/promo/Star_Guardian_Wild_Rift_Animation__WR.gif",
+          "tags": [
+            "wr"
+          ]
+        },
+        {
+          "type": "promo",
+          "title": "Star Guardian Wild Rift Promoart by Foritis Wang  WR",
+          "path": "assets/ezreal/skins/Star Guardian/promo/Star_Guardian_Wild_Rift_Promoart_by_Foritis_Wang__WR.jpg",
+          "tags": [
+            "wr"
+          ]
+        },
+        {
+          "type": "promo",
+          "title": "Star Guardian Wild Rift Promoart cropped  WR",
+          "path": "assets/ezreal/skins/Star Guardian/promo/Star_Guardian_Wild_Rift_Promoart_cropped__WR.jpg",
+          "tags": [
+            "wr"
+          ]
+        },
+        {
+          "type": "concept",
+          "title": "Star Guardian Concept 1 by Paul Kwon",
+          "path": "assets/ezreal/skins/Star Guardian/concept/Star_Guardian_Concept_1_by_Paul_Kwon.jpg",
+          "tags": []
+        },
+        {
+          "type": "concept",
+          "title": "Star Guardian Concept 2 by Paul Kwon",
+          "path": "assets/ezreal/skins/Star Guardian/concept/Star_Guardian_Concept_2_by_Paul_Kwon.jpg",
+          "tags": []
+        },
+        {
+          "type": "concept",
+          "title": "Star Guardian Concept 3 by Paul Kwon",
+          "path": "assets/ezreal/skins/Star Guardian/concept/Star_Guardian_Concept_3_by_Paul_Kwon.jpg",
+          "tags": []
+        },
+        {
+          "type": "concept",
+          "title": "Star Guardian Ezreal Concept 1 by Paul Kwon",
+          "path": "assets/ezreal/skins/Star Guardian/concept/Star_Guardian_Ezreal_Concept_1_by_Paul_Kwon.jpg",
+          "tags": []
+        },
+        {
+          "type": "concept",
+          "title": "Star Guardian Ezreal Concept 2 by Esben Lash Rasmussen",
+          "path": "assets/ezreal/skins/Star Guardian/concept/Star_Guardian_Ezreal_Concept_2_by_Esben_Lash_Rasmussen.jpg",
+          "tags": []
+        },
+        {
+          "type": "concept",
+          "title": "Star Guardian Ezreal Concept 3 by Paul Kwon",
+          "path": "assets/ezreal/skins/Star Guardian/concept/Star_Guardian_Ezreal_Concept_3_by_Paul_Kwon.jpg",
+          "tags": []
+        },
+        {
+          "type": "concept",
+          "title": "Star Guardian Splash Concept 1 by Esben Lash Rasmussen",
+          "path": "assets/ezreal/skins/Star Guardian/concept/Star_Guardian_Splash_Concept_1_by_Esben_Lash_Rasmussen.jpg",
+          "tags": []
+        },
+        {
+          "type": "concept",
+          "title": "Star Guardian Splash Concept 2 by Esben Lash Rasmussen",
+          "path": "assets/ezreal/skins/Star Guardian/concept/Star_Guardian_Splash_Concept_2_by_Esben_Lash_Rasmussen.jpg",
+          "tags": []
+        },
+        {
+          "type": "concept",
+          "title": "Star Guardian Starfall Illustration Concept 1 by Katherine Su",
+          "path": "assets/ezreal/skins/Star Guardian/concept/Star_Guardian_Starfall_Illustration_Concept_1_by_Katherine_Su.jpg",
+          "tags": []
+        },
+        {
+          "type": "concept",
+          "title": "Star Guardian Starfall Illustration Concept 2 by Katherine Su",
+          "path": "assets/ezreal/skins/Star Guardian/concept/Star_Guardian_Starfall_Illustration_Concept_2_by_Katherine_Su.gif",
+          "tags": []
+        },
+        {
+          "type": "concept",
+          "title": "Star Guardian Starfall Illustration Concept 3 by Katherine Su",
+          "path": "assets/ezreal/skins/Star Guardian/concept/Star_Guardian_Starfall_Illustration_Concept_3_by_Katherine_Su.gif",
+          "tags": []
+        },
+        {
+          "type": "concept",
+          "title": "Star Guardian Starfall Illustration Concept 4 by Katherine Su",
+          "path": "assets/ezreal/skins/Star Guardian/concept/Star_Guardian_Starfall_Illustration_Concept_4_by_Katherine_Su.gif",
+          "tags": []
+        },
+        {
+          "type": "concept",
+          "title": "Star Guardian Starfall Illustration Concept 5 by Katherine Su",
+          "path": "assets/ezreal/skins/Star Guardian/concept/Star_Guardian_Starfall_Illustration_Concept_5_by_Katherine_Su.jpg",
+          "tags": []
+        },
+        {
+          "type": "concept",
+          "title": "Star Guardian Starfall Illustration Concept 6 by Katherine Su",
+          "path": "assets/ezreal/skins/Star Guardian/concept/Star_Guardian_Starfall_Illustration_Concept_6_by_Katherine_Su.png",
+          "tags": []
+        },
+        {
+          "type": "concept",
+          "title": "Star Guardian Wild Rift Concept 1 by Foritis Wang  WR",
+          "path": "assets/ezreal/skins/Star Guardian/concept/Star_Guardian_Wild_Rift_Concept_1_by_Foritis_Wang__WR.jpg",
+          "tags": [
+            "wr"
+          ]
+        },
+        {
+          "type": "concept",
+          "title": "Star Guardian Wild Rift Concept 2 by Foritis Wang  WR",
+          "path": "assets/ezreal/skins/Star Guardian/concept/Star_Guardian_Wild_Rift_Concept_2_by_Foritis_Wang__WR.jpg",
+          "tags": [
+            "wr"
+          ]
+        },
+        {
+          "type": "concept",
+          "title": "Star Guardian Wild Rift Concept 3 by Foritis Wang  WR",
+          "path": "assets/ezreal/skins/Star Guardian/concept/Star_Guardian_Wild_Rift_Concept_3_by_Foritis_Wang__WR.jpg",
+          "tags": [
+            "wr"
+          ]
+        },
+        {
+          "type": "concept",
+          "title": "Star Guardian Wild Rift Concept 4 by Foritis Wang  WR",
+          "path": "assets/ezreal/skins/Star Guardian/concept/Star_Guardian_Wild_Rift_Concept_4_by_Foritis_Wang__WR.jpg",
+          "tags": [
+            "wr"
+          ]
+        },
+        {
+          "type": "concept",
+          "title": "Star Guardian Wild Rift Concept 5 by Foritis Wang  WR",
+          "path": "assets/ezreal/skins/Star Guardian/concept/Star_Guardian_Wild_Rift_Concept_5_by_Foritis_Wang__WR.jpg",
+          "tags": [
+            "wr"
+          ]
+        },
+        {
+          "type": "concept",
+          "title": "Star Guardian Wild Rift Concept 6 by Foritis Wang  WR",
+          "path": "assets/ezreal/skins/Star Guardian/concept/Star_Guardian_Wild_Rift_Concept_6_by_Foritis_Wang__WR.jpg",
+          "tags": [
+            "wr"
+          ]
+        },
+        {
           "type": "loading",
           "title": "Star Guardian Loadingscreen",
           "path": "assets/ezreal/skins/Star Guardian/loading/Star_Guardian_Loadingscreen.jpg",
+          "tags": []
+        },
+        {
+          "type": "model",
+          "title": "Star Guardian Ezreal Model 1 by Duy Khanh Nguyen",
+          "path": "assets/ezreal/skins/Star Guardian/model/Star_Guardian_Ezreal_Model_1_by_Duy_Khanh_Nguyen.jpg",
+          "tags": []
+        },
+        {
+          "type": "model",
+          "title": "Star Guardian Ezreal Model 2 by Duy Khanh Nguyen",
+          "path": "assets/ezreal/skins/Star Guardian/model/Star_Guardian_Ezreal_Model_2_by_Duy_Khanh_Nguyen.jpg",
+          "tags": []
+        },
+        {
+          "type": "model",
+          "title": "Star Guardian Ezreal Model 3 by Duy Khanh Nguyen",
+          "path": "assets/ezreal/skins/Star Guardian/model/Star_Guardian_Ezreal_Model_3_by_Duy_Khanh_Nguyen.jpg",
+          "tags": []
+        },
+        {
+          "type": "model",
+          "title": "Star Guardian Statue Model 1",
+          "path": "assets/ezreal/skins/Star Guardian/model/Star_Guardian_Statue_Model_1.jpg",
+          "tags": []
+        },
+        {
+          "type": "model",
+          "title": "Star Guardian Statue Model 2",
+          "path": "assets/ezreal/skins/Star Guardian/model/Star_Guardian_Statue_Model_2.jpg",
+          "tags": []
+        },
+        {
+          "type": "model",
+          "title": "Star Guardian Update Model",
+          "path": "assets/ezreal/skins/Star Guardian/model/Star_Guardian_Update_Model.png",
           "tags": []
         },
         {
