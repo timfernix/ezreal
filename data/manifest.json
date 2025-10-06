@@ -3620,6 +3620,66 @@
           "title": "SSG Current Splashart",
           "path": "assets/ezreal/skins/SSG/splash/SSG_Current_Splashart.jpg",
           "tags": []
+        },
+        {
+          "type": "splash",
+          "title": "SSG Chroma Splashart Set 12  TFT",
+          "path": "assets/ezreal/skins/SSG/splash/chroma/SSG_Chroma_Splashart_Set_12__TFT.png",
+          "tags": [
+            "chroma",
+            "tft"
+          ]
+        },
+        {
+          "type": "icon",
+          "title": "SSG Icon",
+          "path": "assets/ezreal/skins/SSG/icon/SSG_Icon.jpg",
+          "tags": []
+        },
+        {
+          "type": "icon",
+          "title": "SSG Profileicon",
+          "path": "assets/ezreal/skins/SSG/icon/SSG_Profileicon.png",
+          "tags": []
+        },
+        {
+          "type": "concept",
+          "title": "SSG Skinline Concept",
+          "path": "assets/ezreal/skins/SSG/concept/SSG_Skinline_Concept.jpg",
+          "tags": []
+        },
+        {
+          "type": "concept",
+          "title": "SSG Skinline First Concept",
+          "path": "assets/ezreal/skins/SSG/concept/SSG_Skinline_First_Concept.png",
+          "tags": []
+        },
+        {
+          "type": "loading",
+          "title": "Ezreal 19",
+          "path": "assets/ezreal/skins/SSG/loading/Ezreal_19.jpg",
+          "tags": []
+        },
+        {
+          "type": "model",
+          "title": "SSG Model by Yekaterina Bourykina",
+          "path": "assets/ezreal/skins/SSG/model/SSG_Model_by_Yekaterina_Bourykina.jpg",
+          "tags": []
+        },
+        {
+          "type": "model",
+          "title": "SSG Update Model by Yekaterina Bourykina",
+          "path": "assets/ezreal/skins/SSG/model/SSG_Update_Model_by_Yekaterina_Bourykina.png",
+          "tags": []
+        },
+        {
+          "type": "model",
+          "title": "SSG Chroma Model Render Set 12  TFT",
+          "path": "assets/ezreal/skins/SSG/model/chroma/SSG_Chroma_Model_Render_Set_12__TFT.png",
+          "tags": [
+            "chroma",
+            "tft"
+          ]
         }
       ]
     },
