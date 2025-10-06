@@ -3978,6 +3978,36 @@
           "title": "Striker old 2nd Version Splashart",
           "path": "assets/ezreal/skins/Striker/splash/Striker_old_2nd_Version_Splashart.jpg",
           "tags": []
+        },
+        {
+          "type": "icon",
+          "title": "Striker Icon",
+          "path": "assets/ezreal/skins/Striker/icon/Striker_Icon.jpg",
+          "tags": []
+        },
+        {
+          "type": "concept",
+          "title": "Striker Concept 1 by Joyce Koo",
+          "path": "assets/ezreal/skins/Striker/concept/Striker_Concept_1_by_Joyce_Koo.jpeg",
+          "tags": []
+        },
+        {
+          "type": "concept",
+          "title": "Striker Concept 2 by Joyce Koo",
+          "path": "assets/ezreal/skins/Striker/concept/Striker_Concept_2_by_Joyce_Koo.jpg",
+          "tags": []
+        },
+        {
+          "type": "loading",
+          "title": "Striker Loadingscreen",
+          "path": "assets/ezreal/skins/Striker/loading/Striker_Loadingscreen.jpg",
+          "tags": []
+        },
+        {
+          "type": "model",
+          "title": "Striker Update Model",
+          "path": "assets/ezreal/skins/Striker/model/Striker_Update_Model.png",
+          "tags": []
         }
       ]
     },
