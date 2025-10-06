@@ -2826,6 +2826,30 @@
         },
         {
           "type": "model",
+          "title": "Porcelain Protector Chroma Catseye Model",
+          "path": "assets/ezreal/skins/Porcelain Protector/model/chroma/Porcelain_Protector_Chroma_Catseye_Model.png",
+          "tags": [
+            "chroma"
+          ]
+        },
+        {
+          "type": "model",
+          "title": "Porcelain Protector Chroma Golden Tiger Model",
+          "path": "assets/ezreal/skins/Porcelain Protector/model/chroma/Porcelain_Protector_Chroma_Golden_Tiger_Model.png",
+          "tags": [
+            "chroma"
+          ]
+        },
+        {
+          "type": "model",
+          "title": "Porcelain Protector Chroma Pearl Model",
+          "path": "assets/ezreal/skins/Porcelain Protector/model/chroma/Porcelain_Protector_Chroma_Pearl_Model.png",
+          "tags": [
+            "chroma"
+          ]
+        },
+        {
+          "type": "model",
           "title": "Porcelain Protector Chroma Rose Quartz Model",
           "path": "assets/ezreal/skins/Porcelain Protector/model/chroma/Porcelain_Protector_Chroma_Rose_Quartz_Model.png",
           "tags": [
