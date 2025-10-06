@@ -3690,8 +3690,38 @@
       "media": [
         {
           "type": "splash",
+          "title": "Star Guardian Yuuto Spashart cropped",
+          "path": "assets/ezreal/skins/Star Guardian/splash/Star_Guardian_Yuuto_Spashart_cropped.jpg",
+          "tags": []
+        },
+        {
+          "type": "splash",
           "title": "Sttar Guardian Current Splashart",
           "path": "assets/ezreal/skins/Star Guardian/splash/Sttar_Guardian_Current_Splashart.jpg",
+          "tags": []
+        },
+        {
+          "type": "icon",
+          "title": "Star Guardian Icon",
+          "path": "assets/ezreal/skins/Star Guardian/icon/Star_Guardian_Icon.jpg",
+          "tags": []
+        },
+        {
+          "type": "icon",
+          "title": "Star Guardian Yuuto Profileicon",
+          "path": "assets/ezreal/skins/Star Guardian/icon/Star_Guardian_Yuuto_Profileicon.png",
+          "tags": []
+        },
+        {
+          "type": "loading",
+          "title": "Star Guardian Loadingscreen",
+          "path": "assets/ezreal/skins/Star Guardian/loading/Star_Guardian_Loadingscreen.jpg",
+          "tags": []
+        },
+        {
+          "type": "emote",
+          "title": "Star Guardian Message Board Sticker",
+          "path": "assets/ezreal/skins/Star Guardian/emote/Star_Guardian_Message_Board_Sticker.png",
           "tags": []
         }
       ]
