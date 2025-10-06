@@ -4039,6 +4039,30 @@
           "title": "TPA old 3rd Version Splashart",
           "path": "assets/ezreal/skins/TPA/splash/TPA_old_3rd_Version_Splashart.jpg",
           "tags": []
+        },
+        {
+          "type": "icon",
+          "title": "TPA Icon",
+          "path": "assets/ezreal/skins/TPA/icon/TPA_Icon.jpg",
+          "tags": []
+        },
+        {
+          "type": "loading",
+          "title": "Ezreal 6",
+          "path": "assets/ezreal/skins/TPA/loading/Ezreal_6.jpg",
+          "tags": []
+        },
+        {
+          "type": "model",
+          "title": "TPA Model",
+          "path": "assets/ezreal/skins/TPA/model/TPA_Model.jpg",
+          "tags": []
+        },
+        {
+          "type": "model",
+          "title": "TPA Update Model",
+          "path": "assets/ezreal/skins/TPA/model/TPA_Update_Model.png",
+          "tags": []
         }
       ]
     },
