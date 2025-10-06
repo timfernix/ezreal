@@ -2515,6 +2515,36 @@
           "title": "Nottingham old 2nd Version Splashart",
           "path": "assets/ezreal/skins/Nottingham/splash/Nottingham_old_2nd_Version_Splashart.jpg",
           "tags": []
+        },
+        {
+          "type": "icon",
+          "title": "Nottingham Icon",
+          "path": "assets/ezreal/skins/Nottingham/icon/Nottingham_Icon.jpg",
+          "tags": []
+        },
+        {
+          "type": "concept",
+          "title": "Nottingham Update Concept 1 by Megan O'Rourke",
+          "path": "assets/ezreal/skins/Nottingham/concept/Nottingham_Update_Concept_1_by_Megan_O'Rourke.jpeg",
+          "tags": []
+        },
+        {
+          "type": "concept",
+          "title": "Nottingham Update Concept 2 by Megan O'Rourke",
+          "path": "assets/ezreal/skins/Nottingham/concept/Nottingham_Update_Concept_2_by_Megan_O'Rourke.jpg",
+          "tags": []
+        },
+        {
+          "type": "loading",
+          "title": "Nottingham Loadingscreen",
+          "path": "assets/ezreal/skins/Nottingham/loading/Nottingham_Loadingscreen.jpg",
+          "tags": []
+        },
+        {
+          "type": "model",
+          "title": "Nottingham Model",
+          "path": "assets/ezreal/skins/Nottingham/model/Nottingham_Model.png",
+          "tags": []
         }
       ]
     },
