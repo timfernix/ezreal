@@ -3105,12 +3105,6 @@
         },
         {
           "type": "model",
-          "title": "Prestige PsyOps Model",
-          "path": "assets/ezreal/skins/Prestige PsyOps/model/Prestige_PsyOps_Model.png",
-          "tags": []
-        },
-        {
-          "type": "model",
           "title": "Prestige PsyOps Model 1 by Joey Zhang",
           "path": "assets/ezreal/skins/Prestige PsyOps/model/Prestige_PsyOps_Model_1_by_Joey_Zhang.png",
           "tags": []
