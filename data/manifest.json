@@ -2558,6 +2558,96 @@
           "title": "Pajama Guardian Current Splashart",
           "path": "assets/ezreal/skins/Pajama Guardian/splash/Pajama_Guardian_Current_Splashart.jpg",
           "tags": []
+        },
+        {
+          "type": "icon",
+          "title": "Pajama Guardian Icon",
+          "path": "assets/ezreal/skins/Pajama Guardian/icon/Pajama_Guardian_Icon.jpg",
+          "tags": []
+        },
+        {
+          "type": "icon",
+          "title": "Pajama Guardian Yuuto Profileicon",
+          "path": "assets/ezreal/skins/Pajama Guardian/icon/Pajama_Guardian_Yuuto_Profileicon.png",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Pajama Guardian The Slumber Party Summoning Illustration 1",
+          "path": "assets/ezreal/skins/Pajama Guardian/promo/Pajama_Guardian_The_Slumber_Party_Summoning_Illustration_1.jpg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Pajama Guardian The Slumber Party Summoning Illustration 2",
+          "path": "assets/ezreal/skins/Pajama Guardian/promo/Pajama_Guardian_The_Slumber_Party_Summoning_Illustration_2.jpg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Pajama Guardian Wild Rift Promoart by kun qin  WR",
+          "path": "assets/ezreal/skins/Pajama Guardian/promo/Pajama_Guardian_Wild_Rift_Promoart_by_kun_qin__WR.jpeg",
+          "tags": [
+            "wr"
+          ]
+        },
+        {
+          "type": "concept",
+          "title": "Pajama Guardian Concept by Thomas Randby",
+          "path": "assets/ezreal/skins/Pajama Guardian/concept/Pajama_Guardian_Concept_by_Thomas_Randby.jpg",
+          "tags": []
+        },
+        {
+          "type": "concept",
+          "title": "Pajama Guardian Splashart Concept 1 by Sangsoo Jeong",
+          "path": "assets/ezreal/skins/Pajama Guardian/concept/Pajama_Guardian_Splashart_Concept_1_by_Sangsoo_Jeong.jpg",
+          "tags": []
+        },
+        {
+          "type": "concept",
+          "title": "Pajama Guardian Splashart Concept 2 by Sangsoo Jeong",
+          "path": "assets/ezreal/skins/Pajama Guardian/concept/Pajama_Guardian_Splashart_Concept_2_by_Sangsoo_Jeong.jpg",
+          "tags": []
+        },
+        {
+          "type": "concept",
+          "title": "Pajama Guardian Splashart Concept 3 by Sangsoo Jeong",
+          "path": "assets/ezreal/skins/Pajama Guardian/concept/Pajama_Guardian_Splashart_Concept_3_by_Sangsoo_Jeong.jpg",
+          "tags": []
+        },
+        {
+          "type": "concept",
+          "title": "Pajama Guardian Wild Rift Promoart Concept by kun qin  WR",
+          "path": "assets/ezreal/skins/Pajama Guardian/concept/Pajama_Guardian_Wild_Rift_Promoart_Concept_by_kun_qin__WR.jpg",
+          "tags": [
+            "wr"
+          ]
+        },
+        {
+          "type": "loading",
+          "title": "Pajama Guardian Loadingscreen",
+          "path": "assets/ezreal/skins/Pajama Guardian/loading/Pajama_Guardian_Loadingscreen.jpg",
+          "tags": []
+        },
+        {
+          "type": "model",
+          "title": "Pajama Guardian Model 1 by Andrey Petrashov",
+          "path": "assets/ezreal/skins/Pajama Guardian/model/Pajama_Guardian_Model_1_by_Andrey_Petrashov.jpg",
+          "tags": []
+        },
+        {
+          "type": "model",
+          "title": "Pajama Guardian Model 2 by Andrey Petrashov",
+          "path": "assets/ezreal/skins/Pajama Guardian/model/Pajama_Guardian_Model_2_by_Andrey_Petrashov.png",
+          "tags": []
+        },
+        {
+          "type": "emote",
+          "title": "Pajama Guardian Fast Asleep Emote  WR",
+          "path": "assets/ezreal/skins/Pajama Guardian/emote/Pajama_Guardian_Fast_Asleep_Emote__WR.png",
+          "tags": [
+            "wr"
+          ]
         }
       ]
     },
