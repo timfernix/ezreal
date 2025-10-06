@@ -3078,6 +3078,30 @@
           "title": "Prestige PsyOps Current Splashart",
           "path": "assets/ezreal/skins/Prestige PsyOps/splash/Prestige_PsyOps_Current_Splashart.jpg",
           "tags": []
+        },
+        {
+          "type": "icon",
+          "title": "Prestige PsyOps Icon",
+          "path": "assets/ezreal/skins/Prestige PsyOps/icon/Prestige_PsyOps_Icon.jpg",
+          "tags": []
+        },
+        {
+          "type": "icon",
+          "title": "Prestige PsyOps Profileicon",
+          "path": "assets/ezreal/skins/Prestige PsyOps/icon/Prestige_PsyOps_Profileicon.png",
+          "tags": []
+        },
+        {
+          "type": "loading",
+          "title": "Prestige PsyOps Loadingscreen",
+          "path": "assets/ezreal/skins/Prestige PsyOps/loading/Prestige_PsyOps_Loadingscreen.jpg",
+          "tags": []
+        },
+        {
+          "type": "model",
+          "title": "Prestige PsyOps Model",
+          "path": "assets/ezreal/skins/Prestige PsyOps/model/Prestige_PsyOps_Model.png",
+          "tags": []
         }
       ]
     },
