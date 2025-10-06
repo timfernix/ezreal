@@ -3092,6 +3092,12 @@
           "tags": []
         },
         {
+          "type": "concept",
+          "title": "Prestige PsyOps Concept by Albert Wong",
+          "path": "assets/ezreal/skins/Prestige PsyOps/concept/Prestige_PsyOps_Concept_by_Albert_Wong.jpg",
+          "tags": []
+        },
+        {
           "type": "loading",
           "title": "Prestige PsyOps Loadingscreen",
           "path": "assets/ezreal/skins/Prestige PsyOps/loading/Prestige_PsyOps_Loadingscreen.jpg",
@@ -3101,6 +3107,24 @@
           "type": "model",
           "title": "Prestige PsyOps Model",
           "path": "assets/ezreal/skins/Prestige PsyOps/model/Prestige_PsyOps_Model.png",
+          "tags": []
+        },
+        {
+          "type": "model",
+          "title": "Prestige PsyOps Model 1 by Joey Zhang",
+          "path": "assets/ezreal/skins/Prestige PsyOps/model/Prestige_PsyOps_Model_1_by_Joey_Zhang.png",
+          "tags": []
+        },
+        {
+          "type": "model",
+          "title": "Prestige PsyOps Model 2 by Joey Zhang",
+          "path": "assets/ezreal/skins/Prestige PsyOps/model/Prestige_PsyOps_Model_2_by_Joey_Zhang.jpg",
+          "tags": []
+        },
+        {
+          "type": "model",
+          "title": "Prestige PsyOps Model 3 by Joey Zhang",
+          "path": "assets/ezreal/skins/Prestige PsyOps/model/Prestige_PsyOps_Model_3_by_Joey_Zhang.jpg",
           "tags": []
         }
       ]
