@@ -1656,8 +1656,8 @@
         },
         {
           "type": "promo",
-          "title": "Heartsteel Poster",
-          "path": "assets/ezreal/skins/HEARTSTEEL/promo/Heartsteel_Poster.webp",
+          "title": "Heartsteel Poster by Studio Moross",
+          "path": "assets/ezreal/skins/HEARTSTEEL/promo/Heartsteel_Poster_by_Studio_Moross.webp",
           "tags": []
         },
         {
@@ -2019,6 +2019,12 @@
           "type": "video",
           "title": "Heartsteel Discord Voicecall vibes vibing vibers",
           "path": "assets/ezreal/skins/HEARTSTEEL/video/Heartsteel_Discord_Voicecall_vibes-vibing-vibers.mp4",
+          "tags": []
+        },
+        {
+          "type": "video",
+          "title": "Heartsteel Project Trailerby Studio Moross compressed",
+          "path": "assets/ezreal/skins/HEARTSTEEL/video/Heartsteel_Project_Trailerby_Studio_Moross_compressed.mp4",
           "tags": []
         },
         {
