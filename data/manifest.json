@@ -2279,7 +2279,7 @@
     {
       "id": "Jarro Lightfeather",
       "name": "Jarro Lightfeather",
-      "release_year": null,
+      "release_year": 2024,
       "media": [
         {
           "type": "splash",
@@ -2328,6 +2328,83 @@
           "tags": [
             "lor"
           ]
+        }
+      ]
+    },
+    {
+      "id": "Lovestruck",
+      "name": "Lovestruck",
+      "release_year": 2024,
+      "media": [
+        {
+          "type": "splash",
+          "title": "Lovestruck Splashart  WR",
+          "path": "assets/ezreal/skins/Lovestruck/splash/Lovestruck_Splashart__WR.jpg",
+          "tags": [
+            "wr"
+          ]
+        },
+        {
+          "type": "icon",
+          "title": "Lovestruck Icon  WR",
+          "path": "assets/ezreal/skins/Lovestruck/icon/Lovestruck_Icon__WR.png",
+          "tags": [
+            "wr"
+          ]
+        },
+        {
+          "type": "icon",
+          "title": "Lovestruck Romantic Explorer Profileicon  WR",
+          "path": "assets/ezreal/skins/Lovestruck/icon/Lovestruck_Romantic_Explorer_Profileicon__WR.png",
+          "tags": [
+            "wr"
+          ]
+        },
+        {
+          "type": "concept",
+          "title": "Lovestruck Concept 1  WR",
+          "path": "assets/ezreal/skins/Lovestruck/concept/Lovestruck_Concept_1__WR.jpg",
+          "tags": [
+            "wr"
+          ]
+        },
+        {
+          "type": "concept",
+          "title": "Lovestruck Concept 2  WR",
+          "path": "assets/ezreal/skins/Lovestruck/concept/Lovestruck_Concept_2__WR.jpg",
+          "tags": [
+            "wr"
+          ]
+        },
+        {
+          "type": "model",
+          "title": "Lovestruck Chroma Gray  WR",
+          "path": "assets/ezreal/skins/Lovestruck/model/Lovestruck_Chroma_Gray__WR.png",
+          "tags": [
+            "wr"
+          ]
+        },
+        {
+          "type": "model",
+          "title": "Lovestruck Chroma Indigo  WR",
+          "path": "assets/ezreal/skins/Lovestruck/model/Lovestruck_Chroma_Indigo__WR.png",
+          "tags": [
+            "wr"
+          ]
+        },
+        {
+          "type": "model",
+          "title": "Lovestruck Chroma Magenta  WR",
+          "path": "assets/ezreal/skins/Lovestruck/model/Lovestruck_Chroma_Magenta__WR.png",
+          "tags": [
+            "wr"
+          ]
+        },
+        {
+          "type": "model",
+          "title": "Lovestruck Project Cover",
+          "path": "assets/ezreal/skins/Lovestruck/model/Lovestruck_Project_Cover.jpg",
+          "tags": []
         }
       ]
     },
