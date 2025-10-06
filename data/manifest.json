@@ -2712,6 +2712,12 @@
         },
         {
           "type": "promo",
+          "title": "Porcelain Protector Chibi Golden Spatula Promoart cropped",
+          "path": "assets/ezreal/skins/Porcelain Protector/promo/Porcelain_Protector_Chibi_Golden_Spatula_Promoart_cropped.jpeg",
+          "tags": []
+        },
+        {
+          "type": "promo",
           "title": "Porcelain Protector Promoart Event",
           "path": "assets/ezreal/skins/Porcelain Protector/promo/Porcelain_Protector_Promoart_Event.jpg",
           "tags": []
@@ -2759,6 +2765,12 @@
           "tags": []
         },
         {
+          "type": "loading",
+          "title": "Porcelain Protector Loadingscreen",
+          "path": "assets/ezreal/skins/Porcelain Protector/loading/Porcelain_Protector_Loadingscreen.jpg",
+          "tags": []
+        },
+        {
           "type": "model",
           "title": "Porcelain Protector A Hero Awakens Model 1 by IDEOMOTOR Studio",
           "path": "assets/ezreal/skins/Porcelain Protector/model/Porcelain_Protector_A_Hero_Awakens_Model_1_by_IDEOMOTOR_Studio.jpg",
@@ -2792,6 +2804,18 @@
           "type": "model",
           "title": "Porcelain Protector A Hero Awakens Model 6 by IDEOMOTOR Studio",
           "path": "assets/ezreal/skins/Porcelain Protector/model/Porcelain_Protector_A_Hero_Awakens_Model_6_by_IDEOMOTOR_Studio.jpg",
+          "tags": []
+        },
+        {
+          "type": "model",
+          "title": "Porcelain Protector Chibi Golden Spatula Model 1 cropped",
+          "path": "assets/ezreal/skins/Porcelain Protector/model/Porcelain_Protector_Chibi_Golden_Spatula_Model_1_cropped.jpeg",
+          "tags": []
+        },
+        {
+          "type": "model",
+          "title": "Porcelain Protector Chibi Golden Spatula Model 2 cropped",
+          "path": "assets/ezreal/skins/Porcelain Protector/model/Porcelain_Protector_Chibi_Golden_Spatula_Model_2_cropped.png",
           "tags": []
         },
         {
@@ -2938,6 +2962,109 @@
           "title": "Prestige Heavenscale Loadingscreen",
           "path": "assets/ezreal/skins/Prestige Heavenscale/loading/Prestige_Heavenscale_Loadingscreen.jpg",
           "tags": []
+        }
+      ]
+    },
+    {
+      "id": "Prestige Porcelain Protector",
+      "name": "Prestige Porcelain Protector",
+      "release_year": 2025,
+      "media": [
+        {
+          "type": "splash",
+          "title": "Prestige Porcelain Protector Chibi Splashart  TFT",
+          "path": "assets/ezreal/skins/Prestige Porcelain Protector/splash/Prestige_Porcelain_Protector_Chibi_Splashart__TFT.jpg",
+          "tags": [
+            "tft"
+          ]
+        },
+        {
+          "type": "splash",
+          "title": "Prestige Porcelain Protector Chibi Splashart cropped  TFT",
+          "path": "assets/ezreal/skins/Prestige Porcelain Protector/splash/Prestige_Porcelain_Protector_Chibi_Splashart_cropped__TFT.png",
+          "tags": [
+            "tft"
+          ]
+        },
+        {
+          "type": "icon",
+          "title": "Porcelain Protector Chibi Profileicon  TFT",
+          "path": "assets/ezreal/skins/Prestige Porcelain Protector/icon/Porcelain_Protector_Chibi_Profileicon__TFT.png",
+          "tags": [
+            "tft"
+          ]
+        },
+        {
+          "type": "promo",
+          "title": "Prestige Porcelain Protector Chibi Event Videoframe 1  TFT",
+          "path": "assets/ezreal/skins/Prestige Porcelain Protector/promo/Prestige_Porcelain_Protector_Chibi_Event_Videoframe_1__TFT.gif",
+          "tags": [
+            "tft"
+          ]
+        },
+        {
+          "type": "promo",
+          "title": "Prestige Porcelain Protector Chibi Event Videoframe 2  TFT",
+          "path": "assets/ezreal/skins/Prestige Porcelain Protector/promo/Prestige_Porcelain_Protector_Chibi_Event_Videoframe_2__TFT.png",
+          "tags": [
+            "tft"
+          ]
+        },
+        {
+          "type": "promo",
+          "title": "Prestige Porcelain Protector Chibi Event Videoframe 3  TFT",
+          "path": "assets/ezreal/skins/Prestige Porcelain Protector/promo/Prestige_Porcelain_Protector_Chibi_Event_Videoframe_3__TFT.png",
+          "tags": [
+            "tft"
+          ]
+        },
+        {
+          "type": "promo",
+          "title": "Prestige Porcelain Protector Chibi Event Videoframe 4  TFT",
+          "path": "assets/ezreal/skins/Prestige Porcelain Protector/promo/Prestige_Porcelain_Protector_Chibi_Event_Videoframe_4__TFT.png",
+          "tags": [
+            "tft"
+          ]
+        },
+        {
+          "type": "promo",
+          "title": "Prestige Porcelain Protector Chibi Promoart  TFT",
+          "path": "assets/ezreal/skins/Prestige Porcelain Protector/promo/Prestige_Porcelain_Protector_Chibi_Promoart__TFT.jpeg",
+          "tags": [
+            "tft"
+          ]
+        },
+        {
+          "type": "promo",
+          "title": "Prestige Porcelain Protector Chibi Promoart cropped  TFT",
+          "path": "assets/ezreal/skins/Prestige Porcelain Protector/promo/Prestige_Porcelain_Protector_Chibi_Promoart_cropped__TFT.jpeg",
+          "tags": [
+            "tft"
+          ]
+        },
+        {
+          "type": "promo",
+          "title": "Prestige Porcelain Protector Chibi Promopost  TFT",
+          "path": "assets/ezreal/skins/Prestige Porcelain Protector/promo/Prestige_Porcelain_Protector_Chibi_Promopost__TFT.jpg",
+          "tags": [
+            "tft"
+          ]
+        },
+        {
+          "type": "promo",
+          "title": "Prestige Porcelain Protector TFT Promo Poster  TFT",
+          "path": "assets/ezreal/skins/Prestige Porcelain Protector/promo/Prestige_Porcelain_Protector_TFT_Promo_Poster__TFT.jpg",
+          "tags": [
+            "tft"
+          ]
+        },
+        {
+          "type": "emote",
+          "title": "Prestige Porcelain Protector Chibi Emote  TFT",
+          "path": "assets/ezreal/skins/Prestige Porcelain Protector/emote/Prestige_Porcelain_Protector_Chibi_Emote__TFT.png",
+          "tags": [
+            "tft"
+          ]
         }
       ]
     },
