@@ -1,7 +1,7 @@
 {
   "meta": {
     "champion": "Ezreal",
-    "generated": "2025-10-05"
+    "generated": "2025-10-06"
   },
   "skins": [
     {
@@ -2214,8 +2214,8 @@
       "media": [
         {
           "type": "splash",
-          "title": "Masque of the Black Rose (Current) Splashart",
-          "path": "assets/ezreal/skins/Masque of the Black Rose/splash/Masque_of_the_Black_Rose_(Current)_Splashart.jpg",
+          "title": "Masque of the Black Rose Current Splashart",
+          "path": "assets/ezreal/skins/Masque of the Black Rose/splash/Masque_of_the_Black_Rose_Current_Splashart.jpg",
           "tags": []
         }
       ]
@@ -2227,20 +2227,20 @@
       "media": [
         {
           "type": "splash",
-          "title": "Nottingham (Current) Splashart",
-          "path": "assets/ezreal/skins/Nottingham/splash/Nottingham_(Current)_Splashart.jpg",
+          "title": "Nottingham Current Splashart",
+          "path": "assets/ezreal/skins/Nottingham/splash/Nottingham_Current_Splashart.jpg",
           "tags": []
         },
         {
           "type": "splash",
-          "title": "Nottingham (old) Splashart",
-          "path": "assets/ezreal/skins/Nottingham/splash/Nottingham_(old)_Splashart.jpg",
+          "title": "Nottingham old 1st Version Splashart",
+          "path": "assets/ezreal/skins/Nottingham/splash/Nottingham_old_1st_Version_Splashart.jpg",
           "tags": []
         },
         {
           "type": "splash",
-          "title": "Nottingham (old 2nd Version) Splashart",
-          "path": "assets/ezreal/skins/Nottingham/splash/Nottingham_(old_2nd_Version)_Splashart.jpg",
+          "title": "Nottingham old 2nd Version Splashart",
+          "path": "assets/ezreal/skins/Nottingham/splash/Nottingham_old_2nd_Version_Splashart.jpg",
           "tags": []
         }
       ]
@@ -2252,8 +2252,8 @@
       "media": [
         {
           "type": "splash",
-          "title": "Pajama Guardian (Current) Splashart",
-          "path": "assets/ezreal/skins/Pajama Guardian/splash/Pajama_Guardian_(Current)_Splashart.jpg",
+          "title": "Pajama Guardian Current Splashart",
+          "path": "assets/ezreal/skins/Pajama Guardian/splash/Pajama_Guardian_Current_Splashart.jpg",
           "tags": []
         }
       ]
@@ -2265,8 +2265,8 @@
       "media": [
         {
           "type": "splash",
-          "title": "Porcelain Protector (Current) Splashart",
-          "path": "assets/ezreal/skins/Porcelain Protector/splash/Porcelain_Protector_(Current)_Splashart.jpg",
+          "title": "Porcelain Protector Current Splashart",
+          "path": "assets/ezreal/skins/Porcelain Protector/splash/Porcelain_Protector_Current_Splashart.jpg",
           "tags": []
         }
       ]
@@ -2278,8 +2278,8 @@
       "media": [
         {
           "type": "splash",
-          "title": "Prestige Heavenscale (Current) Splashart",
-          "path": "assets/ezreal/skins/Prestige Heavenscale/splash/Prestige_Heavenscale_(Current)_Splashart.jpg",
+          "title": "Prestige Heavenscale Current Splashart",
+          "path": "assets/ezreal/skins/Prestige Heavenscale/splash/Prestige_Heavenscale_Current_Splashart.jpg",
           "tags": []
         }
       ]
@@ -2291,8 +2291,8 @@
       "media": [
         {
           "type": "splash",
-          "title": "Prestige PsyOps (Current) Splashart",
-          "path": "assets/ezreal/skins/Prestige PsyOps/splash/Prestige_PsyOps_(Current)_Splashart.jpg",
+          "title": "Prestige PsyOps Current Splashart",
+          "path": "assets/ezreal/skins/Prestige PsyOps/splash/Prestige_PsyOps_Current_Splashart.jpg",
           "tags": []
         }
       ]
@@ -2304,8 +2304,8 @@
       "media": [
         {
           "type": "splash",
-          "title": "PsyOps (Current) Splashart",
-          "path": "assets/ezreal/skins/PsyOps/splash/PsyOps_(Current)_Splashart.jpg",
+          "title": "PsyOps Current Splashart",
+          "path": "assets/ezreal/skins/PsyOps/splash/PsyOps_Current_Splashart.jpg",
           "tags": []
         }
       ]
@@ -2317,26 +2317,26 @@
       "media": [
         {
           "type": "splash",
-          "title": "Pulsefire (Current) Splashart",
-          "path": "assets/ezreal/skins/Pulsefire/splash/Pulsefire_(Current)_Splashart.jpg",
+          "title": "Pulsefire Current Splashart",
+          "path": "assets/ezreal/skins/Pulsefire/splash/Pulsefire_Current_Splashart.jpg",
           "tags": []
         },
         {
           "type": "splash",
-          "title": "Pulsefire (old) Splashart",
-          "path": "assets/ezreal/skins/Pulsefire/splash/Pulsefire_(old)_Splashart.jpg",
+          "title": "Pulsefire old Splashart",
+          "path": "assets/ezreal/skins/Pulsefire/splash/Pulsefire_old_Splashart.jpg",
           "tags": []
         },
         {
           "type": "splash",
-          "title": "Pulsefire (old upgraded) Splashart",
-          "path": "assets/ezreal/skins/Pulsefire/splash/Pulsefire_(old_upgraded)_Splashart.jpg",
+          "title": "Pulsefire old Upgrade Splashart",
+          "path": "assets/ezreal/skins/Pulsefire/splash/Pulsefire_old_Upgrade_Splashart.jpg",
           "tags": []
         },
         {
           "type": "splash",
-          "title": "Pulsefire (unused) Splashart",
-          "path": "assets/ezreal/skins/Pulsefire/splash/Pulsefire_(unused)_Splashart.jpg",
+          "title": "Pulsefire unused Splashart",
+          "path": "assets/ezreal/skins/Pulsefire/splash/Pulsefire_unused_Splashart.jpg",
           "tags": []
         }
       ]
@@ -2348,8 +2348,8 @@
       "media": [
         {
           "type": "splash",
-          "title": "SSG (Current) Splashart",
-          "path": "assets/ezreal/skins/SSG/splash/SSG_(Current)_Splashart.jpg",
+          "title": "SSG Current Splashart",
+          "path": "assets/ezreal/skins/SSG/splash/SSG_Current_Splashart.jpg",
           "tags": []
         }
       ]
@@ -2361,8 +2361,8 @@
       "media": [
         {
           "type": "splash",
-          "title": "Sttar Guardian (Current) Splashart",
-          "path": "assets/ezreal/skins/Star Guardian/splash/Sttar_Guardian_(Current)_Splashart.jpg",
+          "title": "Sttar Guardian Current Splashart",
+          "path": "assets/ezreal/skins/Star Guardian/splash/Sttar_Guardian_Current_Splashart.jpg",
           "tags": []
         }
       ]
@@ -2374,20 +2374,20 @@
       "media": [
         {
           "type": "splash",
-          "title": "Striker (Current) Splashart",
-          "path": "assets/ezreal/skins/Striker/splash/Striker_(Current)_Splashart.jpg",
+          "title": "Striker Current Splashart",
+          "path": "assets/ezreal/skins/Striker/splash/Striker_Current_Splashart.jpg",
           "tags": []
         },
         {
           "type": "splash",
-          "title": "Striker (old) Splashart",
-          "path": "assets/ezreal/skins/Striker/splash/Striker_(old)_Splashart.jpg",
+          "title": "Striker old 1st Version Splashart",
+          "path": "assets/ezreal/skins/Striker/splash/Striker_old_1st_Version_Splashart.jpg",
           "tags": []
         },
         {
           "type": "splash",
-          "title": "Striker (old 2nd Version) Splashart",
-          "path": "assets/ezreal/skins/Striker/splash/Striker_(old_2nd_Version)_Splashart.jpg",
+          "title": "Striker old 2nd Version Splashart",
+          "path": "assets/ezreal/skins/Striker/splash/Striker_old_2nd_Version_Splashart.jpg",
           "tags": []
         }
       ]
@@ -2399,26 +2399,26 @@
       "media": [
         {
           "type": "splash",
-          "title": "TPA (Current) Splashart",
-          "path": "assets/ezreal/skins/TPA/splash/TPA_(Current)_Splashart.jpg",
+          "title": "TPA Current Splashart",
+          "path": "assets/ezreal/skins/TPA/splash/TPA_Current_Splashart.jpg",
           "tags": []
         },
         {
           "type": "splash",
-          "title": "TPA (old) Splashart",
-          "path": "assets/ezreal/skins/TPA/splash/TPA_(old)_Splashart.jpg",
+          "title": "TPA old 1st Version Splashart",
+          "path": "assets/ezreal/skins/TPA/splash/TPA_old_1st_Version_Splashart.jpg",
           "tags": []
         },
         {
           "type": "splash",
-          "title": "TPA (old 2nd Version) Splashart",
-          "path": "assets/ezreal/skins/TPA/splash/TPA_(old_2nd_Version)_Splashart.jpg",
+          "title": "TPA old 2nd Version Splashart",
+          "path": "assets/ezreal/skins/TPA/splash/TPA_old_2nd_Version_Splashart.jpg",
           "tags": []
         },
         {
           "type": "splash",
-          "title": "TPA (old 3rd Version) Splashart",
-          "path": "assets/ezreal/skins/TPA/splash/TPA_(old_3rd_Version)_Splashart.jpg",
+          "title": "TPA old 3rd Version Splashart",
+          "path": "assets/ezreal/skins/TPA/splash/TPA_old_3rd_Version_Splashart.jpg",
           "tags": []
         }
       ]
