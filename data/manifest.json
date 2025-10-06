@@ -2258,6 +2258,80 @@
       ]
     },
     {
+      "id": "Ink Keeper",
+      "name": "Ink Keeper",
+      "release_year": 2025,
+      "media": [
+        {
+          "type": "splash",
+          "title": "Ink Keeper Chibi Golden Spatula Splashart",
+          "path": "assets/ezreal/skins/Ink Keeper/splash/Ink_Keeper_Chibi_Golden_Spatula_Splashart.jpeg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Ink Keeper Chibi Golden Spatula Emotes",
+          "path": "assets/ezreal/skins/Ink Keeper/promo/Ink_Keeper_Chibi_Golden_Spatula_Emotes.jpg",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": "Jarro Lightfeather",
+      "name": "Jarro Lightfeather",
+      "release_year": null,
+      "media": [
+        {
+          "type": "splash",
+          "title": "Jarro Lightfeather Splashart  LOR",
+          "path": "assets/ezreal/skins/Jarro Lightfeather/splash/Jarro_Lightfeather_Splashart__LOR.jpg",
+          "tags": [
+            "lor"
+          ]
+        },
+        {
+          "type": "promo",
+          "title": "Jarro Lightfeather Card  LOR",
+          "path": "assets/ezreal/skins/Jarro Lightfeather/promo/Jarro_Lightfeather_Card__LOR.webp",
+          "tags": [
+            "lor"
+          ]
+        },
+        {
+          "type": "promo",
+          "title": "Jarro Lightfeather Guide by Audrey Axt  LOR",
+          "path": "assets/ezreal/skins/Jarro Lightfeather/promo/Jarro_Lightfeather_Guide_by_Audrey_Axt__LOR.jpg",
+          "tags": [
+            "lor"
+          ]
+        },
+        {
+          "type": "promo",
+          "title": "Jarro Lightfeather Smoldering Smirk Card  LOR",
+          "path": "assets/ezreal/skins/Jarro Lightfeather/promo/Jarro_Lightfeather_Smoldering_Smirk_Card__LOR.webp",
+          "tags": [
+            "lor"
+          ]
+        },
+        {
+          "type": "promo",
+          "title": "Jarro Lightfeather Smoldering Smirk  Icon  LOR",
+          "path": "assets/ezreal/skins/Jarro Lightfeather/promo/Jarro_Lightfeather_Smoldering_Smirk__Icon__LOR.jpeg",
+          "tags": [
+            "lor"
+          ]
+        },
+        {
+          "type": "concept",
+          "title": "Jarro Lightfeather Splashart Concept by Lais Rodrigues  LOR",
+          "path": "assets/ezreal/skins/Jarro Lightfeather/concept/Jarro_Lightfeather_Splashart_Concept_by_Lais_Rodrigues__LOR.jpg",
+          "tags": [
+            "lor"
+          ]
+        }
+      ]
+    },
+    {
       "id": "Masque of the Black Rose",
       "name": "Masque of the Black Rose",
       "release_year": 2025,
