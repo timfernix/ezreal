@@ -2418,6 +2418,78 @@
           "title": "Masque of the Black Rose Current Splashart",
           "path": "assets/ezreal/skins/Masque of the Black Rose/splash/Masque_of_the_Black_Rose_Current_Splashart.jpg",
           "tags": []
+        },
+        {
+          "type": "icon",
+          "title": "Masque Of The Black Rose Profileicon",
+          "path": "assets/ezreal/skins/Masque of the Black Rose/icon/Masque_Of_The_Black_Rose_Profileicon.jpg",
+          "tags": []
+        },
+        {
+          "type": "icon",
+          "title": "Masque of the Black Rose Icon",
+          "path": "assets/ezreal/skins/Masque of the Black Rose/icon/Masque_of_the_Black_Rose_Icon.jpg",
+          "tags": []
+        },
+        {
+          "type": "concept",
+          "title": "Masque of the Black Rose Concep Splashart 1 by Park Jun Seong",
+          "path": "assets/ezreal/skins/Masque of the Black Rose/concept/Masque_of_the_Black_Rose_Concep_Splashart_1_by_Park_Jun_Seong.jpg",
+          "tags": []
+        },
+        {
+          "type": "concept",
+          "title": "Masque of the Black Rose Concep Splashart 2 by Park Jun Seong",
+          "path": "assets/ezreal/skins/Masque of the Black Rose/concept/Masque_of_the_Black_Rose_Concep_Splashart_2_by_Park_Jun_Seong.jpg",
+          "tags": []
+        },
+        {
+          "type": "concept",
+          "title": "Masque of the Black Rose Concep Splashart 3 by Park Jun Seong",
+          "path": "assets/ezreal/skins/Masque of the Black Rose/concept/Masque_of_the_Black_Rose_Concep_Splashart_3_by_Park_Jun_Seong.jpg",
+          "tags": []
+        },
+        {
+          "type": "concept",
+          "title": "Masque of the Black Rose Concep Splashart 4 final by Park Jun Seong",
+          "path": "assets/ezreal/skins/Masque of the Black Rose/concept/Masque_of_the_Black_Rose_Concep_Splashart_4_final_by_Park_Jun_Seong.jpg",
+          "tags": []
+        },
+        {
+          "type": "concept",
+          "title": "Masque of the Black Rose Concept 1 by Lucy Du",
+          "path": "assets/ezreal/skins/Masque of the Black Rose/concept/Masque_of_the_Black_Rose_Concept_1_by_Lucy_Du.jpg",
+          "tags": []
+        },
+        {
+          "type": "concept",
+          "title": "Masque of the Black Rose Concept 2 by Lucy Du",
+          "path": "assets/ezreal/skins/Masque of the Black Rose/concept/Masque_of_the_Black_Rose_Concept_2_by_Lucy_Du.jpg",
+          "tags": []
+        },
+        {
+          "type": "concept",
+          "title": "Masque of the Black Rose Concept 3 by Lucy Du",
+          "path": "assets/ezreal/skins/Masque of the Black Rose/concept/Masque_of_the_Black_Rose_Concept_3_by_Lucy_Du.jpg",
+          "tags": []
+        },
+        {
+          "type": "loading",
+          "title": "Masque of the Black Rose Border Loadingscreen",
+          "path": "assets/ezreal/skins/Masque of the Black Rose/loading/Masque_of_the_Black_Rose_Border_Loadingscreen.jpg",
+          "tags": []
+        },
+        {
+          "type": "loading",
+          "title": "Masque of the Black Rose Loadingscreen",
+          "path": "assets/ezreal/skins/Masque of the Black Rose/loading/Masque_of_the_Black_Rose_Loadingscreen.jpg",
+          "tags": []
+        },
+        {
+          "type": "emote",
+          "title": "Masque of the Black Rose Gentleman Thief Emote",
+          "path": "assets/ezreal/skins/Masque of the Black Rose/emote/Masque_of_the_Black_Rose_Gentleman_Thief_Emote.png",
+          "tags": []
         }
       ]
     },
