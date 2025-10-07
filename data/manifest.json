@@ -718,6 +718,46 @@
           ]
         },
         {
+          "type": "model-face",
+          "title": "Battle Academia Chibi Face by Khada Modelviewer  TFT",
+          "path": "assets/ezreal/skins/Battle Academia/face/Battle_Academia_Chibi_Face_by_Khada_Modelviewer__TFT.png",
+          "tags": [
+            "tft"
+          ]
+        },
+        {
+          "type": "model-face",
+          "title": "Battle Academia Face by Khada Modelviewer",
+          "path": "assets/ezreal/skins/Battle Academia/face/Battle_Academia_Face_by_Khada_Modelviewer.png",
+          "tags": []
+        },
+        {
+          "type": "model-face",
+          "title": "Battle Academia Face Set 13 Chroma by Khada Modelviewer  TFT",
+          "path": "assets/ezreal/skins/Battle Academia/face/chroma/Battle_Academia_Face_Set_13_Chroma_by_Khada_Modelviewer__TFT.png",
+          "tags": [
+            "chroma",
+            "tft"
+          ]
+        },
+        {
+          "type": "model-face",
+          "title": "Battle Academia Face Set 15 Chroma by Khada Modelviewer  TFT",
+          "path": "assets/ezreal/skins/Battle Academia/face/chroma/Battle_Academia_Face_Set_15_Chroma_by_Khada_Modelviewer__TFT.png",
+          "tags": [
+            "chroma",
+            "tft"
+          ]
+        },
+        {
+          "type": "model-face",
+          "title": "Battle Academia Mythic Chroma Face by Khada Modelviewer",
+          "path": "assets/ezreal/skins/Battle Academia/face/chroma/Battle_Academia_Mythic_Chroma_Face_by_Khada_Modelviewer.png",
+          "tags": [
+            "chroma"
+          ]
+        },
+        {
           "type": "video",
           "title": "Battle Academia 2019 Animation",
           "path": "assets/ezreal/skins/Battle Academia/video/Battle_Academia_2019_Animation.mp4",
