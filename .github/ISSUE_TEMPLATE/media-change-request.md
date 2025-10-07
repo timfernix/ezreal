@@ -11,9 +11,9 @@ assignees: timfernix
 Please include a link or clear reference to the media entry (for example, a file name or URL).
 
 Examples:  
-- I have a higher-resolution version of XY.
+- I have a higher-resolution version of XY / I want to add a new media entry (please add the file or a link to the original.
 - I am the original artist of one of your listed artworks and would like it removed.
-- I’d like to suggest a title or tag correction for *Classic Ezreal Icon*.
+- I’d like to suggest a title or tag correction for XY.
 
 Alternatively, remove this template text if your issue is something else related.
 
