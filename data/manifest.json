@@ -1662,8 +1662,56 @@
         },
         {
           "type": "promo",
-          "title": "Heartsteel Paranoia Videoframe 1",
-          "path": "assets/ezreal/skins/HEARTSTEEL/promo/Heartsteel_Paranoia_Videoframe_1.jpg",
+          "title": "Heartsteel Paranoia Videoframe 01",
+          "path": "assets/ezreal/skins/HEARTSTEEL/promo/Heartsteel_Paranoia_Videoframe_01.jpg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Heartsteel Paranoia Videoframe 02",
+          "path": "assets/ezreal/skins/HEARTSTEEL/promo/Heartsteel_Paranoia_Videoframe_02.jpg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Heartsteel Paranoia Videoframe 03",
+          "path": "assets/ezreal/skins/HEARTSTEEL/promo/Heartsteel_Paranoia_Videoframe_03.jpg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Heartsteel Paranoia Videoframe 04",
+          "path": "assets/ezreal/skins/HEARTSTEEL/promo/Heartsteel_Paranoia_Videoframe_04.jpg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Heartsteel Paranoia Videoframe 05",
+          "path": "assets/ezreal/skins/HEARTSTEEL/promo/Heartsteel_Paranoia_Videoframe_05.jpg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Heartsteel Paranoia Videoframe 06",
+          "path": "assets/ezreal/skins/HEARTSTEEL/promo/Heartsteel_Paranoia_Videoframe_06.jpg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Heartsteel Paranoia Videoframe 07",
+          "path": "assets/ezreal/skins/HEARTSTEEL/promo/Heartsteel_Paranoia_Videoframe_07.jpg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Heartsteel Paranoia Videoframe 08",
+          "path": "assets/ezreal/skins/HEARTSTEEL/promo/Heartsteel_Paranoia_Videoframe_08.jpg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Heartsteel Paranoia Videoframe 09",
+          "path": "assets/ezreal/skins/HEARTSTEEL/promo/Heartsteel_Paranoia_Videoframe_09.jpg",
           "tags": []
         },
         {
@@ -1728,12 +1776,6 @@
         },
         {
           "type": "promo",
-          "title": "Heartsteel Paranoia Videoframe 2",
-          "path": "assets/ezreal/skins/HEARTSTEEL/promo/Heartsteel_Paranoia_Videoframe_2.jpg",
-          "tags": []
-        },
-        {
-          "type": "promo",
           "title": "Heartsteel Paranoia Videoframe 20",
           "path": "assets/ezreal/skins/HEARTSTEEL/promo/Heartsteel_Paranoia_Videoframe_20.jpeg",
           "tags": []
@@ -1790,48 +1832,6 @@
           "type": "promo",
           "title": "Heartsteel Paranoia Videoframe 29",
           "path": "assets/ezreal/skins/HEARTSTEEL/promo/Heartsteel_Paranoia_Videoframe_29.jpeg",
-          "tags": []
-        },
-        {
-          "type": "promo",
-          "title": "Heartsteel Paranoia Videoframe 3",
-          "path": "assets/ezreal/skins/HEARTSTEEL/promo/Heartsteel_Paranoia_Videoframe_3.jpg",
-          "tags": []
-        },
-        {
-          "type": "promo",
-          "title": "Heartsteel Paranoia Videoframe 4",
-          "path": "assets/ezreal/skins/HEARTSTEEL/promo/Heartsteel_Paranoia_Videoframe_4.jpg",
-          "tags": []
-        },
-        {
-          "type": "promo",
-          "title": "Heartsteel Paranoia Videoframe 5",
-          "path": "assets/ezreal/skins/HEARTSTEEL/promo/Heartsteel_Paranoia_Videoframe_5.jpg",
-          "tags": []
-        },
-        {
-          "type": "promo",
-          "title": "Heartsteel Paranoia Videoframe 6",
-          "path": "assets/ezreal/skins/HEARTSTEEL/promo/Heartsteel_Paranoia_Videoframe_6.jpg",
-          "tags": []
-        },
-        {
-          "type": "promo",
-          "title": "Heartsteel Paranoia Videoframe 7",
-          "path": "assets/ezreal/skins/HEARTSTEEL/promo/Heartsteel_Paranoia_Videoframe_7.jpg",
-          "tags": []
-        },
-        {
-          "type": "promo",
-          "title": "Heartsteel Paranoia Videoframe 8",
-          "path": "assets/ezreal/skins/HEARTSTEEL/promo/Heartsteel_Paranoia_Videoframe_8.jpg",
-          "tags": []
-        },
-        {
-          "type": "promo",
-          "title": "Heartsteel Paranoia Videoframe 9",
-          "path": "assets/ezreal/skins/HEARTSTEEL/promo/Heartsteel_Paranoia_Videoframe_9.jpg",
           "tags": []
         },
         {
