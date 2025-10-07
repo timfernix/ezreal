@@ -713,6 +713,24 @@
         },
         {
           "type": "model",
+          "title": "Battle Academia Idle Set 13 Chroma by Khada Modelviewer  TFT",
+          "path": "assets/ezreal/skins/Battle Academia/model/chroma/Battle_Academia_Idle_Set_13_Chroma_by_Khada_Modelviewer__TFT.png",
+          "tags": [
+            "chroma",
+            "tft"
+          ]
+        },
+        {
+          "type": "model",
+          "title": "Battle Academia Idle Set 15 Chroma by Khada Modelviewer  TFT",
+          "path": "assets/ezreal/skins/Battle Academia/model/chroma/Battle_Academia_Idle_Set_15_Chroma_by_Khada_Modelviewer__TFT.png",
+          "tags": [
+            "chroma",
+            "tft"
+          ]
+        },
+        {
+          "type": "model",
           "title": "Battle Academia Mythic Chroma 1 by Kudos Productions",
           "path": "assets/ezreal/skins/Battle Academia/model/chroma/Battle_Academia_Mythic_Chroma_1_by_Kudos_Productions.jpg",
           "tags": [
@@ -723,6 +741,22 @@
           "type": "model",
           "title": "Battle Academia Mythic Chroma 2 by Kudos Productions",
           "path": "assets/ezreal/skins/Battle Academia/model/chroma/Battle_Academia_Mythic_Chroma_2_by_Kudos_Productions.jpg",
+          "tags": [
+            "chroma"
+          ]
+        },
+        {
+          "type": "model",
+          "title": "Battle Academia Mythic Chroma Idle by Khada Modelviewer",
+          "path": "assets/ezreal/skins/Battle Academia/model/chroma/Battle_Academia_Mythic_Chroma_Idle_by_Khada_Modelviewer.png",
+          "tags": [
+            "chroma"
+          ]
+        },
+        {
+          "type": "model",
+          "title": "Battle Academia Mythic Chroma T Pose by Khada Modelviewer",
+          "path": "assets/ezreal/skins/Battle Academia/model/chroma/Battle_Academia_Mythic_Chroma_T-Pose_by_Khada_Modelviewer.png",
           "tags": [
             "chroma"
           ]
@@ -740,6 +774,24 @@
           "type": "model",
           "title": "Battle Academia Set 15 Render  TFT",
           "path": "assets/ezreal/skins/Battle Academia/model/chroma/Battle_Academia_Set_15_Render__TFT.png",
+          "tags": [
+            "chroma",
+            "tft"
+          ]
+        },
+        {
+          "type": "model",
+          "title": "Battle Academia T Pose Set 13 Chroma by Khada Modelviewer  TFT",
+          "path": "assets/ezreal/skins/Battle Academia/model/chroma/Battle_Academia_T-Pose_Set_13_Chroma_by_Khada_Modelviewer__TFT.png",
+          "tags": [
+            "chroma",
+            "tft"
+          ]
+        },
+        {
+          "type": "model",
+          "title": "Battle Academia T Pose Set 15 Chroma by Khada Modelviewer  TFT",
+          "path": "assets/ezreal/skins/Battle Academia/model/chroma/Battle_Academia_T-Pose_Set_15_Chroma_by_Khada_Modelviewer__TFT.png",
           "tags": [
             "chroma",
             "tft"
