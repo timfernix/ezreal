@@ -35,6 +35,7 @@ const TAG_LABEL = {
   wr: "Wild Rift",
   lor: "Legends of Runeterra",
   chroma: "Chroma",
+  lol: "League of Legends",
 };
 
 const els = {
@@ -139,7 +140,13 @@ async function loadManifest(){
 
       for(const m of (skin.media || [])){
         const tags = normalizeTags(m.tags || []);
+
+        // keep chroma consistency
         if(m.type === "chroma" && !tags.includes("chroma")) tags.push("chroma");
+
+        // NEW: add "lol" when no cross-game tag is present
+        const hasGameTag = tags.includes("tft") || tags.includes("wr") || tags.includes("lor");
+        if(!hasGameTag) tags.push("lol");
 
         items.push({
           skinId,
@@ -182,12 +189,8 @@ function applyFilters(){
   if(STATE.skin !== "all") out = out.filter(i => i.skinId === STATE.skin);
   out = out.filter(i => STATE.types.has(i.type));
 
-  if(STATE.tags.size > 0){
-    out = out.filter(i => {
-      const t = new Set(i.tags || []);
-      for(const need of STATE.tags) if(!t.has(need)) return false;
-      return true;
-    });
+  if (STATE.tags.size > 0) {
+    out = out.filter(i => (i.tags || []).some(tag => STATE.tags.has(tag)));
   }
 
   if(STATE.search){
@@ -521,21 +524,20 @@ function cleanTitle(s){
   // Remove in [brackets]
   t = t.replace(/\[[^\]]*\]/g, "");
 
-  // 2) Remove short tag groups as (WR), (TFT), (LoR)
+  // Remove short tag groups like (WR), (TFT), (LoR)
   t = t.replace(/\((?:\s*(?:wr|tft|lor|wild rift|teamfight tactics|legends of runeterra)\s*[,&/]?)+\)/gi, "");
 
-  // 3) Remove  __tokens
+  // Remove __tokens
   t = t.replace(/__([a-z0-9-]+)/gi, "");
 
-  // 4) Remove isolated tag tokens even if underscores were already turned into spaces
+  // Remove isolated tag tokens
   t = t.replace(/(?:^|[\s_\-])(wr|tft|lor)(?=$|[\s_\-])/gi, "");
 
-  // 5) Normalize separators
+  // Normalize separators/space
   t = t.replace(/[-_]+/g, " ").replace(/\s{2,}/g, " ").trim();
 
   return t;
 }
-
 
 function escapeHtml(s){
   return String(s).replace(/[&<>"']/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[m]));
