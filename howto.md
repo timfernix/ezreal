@@ -13,19 +13,19 @@ Under `assets/ezreal/skins/[skin]/` add folders for the categories. Available:
 - model
 - model-face
 - chroma
-- form
+- tenor (links)
 - video
 - youtube (links)
 
 > [!NOTE]
-> **Chroma** and **Form** automatially apply a tag.
+> **Chroma** automatially applies a tag.
 
 Those can also be set via subfolders:
 Example: `assets/ezreal/Battle Acadmia/icon/chroma/...`
 
 ## Tags
 
-Currently there are tags for `tft`, `wr`(Wild Rift) and `lor`(Legends of Runeterra) aswell as the tags `chroma`and `form`.
+Currently there are tags for `tft`, `wr`(Wild Rift) and `lor`(Legends of Runeterra) aswell as the tag `chroma`.
 
 You can set them by doing one of the things listed:
 
@@ -33,6 +33,6 @@ You can set them by doing one of the things listed:
 2. Via the filenames by using `[]` or `__` (`art [lor].png` or `art__lor.png`)
 3. By putting a file named `tags.json` into the category folder (`assets/ezreal/skins/classic/promo/tags.json`) using key-values (`"art.png": ["lor"],`)
 
-## YouTube links
+## Links
 
-Put a new line with the link in the `youtube.txt` file in the skins folder.
+Put a new line with the link in the `youtube.txt` or `tenor.txt` file in the skins folder.

@@ -1,6 +1,6 @@
-# Ezreal — Media Archive
+# Ezreal Media Archive
 
-A community-friendly archive of official **Ezreal** media: splash arts, icons, promo & concept art, loading screens, 3D model shots, chromas/forms, local videos, and YouTube links.
+A community-friendly archive of official **Ezreal** media: splasharts, icons, promo & concept art, loadingscreens, model & shots, chromas, gifs, videos, and other links.
 
 **Live site:** https://timfernix.github.io/ezreal/
 
@@ -11,7 +11,7 @@ A community-friendly archive of official **Ezreal** media: splash arts, icons, p
 
 ## Why this exists
 
-Over recent years I have been collecting more and more Ezreal media. So i thought: Why not create this archive to make it easy for other fans to search and view Ezreal media without digging through scattered sources. It includes a clean gallery, filters, search and the possibilty to access the raw assets.
+Over recent years I have been collecting more and more Ezreal media. So i thought: Why not create this archive to make it easy for other fans to search and view Ezreal media without digging through scattered sources. It includes a gallery, filters, search and the possibilty to access the raw assets.
 
 ---
 
@@ -19,31 +19,39 @@ Over recent years I have been collecting more and more Ezreal media. So i though
 
 ### Types (media categories)
 
-- **Splash** — Official Splasharts (aswell as some concepts)
+- **Splash** — Splasharts of Ezreals skins
 - **Icon** — Character and Profile icons
 - **Promo** — Promo and key arts from releases and events
 - **Concept** — Concept sheets  
-- **Loading** — Loading screen images  
-- **Model** — 3D model shots etc.
-- **Chroma/Form** — Chroma/Form variants
-- **Video/YouTube** — local `.mp4`/`.webm` / links
+- **Loading** — Loadingscreen images  
+- **Model** — Model shots etc.
+- **Chroma** — Chroma variants
+- **Emote** — Emotes and stickers
+- **GIF/Tenor** — Local GIFs and linked via Tenor
+- **Video/YouTube** — Local videos and linked via YouTube
+- **Other** — Media that did not fit into any other category
 
 ---
 
 ## Contributing
 
-Found missing official art, a higher-res splash, or a WR/TFT/LoR variant that should be here?
+Found missing official art, a higher-resolution splash, or a WR/TFT/LoR variant or new chroma that should be included?
 
-Open an **Issue** describing what’s missing (skin, type, tags, and where it appears).
+Open an [**Issue**](https://github.com/timfernix/ezreal/issues/new/choose) with details about what’s missing, include the **name, type, tags**, and where it can be found or add the file.
 
 > [!IMPORTANT]
-> Make sure its official art and not from outside of Riot Games or fanmade, as I dont have the rights to use others creations.
+> Only submit Riot Games media.  
+> Fanmade or third-party artwork cannot be included due to copyright restrictions.
 
 ---
 
-## Credits & Legal
+## Credits, Legal & Disclaimer
 
-**Made by [timfernix](https://timfernix.github.io/).**  
+**The "Ezreal Media Archive" is made and maintained by [timfernix](https://timfernix.github.io/).**  
+
+This list is compiled to the best of my knowledge and belief. I’m not responsible for any errors or omissions.
+I appreciate your understanding and welcome any feedback or corrections (see [**Contribuing**](#contributing)).
+
 League of Legends and all related assets are trademarks of **Riot Games, Inc.**  
 This project was created under Riot Games’ “Legal Jibber Jabber” policy using assets owned by Riot Games.  
 Riot Games does not endorse or sponsor this project.
