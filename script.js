@@ -515,12 +515,26 @@ function inferTitleFromPath(p, yt){
 
 function cleanTitle(s){
   if(!s) return s;
-  return s
-    .replace(/\[([^\]]+)\]/g, "")
-    .replace(/__([a-z0-9-]+)/gi, "")
-    .replace(/\s{2,}/g, " ")
-    .trim();
+  let t = s;
+
+  // Remove in [brackets]
+  t = t.replace(/\[[^\]]*\]/g, "");
+
+  // 2) Remove short tag groups as (WR), (TFT), (LoR)
+  t = t.replace(/\((?:\s*(?:wr|tft|lor|wild rift|teamfight tactics|legends of runeterra)\s*[,&/]?)+\)/gi, "");
+
+  // 3) Remove  __tokens
+  t = t.replace(/__([a-z0-9-]+)/gi, "");
+
+  // 4) Remove isolated tag tokens even if underscores were already turned into spaces
+  t = t.replace(/(?:^|[\s_\-])(wr|tft|lor)(?=$|[\s_\-])/gi, "");
+
+  // 5) Normalize separators
+  t = t.replace(/[-_]+/g, " ").replace(/\s{2,}/g, " ").trim();
+
+  return t;
 }
+
 
 function escapeHtml(s){
   return String(s).replace(/[&<>"']/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[m]));
