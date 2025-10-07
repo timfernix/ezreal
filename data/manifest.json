@@ -1848,12 +1848,6 @@
         },
         {
           "type": "promo",
-          "title": "Heartsteel Promoart 1 Concept",
-          "path": "assets/ezreal/skins/HEARTSTEEL/promo/Heartsteel_Promoart_1_Concept.jpg",
-          "tags": []
-        },
-        {
-          "type": "promo",
           "title": "Heartsteel Promoart 1 by Julia Shi and Envar Studio",
           "path": "assets/ezreal/skins/HEARTSTEEL/promo/Heartsteel_Promoart_1_by_Julia_Shi_and_Envar_Studio.jpg",
           "tags": []
@@ -1880,12 +1874,6 @@
           "type": "promo",
           "title": "Heartsteel Promoart 5",
           "path": "assets/ezreal/skins/HEARTSTEEL/promo/Heartsteel_Promoart_5.jpg",
-          "tags": []
-        },
-        {
-          "type": "promo",
-          "title": "Heartsteel Promoart 5 Concept",
-          "path": "assets/ezreal/skins/HEARTSTEEL/promo/Heartsteel_Promoart_5_Concept.jpg",
           "tags": []
         },
         {
@@ -2042,6 +2030,18 @@
           "type": "concept",
           "title": "Heartsteel Paranoia Timeline Concept",
           "path": "assets/ezreal/skins/HEARTSTEEL/concept/Heartsteel_Paranoia_Timeline_Concept.jpg",
+          "tags": []
+        },
+        {
+          "type": "concept",
+          "title": "Heartsteel Promoart 1 Concept",
+          "path": "assets/ezreal/skins/HEARTSTEEL/concept/Heartsteel_Promoart_1_Concept.jpg",
+          "tags": []
+        },
+        {
+          "type": "concept",
+          "title": "Heartsteel Promoart 5 Concept",
+          "path": "assets/ezreal/skins/HEARTSTEEL/concept/Heartsteel_Promoart_5_Concept.jpg",
           "tags": []
         },
         {
@@ -5212,8 +5212,8 @@
         },
         {
           "type": "icon",
-          "title": "Ezreal Profileicon unused  WR",
-          "path": "assets/ezreal/skins/classic/icon/Ezreal_Profileicon_unused__WR.jpg",
+          "title": "Ezreal unused Profileicon  WR",
+          "path": "assets/ezreal/skins/classic/icon/Ezreal_unused_Profileicon__WR.jpg",
           "tags": [
             "wr"
           ]
