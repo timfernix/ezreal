@@ -5893,6 +5893,22 @@
         },
         {
           "type": "model",
+          "title": "Classic Chibi Idle by Khada Modelviewer  TFT",
+          "path": "assets/ezreal/skins/classic/model/Classic_Chibi_Idle_by_Khada_Modelviewer__TFT.png",
+          "tags": [
+            "tft"
+          ]
+        },
+        {
+          "type": "model",
+          "title": "Classic Chibi T Pose by Khada Modelviewer  TFT",
+          "path": "assets/ezreal/skins/classic/model/Classic_Chibi_T-Pose_by_Khada_Modelviewer__TFT.png",
+          "tags": [
+            "tft"
+          ]
+        },
+        {
+          "type": "model",
           "title": "Classic First Model",
           "path": "assets/ezreal/skins/classic/model/Classic_First_Model.png",
           "tags": []
@@ -5904,6 +5920,12 @@
           "tags": [
             "lor"
           ]
+        },
+        {
+          "type": "model",
+          "title": "Classic Idle by Khada Modelviewer",
+          "path": "assets/ezreal/skins/classic/model/Classic_Idle_by_Khada_Modelviewer.png",
+          "tags": []
         },
         {
           "type": "model",
@@ -5945,6 +5967,12 @@
         },
         {
           "type": "model",
+          "title": "Classic T Pose by Khada Modelviewer",
+          "path": "assets/ezreal/skins/classic/model/Classic_T-Pose_by_Khada_Modelviewer.png",
+          "tags": []
+        },
+        {
+          "type": "model",
           "title": "Classic Update Model by Edgar Monteon",
           "path": "assets/ezreal/skins/classic/model/Classic_Update_Model_by_Edgar_Monteon.png",
           "tags": []
@@ -5959,6 +5987,20 @@
           "type": "model",
           "title": "Classic Warriors Model 2 by Blur Studio",
           "path": "assets/ezreal/skins/classic/model/Classic_Warriors_Model_2_by_Blur_Studio.jpg",
+          "tags": []
+        },
+        {
+          "type": "model-face",
+          "title": "Classic Chibi Face by Khada Modelviewer  TFT",
+          "path": "assets/ezreal/skins/classic/face/Classic_Chibi_Face_by_Khada_Modelviewer__TFT.png",
+          "tags": [
+            "tft"
+          ]
+        },
+        {
+          "type": "model-face",
+          "title": "Classic Face by Khada Modelviewer",
+          "path": "assets/ezreal/skins/classic/face/Classic_Face_by_Khada_Modelviewer.png",
           "tags": []
         },
         {
