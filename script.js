@@ -5,7 +5,7 @@ const STATE = {
   types: new Set([
     "splash","icon","promo","concept",
     "loading","model","model-face",
-    "chroma","video","youtube","emote","other","tenor"
+    "chroma","video","youtube","emote","other","tenor", "ingame"
   ]),
   tags: new Set(),
   search: "",
@@ -27,6 +27,7 @@ const TYPE_LABEL = {
   emote: "Emote",
   other: "Other",
   tenor: "Tenor GIF",
+  ingame: "Abilities",
 };
 
 const TAG_LABEL = {
@@ -69,7 +70,7 @@ function updateCounts(){
   if(!els.counts) return;
   const total = STATE.allItems.length;
   const shown = STATE.filtered.length;
-  els.counts.innerHTML = `${shown} of ${total} items`;
+  els.counts.innerHTML = `Displaying ${shown} of ${total} items`;
 }
 
 function hydrateTheme(){
@@ -313,6 +314,11 @@ function renderGallery(){
       ${item.year ? `<span class="badge" title="Original skin release year">${item.year}</span>` : ""}
       ${(item.tags||[]).map(t => `<span class="badge" title="Tag: ${escapeHtml(TAG_LABEL[t] || t)}">${escapeHtml(TAG_LABEL[t] || t)}</span>`).join("")}
     `;
+    if (item.type === "ingame") {
+    const letter = abilityLetterFromPath(item.path || item.url || "");
+    if (letter) badges.innerHTML += `<span class="badge" title="Ability">${letter}</span>`;
+    }
+
     left.appendChild(badges);
 
     const actions = document.createElement("div");
@@ -424,6 +430,20 @@ function openViewer(item){
 
   wrap.appendChild(media);
   wrap.appendChild(caption);
+
+  if (item.type === "ingame") {
+    const letter = abilityLetterFromPath(item.path || item.url || "");
+    if (letter) {
+      const leftBox = caption.querySelector(".left");
+      if (leftBox) {
+        const span = document.createElement("span");
+        span.className = "badge";
+        span.title = "Ability";
+        span.textContent = letter;
+        leftBox.appendChild(span);
+      }
+    }
+  }
 
   const copyBtn = caption.querySelector(".js-copy");
   if (copyBtn) {
@@ -547,6 +567,11 @@ function normalizeTags(arr){
     set.add(String(t).toLowerCase());
   }
   return [...set];
+}
+
+function abilityLetterFromPath(p=""){
+  const m = p.toLowerCase().match(/__(q|w|e|r)(?:[^a-z]|$)/);
+  return m ? m[1].toUpperCase() : null;
 }
 
 /* ---------- URL helpers ---------- */

@@ -22,6 +22,7 @@ const TYPE_ALIASES = new Map([
   ["video",       ["video","videos"]],
   ["emote",       ["emote","emotes","emoticon","emoticons","emote-icon","emote-icons"]],
   ["other",       ["other","misc","unused","prototype","scrap","extras"]],
+  ["ingame",      ["ingame","in-game","abilities","spells","skills"]],
 ]);
 
 // tag slugs "aliases"

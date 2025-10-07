@@ -26,6 +26,7 @@ Over recent years I have been collecting more and more Ezreal media. So i though
 - **Loading** — Loadingscreen images  
 - **Model** — Model shots etc.
 - **Chroma** — Chroma variants
+- **Ingame** — Ingame abilities
 - **Emote** — Emotes and stickers
 - **GIF/Tenor** — Local GIFs and linked via Tenor
 - **Video/YouTube** — Local videos and linked via YouTube
