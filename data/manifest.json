@@ -191,8 +191,8 @@
         },
         {
           "type": "icon",
-          "title": "Arcade Gaming All Night Icon  WR",
-          "path": "assets/ezreal/skins/Arcade/icon/Arcade_Gaming_All_Night_Icon__WR.png",
+          "title": "Arcade Gaming All Night Profileicon  WR",
+          "path": "assets/ezreal/skins/Arcade/icon/Arcade_Gaming_All_Night_Profileicon__WR.png",
           "tags": [
             "wr"
           ]
@@ -205,8 +205,8 @@
         },
         {
           "type": "icon",
-          "title": "Arcade Pixel Summonericon",
-          "path": "assets/ezreal/skins/Arcade/icon/Arcade_Pixel_Summonericon.png",
+          "title": "Arcade Pixel Profileicon",
+          "path": "assets/ezreal/skins/Arcade/icon/Arcade_Pixel_Profileicon.png",
           "tags": []
         },
         {
@@ -330,14 +330,6 @@
         },
         {
           "type": "splash",
-          "title": "Battle Academia Chibi cropped 2  TFT",
-          "path": "assets/ezreal/skins/Battle Academia/splash/Battle_Academia_Chibi_cropped_2__TFT.png",
-          "tags": [
-            "tft"
-          ]
-        },
-        {
-          "type": "splash",
           "title": "Battle Academia Chibi cropped  TFT",
           "path": "assets/ezreal/skins/Battle Academia/splash/Battle_Academia_Chibi_cropped__TFT.webp",
           "tags": [
@@ -427,8 +419,8 @@
         },
         {
           "type": "promo",
-          "title": "Battle Academia Animation Season 15 Chroma  TFT",
-          "path": "assets/ezreal/skins/Battle Academia/promo/Battle_Academia_Animation_Season_15_Chroma__TFT.gif",
+          "title": "Battle Academia Animation Season 15  TFT",
+          "path": "assets/ezreal/skins/Battle Academia/promo/Battle_Academia_Animation_Season_15__TFT.gif",
           "tags": [
             "tft"
           ]
@@ -501,25 +493,25 @@
         },
         {
           "type": "promo",
-          "title": "Battle Academia Promoart (cropped)",
-          "path": "assets/ezreal/skins/Battle Academia/promo/Battle_Academia_Promoart_(cropped).jpeg",
+          "title": "Battle Academia Promoart Season 15 1  TFT",
+          "path": "assets/ezreal/skins/Battle Academia/promo/Battle_Academia_Promoart_Season_15_1__TFT.jpg",
+          "tags": [
+            "tft"
+          ]
+        },
+        {
+          "type": "promo",
+          "title": "Battle Academia Promoart Season 15 2  TFT",
+          "path": "assets/ezreal/skins/Battle Academia/promo/Battle_Academia_Promoart_Season_15_2__TFT.jpg",
+          "tags": [
+            "tft"
+          ]
+        },
+        {
+          "type": "promo",
+          "title": "Battle Academia Promoart cropped",
+          "path": "assets/ezreal/skins/Battle Academia/promo/Battle_Academia_Promoart_cropped.jpeg",
           "tags": []
-        },
-        {
-          "type": "promo",
-          "title": "Battle Academia Promoart Season 15 1 Chroma  TFT",
-          "path": "assets/ezreal/skins/Battle Academia/promo/Battle_Academia_Promoart_Season_15_1_Chroma__TFT.jpg",
-          "tags": [
-            "tft"
-          ]
-        },
-        {
-          "type": "promo",
-          "title": "Battle Academia Promoart Season 15 2 Chroma  TFT",
-          "path": "assets/ezreal/skins/Battle Academia/promo/Battle_Academia_Promoart_Season_15_2_Chroma__TFT.jpg",
-          "tags": [
-            "tft"
-          ]
         },
         {
           "type": "promo",
