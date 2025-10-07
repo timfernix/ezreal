@@ -507,6 +507,14 @@
         },
         {
           "type": "promo",
+          "title": "Battle Academia Promovideo Tacticians Crown Videoframe  TFT",
+          "path": "assets/ezreal/skins/Battle Academia/promo/Battle_Academia_Promovideo_Tacticians_Crown_Videoframe__TFT.jpg",
+          "tags": [
+            "tft"
+          ]
+        },
+        {
+          "type": "promo",
           "title": "Battle Academia Wild Rift Promo",
           "path": "assets/ezreal/skins/Battle Academia/promo/Battle_Academia_Wild_Rift_Promo.jpeg",
           "tags": []
@@ -670,6 +678,14 @@
           "title": "Battle Academia 2019 Animation",
           "path": "assets/ezreal/skins/Battle Academia/video/Battle_Academia_2019_Animation.mp4",
           "tags": []
+        },
+        {
+          "type": "video",
+          "title": "Battle Academia Promovideo Tacticians Crown  TFT",
+          "path": "assets/ezreal/skins/Battle Academia/video/Battle_Academia_Promovideo_Tacticians_Crown__TFT.mp4",
+          "tags": [
+            "tft"
+          ]
         },
         {
           "type": "emote",
