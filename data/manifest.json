@@ -35,8 +35,16 @@
         },
         {
           "type": "icon",
-          "title": "Ability Ezreals Mystic Shot  LOR",
-          "path": "assets/ezreal/skins/Ability Icons/icon/Ability_Ezreals_Mystic_Shot__LOR.png",
+          "title": "Ability Ezreal's Mystic Shot Icon  LOR",
+          "path": "assets/ezreal/skins/Ability Icons/icon/Ability_Ezreal's_Mystic_Shot_Icon__LOR.png",
+          "tags": [
+            "lor"
+          ]
+        },
+        {
+          "type": "icon",
+          "title": "Ability Ezreal's Mystic Shot  LOR",
+          "path": "assets/ezreal/skins/Ability Icons/icon/Ability_Ezreal's_Mystic_Shot__LOR.png",
           "tags": [
             "lor"
           ]
@@ -79,24 +87,16 @@
         },
         {
           "type": "icon",
-          "title": "Ezreal Level 1  LOR",
-          "path": "assets/ezreal/skins/Ability Icons/icon/Ezreal_Level_1__LOR.png",
+          "title": "Ezreal Card Level 1  LOR",
+          "path": "assets/ezreal/skins/Ability Icons/icon/Ezreal_Card_Level_1__LOR.png",
           "tags": [
             "lor"
           ]
         },
         {
           "type": "icon",
-          "title": "Ezreal Level 2  LOR",
-          "path": "assets/ezreal/skins/Ability Icons/icon/Ezreal_Level_2__LOR.png",
-          "tags": [
-            "lor"
-          ]
-        },
-        {
-          "type": "icon",
-          "title": "Ezreals Mystic Shot Icon  LOR",
-          "path": "assets/ezreal/skins/Ability Icons/icon/Ezreals_Mystic_Shot_Icon__LOR.png",
+          "title": "Ezreal Card Level 2  LOR",
+          "path": "assets/ezreal/skins/Ability Icons/icon/Ezreal_Card_Level_2__LOR.png",
           "tags": [
             "lor"
           ]
@@ -110,20 +110,20 @@
       "media": [
         {
           "type": "splash",
-          "title": "Ace of Spades (Current) Splashart",
-          "path": "assets/ezreal/skins/Ace of Spades/splash/Ace_of_Spades_(Current)_Splashart.jpg",
+          "title": "Ace of Spades Current Splashart",
+          "path": "assets/ezreal/skins/Ace of Spades/splash/Ace_of_Spades_Current_Splashart.jpg",
           "tags": []
         },
         {
           "type": "splash",
-          "title": "Ace of Spades (old) Splashart",
-          "path": "assets/ezreal/skins/Ace of Spades/splash/Ace_of_Spades_(old)_Splashart.jpg",
+          "title": "Ace of Spades old 1st Version Splashart",
+          "path": "assets/ezreal/skins/Ace of Spades/splash/Ace_of_Spades_old_1st_Version_Splashart.jpg",
           "tags": []
         },
         {
           "type": "splash",
-          "title": "Ace of Spades (old 2nd Version) Splashart",
-          "path": "assets/ezreal/skins/Ace of Spades/splash/Ace_of_Spades_(old_2nd_Version)_Splashart.jpg",
+          "title": "Ace of Spades old 2nd Version Splashart",
+          "path": "assets/ezreal/skins/Ace of Spades/splash/Ace_of_Spades_old_2nd_Version_Splashart.jpg",
           "tags": []
         },
         {
@@ -2986,7 +2986,7 @@
         },
         {
           "type": "youtube",
-          "title": "Doom Bots 2024 Chinese Loginscreen",
+          "title": "Doom Bots 2014 Chinese Loginscreen",
           "youtubeId": "JWLpeSf90zY",
           "thumb": "https://i.ytimg.com/vi/JWLpeSf90zY/hqdefault.jpg",
           "tags": []
