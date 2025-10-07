@@ -140,8 +140,20 @@
         },
         {
           "type": "model",
+          "title": "Ace of Spades Idle by Khada Modelviewer",
+          "path": "assets/ezreal/skins/Ace of Spades/model/Ace_of_Spades_Idle_by_Khada_Modelviewer.png",
+          "tags": []
+        },
+        {
+          "type": "model",
           "title": "Ace of Spades Model",
           "path": "assets/ezreal/skins/Ace of Spades/model/Ace_of_Spades_Model.jpeg",
+          "tags": []
+        },
+        {
+          "type": "model",
+          "title": "Ace of Spades T Pose by Khada Modelviewer",
+          "path": "assets/ezreal/skins/Ace of Spades/model/Ace_of_Spades_T-Pose_by_Khada_Modelviewer.png",
           "tags": []
         },
         {
@@ -154,6 +166,12 @@
           "type": "model",
           "title": "Ace of Spades Update Model by Andrey Petrashov",
           "path": "assets/ezreal/skins/Ace of Spades/model/Ace_of_Spades_Update_Model_by_Andrey_Petrashov.png",
+          "tags": []
+        },
+        {
+          "type": "model-face",
+          "title": "Ace of Spades Face by Khada Modelviewer",
+          "path": "assets/ezreal/skins/Ace of Spades/face/Ace_of_Spades_Face_by_Khada_Modelviewer.png",
           "tags": []
         },
         {
