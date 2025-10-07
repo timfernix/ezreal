@@ -2642,30 +2642,6 @@
         },
         {
           "type": "model",
-          "title": "Lovestruck Chroma Gray  WR",
-          "path": "assets/ezreal/skins/Lovestruck/model/Lovestruck_Chroma_Gray__WR.png",
-          "tags": [
-            "wr"
-          ]
-        },
-        {
-          "type": "model",
-          "title": "Lovestruck Chroma Indigo  WR",
-          "path": "assets/ezreal/skins/Lovestruck/model/Lovestruck_Chroma_Indigo__WR.png",
-          "tags": [
-            "wr"
-          ]
-        },
-        {
-          "type": "model",
-          "title": "Lovestruck Chroma Magenta  WR",
-          "path": "assets/ezreal/skins/Lovestruck/model/Lovestruck_Chroma_Magenta__WR.png",
-          "tags": [
-            "wr"
-          ]
-        },
-        {
-          "type": "model",
           "title": "Lovestruck Project Cover",
           "path": "assets/ezreal/skins/Lovestruck/model/Lovestruck_Project_Cover.jpg",
           "tags": []
@@ -2687,6 +2663,33 @@
           "title": "Lovestruck Wild Rift Model Collection 3",
           "path": "assets/ezreal/skins/Lovestruck/model/Lovestruck_Wild_Rift_Model_Collection_3.png",
           "tags": []
+        },
+        {
+          "type": "model",
+          "title": "Lovestruck Chroma Gray  WR",
+          "path": "assets/ezreal/skins/Lovestruck/model/chroma/Lovestruck_Chroma_Gray__WR.png",
+          "tags": [
+            "chroma",
+            "wr"
+          ]
+        },
+        {
+          "type": "model",
+          "title": "Lovestruck Chroma Indigo  WR",
+          "path": "assets/ezreal/skins/Lovestruck/model/chroma/Lovestruck_Chroma_Indigo__WR.png",
+          "tags": [
+            "chroma",
+            "wr"
+          ]
+        },
+        {
+          "type": "model",
+          "title": "Lovestruck Chroma Magenta  WR",
+          "path": "assets/ezreal/skins/Lovestruck/model/chroma/Lovestruck_Chroma_Magenta__WR.png",
+          "tags": [
+            "chroma",
+            "wr"
+          ]
         },
         {
           "type": "youtube",
