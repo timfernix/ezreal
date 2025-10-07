@@ -1183,8 +1183,14 @@
         },
         {
           "type": "promo",
-          "title": "Faerie Court Chibi Videoframe",
-          "path": "assets/ezreal/skins/Faerie Court/promo/Faerie_Court_Chibi_Videoframe.jpg",
+          "title": "Faerie Court Chibi Videoframe 1",
+          "path": "assets/ezreal/skins/Faerie Court/promo/Faerie_Court_Chibi_Videoframe_1.jpg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Faerie Court Chibi Videoframe 2",
+          "path": "assets/ezreal/skins/Faerie Court/promo/Faerie_Court_Chibi_Videoframe_2.jpg",
           "tags": []
         },
         {
@@ -5196,6 +5202,12 @@
         },
         {
           "type": "promo",
+          "title": "Classic Doom Bots 2025 Promoart",
+          "path": "assets/ezreal/skins/classic/promo/Classic_Doom_Bots_2025_Promoart.jpg",
+          "tags": []
+        },
+        {
+          "type": "promo",
           "title": "Classic Ezreal Poro Promoart",
           "path": "assets/ezreal/skins/classic/promo/Classic_Ezreal_Poro_Promoart.jpg",
           "tags": []
@@ -5452,6 +5464,12 @@
         },
         {
           "type": "promo",
+          "title": "Classic Warriors Promovideo Videoframe",
+          "path": "assets/ezreal/skins/classic/promo/Classic_Warriors_Promovideo_Videoframe.jpg",
+          "tags": []
+        },
+        {
+          "type": "promo",
           "title": "Classic Warriors Videoframe",
           "path": "assets/ezreal/skins/classic/promo/Classic_Warriors_Videoframe.jpg",
           "tags": []
@@ -5632,6 +5650,54 @@
         },
         {
           "type": "model",
+          "title": "Classic Beta Model 1",
+          "path": "assets/ezreal/skins/classic/model/Classic_Beta_Model_1.png",
+          "tags": []
+        },
+        {
+          "type": "model",
+          "title": "Classic Beta Model 2",
+          "path": "assets/ezreal/skins/classic/model/Classic_Beta_Model_2.jpg",
+          "tags": []
+        },
+        {
+          "type": "model",
+          "title": "Classic Beta Model 3",
+          "path": "assets/ezreal/skins/classic/model/Classic_Beta_Model_3.png",
+          "tags": []
+        },
+        {
+          "type": "model",
+          "title": "Classic Beta Model 4",
+          "path": "assets/ezreal/skins/classic/model/Classic_Beta_Model_4.png",
+          "tags": []
+        },
+        {
+          "type": "model",
+          "title": "Classic Beta Model 5",
+          "path": "assets/ezreal/skins/classic/model/Classic_Beta_Model_5.png",
+          "tags": []
+        },
+        {
+          "type": "model",
+          "title": "Classic Beta Model 6",
+          "path": "assets/ezreal/skins/classic/model/Classic_Beta_Model_6.png",
+          "tags": []
+        },
+        {
+          "type": "model",
+          "title": "Classic Beta Model 7",
+          "path": "assets/ezreal/skins/classic/model/Classic_Beta_Model_7.jpg",
+          "tags": []
+        },
+        {
+          "type": "model",
+          "title": "Classic First Model",
+          "path": "assets/ezreal/skins/classic/model/Classic_First_Model.png",
+          "tags": []
+        },
+        {
+          "type": "model",
           "title": "Classic Gauntlet Model by Kudos Productions  LOR",
           "path": "assets/ezreal/skins/classic/model/Classic_Gauntlet_Model_by_Kudos_Productions__LOR.jpg",
           "tags": [
@@ -5644,6 +5710,14 @@
           "path": "assets/ezreal/skins/classic/model/Classic_Legends_of_Runeterra_Model__LOR.jpg",
           "tags": [
             "lor"
+          ]
+        },
+        {
+          "type": "model",
+          "title": "Classic Model Render  WR",
+          "path": "assets/ezreal/skins/classic/model/Classic_Model_Render__WR.png",
+          "tags": [
+            "wr"
           ]
         },
         {
