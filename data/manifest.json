@@ -266,6 +266,12 @@
           "tags": []
         },
         {
+          "type": "ingame",
+          "title": "Arcade Ability Ingame Ultimate  R",
+          "path": "assets/ezreal/skins/Arcade/ingame/Arcade_Ability_Ingame_Ultimate__R.jpg",
+          "tags": []
+        },
+        {
           "type": "youtube",
           "title": "Arcade Ezreal Wild Rift Skin Spotlight",
           "youtubeId": "YE8tDan-_EU",
@@ -686,6 +692,18 @@
           "tags": [
             "wr"
           ]
+        },
+        {
+          "type": "ingame",
+          "title": "Battle Academia Ability Ingame Ultimate  R",
+          "path": "assets/ezreal/skins/Battle Academia/ingame/Battle_Academia_Ability_Ingame_Ultimate__R.jpg",
+          "tags": []
+        },
+        {
+          "type": "ingame",
+          "title": "Battle Academia Mythic Chroma Ability Ingame Ultimate  R",
+          "path": "assets/ezreal/skins/Battle Academia/ingame/Battle_Academia_Mythic_Chroma_Ability_Ingame_Ultimate__R.jpg",
+          "tags": []
         },
         {
           "type": "youtube",
@@ -1263,6 +1281,12 @@
           "type": "model",
           "title": "Faerie Court Model 3 by Kudos Productions",
           "path": "assets/ezreal/skins/Faerie Court/model/Faerie_Court_Model_3_by_Kudos_Productions.jpg",
+          "tags": []
+        },
+        {
+          "type": "ingame",
+          "title": "Faerie Court Ability Ingame Ultimate  R",
+          "path": "assets/ezreal/skins/Faerie Court/ingame/Faerie_Court_Ability_Ingame_Ultimate__R.jpg",
           "tags": []
         },
         {
@@ -2180,6 +2204,12 @@
           ]
         },
         {
+          "type": "ingame",
+          "title": "Heartsteel Ability Ingame Ultimate  R",
+          "path": "assets/ezreal/skins/HEARTSTEEL/ingame/Heartsteel_Ability_Ingame_Ultimate__R.jpg",
+          "tags": []
+        },
+        {
           "type": "youtube",
           "title": "Heartsteel Ezreal Skin Spotlight",
           "youtubeId": "lv8IyYe5ukA",
@@ -2348,6 +2378,12 @@
           "type": "emote",
           "title": "Heavenscale No Plan Survives Emote",
           "path": "assets/ezreal/skins/Heavenscale/emote/Heavenscale_No_Plan_Survives_Emote.png",
+          "tags": []
+        },
+        {
+          "type": "ingame",
+          "title": "Heavenscale Ability Ingame Ultimate  R",
+          "path": "assets/ezreal/skins/Heavenscale/ingame/Heavenscale_Ability_Ingame_Ultimate__R.jpg",
           "tags": []
         },
         {
@@ -2685,6 +2721,12 @@
           "type": "emote",
           "title": "Masque of the Black Rose Gentleman Thief Emote",
           "path": "assets/ezreal/skins/Masque of the Black Rose/emote/Masque_of_the_Black_Rose_Gentleman_Thief_Emote.png",
+          "tags": []
+        },
+        {
+          "type": "ingame",
+          "title": "Masque of the Black Rose Ability Ingame Ultimate  R",
+          "path": "assets/ezreal/skins/Masque of the Black Rose/ingame/Masque_of_the_Black_Rose_Ability_Ingame_Ultimate__R.jpg",
           "tags": []
         },
         {
@@ -3183,6 +3225,12 @@
           ]
         },
         {
+          "type": "ingame",
+          "title": "Porcelain Protector Ability Ingame Ultimate  R",
+          "path": "assets/ezreal/skins/Porcelain Protector/ingame/Porcelain_Protector_Ability_Ingame_Ultimate__R.jpg",
+          "tags": []
+        },
+        {
           "type": "youtube",
           "title": "A Hero Awakens Cinematic",
           "youtubeId": "N-yEhErUIn0",
@@ -3324,6 +3372,12 @@
           "type": "loading",
           "title": "Prestige Heavenscale Loadingscreen",
           "path": "assets/ezreal/skins/Prestige Heavenscale/loading/Prestige_Heavenscale_Loadingscreen.jpg",
+          "tags": []
+        },
+        {
+          "type": "ingame",
+          "title": "Prestige Heavenscale Ability Ingame Ultimate  R",
+          "path": "assets/ezreal/skins/Prestige Heavenscale/ingame/Prestige_Heavenscale_Ability_Ingame_Ultimate__R.jpg",
           "tags": []
         },
         {
@@ -3517,6 +3571,12 @@
           "type": "model",
           "title": "Prestige PsyOps Model 3 by Joey Zhang",
           "path": "assets/ezreal/skins/Prestige PsyOps/model/Prestige_PsyOps_Model_3_by_Joey_Zhang.jpg",
+          "tags": []
+        },
+        {
+          "type": "ingame",
+          "title": "Prestige PsyOps Ability Ingame Ultimate  R",
+          "path": "assets/ezreal/skins/Prestige PsyOps/ingame/Prestige_PsyOps_Ability_Ingame_Ultimate__R.jpg",
           "tags": []
         },
         {
@@ -3847,6 +3907,12 @@
           "tags": []
         },
         {
+          "type": "ingame",
+          "title": "PsyOps Ability Ingame Ultimate  R",
+          "path": "assets/ezreal/skins/PsyOps/ingame/PsyOps_Ability_Ingame_Ultimate__R.jpg",
+          "tags": []
+        },
+        {
           "type": "youtube",
           "title": "PsyOps 2020 Event Trailer",
           "youtubeId": "RpXKHY0KB1w",
@@ -4093,6 +4159,12 @@
           "tags": []
         },
         {
+          "type": "ingame",
+          "title": "Pulsefire Ability Ingame Ultimate  R",
+          "path": "assets/ezreal/skins/Pulsefire/ingame/Pulsefire_Ability_Ingame_Ultimate__R.jpg",
+          "tags": []
+        },
+        {
           "type": "youtube",
           "title": "Pulsefire Ezreal Skin Trailer 2012",
           "youtubeId": "7ebQTanjbys",
@@ -4220,6 +4292,12 @@
             "chroma",
             "tft"
           ]
+        },
+        {
+          "type": "ingame",
+          "title": "SSG Ability Ingame Ultimate  R",
+          "path": "assets/ezreal/skins/SSG/ingame/SSG_Ability_Ingame_Ultimate__R.jpg",
+          "tags": []
         },
         {
           "type": "youtube",
@@ -4527,6 +4605,12 @@
           "type": "emote",
           "title": "Star Guardian Message Board Sticker",
           "path": "assets/ezreal/skins/Star Guardian/emote/Star_Guardian_Message_Board_Sticker.png",
+          "tags": []
+        },
+        {
+          "type": "ingame",
+          "title": "Star Guardian Ability Ingame Ultimate  R",
+          "path": "assets/ezreal/skins/Star Guardian/ingame/Star_Guardian_Ability_Ingame_Ultimate__R.jpg",
           "tags": []
         },
         {
@@ -5606,6 +5690,12 @@
           "type": "emote",
           "title": "Classic Tears of Joy Emote",
           "path": "assets/ezreal/skins/classic/emote/Classic_Tears_of_Joy_Emote.png",
+          "tags": []
+        },
+        {
+          "type": "ingame",
+          "title": "Classic Ability Ingame Ultimate  R",
+          "path": "assets/ezreal/skins/classic/ingame/Classic_Ability_Ingame_Ultimate__R.jpg",
           "tags": []
         },
         {
