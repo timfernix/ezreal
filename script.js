@@ -189,8 +189,10 @@ function applyFilters(){
   if(STATE.skin !== "all") out = out.filter(i => i.skinId === STATE.skin);
   out = out.filter(i => STATE.types.has(i.type));
 
-  if (STATE.tags.size > 0) {
-    out = out.filter(i => (i.tags || []).some(tag => STATE.tags.has(tag)));
+  if (STATE.tags.size === 0) {
+    out = [];
+  } else {
+    out = out.filter(i => (i.tags||[]).some(t => STATE.tags.has(t)));
   }
 
   if(STATE.search){
