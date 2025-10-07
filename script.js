@@ -425,21 +425,7 @@ function openViewer(item){
 
   wrap.appendChild(media);
   wrap.appendChild(caption);
-
-  if (item.type === "ingame") {
-    const letter = abilityLetterFromPath(item.path || item.url || "");
-    if (letter) {
-      const leftBox = caption.querySelector(".left");
-      if (leftBox) {
-        const span = document.createElement("span");
-        span.className = "badge";
-        span.title = "Ability";
-        span.textContent = letter;
-        leftBox.appendChild(span);
-      }
-    }
-  }
-
+  
   const copyBtn = caption.querySelector(".js-copy");
   if (copyBtn) {
     copyBtn.addEventListener("click", async () => {
