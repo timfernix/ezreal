@@ -146,8 +146,8 @@ async function loadManifest(){
           year,
           type: m.type,
           title: cleanTitle(m.title || inferTitleFromPath(m.path || m.url, m.youtubeId)),
-          path: m.path || null,         // for repo assets
-          url: m.url || null,           // for absolute media (Tenor)
+          path: m.path || null,
+          url: m.url || null,
           youtubeId: m.youtubeId || null,
           thumb: m.thumb || null,
           tags
@@ -535,10 +535,10 @@ function normalizeTags(arr){
   return [...set];
 }
 
-/* ---------- URL helpers: encode spaces/unsafe chars and build absolute URL ---------- */
+/* ---------- URL helpers ---------- */
 function buildAbsoluteUrl(p){
   if(!p) return "";
-  if (/^https?:\/\//i.test(p)) return p; // already absolute (e.g., Tenor)
+  if (/^https?:\/\//i.test(p)) return p;
   const base = location.origin + location.pathname.replace(/index\.html?$/,"");
   return base + encodePathSegments(p);
 }

@@ -9,7 +9,7 @@ const OUT = path.join(ROOT, "data", "manifest.json");
 const IMAGE_EXT = new Set([".png",".jpg",".jpeg",".webp",".gif"]);
 const VIDEO_EXT = new Set([".mp4",".webm",".mov",".m4v"]);
 
-// Canonical type -> alias folder names we accept
+// Canonical types "categories"
 const TYPE_ALIASES = new Map([
   ["splash",      ["splash","splashes"]],
   ["icon",        ["icon","icons"]],
@@ -24,7 +24,7 @@ const TYPE_ALIASES = new Map([
   ["other",       ["other","misc","unused","prototype","scrap","extras"]],
 ]);
 
-// tag slugs -> alias folder/file tokens we accept
+// tag slugs "aliases"
 const TAG_ALIASES = new Map([
   ["tft",   ["tft","teamfighttactics","teamfight-tactics"]],
   ["wr",    ["wr","wildrift","wild-rift"]],
@@ -233,7 +233,7 @@ function inferTagsFromFilename(filename){
 
 main().catch(err => { console.error(err); process.exit(1); });
 
-// generic "url | title" parser
+// "url | title" parser
 function parseLineWithTitle(line){
   const raw = (line || "").trim();
   if (!raw) return { url: "", inlineTitle: null };
