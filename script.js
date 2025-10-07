@@ -27,7 +27,7 @@ const TYPE_LABEL = {
   emote: "Emote",
   other: "Other",
   tenor: "Tenor GIF",
-  ingame: "Abilities",
+  ingame: "Abilities - by timfernix",
 };
 
 const TAG_LABEL = {
@@ -425,7 +425,7 @@ function openViewer(item){
 
   wrap.appendChild(media);
   wrap.appendChild(caption);
-  
+
   const copyBtn = caption.querySelector(".js-copy");
   if (copyBtn) {
     copyBtn.addEventListener("click", async () => {
