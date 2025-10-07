@@ -50,7 +50,7 @@ const els = {
   themeToggle: document.getElementById("themeToggle"),
   viewer: document.getElementById("viewer"),
   themeMeta: document.getElementById("themeColorMeta"),
-  // optional counters (if present in DOM)
+  counts: document.getElementById("counts"),
   countTotal: document.getElementById("countTotal"),
   countFiltered: document.getElementById("countFiltered"),
 };
@@ -63,6 +63,13 @@ async function init(){
   await loadManifest();
   renderFilters();
   applyFilters();
+}
+
+function updateCounts(){
+  if(!els.counts) return;
+  const total = STATE.allItems.length;
+  const shown = STATE.filtered.length;
+  els.counts.innerHTML = `${shown} of ${total} items`;
 }
 
 function hydrateTheme(){
@@ -205,8 +212,8 @@ function applyFilters(){
 
   STATE.filtered = out;
   renderGallery();
-
   els.empty.hidden = !(STATE.tab === "gallery" && out.length === 0);
+  updateCounts();
 
   if (els.countTotal) els.countTotal.textContent = STATE.allItems.length.toString();
   if (els.countFiltered) els.countFiltered.textContent = STATE.filtered.length.toString();
