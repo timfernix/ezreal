@@ -50,7 +50,7 @@ Open an [**Issue**](https://github.com/timfernix/ezreal/issues/new/choose) with 
 **The "Ezreal Media Archive" is made and maintained by [timfernix](https://timfernix.github.io/).**  
 
 This list is compiled to the best of my knowledge and belief. I’m not responsible for any errors or omissions.
-I appreciate your understanding and welcome any feedback or corrections (see [**Contribuing**](#contributing)).
+I appreciate your understanding and welcome any feedback or corrections (see [**Contributing**](#contributing)).
 
 League of Legends and all related assets are trademarks of **Riot Games, Inc.**  
 This project was created under Riot Games’ “Legal Jibber Jabber” policy using assets owned by Riot Games.  
