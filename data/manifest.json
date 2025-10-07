@@ -265,8 +265,26 @@
         },
         {
           "type": "model",
+          "title": "Arcade Idle by Khada Modelviewer",
+          "path": "assets/ezreal/skins/Arcade/model/Arcade_Idle_by_Khada_Modelviewer.png",
+          "tags": []
+        },
+        {
+          "type": "model",
           "title": "Arcade Model",
           "path": "assets/ezreal/skins/Arcade/model/Arcade_Model.png",
+          "tags": []
+        },
+        {
+          "type": "model",
+          "title": "Arcade T Pose by Khada Modelviewer",
+          "path": "assets/ezreal/skins/Arcade/model/Arcade_T-Pose_by_Khada_Modelviewer.png",
+          "tags": []
+        },
+        {
+          "type": "model-face",
+          "title": "Arcade Face by Khada Modelviewer",
+          "path": "assets/ezreal/skins/Arcade/face/Arcade_Face_by_Khada_Modelviewer.png",
           "tags": []
         },
         {
