@@ -643,6 +643,28 @@
         },
         {
           "type": "model",
+          "title": "Battle Academia Chibi Idle by Khada Modelviewer  TFT",
+          "path": "assets/ezreal/skins/Battle Academia/model/Battle_Academia_Chibi_Idle_by_Khada_Modelviewer__TFT.png",
+          "tags": [
+            "tft"
+          ]
+        },
+        {
+          "type": "model",
+          "title": "Battle Academia Chibi T Pose by Khada Modelviewer  TFT",
+          "path": "assets/ezreal/skins/Battle Academia/model/Battle_Academia_Chibi_T-Pose_by_Khada_Modelviewer__TFT.png",
+          "tags": [
+            "tft"
+          ]
+        },
+        {
+          "type": "model",
+          "title": "Battle Academia Idle by Khada Modelviewer",
+          "path": "assets/ezreal/skins/Battle Academia/model/Battle_Academia_Idle_by_Khada_Modelviewer.png",
+          "tags": []
+        },
+        {
+          "type": "model",
           "title": "Battle Academia Model 1 by Duy Khanh Nguyen",
           "path": "assets/ezreal/skins/Battle Academia/model/Battle_Academia_Model_1_by_Duy_Khanh_Nguyen.jpg",
           "tags": []
@@ -681,6 +703,12 @@
           "type": "model",
           "title": "Battle Academia Model 7 by Duy Khanh Nguyen",
           "path": "assets/ezreal/skins/Battle Academia/model/Battle_Academia_Model_7_by_Duy_Khanh_Nguyen.png",
+          "tags": []
+        },
+        {
+          "type": "model",
+          "title": "Battle Academia T Pose by Khada Modelviewer",
+          "path": "assets/ezreal/skins/Battle Academia/model/Battle_Academia_T-Pose_by_Khada_Modelviewer.png",
           "tags": []
         },
         {
