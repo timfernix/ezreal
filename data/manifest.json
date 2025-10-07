@@ -2679,6 +2679,24 @@
           "tags": []
         },
         {
+          "type": "model",
+          "title": "Lovestruck Wild Rift Model Collection 1",
+          "path": "assets/ezreal/skins/Lovestruck/model/Lovestruck_Wild_Rift_Model_Collection_1.png",
+          "tags": []
+        },
+        {
+          "type": "model",
+          "title": "Lovestruck Wild Rift Model Collection 2",
+          "path": "assets/ezreal/skins/Lovestruck/model/Lovestruck_Wild_Rift_Model_Collection_2.png",
+          "tags": []
+        },
+        {
+          "type": "model",
+          "title": "Lovestruck Wild Rift Model Collection 3",
+          "path": "assets/ezreal/skins/Lovestruck/model/Lovestruck_Wild_Rift_Model_Collection_3.png",
+          "tags": []
+        },
+        {
           "type": "youtube",
           "title": "Lovestruck Ezreal Wild Rift Skin Spotlight",
           "youtubeId": "N7FMLStLHa0",
