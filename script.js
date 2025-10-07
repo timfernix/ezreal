@@ -57,6 +57,15 @@ const els = {
   countFiltered: document.getElementById("countFiltered"),
 };
 
+function syncFiltersFromUI(){
+  STATE.types = new Set(els.typeChecks().filter(cb => cb.checked).map(cb => cb.value));
+  STATE.tags  = new Set(els.tagChecks().filter(cb => cb.checked).map(cb => cb.value));
+
+  if (els.skinFilter) STATE.skin = els.skinFilter.value || "all";
+  if (els.search)     STATE.search = (els.search.value || "").trim().toLowerCase();
+  if (els.sortBy)     STATE.sortBy = els.sortBy.value || "skin";
+}
+
 init().catch(console.error);
 
 async function init(){
@@ -64,6 +73,7 @@ async function init(){
   wireUI();
   await loadManifest();
   renderFilters();
+  syncFiltersFromUI();
   applyFilters();
 }
 
