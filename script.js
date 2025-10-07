@@ -26,7 +26,7 @@ const TYPE_LABEL = {
   youtube: "YouTube",
   emote: "Emote",
   other: "Other",
-  tenor: "Tenor GIF",
+  tenor: "GIF - by timfernix",
   ingame: "Abilities - by timfernix",
 };
 
