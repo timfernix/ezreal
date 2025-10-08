@@ -1,7 +1,7 @@
 {
   "meta": {
     "champion": "Ezreal",
-    "generated": "2025-10-07"
+    "generated": "2025-10-08"
   },
   "skins": [
     {
@@ -882,8 +882,10 @@
         {
           "type": "ingame",
           "title": "Battle Academia Mythic Chroma Ability Ingame Ultimate",
-          "path": "assets/ezreal/skins/Battle Academia/ingame/Battle_Academia_Mythic_Chroma_Ability_Ingame_Ultimate.jpg",
-          "tags": []
+          "path": "assets/ezreal/skins/Battle Academia/ingame/chroma/Battle_Academia_Mythic_Chroma_Ability_Ingame_Ultimate.jpg",
+          "tags": [
+            "chroma"
+          ]
         },
         {
           "type": "youtube",
@@ -1196,8 +1198,26 @@
         },
         {
           "type": "model",
+          "title": "Debonair Idle by Khada Modelviewer",
+          "path": "assets/ezreal/skins/Debonair/model/Debonair_Idle_by_Khada_Modelviewer.png",
+          "tags": []
+        },
+        {
+          "type": "model",
+          "title": "Debonair T Pose by Khada Modelviewer",
+          "path": "assets/ezreal/skins/Debonair/model/Debonair_T-Pose_by_Khada_Modelviewer.png",
+          "tags": []
+        },
+        {
+          "type": "model",
           "title": "Debonair Update Model",
           "path": "assets/ezreal/skins/Debonair/model/Debonair_Update_Model.png",
+          "tags": []
+        },
+        {
+          "type": "model-face",
+          "title": "Debonair Face by Khada Modelviewer",
+          "path": "assets/ezreal/skins/Debonair/face/Debonair_Face_by_Khada_Modelviewer.png",
           "tags": []
         },
         {
