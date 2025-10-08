@@ -95,6 +95,13 @@ body {
   gap: 0.8rem;
   align-items: center;
 }
+
+.header-actions {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
 .logo {
   width: 32px;
   height: 32px;

@@ -36,13 +36,8 @@ Over recent years I have been collecting more and more Ezreal media. So i though
 
 ## Contributing
 
-Found missing official art, a higher-resolution splash, or a WR/TFT/LoR variant or new chroma that should be included?
-
-Open an [**Issue**](https://github.com/timfernix/ezreal/issues/new/choose) with details about what’s missing, include the **name, type, tags**, and where it can be found or add the file.
-
-> [!IMPORTANT]
-> Only submit Riot Games media.  
-> Fanmade or third-party artwork cannot be included due to copyright restrictions.
+Found missing official art, a higher-resolution splash, or a WR/TFT/LoR variant or new chroma that should be included?  
+Please read **[CONTRIBUTING.md](./CONTRIBUTING.md)** for how to submit media, request changes/removals, or contact me directly.
 
 ---
 
