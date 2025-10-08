@@ -3455,6 +3455,12 @@
         },
         {
           "type": "model",
+          "title": "Pajama Guardian Idle by Khada Modelviewer",
+          "path": "assets/ezreal/skins/Pajama Guardian/model/Pajama_Guardian_Idle_by_Khada_Modelviewer.png",
+          "tags": []
+        },
+        {
+          "type": "model",
           "title": "Pajama Guardian Model 1 by Andrey Petrashov",
           "path": "assets/ezreal/skins/Pajama Guardian/model/Pajama_Guardian_Model_1_by_Andrey_Petrashov.jpg",
           "tags": []
@@ -3463,6 +3469,18 @@
           "type": "model",
           "title": "Pajama Guardian Model 2 by Andrey Petrashov",
           "path": "assets/ezreal/skins/Pajama Guardian/model/Pajama_Guardian_Model_2_by_Andrey_Petrashov.png",
+          "tags": []
+        },
+        {
+          "type": "model",
+          "title": "Pajama Guardian T Pose by Khada Modelviewer",
+          "path": "assets/ezreal/skins/Pajama Guardian/model/Pajama_Guardian_T-Pose_by_Khada_Modelviewer.png",
+          "tags": []
+        },
+        {
+          "type": "model-face",
+          "title": "Pajama Guardian Face by Khada Modelviewer",
+          "path": "assets/ezreal/skins/Pajama Guardian/face/Pajama_Guardian_Face_by_Khada_Modelviewer.png",
           "tags": []
         },
         {
@@ -3672,6 +3690,12 @@
         },
         {
           "type": "model",
+          "title": "Porcelain Protector Idle by Khada Modelviewer",
+          "path": "assets/ezreal/skins/Porcelain Protector/model/Porcelain_Protector_Idle_by_Khada_Modelviewer.png",
+          "tags": []
+        },
+        {
+          "type": "model",
           "title": "Porcelain Protector Model",
           "path": "assets/ezreal/skins/Porcelain Protector/model/Porcelain_Protector_Model.png",
           "tags": []
@@ -3698,6 +3722,12 @@
           "type": "model",
           "title": "Porcelain Protector Model 4 by Liem Nguyen",
           "path": "assets/ezreal/skins/Porcelain Protector/model/Porcelain_Protector_Model_4_by_Liem_Nguyen.jpg",
+          "tags": []
+        },
+        {
+          "type": "model",
+          "title": "Porcelain Protector T Pose by Khada Modelviewer",
+          "path": "assets/ezreal/skins/Porcelain Protector/model/Porcelain_Protector_T-Pose_by_Khada_Modelviewer.png",
           "tags": []
         },
         {
@@ -3747,6 +3777,12 @@
           "tags": [
             "chroma"
           ]
+        },
+        {
+          "type": "model-face",
+          "title": "Porcelain Protector Face by Khada Modelviewer",
+          "path": "assets/ezreal/skins/Porcelain Protector/face/Porcelain_Protector_Face_by_Khada_Modelviewer.png",
+          "tags": []
         },
         {
           "type": "ingame",
