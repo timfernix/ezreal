@@ -4159,6 +4159,12 @@
         },
         {
           "type": "model",
+          "title": "Prestige PsyOps Idle by Khada Modelviewer",
+          "path": "assets/ezreal/skins/Prestige PsyOps/model/Prestige_PsyOps_Idle_by_Khada_Modelviewer.png",
+          "tags": []
+        },
+        {
+          "type": "model",
           "title": "Prestige PsyOps Model 1 by Joey Zhang",
           "path": "assets/ezreal/skins/Prestige PsyOps/model/Prestige_PsyOps_Model_1_by_Joey_Zhang.png",
           "tags": []
@@ -4173,6 +4179,18 @@
           "type": "model",
           "title": "Prestige PsyOps Model 3 by Joey Zhang",
           "path": "assets/ezreal/skins/Prestige PsyOps/model/Prestige_PsyOps_Model_3_by_Joey_Zhang.jpg",
+          "tags": []
+        },
+        {
+          "type": "model",
+          "title": "Prestige PsyOps T Pose by Khada Modelviewer",
+          "path": "assets/ezreal/skins/Prestige PsyOps/model/Prestige_PsyOps_T-Pose_by_Khada_Modelviewer.png",
+          "tags": []
+        },
+        {
+          "type": "model-face",
+          "title": "Prestige PsyOps Face by Khada Modelviewer",
+          "path": "assets/ezreal/skins/Prestige PsyOps/face/Prestige_PsyOps_Face_by_Khada_Modelviewer.png",
           "tags": []
         },
         {
@@ -4489,8 +4507,20 @@
         },
         {
           "type": "model",
+          "title": "PsyOps Idle by Khada Modelviewer",
+          "path": "assets/ezreal/skins/PsyOps/model/PsyOps_Idle_by_Khada_Modelviewer.png",
+          "tags": []
+        },
+        {
+          "type": "model",
           "title": "PsyOps Model by Dragonfly Studio.",
           "path": "assets/ezreal/skins/PsyOps/model/PsyOps_Model_by_Dragonfly_Studio..png",
+          "tags": []
+        },
+        {
+          "type": "model",
+          "title": "PsyOps T Pose by Khada Modelviewer",
+          "path": "assets/ezreal/skins/PsyOps/model/PsyOps_T-Pose_by_Khada_Modelviewer.png",
           "tags": []
         },
         {
@@ -4501,6 +4531,12 @@
             "chroma",
             "tft"
           ]
+        },
+        {
+          "type": "model-face",
+          "title": "PsyOps Face by Khada Modelviewer",
+          "path": "assets/ezreal/skins/PsyOps/face/PsyOps_Face_by_Khada_Modelviewer.png",
+          "tags": []
         },
         {
           "type": "emote",
