@@ -4912,8 +4912,20 @@
         },
         {
           "type": "model",
+          "title": "SSG Idle by Khada Modelviewer",
+          "path": "assets/ezreal/skins/SSG/model/SSG_Idle_by_Khada_Modelviewer.png",
+          "tags": []
+        },
+        {
+          "type": "model",
           "title": "SSG Model by Yekaterina Bourykina",
           "path": "assets/ezreal/skins/SSG/model/SSG_Model_by_Yekaterina_Bourykina.jpg",
+          "tags": []
+        },
+        {
+          "type": "model",
+          "title": "SSG T Pose by Khada Modelviewer",
+          "path": "assets/ezreal/skins/SSG/model/SSG_T-Pose_by_Khada_Modelviewer.png",
           "tags": []
         },
         {
@@ -4926,6 +4938,39 @@
           "type": "model",
           "title": "SSG Chroma Model Render Set 12  TFT",
           "path": "assets/ezreal/skins/SSG/model/chroma/SSG_Chroma_Model_Render_Set_12__TFT.png",
+          "tags": [
+            "chroma",
+            "tft"
+          ]
+        },
+        {
+          "type": "model",
+          "title": "SSG Idle Set 12 Chroma by Khada Modelviewer  TFT",
+          "path": "assets/ezreal/skins/SSG/model/chroma/SSG_Idle_Set_12_Chroma_by_Khada_Modelviewer__TFT.png",
+          "tags": [
+            "chroma",
+            "tft"
+          ]
+        },
+        {
+          "type": "model",
+          "title": "SSG T Pose Set 12 Chroma by Khada Modelviewer  TFT",
+          "path": "assets/ezreal/skins/SSG/model/chroma/SSG_T-Pose_Set_12_Chroma_by_Khada_Modelviewer__TFT.png",
+          "tags": [
+            "chroma",
+            "tft"
+          ]
+        },
+        {
+          "type": "model-face",
+          "title": "SSG Face by Khada Modelviewer",
+          "path": "assets/ezreal/skins/SSG/face/SSG_Face_by_Khada_Modelviewer.png",
+          "tags": []
+        },
+        {
+          "type": "model-face",
+          "title": "SSG Face Set 12 Chroma by Khada Modelviewer  TFT",
+          "path": "assets/ezreal/skins/SSG/face/chroma/SSG_Face_Set_12_Chroma_by_Khada_Modelviewer__TFT.png",
           "tags": [
             "chroma",
             "tft"
