@@ -763,24 +763,6 @@
         },
         {
           "type": "model",
-          "title": "Battle Academia Set 13 Render  TFT",
-          "path": "assets/ezreal/skins/Battle Academia/model/chroma/Battle_Academia_Set_13_Render__TFT.png",
-          "tags": [
-            "chroma",
-            "tft"
-          ]
-        },
-        {
-          "type": "model",
-          "title": "Battle Academia Set 15 Render  TFT",
-          "path": "assets/ezreal/skins/Battle Academia/model/chroma/Battle_Academia_Set_15_Render__TFT.png",
-          "tags": [
-            "chroma",
-            "tft"
-          ]
-        },
-        {
-          "type": "model",
           "title": "Battle Academia T Pose Set 13 Chroma by Khada Modelviewer  TFT",
           "path": "assets/ezreal/skins/Battle Academia/model/chroma/Battle_Academia_T-Pose_Set_13_Chroma_by_Khada_Modelviewer__TFT.png",
           "tags": [
@@ -6482,12 +6464,6 @@
           "tags": [
             "lor"
           ]
-        },
-        {
-          "type": "model",
-          "title": "Classic Render Model",
-          "path": "assets/ezreal/skins/classic/model/Classic_Render_Model.png",
-          "tags": []
         },
         {
           "type": "model",
