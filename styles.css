@@ -136,6 +136,8 @@ h1 .byline:hover {
 }
 
 .btn {
+  -webkit-appearance: none;
+  appearance: none;
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
@@ -147,13 +149,21 @@ h1 .byline:hover {
   cursor: pointer;
   box-shadow: var(--shadow);
   transition: transform 0.15s ease, background 0.2s ease;
+  text-decoration: none; 
+  font: inherit; 
+  line-height: 1.2;
 }
-.btn:hover {
-  transform: translateY(-1px);
+
+.btn:link,
+.btn:visited,
+.btn:hover,
+.btn:active,
+.btn:focus {
+  text-decoration: none;
 }
-.btn .icon {
-  font-size: 1.1rem;
-}
+
+.btn:hover { transform: translateY(-1px); }
+.btn .icon { font-size: 1.1rem; }
 
 .controls {
   display: grid;
