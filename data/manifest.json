@@ -1318,8 +1318,26 @@
         },
         {
           "type": "model",
+          "title": "Explorer Idle by Khada Modelviewer",
+          "path": "assets/ezreal/skins/Explorer/model/Explorer_Idle_by_Khada_Modelviewer.png",
+          "tags": []
+        },
+        {
+          "type": "model",
           "title": "Explorer Model",
           "path": "assets/ezreal/skins/Explorer/model/Explorer_Model.png",
+          "tags": []
+        },
+        {
+          "type": "model",
+          "title": "Explorer T Pose by Khada Modelviewer",
+          "path": "assets/ezreal/skins/Explorer/model/Explorer_T-Pose_by_Khada_Modelviewer.png",
+          "tags": []
+        },
+        {
+          "type": "model-face",
+          "title": "Explorer Face by Khada Modelviewer",
+          "path": "assets/ezreal/skins/Explorer/face/Explorer_Face_by_Khada_Modelviewer.png",
           "tags": []
         },
         {
