@@ -3207,9 +3207,54 @@
         },
         {
           "type": "model",
+          "title": "Nottingham Idle by Khada Modelviewer",
+          "path": "assets/ezreal/skins/Nottingham/model/Nottingham_Idle_by_Khada_Modelviewer.png",
+          "tags": []
+        },
+        {
+          "type": "model",
           "title": "Nottingham Model",
           "path": "assets/ezreal/skins/Nottingham/model/Nottingham_Model.png",
           "tags": []
+        },
+        {
+          "type": "model",
+          "title": "Nottingham T Pose by Khada Modelviewer",
+          "path": "assets/ezreal/skins/Nottingham/model/Nottingham_T-Pose_by_Khada_Modelviewer.png",
+          "tags": []
+        },
+        {
+          "type": "model",
+          "title": "Nottingham Idle Set 4 Chroma by Khada Modelviewer  TFT",
+          "path": "assets/ezreal/skins/Nottingham/model/chroma/Nottingham_Idle_Set_4_Chroma_by_Khada_Modelviewer__TFT.png",
+          "tags": [
+            "chroma",
+            "tft"
+          ]
+        },
+        {
+          "type": "model",
+          "title": "Nottingham T Pose Set 4 Chroma by Khada Modelviewer  TFT",
+          "path": "assets/ezreal/skins/Nottingham/model/chroma/Nottingham_T-Pose_Set_4_Chroma_by_Khada_Modelviewer__TFT.png",
+          "tags": [
+            "chroma",
+            "tft"
+          ]
+        },
+        {
+          "type": "model-face",
+          "title": "Nottingham Face by Khada Modelviewer",
+          "path": "assets/ezreal/skins/Nottingham/face/Nottingham_Face_by_Khada_Modelviewer.png",
+          "tags": []
+        },
+        {
+          "type": "model-face",
+          "title": "Nottingham Face Set 4 Chroma by Khada Modelviewer  TFT",
+          "path": "assets/ezreal/skins/Nottingham/face/chroma/Nottingham_Face_Set_4_Chroma_by_Khada_Modelviewer__TFT.png",
+          "tags": [
+            "chroma",
+            "tft"
+          ]
         },
         {
           "type": "youtube",
