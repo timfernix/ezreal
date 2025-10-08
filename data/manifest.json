@@ -3935,6 +3935,24 @@
           "tags": []
         },
         {
+          "type": "model",
+          "title": "Prestige Heavenscale Idle by Khada Modelviewer",
+          "path": "assets/ezreal/skins/Prestige Heavenscale/model/Prestige_Heavenscale_Idle_by_Khada_Modelviewer.png",
+          "tags": []
+        },
+        {
+          "type": "model",
+          "title": "Prestige Heavenscale T Pose by Khada Modelviewer",
+          "path": "assets/ezreal/skins/Prestige Heavenscale/model/Prestige_Heavenscale_T-Pose_by_Khada_Modelviewer.png",
+          "tags": []
+        },
+        {
+          "type": "model-face",
+          "title": "Prestige Heavenscale Face by Khada Modelviewer",
+          "path": "assets/ezreal/skins/Prestige Heavenscale/face/Prestige_Heavenscale_Face_by_Khada_Modelviewer.png",
+          "tags": []
+        },
+        {
           "type": "ingame",
           "title": "Prestige Heavenscale Ability Ingame Ultimate",
           "path": "assets/ezreal/skins/Prestige Heavenscale/ingame/Prestige_Heavenscale_Ability_Ingame_Ultimate.jpg",
@@ -4045,6 +4063,30 @@
           "type": "promo",
           "title": "Prestige Porcelain Protector TFT Promo Poster  TFT",
           "path": "assets/ezreal/skins/Prestige Porcelain Protector/promo/Prestige_Porcelain_Protector_TFT_Promo_Poster__TFT.jpg",
+          "tags": [
+            "tft"
+          ]
+        },
+        {
+          "type": "model",
+          "title": "Prestige Porcelain Protector Chibi Idle by Khada Modelviewer  TFT",
+          "path": "assets/ezreal/skins/Prestige Porcelain Protector/model/Prestige_Porcelain_Protector_Chibi_Idle_by_Khada_Modelviewer__TFT.png",
+          "tags": [
+            "tft"
+          ]
+        },
+        {
+          "type": "model",
+          "title": "Prestige Porcelain Protector Chibi T Pose by Khada Modelviewer  TFT",
+          "path": "assets/ezreal/skins/Prestige Porcelain Protector/model/Prestige_Porcelain_Protector_Chibi_T-Pose_by_Khada_Modelviewer__TFT.png",
+          "tags": [
+            "tft"
+          ]
+        },
+        {
+          "type": "model-face",
+          "title": "Prestige Porcelain Protector Chibi Face by Khada Modelviewer  TFT",
+          "path": "assets/ezreal/skins/Prestige Porcelain Protector/face/Prestige_Porcelain_Protector_Chibi_Face_by_Khada_Modelviewer__TFT.png",
           "tags": [
             "tft"
           ]
