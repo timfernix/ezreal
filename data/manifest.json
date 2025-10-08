@@ -2689,6 +2689,24 @@
           "tags": []
         },
         {
+          "type": "model",
+          "title": "Heavenscale Idle by Khada Modelviewer",
+          "path": "assets/ezreal/skins/Heavenscale/model/Heavenscale_Idle_by_Khada_Modelviewer.png",
+          "tags": []
+        },
+        {
+          "type": "model",
+          "title": "Heavenscale T Pose by Khada Modelviewer",
+          "path": "assets/ezreal/skins/Heavenscale/model/Heavenscale_T-Pose_by_Khada_Modelviewer.png",
+          "tags": []
+        },
+        {
+          "type": "model-face",
+          "title": "Heavenscale Face by Khada Modelviewer",
+          "path": "assets/ezreal/skins/Heavenscale/face/Heavenscale_Face_by_Khada_Modelviewer.png",
+          "tags": []
+        },
+        {
           "type": "emote",
           "title": "Heavenscale A Gift For You Emote",
           "path": "assets/ezreal/skins/Heavenscale/emote/Heavenscale_A_Gift_For_You_Emote.png",
@@ -3086,6 +3104,30 @@
           "type": "loading",
           "title": "Masque of the Black Rose Loadingscreen",
           "path": "assets/ezreal/skins/Masque of the Black Rose/loading/Masque_of_the_Black_Rose_Loadingscreen.jpg",
+          "tags": []
+        },
+        {
+          "type": "model",
+          "title": "Masque of the Black Rose Idle by Khada Modelviewer",
+          "path": "assets/ezreal/skins/Masque of the Black Rose/model/Masque_of_the_Black_Rose_Idle_by_Khada_Modelviewer.png",
+          "tags": []
+        },
+        {
+          "type": "model",
+          "title": "Masque of the Black Rose T Pose by Khada Modelviewer",
+          "path": "assets/ezreal/skins/Masque of the Black Rose/model/Masque_of_the_Black_Rose_T-Pose_by_Khada_Modelviewer.png",
+          "tags": []
+        },
+        {
+          "type": "model-face",
+          "title": "Masque of the Black Rose Face Mask by Khada Modelviewer",
+          "path": "assets/ezreal/skins/Masque of the Black Rose/face/Masque_of_the_Black_Rose_Face_Mask_by_Khada_Modelviewer.png",
+          "tags": []
+        },
+        {
+          "type": "model-face",
+          "title": "Masque of the Black Rose Face by Khada Modelviewer",
+          "path": "assets/ezreal/skins/Masque of the Black Rose/face/Masque_of_the_Black_Rose_Face_by_Khada_Modelviewer.png",
           "tags": []
         },
         {
