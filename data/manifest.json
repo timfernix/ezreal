@@ -5268,6 +5268,12 @@
         },
         {
           "type": "model",
+          "title": "Star Guardian Idle by Khada Modelviewer",
+          "path": "assets/ezreal/skins/Star Guardian/model/Star_Guardian_Idle_by_Khada_Modelviewer.png",
+          "tags": []
+        },
+        {
+          "type": "model",
           "title": "Star Guardian Statue Model 1",
           "path": "assets/ezreal/skins/Star Guardian/model/Star_Guardian_Statue_Model_1.jpg",
           "tags": []
@@ -5280,8 +5286,20 @@
         },
         {
           "type": "model",
+          "title": "Star Guardian T Pose by Khada Modelviewer",
+          "path": "assets/ezreal/skins/Star Guardian/model/Star_Guardian_T-Pose_by_Khada_Modelviewer.png",
+          "tags": []
+        },
+        {
+          "type": "model",
           "title": "Star Guardian Update Model",
           "path": "assets/ezreal/skins/Star Guardian/model/Star_Guardian_Update_Model.png",
+          "tags": []
+        },
+        {
+          "type": "model-face",
+          "title": "Star Guardian Face by Khada Modelviewer",
+          "path": "assets/ezreal/skins/Star Guardian/face/Star_Guardian_Face_by_Khada_Modelviewer.png",
           "tags": []
         },
         {
@@ -5410,8 +5428,26 @@
         },
         {
           "type": "model",
+          "title": "Striker Idle by Khada Modelviewer",
+          "path": "assets/ezreal/skins/Striker/model/Striker_Idle_by_Khada_Modelviewer.png",
+          "tags": []
+        },
+        {
+          "type": "model",
+          "title": "Striker T Pose by Khada Modelviewer",
+          "path": "assets/ezreal/skins/Striker/model/Striker_T-Pose_by_Khada_Modelviewer.png",
+          "tags": []
+        },
+        {
+          "type": "model",
           "title": "Striker Update Model",
           "path": "assets/ezreal/skins/Striker/model/Striker_Update_Model.png",
+          "tags": []
+        },
+        {
+          "type": "model-face",
+          "title": "Striker Face by Khada Modelviewer",
+          "path": "assets/ezreal/skins/Striker/face/Striker_Face_by_Khada_Modelviewer.png",
           "tags": []
         },
         {
@@ -5473,14 +5509,32 @@
         },
         {
           "type": "model",
+          "title": "TPA Idle by Khada Modelviewer",
+          "path": "assets/ezreal/skins/TPA/model/TPA_Idle_by_Khada_Modelviewer.png",
+          "tags": []
+        },
+        {
+          "type": "model",
           "title": "TPA Model",
           "path": "assets/ezreal/skins/TPA/model/TPA_Model.jpg",
           "tags": []
         },
         {
           "type": "model",
+          "title": "TPA T Pose by Khada Modelviewer",
+          "path": "assets/ezreal/skins/TPA/model/TPA_T-Pose_by_Khada_Modelviewer.png",
+          "tags": []
+        },
+        {
+          "type": "model",
           "title": "TPA Update Model",
           "path": "assets/ezreal/skins/TPA/model/TPA_Update_Model.png",
+          "tags": []
+        },
+        {
+          "type": "model-face",
+          "title": "TPA Face by Khada Modelviewer",
+          "path": "assets/ezreal/skins/TPA/face/TPA_Face_by_Khada_Modelviewer.png",
           "tags": []
         },
         {
