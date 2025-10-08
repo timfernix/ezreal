@@ -1491,6 +1491,12 @@
         },
         {
           "type": "model",
+          "title": "Faerie Court Idle by Khada Modelviewer",
+          "path": "assets/ezreal/skins/Faerie Court/model/Faerie_Court_Idle_by_Khada_Modelviewer.png",
+          "tags": []
+        },
+        {
+          "type": "model",
           "title": "Faerie Court Model 1 by Kudos Productions",
           "path": "assets/ezreal/skins/Faerie Court/model/Faerie_Court_Model_1_by_Kudos_Productions.jpg",
           "tags": []
@@ -1505,6 +1511,18 @@
           "type": "model",
           "title": "Faerie Court Model 3 by Kudos Productions",
           "path": "assets/ezreal/skins/Faerie Court/model/Faerie_Court_Model_3_by_Kudos_Productions.jpg",
+          "tags": []
+        },
+        {
+          "type": "model",
+          "title": "Faerie Court T Pose by Khada Modelviewer",
+          "path": "assets/ezreal/skins/Faerie Court/model/Faerie_Court_T-Pose_by_Khada_Modelviewer.png",
+          "tags": []
+        },
+        {
+          "type": "model-face",
+          "title": "Faerie Court Face by Khada Modelviewer",
+          "path": "assets/ezreal/skins/Faerie Court/face/Faerie_Court_Face_by_Khada_Modelviewer.png",
           "tags": []
         },
         {
@@ -1626,6 +1644,12 @@
         },
         {
           "type": "model",
+          "title": "Frosted Idle by Khada Modelviewer",
+          "path": "assets/ezreal/skins/Frosted/model/Frosted_Idle_by_Khada_Modelviewer.png",
+          "tags": []
+        },
+        {
+          "type": "model",
           "title": "Frosted Model Wild Rift  WR",
           "path": "assets/ezreal/skins/Frosted/model/Frosted_Model_Wild_Rift__WR.jpeg",
           "tags": [
@@ -1636,6 +1660,12 @@
           "type": "model",
           "title": "Frosted Model by Bombete Mikael",
           "path": "assets/ezreal/skins/Frosted/model/Frosted_Model_by_Bombete_Mikael.jpg",
+          "tags": []
+        },
+        {
+          "type": "model",
+          "title": "Frosted T Pose by Khada Modelviewer",
+          "path": "assets/ezreal/skins/Frosted/model/Frosted_T-Pose_by_Khada_Modelviewer.png",
           "tags": []
         },
         {
@@ -1652,6 +1682,12 @@
             "chroma",
             "tft"
           ]
+        },
+        {
+          "type": "model-face",
+          "title": "Frosted Face by Khada Modelviewer",
+          "path": "assets/ezreal/skins/Frosted/face/Frosted_Face_by_Khada_Modelviewer.png",
+          "tags": []
         },
         {
           "type": "youtube",
