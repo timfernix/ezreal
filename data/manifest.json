@@ -2384,6 +2384,12 @@
         },
         {
           "type": "model",
+          "title": "Heartsteel Idle by Khada Modelviewer",
+          "path": "assets/ezreal/skins/HEARTSTEEL/model/Heartsteel_Idle_by_Khada_Modelviewer.png",
+          "tags": []
+        },
+        {
+          "type": "model",
           "title": "Heartsteel Model",
           "path": "assets/ezreal/skins/HEARTSTEEL/model/Heartsteel_Model.jpeg",
           "tags": []
@@ -2392,6 +2398,12 @@
           "type": "model",
           "title": "Heartsteel Model Render Concept",
           "path": "assets/ezreal/skins/HEARTSTEEL/model/Heartsteel_Model_Render_Concept.jpg",
+          "tags": []
+        },
+        {
+          "type": "model",
+          "title": "Heartsteel T Pose by Khada Modelviewer",
+          "path": "assets/ezreal/skins/HEARTSTEEL/model/Heartsteel_T-Pose_by_Khada_Modelviewer.png",
           "tags": []
         },
         {
@@ -2414,6 +2426,54 @@
           "type": "model",
           "title": "HEARTSTEEL Chroma Model Render Season 10  TFT",
           "path": "assets/ezreal/skins/HEARTSTEEL/model/chroma/HEARTSTEEL_Chroma_Model_Render_Season_10__TFT.png",
+          "tags": [
+            "chroma",
+            "tft"
+          ]
+        },
+        {
+          "type": "model",
+          "title": "Heartsteel Idle Set 10 Chroma by Khada Modelviewer  TFT",
+          "path": "assets/ezreal/skins/HEARTSTEEL/model/chroma/Heartsteel_Idle_Set_10_Chroma_by_Khada_Modelviewer__TFT.png",
+          "tags": [
+            "chroma",
+            "tft"
+          ]
+        },
+        {
+          "type": "model",
+          "title": "Heartsteel T Pose Set 10 Chroma by Khada Modelviewer  TFT",
+          "path": "assets/ezreal/skins/HEARTSTEEL/model/chroma/Heartsteel_T-Pose_Set_10_Chroma_by_Khada_Modelviewer__TFT.png",
+          "tags": [
+            "chroma",
+            "tft"
+          ]
+        },
+        {
+          "type": "model-face",
+          "title": "Heartsteel Face Glasses by Khada Modelviewer",
+          "path": "assets/ezreal/skins/HEARTSTEEL/face/Heartsteel_Face_Glasses_by_Khada_Modelviewer.png",
+          "tags": []
+        },
+        {
+          "type": "model-face",
+          "title": "Heartsteel Face by Khada Modelviewer",
+          "path": "assets/ezreal/skins/HEARTSTEEL/face/Heartsteel_Face_by_Khada_Modelviewer.png",
+          "tags": []
+        },
+        {
+          "type": "model-face",
+          "title": "Heartsteel Face Glasses Set 10 Chroma by Khada Modelviewer  TFT",
+          "path": "assets/ezreal/skins/HEARTSTEEL/face/chroma/Heartsteel_Face_Glasses_Set_10_Chroma_by_Khada_Modelviewer__TFT.png",
+          "tags": [
+            "chroma",
+            "tft"
+          ]
+        },
+        {
+          "type": "model-face",
+          "title": "Heartsteel Face Set 10 Chroma by Khada Modelviewer  TFT",
+          "path": "assets/ezreal/skins/HEARTSTEEL/face/chroma/Heartsteel_Face_Set_10_Chroma_by_Khada_Modelviewer__TFT.png",
           "tags": [
             "chroma",
             "tft"
