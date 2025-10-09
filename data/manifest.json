@@ -1,7 +1,7 @@
 {
   "meta": {
     "champion": "Ezreal",
-    "generated": "2025-10-08"
+    "generated": "2025-10-09"
   },
   "skins": [
     {
@@ -3333,6 +3333,54 @@
           "tags": []
         },
         {
+          "type": "promo",
+          "title": "LoL x Burton Collab Jinx and Ezreal 12",
+          "path": "assets/ezreal/skins/Other/promo/LoL_x_Burton_Collab_Jinx_and_Ezreal_12.png",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "LoL x Burton Collab Jinx and Ezreal 13",
+          "path": "assets/ezreal/skins/Other/promo/LoL_x_Burton_Collab_Jinx_and_Ezreal_13.png",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "LoL x Burton Collab Jinx and Ezreal 14",
+          "path": "assets/ezreal/skins/Other/promo/LoL_x_Burton_Collab_Jinx_and_Ezreal_14.png",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "LoL x Burton Collab Jinx and Ezreal 15",
+          "path": "assets/ezreal/skins/Other/promo/LoL_x_Burton_Collab_Jinx_and_Ezreal_15.png",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "LoL x Burton Collab Jinx and Ezreal 16",
+          "path": "assets/ezreal/skins/Other/promo/LoL_x_Burton_Collab_Jinx_and_Ezreal_16.jpg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "LoL x Burton Collab Jinx and Ezreal 17",
+          "path": "assets/ezreal/skins/Other/promo/LoL_x_Burton_Collab_Jinx_and_Ezreal_17.jpg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "LoL x Burton Collab Jinx and Ezreal 18",
+          "path": "assets/ezreal/skins/Other/promo/LoL_x_Burton_Collab_Jinx_and_Ezreal_18.jpg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "LoL x Burton Collab Jinx and Ezreal 19",
+          "path": "assets/ezreal/skins/Other/promo/LoL_x_Burton_Collab_Jinx_and_Ezreal_19.gif",
+          "tags": []
+        },
+        {
           "type": "concept",
           "title": "2022 Skinline Concept Leaks",
           "path": "assets/ezreal/skins/Other/concept/2022_Skinline_Concept_Leaks.jpg",
@@ -3342,6 +3390,12 @@
           "type": "concept",
           "title": "Monster Tamer Concept by Thomas Randby",
           "path": "assets/ezreal/skins/Other/concept/Monster_Tamer_Concept_by_Thomas_Randby.jpg",
+          "tags": []
+        },
+        {
+          "type": "video",
+          "title": "LoL x Burton Collab Jinx and Ezreal Douyin Promovideo 1",
+          "path": "assets/ezreal/skins/Other/video/LoL_x_Burton_Collab_Jinx_and_Ezreal_Douyin_Promovideo_1.mp4",
           "tags": []
         },
         {
