@@ -5017,6 +5017,24 @@
           "tags": []
         },
         {
+          "type": "merch",
+          "title": "Pulsefire Ezreal Statue 1",
+          "path": "assets/ezreal/skins/Pulsefire/merch/Pulsefire_Ezreal_Statue_1.webp",
+          "tags": []
+        },
+        {
+          "type": "merch",
+          "title": "Pulsefire Ezreal Statue 2",
+          "path": "assets/ezreal/skins/Pulsefire/merch/Pulsefire_Ezreal_Statue_2.webp",
+          "tags": []
+        },
+        {
+          "type": "merch",
+          "title": "Pulsefire Ezreal Statue 3",
+          "path": "assets/ezreal/skins/Pulsefire/merch/Pulsefire_Ezreal_Statue_3.webp",
+          "tags": []
+        },
+        {
           "type": "ingame",
           "title": "Pulsefire Ability Ingame Ultimate",
           "path": "assets/ezreal/skins/Pulsefire/ingame/Pulsefire_Ability_Ingame_Ultimate.jpg",
@@ -6755,6 +6773,24 @@
         },
         {
           "type": "merch",
+          "title": "Classic Popmart Ezreal Figure 1",
+          "path": "assets/ezreal/skins/classic/merch/Classic_Popmart_Ezreal_Figure_1.jpg",
+          "tags": []
+        },
+        {
+          "type": "merch",
+          "title": "Classic Popmart Ezreal Figure 2",
+          "path": "assets/ezreal/skins/classic/merch/Classic_Popmart_Ezreal_Figure_2.jpg",
+          "tags": []
+        },
+        {
+          "type": "merch",
+          "title": "Classic Popmart Ezreal Figure 3",
+          "path": "assets/ezreal/skins/classic/merch/Classic_Popmart_Ezreal_Figure_3.jpg",
+          "tags": []
+        },
+        {
+          "type": "merch",
           "title": "Ezreal Unlocked Statue 1",
           "path": "assets/ezreal/skins/classic/merch/Ezreal_Unlocked_Statue_1.webp",
           "tags": []
@@ -6787,6 +6823,30 @@
           "type": "merch",
           "title": "Ezreal Unlocked Statue 6 Promopost",
           "path": "assets/ezreal/skins/classic/merch/Ezreal_Unlocked_Statue_6_Promopost.jpg",
+          "tags": []
+        },
+        {
+          "type": "merch",
+          "title": "Nendoroid Ezreal 1",
+          "path": "assets/ezreal/skins/classic/merch/Nendoroid_Ezreal_1.webp",
+          "tags": []
+        },
+        {
+          "type": "merch",
+          "title": "Nendoroid Ezreal 2",
+          "path": "assets/ezreal/skins/classic/merch/Nendoroid_Ezreal_2.webp",
+          "tags": []
+        },
+        {
+          "type": "merch",
+          "title": "Nendoroid Ezreal 3",
+          "path": "assets/ezreal/skins/classic/merch/Nendoroid_Ezreal_3.webp",
+          "tags": []
+        },
+        {
+          "type": "merch",
+          "title": "Nendoroid Ezreal 4",
+          "path": "assets/ezreal/skins/classic/merch/Nendoroid_Ezreal_4.webp",
           "tags": []
         },
         {
