@@ -6706,6 +6706,36 @@
           "tags": []
         },
         {
+          "type": "merch",
+          "title": "Ezreal Unlocked Statue 1",
+          "path": "assets/ezreal/skins/classic/merch/Ezreal_Unlocked_Statue_1.webp",
+          "tags": []
+        },
+        {
+          "type": "merch",
+          "title": "Ezreal Unlocked Statue 2",
+          "path": "assets/ezreal/skins/classic/merch/Ezreal_Unlocked_Statue_2.webp",
+          "tags": []
+        },
+        {
+          "type": "merch",
+          "title": "Ezreal Unlocked Statue 3",
+          "path": "assets/ezreal/skins/classic/merch/Ezreal_Unlocked_Statue_3.webp",
+          "tags": []
+        },
+        {
+          "type": "merch",
+          "title": "Ezreal Unlocked Statue 4",
+          "path": "assets/ezreal/skins/classic/merch/Ezreal_Unlocked_Statue_4.webp",
+          "tags": []
+        },
+        {
+          "type": "merch",
+          "title": "Ezreal Unlocked Statue 5",
+          "path": "assets/ezreal/skins/classic/merch/Ezreal_Unlocked_Statue_5.webp",
+          "tags": []
+        },
+        {
           "type": "ingame",
           "title": "Classic Ability Ingame Ultimate",
           "path": "assets/ezreal/skins/classic/ingame/Classic_Ability_Ingame_Ultimate.jpg",
