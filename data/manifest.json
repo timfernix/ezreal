@@ -320,6 +320,12 @@
           "tags": []
         },
         {
+          "type": "merch",
+          "title": "Arcade Team Minis 4 Promopost",
+          "path": "assets/ezreal/skins/Arcade/merch/Arcade_Team_Minis_4_Promopost.jpg",
+          "tags": []
+        },
+        {
           "type": "ingame",
           "title": "Arcade Ability Ingame Ultimate",
           "path": "assets/ezreal/skins/Arcade/ingame/Arcade_Ability_Ingame_Ultimate.jpg",
@@ -5596,6 +5602,12 @@
         },
         {
           "type": "merch",
+          "title": "Star Guardian Pet Mini Figures Set 2 Promopost",
+          "path": "assets/ezreal/skins/Star Guardian/merch/Star_Guardian_Pet_Mini_Figures_Set_2_Promopost.jpg",
+          "tags": []
+        },
+        {
+          "type": "merch",
           "title": "Star Guardian Team Minis Set 2 1",
           "path": "assets/ezreal/skins/Star Guardian/merch/Star_Guardian_Team_Minis_Set_2_1.webp",
           "tags": []
@@ -5610,6 +5622,12 @@
           "type": "merch",
           "title": "Star Guardian Team Minis Set 2 3",
           "path": "assets/ezreal/skins/Star Guardian/merch/Star_Guardian_Team_Minis_Set_2_3.webp",
+          "tags": []
+        },
+        {
+          "type": "merch",
+          "title": "Star Guardian Team Minis Set 2 4 Promopost",
+          "path": "assets/ezreal/skins/Star Guardian/merch/Star_Guardian_Team_Minis_Set_2_4_Promopost.jpg",
           "tags": []
         },
         {
