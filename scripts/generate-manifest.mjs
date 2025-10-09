@@ -21,7 +21,7 @@ const TYPE_ALIASES = new Map([
   ["chroma",      ["chroma","chromas"]],
   ["video",       ["video","videos"]],
   ["emote",       ["emote","emotes","emoticon","emoticons","emote-icon","emote-icons"]],
-  ["other",       ["other","misc","unused","prototype","scrap","extras"]],
+  ["merch",       ["merch","merchandise","products","riotmerch"]],
   ["ingame",      ["ingame","in-game","abilities","spells","skills"]],
 ]);
 

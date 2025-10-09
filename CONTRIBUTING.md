@@ -35,7 +35,7 @@ Thanks for helping make this archive better! This guide explains what you can su
 #### For new media
 
 - **Skin**: e.g. *Arcade Ezreal*  
-- **Type**: Splash / Icon / Promo / Concept / Loading / Model / Chroma / Ingame / Emote / GIF / Video / YouTube / Other  
+- **Type**: Splash / Icon / Promo / Concept / Loading / Model / Chroma / Ingame / Emote / GIF / Video / YouTube / Merch  
 - **Tags**: `WR`, `TFT`, `LoR`
 - **Source**: official link(s) (Universe, press kit, YouTube, link, etc.)  
 - **(Optional) Title**: if you prefer a specific title (otherwise it’s inferred from the filename)
