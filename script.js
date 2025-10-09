@@ -5,7 +5,7 @@ const STATE = {
   types: new Set([
     "splash","icon","promo","concept",
     "loading","model","model-face",
-    "chroma","video","youtube","emote","other","tenor", "ingame"
+    "chroma","video","youtube","emote","merch","tenor", "ingame"
   ]),
   tags: new Set(),
   search: "",
@@ -25,7 +25,7 @@ const TYPE_LABEL = {
   video: "Video",
   youtube: "YouTube",
   emote: "Emote",
-  other: "Other",
+  merch: "Merch",
   tenor: "GIF - by timfernix",
   ingame: "Abilities - by timfernix",
 };

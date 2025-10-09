@@ -14,6 +14,7 @@ Under `assets/ezreal/skins/[skin]/` add folders for the categories. Available:
 - model-face
 - chroma
 - ingame
+- merch
 - tenor (links)
 - video
 - youtube (links)

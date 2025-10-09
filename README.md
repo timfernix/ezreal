@@ -1,6 +1,6 @@
 # Ezreal Media Archive
 
-A community-friendly archive of official **Ezreal** media: splasharts, icons, promo & concept art, loadingscreens, model & shots, chromas, gifs, videos, and other links.
+A community-friendly archive of official **Ezreal** media: splasharts, icons, promo & concept art, loadingscreens, model & shots, chromas, gifs, videos, merchandise and other links.
 
 **Live site:** https://timfernix.github.io/ezreal/
 
@@ -30,7 +30,7 @@ Over recent years I have been collecting more and more Ezreal media. So i though
 - **Emote** — Emotes and stickers
 - **GIF/Tenor** — Local GIFs and linked via Tenor
 - **Video/YouTube** — Local videos and linked via YouTube
-- **Other** — Media that did not fit into any other category
+- **Merch** — Merchandise from Riot Games
 
 ---
 
