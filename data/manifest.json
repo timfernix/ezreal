@@ -302,6 +302,24 @@
           "tags": []
         },
         {
+          "type": "merch",
+          "title": "Arcade Team Minis 1",
+          "path": "assets/ezreal/skins/Arcade/merch/Arcade_Team_Minis_1.webp",
+          "tags": []
+        },
+        {
+          "type": "merch",
+          "title": "Arcade Team Minis 2",
+          "path": "assets/ezreal/skins/Arcade/merch/Arcade_Team_Minis_2.webp",
+          "tags": []
+        },
+        {
+          "type": "merch",
+          "title": "Arcade Team Minis 3",
+          "path": "assets/ezreal/skins/Arcade/merch/Arcade_Team_Minis_3.webp",
+          "tags": []
+        },
+        {
           "type": "ingame",
           "title": "Arcade Ability Ingame Ultimate",
           "path": "assets/ezreal/skins/Arcade/ingame/Arcade_Ability_Ingame_Ultimate.jpg",
@@ -5544,6 +5562,54 @@
           "type": "emote",
           "title": "Star Guardian Message Board Sticker",
           "path": "assets/ezreal/skins/Star Guardian/emote/Star_Guardian_Message_Board_Sticker.png",
+          "tags": []
+        },
+        {
+          "type": "merch",
+          "title": "Star Guardian Ezreal Tee 1",
+          "path": "assets/ezreal/skins/Star Guardian/merch/Star_Guardian_Ezreal_Tee_1.webp",
+          "tags": []
+        },
+        {
+          "type": "merch",
+          "title": "Star Guardian Ezreal Tee 2",
+          "path": "assets/ezreal/skins/Star Guardian/merch/Star_Guardian_Ezreal_Tee_2.webp",
+          "tags": []
+        },
+        {
+          "type": "merch",
+          "title": "Star Guardian Ezreal Tee 3",
+          "path": "assets/ezreal/skins/Star Guardian/merch/Star_Guardian_Ezreal_Tee_3.webp",
+          "tags": []
+        },
+        {
+          "type": "merch",
+          "title": "Star Guardian Ezreal Tee 4",
+          "path": "assets/ezreal/skins/Star Guardian/merch/Star_Guardian_Ezreal_Tee_4.webp",
+          "tags": []
+        },
+        {
+          "type": "merch",
+          "title": "Star Guardian Ezreal Tee 5",
+          "path": "assets/ezreal/skins/Star Guardian/merch/Star_Guardian_Ezreal_Tee_5.webp",
+          "tags": []
+        },
+        {
+          "type": "merch",
+          "title": "Star Guardian Team Minis Set 2 1",
+          "path": "assets/ezreal/skins/Star Guardian/merch/Star_Guardian_Team_Minis_Set_2_1.webp",
+          "tags": []
+        },
+        {
+          "type": "merch",
+          "title": "Star Guardian Team Minis Set 2 2",
+          "path": "assets/ezreal/skins/Star Guardian/merch/Star_Guardian_Team_Minis_Set_2_2.webp",
+          "tags": []
+        },
+        {
+          "type": "merch",
+          "title": "Star Guardian Team Minis Set 2 3",
+          "path": "assets/ezreal/skins/Star Guardian/merch/Star_Guardian_Team_Minis_Set_2_3.webp",
           "tags": []
         },
         {
