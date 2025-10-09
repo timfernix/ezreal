@@ -856,6 +856,54 @@
           ]
         },
         {
+          "type": "merch",
+          "title": "Battle Academia Keychain Pack 1",
+          "path": "assets/ezreal/skins/Battle Academia/merch/Battle_Academia_Keychain_Pack_1.webp",
+          "tags": []
+        },
+        {
+          "type": "merch",
+          "title": "Battle Academia Keychain Pack 2",
+          "path": "assets/ezreal/skins/Battle Academia/merch/Battle_Academia_Keychain_Pack_2.webp",
+          "tags": []
+        },
+        {
+          "type": "merch",
+          "title": "Battle Academia Keychain Pack 3",
+          "path": "assets/ezreal/skins/Battle Academia/merch/Battle_Academia_Keychain_Pack_3.webp",
+          "tags": []
+        },
+        {
+          "type": "merch",
+          "title": "Battle Academia Team Minis Set 1",
+          "path": "assets/ezreal/skins/Battle Academia/merch/Battle_Academia_Team_Minis_Set_1.webp",
+          "tags": []
+        },
+        {
+          "type": "merch",
+          "title": "Battle Academia Team Minis Set 2",
+          "path": "assets/ezreal/skins/Battle Academia/merch/Battle_Academia_Team_Minis_Set_2.webp",
+          "tags": []
+        },
+        {
+          "type": "merch",
+          "title": "Battle Academia Team Minis Set 3",
+          "path": "assets/ezreal/skins/Battle Academia/merch/Battle_Academia_Team_Minis_Set_3.webp",
+          "tags": []
+        },
+        {
+          "type": "merch",
+          "title": "Battle Academia Team Minis Set 4",
+          "path": "assets/ezreal/skins/Battle Academia/merch/Battle_Academia_Team_Minis_Set_4.webp",
+          "tags": []
+        },
+        {
+          "type": "merch",
+          "title": "Battle Academia Team Minis Set 5",
+          "path": "assets/ezreal/skins/Battle Academia/merch/Battle_Academia_Team_Minis_Set_5.webp",
+          "tags": []
+        },
+        {
           "type": "ingame",
           "title": "Battle Academia Ability Ingame Ultimate",
           "path": "assets/ezreal/skins/Battle Academia/ingame/Battle_Academia_Ability_Ingame_Ultimate.jpg",
@@ -6733,6 +6781,12 @@
           "type": "merch",
           "title": "Ezreal Unlocked Statue 5",
           "path": "assets/ezreal/skins/classic/merch/Ezreal_Unlocked_Statue_5.webp",
+          "tags": []
+        },
+        {
+          "type": "merch",
+          "title": "Ezreal Unlocked Statue 6 Promopost",
+          "path": "assets/ezreal/skins/classic/merch/Ezreal_Unlocked_Statue_6_Promopost.jpg",
           "tags": []
         },
         {
