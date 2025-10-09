@@ -32,7 +32,8 @@ Thanks for helping make this archive better! This guide explains what you can su
 2. Pick **“Media request / correction”** (or open a blank issue if needed).
 3. Include the following (if possible):
 
-**For new media**
+#### For new media
+
 - **Skin**: e.g. *Arcade Ezreal*  
 - **Type**: Splash / Icon / Promo / Concept / Loading / Model / Chroma / Ingame / Emote / GIF / Video / YouTube / Other  
 - **Tags**: `WR`, `TFT`, `LoR`
@@ -40,17 +41,20 @@ Thanks for helping make this archive better! This guide explains what you can su
 - **(Optional) Title**: if you prefer a specific title (otherwise it’s inferred from the filename)
 - **(Optional) Notes**: any context (e.g., “this is the updated splash released in 2021”)
 
-**For corrections**
+#### For corrections
+
 - **What to change**: title, type, tags, or link  
 - **Current entry**: link to the item in the site/repo  
 - **What it should be**: and why (include source if possible)
 
-**For removals (rights holders)**
+#### For removals (rights holders)
+
 - **Which item(s)**: link to the item(s) in the site/repo  
 - **Proof of authorship/rights**: e.g., link to your original post, portfolio, or other verification  
 - **Action requested**: removal or other change
 
-> You can also say things like:
+You can also say things like:
+
 > - “I have a higher-resolution image of *Classic Ezreal* splash.”  
 > - “I’m the artist of this media—please remove it.”  
 > - “Please rename this file/title to …”  
