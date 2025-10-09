@@ -2222,6 +2222,12 @@
         },
         {
           "type": "concept",
+          "title": "Heartsteel Concepts SauvageTV Visualization Videoframe",
+          "path": "assets/ezreal/skins/HEARTSTEEL/concept/Heartsteel_Concepts_SauvageTV_Visualization_Videoframe.png",
+          "tags": []
+        },
+        {
+          "type": "concept",
           "title": "Heartsteel Early Concept 1",
           "path": "assets/ezreal/skins/HEARTSTEEL/concept/Heartsteel_Early_Concept_1.jpg",
           "tags": []
@@ -2551,6 +2557,13 @@
           "title": "Heartsteel Ezreal Skin Spotlight - Pre-Release",
           "youtubeId": "BNrDZjeqfx0",
           "thumb": "https://i.ytimg.com/vi/BNrDZjeqfx0/hqdefault.jpg",
+          "tags": []
+        },
+        {
+          "type": "youtube",
+          "title": "Heartsteel -  SAUVAGE TV Visualization Presentation",
+          "youtubeId": "jXlA6xLdKvE",
+          "thumb": "https://i.ytimg.com/vi/jXlA6xLdKvE/hqdefault.jpg",
           "tags": []
         },
         {
@@ -4122,6 +4135,14 @@
           ]
         },
         {
+          "type": "concept",
+          "title": "Prestige Porcelain Protector Chibi Dev Videoframe  TFT",
+          "path": "assets/ezreal/skins/Prestige Porcelain Protector/concept/Prestige_Porcelain_Protector_Chibi_Dev_Videoframe__TFT.png",
+          "tags": [
+            "tft"
+          ]
+        },
+        {
           "type": "model",
           "title": "Prestige Porcelain Protector Chibi Idle by Khada Modelviewer  TFT",
           "path": "assets/ezreal/skins/Prestige Porcelain Protector/model/Prestige_Porcelain_Protector_Chibi_Idle_by_Khada_Modelviewer__TFT.png",
@@ -4165,6 +4186,13 @@
           "title": "Prestige Porcelain Ezreal Chibi Champion Showcase - TFT",
           "youtubeId": "Uzt906GhkLI",
           "thumb": "https://i.ytimg.com/vi/Uzt906GhkLI/hqdefault.jpg",
+          "tags": []
+        },
+        {
+          "type": "youtube",
+          "title": "Prestige Porcelain Ezreal Chibi Dev Video Making Chibi Tacticians",
+          "youtubeId": "wvHbfxNcfgk",
+          "thumb": "https://i.ytimg.com/vi/wvHbfxNcfgk/hqdefault.jpg",
           "tags": []
         },
         {
