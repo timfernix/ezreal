@@ -3280,120 +3280,6 @@
       "release_year": null,
       "media": [
         {
-          "type": "promo",
-          "title": "LoL x Burton Collab Jinx and Ezreal 01",
-          "path": "assets/ezreal/skins/Other/promo/LoL_x_Burton_Collab_Jinx_and_Ezreal_01.png",
-          "tags": []
-        },
-        {
-          "type": "promo",
-          "title": "LoL x Burton Collab Jinx and Ezreal 02",
-          "path": "assets/ezreal/skins/Other/promo/LoL_x_Burton_Collab_Jinx_and_Ezreal_02.png",
-          "tags": []
-        },
-        {
-          "type": "promo",
-          "title": "LoL x Burton Collab Jinx and Ezreal 03",
-          "path": "assets/ezreal/skins/Other/promo/LoL_x_Burton_Collab_Jinx_and_Ezreal_03.png",
-          "tags": []
-        },
-        {
-          "type": "promo",
-          "title": "LoL x Burton Collab Jinx and Ezreal 04",
-          "path": "assets/ezreal/skins/Other/promo/LoL_x_Burton_Collab_Jinx_and_Ezreal_04.webp",
-          "tags": []
-        },
-        {
-          "type": "promo",
-          "title": "LoL x Burton Collab Jinx and Ezreal 05",
-          "path": "assets/ezreal/skins/Other/promo/LoL_x_Burton_Collab_Jinx_and_Ezreal_05.webp",
-          "tags": []
-        },
-        {
-          "type": "promo",
-          "title": "LoL x Burton Collab Jinx and Ezreal 06",
-          "path": "assets/ezreal/skins/Other/promo/LoL_x_Burton_Collab_Jinx_and_Ezreal_06.jpeg",
-          "tags": []
-        },
-        {
-          "type": "promo",
-          "title": "LoL x Burton Collab Jinx and Ezreal 07",
-          "path": "assets/ezreal/skins/Other/promo/LoL_x_Burton_Collab_Jinx_and_Ezreal_07.jpeg",
-          "tags": []
-        },
-        {
-          "type": "promo",
-          "title": "LoL x Burton Collab Jinx and Ezreal 08",
-          "path": "assets/ezreal/skins/Other/promo/LoL_x_Burton_Collab_Jinx_and_Ezreal_08.png",
-          "tags": []
-        },
-        {
-          "type": "promo",
-          "title": "LoL x Burton Collab Jinx and Ezreal 09",
-          "path": "assets/ezreal/skins/Other/promo/LoL_x_Burton_Collab_Jinx_and_Ezreal_09.png",
-          "tags": []
-        },
-        {
-          "type": "promo",
-          "title": "LoL x Burton Collab Jinx and Ezreal 10",
-          "path": "assets/ezreal/skins/Other/promo/LoL_x_Burton_Collab_Jinx_and_Ezreal_10.png",
-          "tags": []
-        },
-        {
-          "type": "promo",
-          "title": "LoL x Burton Collab Jinx and Ezreal 11",
-          "path": "assets/ezreal/skins/Other/promo/LoL_x_Burton_Collab_Jinx_and_Ezreal_11.png",
-          "tags": []
-        },
-        {
-          "type": "promo",
-          "title": "LoL x Burton Collab Jinx and Ezreal 12",
-          "path": "assets/ezreal/skins/Other/promo/LoL_x_Burton_Collab_Jinx_and_Ezreal_12.png",
-          "tags": []
-        },
-        {
-          "type": "promo",
-          "title": "LoL x Burton Collab Jinx and Ezreal 13",
-          "path": "assets/ezreal/skins/Other/promo/LoL_x_Burton_Collab_Jinx_and_Ezreal_13.png",
-          "tags": []
-        },
-        {
-          "type": "promo",
-          "title": "LoL x Burton Collab Jinx and Ezreal 14",
-          "path": "assets/ezreal/skins/Other/promo/LoL_x_Burton_Collab_Jinx_and_Ezreal_14.png",
-          "tags": []
-        },
-        {
-          "type": "promo",
-          "title": "LoL x Burton Collab Jinx and Ezreal 15",
-          "path": "assets/ezreal/skins/Other/promo/LoL_x_Burton_Collab_Jinx_and_Ezreal_15.png",
-          "tags": []
-        },
-        {
-          "type": "promo",
-          "title": "LoL x Burton Collab Jinx and Ezreal 16",
-          "path": "assets/ezreal/skins/Other/promo/LoL_x_Burton_Collab_Jinx_and_Ezreal_16.jpg",
-          "tags": []
-        },
-        {
-          "type": "promo",
-          "title": "LoL x Burton Collab Jinx and Ezreal 17",
-          "path": "assets/ezreal/skins/Other/promo/LoL_x_Burton_Collab_Jinx_and_Ezreal_17.jpg",
-          "tags": []
-        },
-        {
-          "type": "promo",
-          "title": "LoL x Burton Collab Jinx and Ezreal 18",
-          "path": "assets/ezreal/skins/Other/promo/LoL_x_Burton_Collab_Jinx_and_Ezreal_18.jpg",
-          "tags": []
-        },
-        {
-          "type": "promo",
-          "title": "LoL x Burton Collab Jinx and Ezreal 19",
-          "path": "assets/ezreal/skins/Other/promo/LoL_x_Burton_Collab_Jinx_and_Ezreal_19.gif",
-          "tags": []
-        },
-        {
           "type": "concept",
           "title": "2022 Skinline Concept Leaks",
           "path": "assets/ezreal/skins/Other/concept/2022_Skinline_Concept_Leaks.jpg",
@@ -3421,6 +3307,120 @@
           "type": "emote",
           "title": "Why Am I Here Emote",
           "path": "assets/ezreal/skins/Other/emote/Why_Am_I_Here_Emote.png",
+          "tags": []
+        },
+        {
+          "type": "merch",
+          "title": "LoL x Burton Collab Jinx and Ezreal 01",
+          "path": "assets/ezreal/skins/Other/merch/LoL_x_Burton_Collab_Jinx_and_Ezreal_01.png",
+          "tags": []
+        },
+        {
+          "type": "merch",
+          "title": "LoL x Burton Collab Jinx and Ezreal 02",
+          "path": "assets/ezreal/skins/Other/merch/LoL_x_Burton_Collab_Jinx_and_Ezreal_02.png",
+          "tags": []
+        },
+        {
+          "type": "merch",
+          "title": "LoL x Burton Collab Jinx and Ezreal 03",
+          "path": "assets/ezreal/skins/Other/merch/LoL_x_Burton_Collab_Jinx_and_Ezreal_03.png",
+          "tags": []
+        },
+        {
+          "type": "merch",
+          "title": "LoL x Burton Collab Jinx and Ezreal 04",
+          "path": "assets/ezreal/skins/Other/merch/LoL_x_Burton_Collab_Jinx_and_Ezreal_04.webp",
+          "tags": []
+        },
+        {
+          "type": "merch",
+          "title": "LoL x Burton Collab Jinx and Ezreal 05",
+          "path": "assets/ezreal/skins/Other/merch/LoL_x_Burton_Collab_Jinx_and_Ezreal_05.webp",
+          "tags": []
+        },
+        {
+          "type": "merch",
+          "title": "LoL x Burton Collab Jinx and Ezreal 06",
+          "path": "assets/ezreal/skins/Other/merch/LoL_x_Burton_Collab_Jinx_and_Ezreal_06.jpeg",
+          "tags": []
+        },
+        {
+          "type": "merch",
+          "title": "LoL x Burton Collab Jinx and Ezreal 07",
+          "path": "assets/ezreal/skins/Other/merch/LoL_x_Burton_Collab_Jinx_and_Ezreal_07.jpeg",
+          "tags": []
+        },
+        {
+          "type": "merch",
+          "title": "LoL x Burton Collab Jinx and Ezreal 08",
+          "path": "assets/ezreal/skins/Other/merch/LoL_x_Burton_Collab_Jinx_and_Ezreal_08.png",
+          "tags": []
+        },
+        {
+          "type": "merch",
+          "title": "LoL x Burton Collab Jinx and Ezreal 09",
+          "path": "assets/ezreal/skins/Other/merch/LoL_x_Burton_Collab_Jinx_and_Ezreal_09.png",
+          "tags": []
+        },
+        {
+          "type": "merch",
+          "title": "LoL x Burton Collab Jinx and Ezreal 10",
+          "path": "assets/ezreal/skins/Other/merch/LoL_x_Burton_Collab_Jinx_and_Ezreal_10.png",
+          "tags": []
+        },
+        {
+          "type": "merch",
+          "title": "LoL x Burton Collab Jinx and Ezreal 11",
+          "path": "assets/ezreal/skins/Other/merch/LoL_x_Burton_Collab_Jinx_and_Ezreal_11.png",
+          "tags": []
+        },
+        {
+          "type": "merch",
+          "title": "LoL x Burton Collab Jinx and Ezreal 12",
+          "path": "assets/ezreal/skins/Other/merch/LoL_x_Burton_Collab_Jinx_and_Ezreal_12.png",
+          "tags": []
+        },
+        {
+          "type": "merch",
+          "title": "LoL x Burton Collab Jinx and Ezreal 13",
+          "path": "assets/ezreal/skins/Other/merch/LoL_x_Burton_Collab_Jinx_and_Ezreal_13.png",
+          "tags": []
+        },
+        {
+          "type": "merch",
+          "title": "LoL x Burton Collab Jinx and Ezreal 14",
+          "path": "assets/ezreal/skins/Other/merch/LoL_x_Burton_Collab_Jinx_and_Ezreal_14.png",
+          "tags": []
+        },
+        {
+          "type": "merch",
+          "title": "LoL x Burton Collab Jinx and Ezreal 15",
+          "path": "assets/ezreal/skins/Other/merch/LoL_x_Burton_Collab_Jinx_and_Ezreal_15.png",
+          "tags": []
+        },
+        {
+          "type": "merch",
+          "title": "LoL x Burton Collab Jinx and Ezreal 16",
+          "path": "assets/ezreal/skins/Other/merch/LoL_x_Burton_Collab_Jinx_and_Ezreal_16.jpg",
+          "tags": []
+        },
+        {
+          "type": "merch",
+          "title": "LoL x Burton Collab Jinx and Ezreal 17",
+          "path": "assets/ezreal/skins/Other/merch/LoL_x_Burton_Collab_Jinx_and_Ezreal_17.jpg",
+          "tags": []
+        },
+        {
+          "type": "merch",
+          "title": "LoL x Burton Collab Jinx and Ezreal 18",
+          "path": "assets/ezreal/skins/Other/merch/LoL_x_Burton_Collab_Jinx_and_Ezreal_18.jpg",
+          "tags": []
+        },
+        {
+          "type": "merch",
+          "title": "LoL x Burton Collab Jinx and Ezreal 19",
+          "path": "assets/ezreal/skins/Other/merch/LoL_x_Burton_Collab_Jinx_and_Ezreal_19.gif",
           "tags": []
         },
         {
