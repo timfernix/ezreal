@@ -4320,6 +4320,14 @@
         },
         {
           "type": "video",
+          "title": "Prestige Porcelain Protector Chibi Dev Video  TFT",
+          "path": "assets/ezreal/skins/Prestige Porcelain Protector/video/Prestige_Porcelain_Protector_Chibi_Dev_Video__TFT.mp4",
+          "tags": [
+            "tft"
+          ]
+        },
+        {
+          "type": "video",
           "title": "Prestige Porcelain Protector Chibi Promo Video  TFT",
           "path": "assets/ezreal/skins/Prestige Porcelain Protector/video/Prestige_Porcelain_Protector_Chibi_Promo_Video__TFT.mp4",
           "tags": [
@@ -4603,6 +4611,14 @@
           "title": "Prestige Select Weather Entity Wild Rift Model Ingame Form",
           "path": "assets/ezreal/skins/Prestige Select Weather Entity/model/Prestige_Select_Weather_Entity_Wild_Rift_Model_Ingame_Form.png",
           "tags": []
+        },
+        {
+          "type": "video",
+          "title": "Prestige Select Weather Entity Animation  WR",
+          "path": "assets/ezreal/skins/Prestige Select Weather Entity/video/Prestige_Select_Weather_Entity_Animation__WR.mp4",
+          "tags": [
+            "wr"
+          ]
         },
         {
           "type": "emote",
@@ -6081,6 +6097,14 @@
           "type": "model",
           "title": "Weather Entity Wild Rift Model Ingame 2  WR",
           "path": "assets/ezreal/skins/Weather Entity/model/Weather_Entity_Wild_Rift_Model_Ingame_2__WR.png",
+          "tags": [
+            "wr"
+          ]
+        },
+        {
+          "type": "video",
+          "title": "Weather Entity Animation  WR",
+          "path": "assets/ezreal/skins/Weather Entity/video/Weather_Entity_Animation__WR.mp4",
           "tags": [
             "wr"
           ]
