@@ -229,9 +229,19 @@
         },
         {
           "type": "promo",
-          "title": "Arcade Animation",
-          "path": "assets/ezreal/skins/Arcade/promo/Arcade_Animation.gif",
-          "tags": []
+          "title": "Arcade Animation  WR",
+          "path": "assets/ezreal/skins/Arcade/promo/Arcade_Animation__WR.gif",
+          "tags": [
+            "wr"
+          ]
+        },
+        {
+          "type": "promo",
+          "title": "Arcade Emote Promopost  WR",
+          "path": "assets/ezreal/skins/Arcade/promo/Arcade_Emote_Promopost__WR.jpg",
+          "tags": [
+            "wr"
+          ]
         },
         {
           "type": "promo",
@@ -241,9 +251,11 @@
         },
         {
           "type": "promo",
-          "title": "Arcade Wild Rift 2023 Promoart",
-          "path": "assets/ezreal/skins/Arcade/promo/Arcade_Wild_Rift_2023_Promoart.jpeg",
-          "tags": []
+          "title": "Arcade Wild Rift 2023 Promoart  WR",
+          "path": "assets/ezreal/skins/Arcade/promo/Arcade_Wild_Rift_2023_Promoart__WR.jpeg",
+          "tags": [
+            "wr"
+          ]
         },
         {
           "type": "concept",
@@ -513,6 +525,14 @@
           "path": "assets/ezreal/skins/Battle Academia/promo/Battle_Academia_Chibi_Rotating_Shop__TFT.jpeg",
           "tags": [
             "tft"
+          ]
+        },
+        {
+          "type": "promo",
+          "title": "Battle Academia Emote Promopost  WR",
+          "path": "assets/ezreal/skins/Battle Academia/promo/Battle_Academia_Emote_Promopost__WR.jpg",
+          "tags": [
+            "wr"
           ]
         },
         {
@@ -1167,6 +1187,14 @@
         },
         {
           "type": "promo",
+          "title": "Crystal Rose Emote Promopost  WR",
+          "path": "assets/ezreal/skins/Crystal Rose/promo/Crystal_Rose_Emote_Promopost__WR.jpg",
+          "tags": [
+            "wr"
+          ]
+        },
+        {
+          "type": "promo",
           "title": "Crystal Rose Wild Rift Promo Full  WR",
           "path": "assets/ezreal/skins/Crystal Rose/promo/Crystal_Rose_Wild_Rift_Promo_Full__WR.jpg",
           "tags": [
@@ -1630,6 +1658,14 @@
           "tags": []
         },
         {
+          "type": "model",
+          "title": "Faerie Court Chromas",
+          "path": "assets/ezreal/skins/Faerie Court/model/chroma/Faerie_Court_Chromas.jpg",
+          "tags": [
+            "chroma"
+          ]
+        },
+        {
           "type": "model-face",
           "title": "Faerie Court Face by Khada Modelviewer",
           "path": "assets/ezreal/skins/Faerie Court/face/Faerie_Court_Face_by_Khada_Modelviewer.png",
@@ -1791,6 +1827,14 @@
           "tags": [
             "chroma",
             "tft"
+          ]
+        },
+        {
+          "type": "model",
+          "title": "Frosted Paragon Chroma",
+          "path": "assets/ezreal/skins/Frosted/model/chroma/Frosted_Paragon_Chroma.jpg",
+          "tags": [
+            "chroma"
           ]
         },
         {
@@ -2557,6 +2601,14 @@
         },
         {
           "type": "model",
+          "title": "Heartsteel Chromas",
+          "path": "assets/ezreal/skins/HEARTSTEEL/model/chroma/Heartsteel_Chromas.jpg",
+          "tags": [
+            "chroma"
+          ]
+        },
+        {
+          "type": "model",
           "title": "Heartsteel Idle Set 10 Chroma by Khada Modelviewer  TFT",
           "path": "assets/ezreal/skins/HEARTSTEEL/model/chroma/Heartsteel_Idle_Set_10_Chroma_by_Khada_Modelviewer__TFT.png",
           "tags": [
@@ -2830,6 +2882,14 @@
           "title": "Heavenscale T Pose by Khada Modelviewer",
           "path": "assets/ezreal/skins/Heavenscale/model/Heavenscale_T-Pose_by_Khada_Modelviewer.png",
           "tags": []
+        },
+        {
+          "type": "model",
+          "title": "Heavenscale Chromas",
+          "path": "assets/ezreal/skins/Heavenscale/model/chroma/Heavenscale_Chromas.jpg",
+          "tags": [
+            "chroma"
+          ]
         },
         {
           "type": "model-face",
@@ -3250,6 +3310,14 @@
           "tags": []
         },
         {
+          "type": "model",
+          "title": "Masque of the Black Rose Chromas",
+          "path": "assets/ezreal/skins/Masque of the Black Rose/model/chroma/Masque_of_the_Black_Rose_Chromas.jpg",
+          "tags": [
+            "chroma"
+          ]
+        },
+        {
           "type": "model-face",
           "title": "Masque of the Black Rose Face Mask by Khada Modelviewer",
           "path": "assets/ezreal/skins/Masque of the Black Rose/face/Masque_of_the_Black_Rose_Face_Mask_by_Khada_Modelviewer.png",
@@ -3419,6 +3487,12 @@
           "type": "concept",
           "title": "2022 Skinline Concept Leaks",
           "path": "assets/ezreal/skins/Other/concept/2022_Skinline_Concept_Leaks.jpg",
+          "tags": []
+        },
+        {
+          "type": "concept",
+          "title": "Guild Feed Development Post",
+          "path": "assets/ezreal/skins/Other/concept/Guild_Feed_Development_Post.jpg",
           "tags": []
         },
         {
@@ -3609,6 +3683,14 @@
           "title": "Pajama Guardian Yuuto Profileicon",
           "path": "assets/ezreal/skins/Pajama Guardian/icon/Pajama_Guardian_Yuuto_Profileicon.png",
           "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Arcade Emote Promopost  WR",
+          "path": "assets/ezreal/skins/Pajama Guardian/promo/Arcade_Emote_Promopost__WR.jpg",
+          "tags": [
+            "wr"
+          ]
         },
         {
           "type": "promo",
@@ -3997,6 +4079,14 @@
           "type": "model",
           "title": "Porcelain Protector Chroma Tanzanite Model",
           "path": "assets/ezreal/skins/Porcelain Protector/model/chroma/Porcelain_Protector_Chroma_Tanzanite_Model.png",
+          "tags": [
+            "chroma"
+          ]
+        },
+        {
+          "type": "model",
+          "title": "Porcelain Protector Chromas",
+          "path": "assets/ezreal/skins/Porcelain Protector/model/chroma/Porcelain_Protector_Chromas.jpg",
           "tags": [
             "chroma"
           ]
