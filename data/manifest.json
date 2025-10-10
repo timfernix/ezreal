@@ -7097,9 +7097,49 @@
         },
         {
           "type": "video",
+          "title": "Classic Wild Rift Arcane Shift Tutorial  WR",
+          "path": "assets/ezreal/skins/classic/video/Classic_Wild_Rift_Arcane_Shift_Tutorial__WR.mp4",
+          "tags": [
+            "wr"
+          ]
+        },
+        {
+          "type": "video",
           "title": "Classic Wild Rift Entry Animation",
           "path": "assets/ezreal/skins/classic/video/Classic_Wild_Rift_Entry_Animation.mp4",
           "tags": []
+        },
+        {
+          "type": "video",
+          "title": "Classic Wild Rift Essence Flux Tutorial  WR",
+          "path": "assets/ezreal/skins/classic/video/Classic_Wild_Rift_Essence_Flux_Tutorial__WR.mp4",
+          "tags": [
+            "wr"
+          ]
+        },
+        {
+          "type": "video",
+          "title": "Classic Wild Rift Mystic Shot Tutorial  WR",
+          "path": "assets/ezreal/skins/classic/video/Classic_Wild_Rift_Mystic_Shot_Tutorial__WR.mp4",
+          "tags": [
+            "wr"
+          ]
+        },
+        {
+          "type": "video",
+          "title": "Classic Wild Rift Rising Spell Force Tutorial  WR",
+          "path": "assets/ezreal/skins/classic/video/Classic_Wild_Rift_Rising_Spell_Force_Tutorial__WR.mp4",
+          "tags": [
+            "wr"
+          ]
+        },
+        {
+          "type": "video",
+          "title": "Classic Wild Rift Trueshot Barrage Tutorial  WR",
+          "path": "assets/ezreal/skins/classic/video/Classic_Wild_Rift_Trueshot_Barrage_Tutorial__WR.mp4",
+          "tags": [
+            "wr"
+          ]
         },
         {
           "type": "emote",
