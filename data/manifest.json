@@ -1353,6 +1353,76 @@
           "tags": []
         },
         {
+          "type": "model",
+          "title": "Ezreal Debonair Base old",
+          "path": "assets/ezreal/skins/Debonair/model/Ezreal_Debonair_Base_old.png",
+          "tags": []
+        },
+        {
+          "type": "model",
+          "title": "Ezreal Debonair Amethyst old",
+          "path": "assets/ezreal/skins/Debonair/model/chroma/Ezreal_Debonair_Amethyst_old.png",
+          "tags": [
+            "chroma"
+          ]
+        },
+        {
+          "type": "model",
+          "title": "Ezreal Debonair Meteor old",
+          "path": "assets/ezreal/skins/Debonair/model/chroma/Ezreal_Debonair_Meteor_old.png",
+          "tags": [
+            "chroma"
+          ]
+        },
+        {
+          "type": "model",
+          "title": "Ezreal Debonair Obsidian old",
+          "path": "assets/ezreal/skins/Debonair/model/chroma/Ezreal_Debonair_Obsidian_old.png",
+          "tags": [
+            "chroma"
+          ]
+        },
+        {
+          "type": "model",
+          "title": "Ezreal Debonair Pearl old",
+          "path": "assets/ezreal/skins/Debonair/model/chroma/Ezreal_Debonair_Pearl_old.png",
+          "tags": [
+            "chroma"
+          ]
+        },
+        {
+          "type": "model",
+          "title": "Ezreal Debonair Rose Quartz old",
+          "path": "assets/ezreal/skins/Debonair/model/chroma/Ezreal_Debonair_Rose_Quartz_old.png",
+          "tags": [
+            "chroma"
+          ]
+        },
+        {
+          "type": "model",
+          "title": "Ezreal Debonair Ruby old",
+          "path": "assets/ezreal/skins/Debonair/model/chroma/Ezreal_Debonair_Ruby_old.png",
+          "tags": [
+            "chroma"
+          ]
+        },
+        {
+          "type": "model",
+          "title": "Ezreal Debonair Sandstone old",
+          "path": "assets/ezreal/skins/Debonair/model/chroma/Ezreal_Debonair_Sandstone_old.png",
+          "tags": [
+            "chroma"
+          ]
+        },
+        {
+          "type": "model",
+          "title": "Ezreal Debonair Striped old",
+          "path": "assets/ezreal/skins/Debonair/model/chroma/Ezreal_Debonair_Striped_old.png",
+          "tags": [
+            "chroma"
+          ]
+        },
+        {
           "type": "model-face",
           "title": "Debonair Face by Khada Modelviewer",
           "path": "assets/ezreal/skins/Debonair/face/Debonair_Face_by_Khada_Modelviewer.png",
