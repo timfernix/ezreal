@@ -3428,6 +3428,18 @@
           "tags": []
         },
         {
+          "type": "concept",
+          "title": "Rick Roll Skin File Scrapped 1",
+          "path": "assets/ezreal/skins/Other/concept/Rick_Roll_Skin_File_Scrapped_1.png",
+          "tags": []
+        },
+        {
+          "type": "concept",
+          "title": "Rick Roll Skin File Scrapped 2",
+          "path": "assets/ezreal/skins/Other/concept/Rick_Roll_Skin_File_Scrapped_2.png",
+          "tags": []
+        },
+        {
           "type": "video",
           "title": "LoL x Burton Collab Jinx and Ezreal Douyin Promovideo 1",
           "path": "assets/ezreal/skins/Other/video/LoL_x_Burton_Collab_Jinx_and_Ezreal_Douyin_Promovideo_1.mp4",
@@ -5254,7 +5266,7 @@
         {
           "type": "splash",
           "title": "SSG Chroma Splashart Set 12  TFT",
-          "path": "assets/ezreal/skins/SSG/splash/chroma/SSG_Chroma_Splashart_Set_12__TFT.png",
+          "path": "assets/ezreal/skins/SSG/splash/chroma/SSG_Chroma_Splashart_Set_12__TFT.jpg",
           "tags": [
             "chroma",
             "tft"
@@ -5286,8 +5298,8 @@
         },
         {
           "type": "loading",
-          "title": "Ezreal 19",
-          "path": "assets/ezreal/skins/SSG/loading/Ezreal_19.jpg",
+          "title": "SSG Loadingscreen",
+          "path": "assets/ezreal/skins/SSG/loading/SSG_Loadingscreen.jpg",
           "tags": []
         },
         {
@@ -6658,6 +6670,36 @@
           "tags": [
             "wr"
           ]
+        },
+        {
+          "type": "promo",
+          "title": "Forge Your Path Season 2018 Keyart",
+          "path": "assets/ezreal/skins/classic/promo/Forge_Your_Path_Season_2018_Keyart.jpg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Preseason 2020 Keyart",
+          "path": "assets/ezreal/skins/classic/promo/Preseason_2020_Keyart.jpg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Preseason 2022 Promo 01",
+          "path": "assets/ezreal/skins/classic/promo/Preseason_2022_Promo_01.jpg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Preseason 2023 Keyart",
+          "path": "assets/ezreal/skins/classic/promo/Preseason_2023_Keyart.jpg",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Season 2014 Keyart",
+          "path": "assets/ezreal/skins/classic/promo/Season_2014_Keyart.jpg",
+          "tags": []
         },
         {
           "type": "concept",
