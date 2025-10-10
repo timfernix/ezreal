@@ -1,7 +1,7 @@
 {
   "meta": {
     "champion": "Ezreal",
-    "generated": "2025-10-09"
+    "generated": "2025-10-10"
   },
   "skins": [
     {
@@ -4799,6 +4799,12 @@
         },
         {
           "type": "promo",
+          "title": "Pulsefire Backround Art",
+          "path": "assets/ezreal/skins/Pulsefire/promo/Pulsefire_Backround_Art.jpeg",
+          "tags": []
+        },
+        {
+          "type": "promo",
           "title": "Pulsefire Chibi Golden Spatula Event",
           "path": "assets/ezreal/skins/Pulsefire/promo/Pulsefire_Chibi_Golden_Spatula_Event.jpg",
           "tags": []
@@ -6141,6 +6147,14 @@
         },
         {
           "type": "promo",
+          "title": "Classic Agile Cat Ezreal Post Augmented ARAM  WR",
+          "path": "assets/ezreal/skins/classic/promo/Classic_Agile_Cat_Ezreal_Post_Augmented_ARAM__WR.jpeg",
+          "tags": [
+            "wr"
+          ]
+        },
+        {
+          "type": "promo",
           "title": "Classic Article Promoart",
           "path": "assets/ezreal/skins/classic/promo/Classic_Article_Promoart.jpg",
           "tags": []
@@ -6168,6 +6182,14 @@
           "title": "Classic Ezreal Poro Promoart",
           "path": "assets/ezreal/skins/classic/promo/Classic_Ezreal_Poro_Promoart.jpg",
           "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Classic Ezreals Frozen Adventures Helppost  LOR",
+          "path": "assets/ezreal/skins/classic/promo/Classic_Ezreals_Frozen_Adventures_Helppost__LOR.jpeg",
+          "tags": [
+            "lor"
+          ]
         },
         {
           "type": "promo",
@@ -6229,6 +6251,14 @@
         },
         {
           "type": "promo",
+          "title": "Classic Legends Ezreal Post  TFT",
+          "path": "assets/ezreal/skins/classic/promo/Classic_Legends_Ezreal_Post__TFT.jpeg",
+          "tags": [
+            "tft"
+          ]
+        },
+        {
+          "type": "promo",
           "title": "Classic Promoart by Hika  WR",
           "path": "assets/ezreal/skins/classic/promo/Classic_Promoart_by_Hika__WR.jpg",
           "tags": [
@@ -6256,6 +6286,14 @@
           "title": "Classic Riftbound Promoart",
           "path": "assets/ezreal/skins/classic/promo/Classic_Riftbound_Promoart.jpeg",
           "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Classic Rise of the Underworlds Tournament Most played Champions  LOR",
+          "path": "assets/ezreal/skins/classic/promo/Classic_Rise_of_the_Underworlds_Tournament_Most_played_Champions__LOR.jpeg",
+          "tags": [
+            "lor"
+          ]
         },
         {
           "type": "promo",
