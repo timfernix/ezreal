@@ -6,7 +6,7 @@ const ASSETS_EZREAL = path.join(ROOT, "assets", "ezreal");
 const CANDIDATES = [ path.join(ASSETS_EZREAL, "skins"), ASSETS_EZREAL ];
 const OUT = path.join(ROOT, "data", "manifest.json");
 
-const IMAGE_EXT = new Set([".png",".jpg",".jpeg",".webp",".gif"]);
+const IMAGE_EXT = new Set([".png",".jpg",".jpeg",".webp",".gif", ".avif", ".svg", ".bmp"]);
 const VIDEO_EXT = new Set([".mp4",".webm",".mov",".m4v"]);
 
 // Canonical types "categories"
