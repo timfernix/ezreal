@@ -487,9 +487,33 @@
         },
         {
           "type": "promo",
+          "title": "Battle Academia Chibi Ezreal and Tristana Fight  TFT",
+          "path": "assets/ezreal/skins/Battle Academia/promo/Battle_Academia_Chibi_Ezreal_and_Tristana_Fight__TFT.jpeg",
+          "tags": [
+            "tft"
+          ]
+        },
+        {
+          "type": "promo",
+          "title": "Battle Academia Chibi GSC Post  TFT",
+          "path": "assets/ezreal/skins/Battle Academia/promo/Battle_Academia_Chibi_GSC_Post__TFT.jpeg",
+          "tags": [
+            "tft"
+          ]
+        },
+        {
+          "type": "promo",
           "title": "Battle Academia Chibi Promo Videoframe",
           "path": "assets/ezreal/skins/Battle Academia/promo/Battle_Academia_Chibi_Promo_Videoframe.jpeg",
           "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Battle Academia Chibi Rotating Shop  TFT",
+          "path": "assets/ezreal/skins/Battle Academia/promo/Battle_Academia_Chibi_Rotating_Shop__TFT.jpeg",
+          "tags": [
+            "tft"
+          ]
         },
         {
           "type": "promo",
@@ -572,6 +596,14 @@
           "title": "Battle Academia Promoart cropped",
           "path": "assets/ezreal/skins/Battle Academia/promo/Battle_Academia_Promoart_cropped.jpeg",
           "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Battle Academia Promopost  WR",
+          "path": "assets/ezreal/skins/Battle Academia/promo/Battle_Academia_Promopost__WR.jpeg",
+          "tags": [
+            "wr"
+          ]
         },
         {
           "type": "promo",
