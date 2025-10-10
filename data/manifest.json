@@ -877,6 +877,30 @@
         },
         {
           "type": "video",
+          "title": "Battle Acadeemia Arena Dev Video  TFT",
+          "path": "assets/ezreal/skins/Battle Academia/video/Battle_Acadeemia_Arena_Dev_Video__TFT.mp4",
+          "tags": [
+            "tft"
+          ]
+        },
+        {
+          "type": "video",
+          "title": "Battle Acadeemia Chibi Dev Video 1  TFT",
+          "path": "assets/ezreal/skins/Battle Academia/video/Battle_Acadeemia_Chibi_Dev_Video_1__TFT.mp4",
+          "tags": [
+            "tft"
+          ]
+        },
+        {
+          "type": "video",
+          "title": "Battle Acadeemia Chibi Dev Video 2  TFT",
+          "path": "assets/ezreal/skins/Battle Academia/video/Battle_Acadeemia_Chibi_Dev_Video_2__TFT.mp4",
+          "tags": [
+            "tft"
+          ]
+        },
+        {
+          "type": "video",
           "title": "Battle Academia 2019 Animation",
           "path": "assets/ezreal/skins/Battle Academia/video/Battle_Academia_2019_Animation.mp4",
           "tags": []
