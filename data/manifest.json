@@ -6641,14 +6641,6 @@
         },
         {
           "type": "promo",
-          "title": "Classic Wild Rift Augmented ARAM Promoart  WR",
-          "path": "assets/ezreal/skins/classic/promo/Classic_Wild_Rift_Augmented_ARAM_Promoart__WR.jpeg",
-          "tags": [
-            "wr"
-          ]
-        },
-        {
-          "type": "promo",
           "title": "Classic Wild Rift Happy 2022 Promoart by Cindy Feng  WR",
           "path": "assets/ezreal/skins/classic/promo/Classic_Wild_Rift_Happy_2022_Promoart_by_Cindy_Feng__WR.jpg",
           "tags": [
@@ -6685,8 +6677,8 @@
         },
         {
           "type": "promo",
-          "title": "Preseason 2022 Promo 01",
-          "path": "assets/ezreal/skins/classic/promo/Preseason_2022_Promo_01.jpg",
+          "title": "Preseason 2022 Keyart",
+          "path": "assets/ezreal/skins/classic/promo/Preseason_2022_Keyart.jpg",
           "tags": []
         },
         {
@@ -6700,6 +6692,14 @@
           "title": "Season 2014 Keyart",
           "path": "assets/ezreal/skins/classic/promo/Season_2014_Keyart.jpg",
           "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Wild Rift Augmented ARAM Keyart cropped  WR",
+          "path": "assets/ezreal/skins/classic/promo/Wild_Rift_Augmented_ARAM_Keyart_cropped__WR.jpeg",
+          "tags": [
+            "wr"
+          ]
         },
         {
           "type": "concept",
@@ -6973,6 +6973,12 @@
           "type": "video",
           "title": "Classic Wild Rift Animation",
           "path": "assets/ezreal/skins/classic/video/Classic_Wild_Rift_Animation.mp4",
+          "tags": []
+        },
+        {
+          "type": "video",
+          "title": "Classic Wild Rift Entry Animation",
+          "path": "assets/ezreal/skins/classic/video/Classic_Wild_Rift_Entry_Animation.mp4",
           "tags": []
         },
         {
