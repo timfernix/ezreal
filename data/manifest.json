@@ -7161,6 +7161,32 @@
         },
         {
           "type": "promo",
+          "title": "Season 2024 Keyart",
+          "path": "assets/ezreal/skins/classic/promo/Season_2024_Keyart.avif",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Season unknown1 Keyart",
+          "path": "assets/ezreal/skins/classic/promo/Season_unknown1_Keyart.avif",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Season unknown2 Keyart",
+          "path": "assets/ezreal/skins/classic/promo/Season_unknown2_Keyart.avif",
+          "tags": []
+        },
+        {
+          "type": "promo",
+          "title": "Wild Rift Augmented ARAM Keyart  WR",
+          "path": "assets/ezreal/skins/classic/promo/Wild_Rift_Augmented_ARAM_Keyart__WR.avif",
+          "tags": [
+            "wr"
+          ]
+        },
+        {
+          "type": "promo",
           "title": "Wild Rift Augmented ARAM Keyart cropped  WR",
           "path": "assets/ezreal/skins/classic/promo/Wild_Rift_Augmented_ARAM_Keyart_cropped__WR.jpeg",
           "tags": [
