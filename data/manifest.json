@@ -1948,6 +1948,14 @@
         },
         {
           "type": "promo",
+          "title": "Heartsteel Big Shot Trait Post  TFT",
+          "path": "assets/ezreal/skins/HEARTSTEEL/promo/Heartsteel_Big_Shot_Trait_Post__TFT.jpeg",
+          "tags": [
+            "tft"
+          ]
+        },
+        {
+          "type": "promo",
           "title": "Heartsteel Colourstrip by Studio Moross",
           "path": "assets/ezreal/skins/HEARTSTEEL/promo/Heartsteel_Colourstrip_by_Studio_Moross.webp",
           "tags": []
@@ -3592,6 +3600,14 @@
         },
         {
           "type": "promo",
+          "title": "Pajama Guardian Pillow Fight Post  WR",
+          "path": "assets/ezreal/skins/Pajama Guardian/promo/Pajama_Guardian_Pillow_Fight_Post__WR.jpeg",
+          "tags": [
+            "wr"
+          ]
+        },
+        {
+          "type": "promo",
           "title": "Pajama Guardian The Slumber Party Summoning Illustration 1",
           "path": "assets/ezreal/skins/Pajama Guardian/promo/Pajama_Guardian_The_Slumber_Party_Summoning_Illustration_1.jpg",
           "tags": []
@@ -4256,6 +4272,14 @@
         },
         {
           "type": "promo",
+          "title": "Prestige Porcelain Protector Chibi Rotating Shop  TFT",
+          "path": "assets/ezreal/skins/Prestige Porcelain Protector/promo/Prestige_Porcelain_Protector_Chibi_Rotating_Shop__TFT.jpeg",
+          "tags": [
+            "tft"
+          ]
+        },
+        {
+          "type": "promo",
           "title": "Prestige Porcelain Protector TFT Promo Poster  TFT",
           "path": "assets/ezreal/skins/Prestige Porcelain Protector/promo/Prestige_Porcelain_Protector_TFT_Promo_Poster__TFT.jpg",
           "tags": [
@@ -4290,6 +4314,14 @@
           "type": "model-face",
           "title": "Prestige Porcelain Protector Chibi Face by Khada Modelviewer  TFT",
           "path": "assets/ezreal/skins/Prestige Porcelain Protector/face/Prestige_Porcelain_Protector_Chibi_Face_by_Khada_Modelviewer__TFT.png",
+          "tags": [
+            "tft"
+          ]
+        },
+        {
+          "type": "video",
+          "title": "Prestige Porcelain Protector Chibi Promo Video  TFT",
+          "path": "assets/ezreal/skins/Prestige Porcelain Protector/video/Prestige_Porcelain_Protector_Chibi_Promo_Video__TFT.mp4",
           "tags": [
             "tft"
           ]
@@ -4442,6 +4474,14 @@
           "type": "icon",
           "title": "Prestige Select Weather Entity Wild Rift Icon  WR",
           "path": "assets/ezreal/skins/Prestige Select Weather Entity/icon/Prestige_Select_Weather_Entity_Wild_Rift_Icon__WR.png",
+          "tags": [
+            "wr"
+          ]
+        },
+        {
+          "type": "promo",
+          "title": "Prestige Select Weather Entity Promopost  WR",
+          "path": "assets/ezreal/skins/Prestige Select Weather Entity/promo/Prestige_Select_Weather_Entity_Promopost__WR.jpeg",
           "tags": [
             "wr"
           ]
@@ -6007,6 +6047,14 @@
         },
         {
           "type": "promo",
+          "title": "Weather Entity Promopost  WR",
+          "path": "assets/ezreal/skins/Weather Entity/promo/Weather_Entity_Promopost__WR.jpeg",
+          "tags": [
+            "wr"
+          ]
+        },
+        {
+          "type": "promo",
           "title": "Weather Entity Wild Rift Promoart Wallpaper  WR",
           "path": "assets/ezreal/skins/Weather Entity/promo/Weather_Entity_Wild_Rift_Promoart_Wallpaper__WR.jpeg",
           "tags": [
@@ -6846,6 +6894,14 @@
           "title": "Classic Face by Khada Modelviewer",
           "path": "assets/ezreal/skins/classic/face/Classic_Face_by_Khada_Modelviewer.png",
           "tags": []
+        },
+        {
+          "type": "video",
+          "title": "Classic Chibi Dev Video  TFT",
+          "path": "assets/ezreal/skins/classic/video/Classic_Chibi_Dev_Video__TFT.mp4",
+          "tags": [
+            "tft"
+          ]
         },
         {
           "type": "video",
