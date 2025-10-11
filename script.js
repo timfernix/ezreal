@@ -218,6 +218,8 @@ async function loadManifest(){
           thumb: m.thumb || null,
           tags,
           searchText,
+          // carry through from manifest
+          isVideo: Boolean(m.isVideo)
         });
       }
     }
@@ -335,7 +337,7 @@ function buildCard(item, index){
 
   let mediaEl;
 
-  if (item.type === "video" && (item.path || item.url)){
+  if ((item.isVideo || item.type === "video") && (item.path || item.url)){
     const v = document.createElement("video");
     v.className = "thumb";
     v.controls = true;
@@ -463,7 +465,7 @@ function openViewer(item){
   wrap.innerHTML = "";
 
   let media;
-  if(item.type === "video" && (item.path || item.url)){
+  if((item.isVideo || item.type === "video") && (item.path || item.url)){
     media = document.createElement("video");
     media.className = "viewer-media";
     media.controls = true; media.autoplay = true; media.src = buildAbsoluteUrl(item.path || item.url); media.playsInline = true;

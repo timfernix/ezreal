@@ -8,6 +8,7 @@ const OUT = path.join(ROOT, "data", "manifest.json");
 
 const IMAGE_EXT = new Set([".png",".jpg",".jpeg",".webp",".gif", ".avif", ".svg", ".bmp"]);
 const VIDEO_EXT = new Set([".mp4",".webm",".mov",".m4v"]);
+function isMediaExt(ext){ return IMAGE_EXT.has(ext) || VIDEO_EXT.has(ext); }
 
 // Canonical types "categories"
 const TYPE_ALIASES = new Map([
@@ -70,10 +71,11 @@ async function main(){
         const titlesMap = (await readJson(path.join(typeDir, "titles.json"))) || {};
         const tagsMap   = (await readJson(path.join(typeDir, "tags.json")))   || {};
 
+        // files directly in the type dir
         await collectFiles(typeDir, f => {
           const rel = relPosix(path.join(typeDir, f));
           const ext = path.extname(f).toLowerCase();
-          if(allowedByType(canonical, ext)){
+          if(isMediaExt(ext)){
             const tags = normalizeTags([
               ...inferTagsFromFilename(f),
               ...(Array.isArray(tagsMap[f]) ? tagsMap[f] : [])
@@ -83,11 +85,13 @@ async function main(){
               type: canonical,
               title: titlesMap[f] || fileBaseTitle(f),
               path: rel,
-              tags
+              tags,
+              isVideo: VIDEO_EXT.has(ext)
             });
           }
         });
 
+        // files in subdirectories (sub acts as additional tag)
         const subdirs = await readDirsOnly(typeDir);
         for(const sub of subdirs){
           const subDir = path.join(typeDir, sub);
@@ -95,7 +99,7 @@ async function main(){
           await collectFiles(subDir, f => {
             const rel = relPosix(path.join(subDir, f));
             const ext = path.extname(f).toLowerCase();
-            if(allowedByType(canonical, ext)){
+            if(isMediaExt(ext)){
               const tags = normalizeTags([
                 ...subTagSlugs,
                 ...inferTagsFromFilename(f),
@@ -106,7 +110,8 @@ async function main(){
                 type: canonical,
                 title: titlesMap[path.join(sub, f)] || fileBaseTitle(f),
                 path: rel,
-                tags
+                tags,
+                isVideo: VIDEO_EXT.has(ext)
               });
             }
           });
@@ -155,12 +160,6 @@ async function main(){
   }
 
   await writeManifest(skins);
-}
-
-function allowedByType(type, ext){
-  if (type === "video") return VIDEO_EXT.has(ext);
-  if (type === "other") return IMAGE_EXT.has(ext) || VIDEO_EXT.has(ext);
-  return IMAGE_EXT.has(ext);
 }
 
 async function writeManifest(skins){
