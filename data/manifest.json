@@ -335,6 +335,16 @@
         },
         {
           "type": "model",
+          "title": "Arcade Wild Rift Action Animation  WR  timfernix",
+          "path": "assets/ezreal/skins/Arcade/model/Arcade_Wild_Rift_Action_Animation__WR__timfernix.mp4",
+          "tags": [
+            "wr",
+            "timfernix"
+          ],
+          "isVideo": true
+        },
+        {
+          "type": "model",
           "title": "Arcade Wild Rift Default Pose  timfernix  WR",
           "path": "assets/ezreal/skins/Arcade/model/Arcade_Wild_Rift_Default_Pose__timfernix__WR.jpg",
           "tags": [
