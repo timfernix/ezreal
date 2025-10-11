@@ -1563,6 +1563,16 @@
         },
         {
           "type": "model",
+          "title": "Crystal Rose Wild Rift Action Animation  WR  timfernix",
+          "path": "assets/ezreal/skins/Crystal Rose/model/Crystal_Rose_Wild_Rift_Action_Animation__WR__timfernix.mp4",
+          "tags": [
+            "wr",
+            "timfernix"
+          ],
+          "isVideo": true
+        },
+        {
+          "type": "model",
           "title": "Crystal Rose Wild Rift Default Pose  timfernix  WR",
           "path": "assets/ezreal/skins/Crystal Rose/model/Crystal_Rose_Wild_Rift_Default_Pose__timfernix__WR.jpg",
           "tags": [
@@ -1590,6 +1600,16 @@
             "wr"
           ],
           "isVideo": false
+        },
+        {
+          "type": "model",
+          "title": "Crystal Rose Wild Rift Idle Animation  WR  timfernix",
+          "path": "assets/ezreal/skins/Crystal Rose/model/Crystal_Rose_Wild_Rift_Idle_Animation__WR__timfernix.mp4",
+          "tags": [
+            "wr",
+            "timfernix"
+          ],
+          "isVideo": true
         },
         {
           "type": "model",
@@ -1726,6 +1746,16 @@
         },
         {
           "type": "model",
+          "title": "Debonair Wild Rift Action Animation  WR  timfernix",
+          "path": "assets/ezreal/skins/Debonair/model/Debonair_Wild_Rift_Action_Animation__WR__timfernix.mp4",
+          "tags": [
+            "wr",
+            "timfernix"
+          ],
+          "isVideo": true
+        },
+        {
+          "type": "model",
           "title": "Debonair Wild Rift Confident Pose  timfernix  WR",
           "path": "assets/ezreal/skins/Debonair/model/Debonair_Wild_Rift_Confident_Pose__timfernix__WR.jpg",
           "tags": [
@@ -1743,6 +1773,16 @@
             "wr"
           ],
           "isVideo": false
+        },
+        {
+          "type": "model",
+          "title": "Debonair Wild Rift Idle Animation  WR  timfernix",
+          "path": "assets/ezreal/skins/Debonair/model/Debonair_Wild_Rift_Idle_Animation__WR__timfernix.mp4",
+          "tags": [
+            "wr",
+            "timfernix"
+          ],
+          "isVideo": true
         },
         {
           "type": "model",
@@ -2373,6 +2413,16 @@
         },
         {
           "type": "model",
+          "title": "Frosted Wild Rift Action Animation  WR  timfernix",
+          "path": "assets/ezreal/skins/Frosted/model/Frosted_Wild_Rift_Action_Animation__WR__timfernix.mp4",
+          "tags": [
+            "wr",
+            "timfernix"
+          ],
+          "isVideo": true
+        },
+        {
+          "type": "model",
           "title": "Frosted Wild Rift Default Pose  timfernix  WR",
           "path": "assets/ezreal/skins/Frosted/model/Frosted_Wild_Rift_Default_Pose__timfernix__WR.jpg",
           "tags": [
@@ -2380,6 +2430,16 @@
             "wr"
           ],
           "isVideo": false
+        },
+        {
+          "type": "model",
+          "title": "Frosted Wild Rift Idle Animation  WR  timfernix",
+          "path": "assets/ezreal/skins/Frosted/model/Frosted_Wild_Rift_Idle_Animation__WR__timfernix.mp4",
+          "tags": [
+            "wr",
+            "timfernix"
+          ],
+          "isVideo": true
         },
         {
           "type": "model",
@@ -3281,6 +3341,16 @@
         },
         {
           "type": "model",
+          "title": "Heartsteel Wild Rift Action Animation  WR  timfernix",
+          "path": "assets/ezreal/skins/HEARTSTEEL/model/Heartsteel_Wild_Rift_Action_Animation__WR__timfernix.mp4",
+          "tags": [
+            "wr",
+            "timfernix"
+          ],
+          "isVideo": true
+        },
+        {
+          "type": "model",
           "title": "Heartsteel Wild Rift Default Pose  timfernix  WR",
           "path": "assets/ezreal/skins/HEARTSTEEL/model/Heartsteel_Wild_Rift_Default_Pose__timfernix__WR.jpg",
           "tags": [
@@ -3288,6 +3358,16 @@
             "wr"
           ],
           "isVideo": false
+        },
+        {
+          "type": "model",
+          "title": "Heartsteel Wild Rift Idle Animation  WR  timfernix",
+          "path": "assets/ezreal/skins/HEARTSTEEL/model/Heartsteel_Wild_Rift_Idle_Animation__WR__timfernix.mp4",
+          "tags": [
+            "wr",
+            "timfernix"
+          ],
+          "isVideo": true
         },
         {
           "type": "model",
@@ -3950,6 +4030,16 @@
         },
         {
           "type": "model",
+          "title": "Lovestruck Wild Rift Action Animation  WR  timfernix",
+          "path": "assets/ezreal/skins/Lovestruck/model/Lovestruck_Wild_Rift_Action_Animation__WR__timfernix.mp4",
+          "tags": [
+            "wr",
+            "timfernix"
+          ],
+          "isVideo": true
+        },
+        {
+          "type": "model",
           "title": "Lovestruck Wild Rift Alert Pose  timfernix  WR",
           "path": "assets/ezreal/skins/Lovestruck/model/Lovestruck_Wild_Rift_Alert_Pose__timfernix__WR.jpg",
           "tags": [
@@ -3967,6 +4057,16 @@
             "wr"
           ],
           "isVideo": false
+        },
+        {
+          "type": "model",
+          "title": "Lovestruck Wild Rift Idle Animation  WR  timfernix",
+          "path": "assets/ezreal/skins/Lovestruck/model/Lovestruck_Wild_Rift_Idle_Animation__WR__timfernix.mp4",
+          "tags": [
+            "wr",
+            "timfernix"
+          ],
+          "isVideo": true
         },
         {
           "type": "model",
@@ -4722,6 +4822,16 @@
         },
         {
           "type": "model",
+          "title": "Pajama Guardian Wild Rift Action Animation  WR  timfernix",
+          "path": "assets/ezreal/skins/Pajama Guardian/model/Pajama_Guardian_Wild_Rift_Action_Animation__WR__timfernix.mp4",
+          "tags": [
+            "wr",
+            "timfernix"
+          ],
+          "isVideo": true
+        },
+        {
+          "type": "model",
           "title": "Pajama Guardian Wild Rift Default Pose  timfernix  WR",
           "path": "assets/ezreal/skins/Pajama Guardian/model/Pajama_Guardian_Wild_Rift_Default_Pose__timfernix__WR.jpg",
           "tags": [
@@ -4729,6 +4839,16 @@
             "wr"
           ],
           "isVideo": false
+        },
+        {
+          "type": "model",
+          "title": "Pajama Guardian Wild Rift Idle Animation  WR  timfernix",
+          "path": "assets/ezreal/skins/Pajama Guardian/model/Pajama_Guardian_Wild_Rift_Idle_Animation__WR__timfernix.mp4",
+          "tags": [
+            "wr",
+            "timfernix"
+          ],
+          "isVideo": true
         },
         {
           "type": "model",
@@ -6008,6 +6128,16 @@
         },
         {
           "type": "model",
+          "title": "Prestige Select Weather Entity Wild Rift Action Animation  WR  timfernix",
+          "path": "assets/ezreal/skins/Prestige Select Weather Entity/model/Prestige_Select_Weather_Entity_Wild_Rift_Action_Animation__WR__timfernix.mp4",
+          "tags": [
+            "wr",
+            "timfernix"
+          ],
+          "isVideo": true
+        },
+        {
+          "type": "model",
           "title": "Prestige Select Weather Entity Wild Rift Challenging Pose  timfernix  WR",
           "path": "assets/ezreal/skins/Prestige Select Weather Entity/model/Prestige_Select_Weather_Entity_Wild_Rift_Challenging_Pose__timfernix__WR.jpg",
           "tags": [
@@ -6035,6 +6165,16 @@
             "wr"
           ],
           "isVideo": false
+        },
+        {
+          "type": "model",
+          "title": "Prestige Select Weather Entity Wild Rift Idle Animation  WR  timfernix",
+          "path": "assets/ezreal/skins/Prestige Select Weather Entity/model/Prestige_Select_Weather_Entity_Wild_Rift_Idle_Animation__WR__timfernix.mp4",
+          "tags": [
+            "wr",
+            "timfernix"
+          ],
+          "isVideo": true
         },
         {
           "type": "model",
@@ -7279,6 +7419,16 @@
         },
         {
           "type": "model",
+          "title": "Star Guardian Wild Rift Action Animation  WR  timfernix",
+          "path": "assets/ezreal/skins/Star Guardian/model/Star_Guardian_Wild_Rift_Action_Animation__WR__timfernix.mp4",
+          "tags": [
+            "wr",
+            "timfernix"
+          ],
+          "isVideo": true
+        },
+        {
+          "type": "model",
           "title": "Star Guardian Wild Rift Default Pose  timfernix  WR",
           "path": "assets/ezreal/skins/Star Guardian/model/Star_Guardian_Wild_Rift_Default_Pose__timfernix__WR.jpg",
           "tags": [
@@ -7286,6 +7436,16 @@
             "wr"
           ],
           "isVideo": false
+        },
+        {
+          "type": "model",
+          "title": "Star Guardian Wild Rift Idle Animation  WR  timfernix",
+          "path": "assets/ezreal/skins/Star Guardian/model/Star_Guardian_Wild_Rift_Idle_Animation__WR__timfernix.mp4",
+          "tags": [
+            "wr",
+            "timfernix"
+          ],
+          "isVideo": true
         },
         {
           "type": "model",
@@ -7772,6 +7932,16 @@
             "wr"
           ],
           "isVideo": false
+        },
+        {
+          "type": "model",
+          "title": "Weather Entity Wild Rift Idle Animation  WR  timfernix",
+          "path": "assets/ezreal/skins/Weather Entity/model/Weather_Entity_Wild_Rift_Idle_Animation__WR__timfernix.mp4",
+          "tags": [
+            "wr",
+            "timfernix"
+          ],
+          "isVideo": true
         },
         {
           "type": "model",
@@ -8962,6 +9132,16 @@
         },
         {
           "type": "model",
+          "title": "Classic Wild Rift Action Animation  WR  timfernix",
+          "path": "assets/ezreal/skins/classic/model/Classic_Wild_Rift_Action_Animation__WR__timfernix.mp4",
+          "tags": [
+            "wr",
+            "timfernix"
+          ],
+          "isVideo": true
+        },
+        {
+          "type": "model",
           "title": "Classic Wild Rift Default Confident  timfernix  WR",
           "path": "assets/ezreal/skins/classic/model/Classic_Wild_Rift_Default_Confident__timfernix__WR.jpg",
           "tags": [
@@ -8979,6 +9159,16 @@
             "wr"
           ],
           "isVideo": false
+        },
+        {
+          "type": "model",
+          "title": "Classic Wild Rift Idle Animation  WR  timfernix",
+          "path": "assets/ezreal/skins/classic/model/Classic_Wild_Rift_Idle_Animation__WR__timfernix.mp4",
+          "tags": [
+            "wr",
+            "timfernix"
+          ],
+          "isVideo": true
         },
         {
           "type": "model",
