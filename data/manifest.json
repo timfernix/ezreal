@@ -5314,6 +5314,15 @@
           ]
         },
         {
+          "type": "model",
+          "title": "Prestige Select Weather Entity Wild Rift Soaring Pose  timfernix  WR",
+          "path": "assets/ezreal/skins/Prestige Select Weather Entity/model/Prestige_Select_Weather_Entity_Wild_Rift_Soaring_Pose__timfernix__WR.jpg",
+          "tags": [
+            "timfernix",
+            "wr"
+          ]
+        },
+        {
           "type": "video",
           "title": "Prestige Select Weather Entity Animation  WR",
           "path": "assets/ezreal/skins/Prestige Select Weather Entity/video/Prestige_Select_Weather_Entity_Animation__WR.mp4",
@@ -6385,6 +6394,33 @@
           "tags": []
         },
         {
+          "type": "model",
+          "title": "Star Guardian Wild Rift Default Pose  timfernix  WR",
+          "path": "assets/ezreal/skins/Star Guardian/model/Star_Guardian_Wild_Rift_Default_Pose__timfernix__WR.jpg",
+          "tags": [
+            "timfernix",
+            "wr"
+          ]
+        },
+        {
+          "type": "model",
+          "title": "Star Guardian Wild Rift Idle  timfernix  WR",
+          "path": "assets/ezreal/skins/Star Guardian/model/Star_Guardian_Wild_Rift_Idle__timfernix__WR.png",
+          "tags": [
+            "timfernix",
+            "wr"
+          ]
+        },
+        {
+          "type": "model",
+          "title": "Star Guardian Wild Rift Proud Pose  timfernix  WR",
+          "path": "assets/ezreal/skins/Star Guardian/model/Star_Guardian_Wild_Rift_Proud_Pose__timfernix__WR.jpg",
+          "tags": [
+            "timfernix",
+            "wr"
+          ]
+        },
+        {
           "type": "model-face",
           "title": "Star Guardian Face by Khada Modelviewer",
           "path": "assets/ezreal/skins/Star Guardian/face/Star_Guardian_Face_by_Khada_Modelviewer.png",
@@ -6797,6 +6833,24 @@
         },
         {
           "type": "model",
+          "title": "Weather Entity Wild Rift Default Pose  timfernix  WR",
+          "path": "assets/ezreal/skins/Weather Entity/model/Weather_Entity_Wild_Rift_Default_Pose__timfernix__WR.jpg",
+          "tags": [
+            "timfernix",
+            "wr"
+          ]
+        },
+        {
+          "type": "model",
+          "title": "Weather Entity Wild Rift Idle  timfernix  WR",
+          "path": "assets/ezreal/skins/Weather Entity/model/Weather_Entity_Wild_Rift_Idle__timfernix__WR.png",
+          "tags": [
+            "timfernix",
+            "wr"
+          ]
+        },
+        {
+          "type": "model",
           "title": "Weather Entity Wild Rift Model Ingame 1  WR",
           "path": "assets/ezreal/skins/Weather Entity/model/Weather_Entity_Wild_Rift_Model_Ingame_1__WR.jpeg",
           "tags": [
@@ -6808,6 +6862,24 @@
           "title": "Weather Entity Wild Rift Model Ingame 2  WR",
           "path": "assets/ezreal/skins/Weather Entity/model/Weather_Entity_Wild_Rift_Model_Ingame_2__WR.png",
           "tags": [
+            "wr"
+          ]
+        },
+        {
+          "type": "model",
+          "title": "Weather Entity Wild Rift Shiny Pose  timfernix  WR",
+          "path": "assets/ezreal/skins/Weather Entity/model/Weather_Entity_Wild_Rift_Shiny_Pose__timfernix__WR.jpg",
+          "tags": [
+            "timfernix",
+            "wr"
+          ]
+        },
+        {
+          "type": "model",
+          "title": "Weather Entity Wild Rift Sunny Pose  timfernix  WR",
+          "path": "assets/ezreal/skins/Weather Entity/model/Weather_Entity_Wild_Rift_Sunny_Pose__timfernix__WR.jpg",
+          "tags": [
+            "timfernix",
             "wr"
           ]
         },
