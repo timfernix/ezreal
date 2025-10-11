@@ -1487,6 +1487,33 @@
         },
         {
           "type": "model",
+          "title": "Debonair Wild Rift Confident Pose  timfernix  WR",
+          "path": "assets/ezreal/skins/Debonair/model/Debonair_Wild_Rift_Confident_Pose__timfernix__WR.jpg",
+          "tags": [
+            "timfernix",
+            "wr"
+          ]
+        },
+        {
+          "type": "model",
+          "title": "Debonair Wild Rift Default Pose  timfernix  WR",
+          "path": "assets/ezreal/skins/Debonair/model/Debonair_Wild_Rift_Default_Pose__timfernix__WR.jpg",
+          "tags": [
+            "timfernix",
+            "wr"
+          ]
+        },
+        {
+          "type": "model",
+          "title": "Debonair Wild Rift Idle  timfernix  WR",
+          "path": "assets/ezreal/skins/Debonair/model/Debonair_Wild_Rift_Idle__timfernix__WR.png",
+          "tags": [
+            "timfernix",
+            "wr"
+          ]
+        },
+        {
+          "type": "model",
           "title": "Ezreal Debonair Base old",
           "path": "assets/ezreal/skins/Debonair/model/Ezreal_Debonair_Base_old.png",
           "tags": []
@@ -2030,6 +2057,33 @@
           "title": "Frosted Update Model",
           "path": "assets/ezreal/skins/Frosted/model/Frosted_Update_Model.png",
           "tags": []
+        },
+        {
+          "type": "model",
+          "title": "Frosted Wild Rift Default Pose  timfernix  WR",
+          "path": "assets/ezreal/skins/Frosted/model/Frosted_Wild_Rift_Default_Pose__timfernix__WR.jpg",
+          "tags": [
+            "timfernix",
+            "wr"
+          ]
+        },
+        {
+          "type": "model",
+          "title": "Frosted Wild Rift Idle  timfernix  WR",
+          "path": "assets/ezreal/skins/Frosted/model/Frosted_Wild_Rift_Idle__timfernix__WR.png",
+          "tags": [
+            "timfernix",
+            "wr"
+          ]
+        },
+        {
+          "type": "model",
+          "title": "Frosted Wild Rift Relaxed Pose  timfernix  WR",
+          "path": "assets/ezreal/skins/Frosted/model/Frosted_Wild_Rift_Relaxed_Pose__timfernix__WR.jpg",
+          "tags": [
+            "timfernix",
+            "wr"
+          ]
         },
         {
           "type": "model",
@@ -2795,9 +2849,36 @@
         },
         {
           "type": "model",
+          "title": "Heartsteel Wild Rift Default Pose  timfernix  WR",
+          "path": "assets/ezreal/skins/HEARTSTEEL/model/Heartsteel_Wild_Rift_Default_Pose__timfernix__WR.jpg",
+          "tags": [
+            "timfernix",
+            "wr"
+          ]
+        },
+        {
+          "type": "model",
+          "title": "Heartsteel Wild Rift Idle  timfernix  WR",
+          "path": "assets/ezreal/skins/HEARTSTEEL/model/Heartsteel_Wild_Rift_Idle__timfernix__WR.png",
+          "tags": [
+            "timfernix",
+            "wr"
+          ]
+        },
+        {
+          "type": "model",
           "title": "Heartsteel Wild Rift Model  WR",
           "path": "assets/ezreal/skins/HEARTSTEEL/model/Heartsteel_Wild_Rift_Model__WR.jpeg",
           "tags": [
+            "wr"
+          ]
+        },
+        {
+          "type": "model",
+          "title": "Heartsteel Wild Rift Prepared Pose  timfernix  WR",
+          "path": "assets/ezreal/skins/HEARTSTEEL/model/Heartsteel_Wild_Rift_Prepared_Pose__timfernix__WR.jpg",
+          "tags": [
+            "timfernix",
             "wr"
           ]
         },
