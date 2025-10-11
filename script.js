@@ -414,7 +414,7 @@ function buildCard(item, index){
     <span class="badge" title="Skin">${escapeHtml(item.skinName)}</span>
     <span class="badge" title="Type">${escapeHtml(TYPE_LABEL[item.type] || item.type)}</span>
     ${item.year ? `<span class="badge" title="Original skin release year">${item.year}</span>` : ""}
-    ${(item.tags||[]).map(t => `<span class="badge" title="Tag: ${escapeHtml(TAG_LABEL[t] || t)}">${escapeHtml(TAG_LABEL[t] || t)}</span>`).join("")}
+      ${(item.tags||[]).map(t => `<span class="badge" data-tag="${escapeHtml(t)}"title="Tag: ${escapeHtml(TAG_LABEL[t] || t)}">${escapeHtml(TAG_LABEL[t] || t)}</span>`).join("")}
   `;
   left.appendChild(badges);
 
@@ -504,7 +504,7 @@ function openViewer(item){
       <span class="badge" title="Skin">${escapeHtml(item.skinName)}</span>
       <span class="badge" title="Type">${escapeHtml(TYPE_LABEL[item.type] || item.type)}</span>
       ${item.year ? `<span class="badge" title="Original skin release year">${item.year}</span>` : ""}
-      ${(item.tags||[]).map(t => `<span class="badge" title="Tag: ${escapeHtml(TAG_LABEL[t] || t)}">${escapeHtml(TAG_LABEL[t] || t)}</span>`).join("")}
+      ${(item.tags||[]).map(t => `<span class="badge" data-tag="${escapeHtml(t)}"title="Tag: ${escapeHtml(TAG_LABEL[t] || t)}">${escapeHtml(TAG_LABEL[t] || t)}</span>`).join("")}
     </div>
     <div class="right">
       ${abs ? `<a class="action" target="_blank" rel="noopener" href="${abs}">Open raw</a>` : ""}

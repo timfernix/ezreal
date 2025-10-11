@@ -390,6 +390,20 @@ main {
   border: 1px solid var(--border);
   background: rgba(255, 255, 255, 0.03);
 }
+.badge[data-tag="timfernix"] {
+  border-color: color-mix(in oklab, var(--accent-2) 60%, var(--border));
+  background:
+    radial-gradient(120% 120% at 20% 10%,
+      color-mix(in oklab, var(--accent-2) 18%, transparent), transparent 55%)
+    ,
+    rgba(255,255,255,0.04);
+  box-shadow:
+    0 0 0 1px color-mix(in oklab, var(--accent-2) 30%, transparent),
+    0 0 10px color-mix(in oklab, var(--accent-2) 30%, transparent),
+    inset 0 1px 0 rgba(255,255,255,0.06);
+  font-weight: 600;
+}
+
 .title {
   font-weight: 600;
 }
