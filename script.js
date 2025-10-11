@@ -37,11 +37,12 @@ const TYPE_LABEL = {
   youtube: "YouTube",
   emote: "Emote",
   merch: "Merch",
-  tenor: "GIF - by timfernix",
-  ingame: "Abilities - by timfernix",
+  tenor: "GIF",
+  ingame: "Abilities",
 };
 
 const TAG_LABEL = {
+  timfernix: "Made by timfernix",
   tft: "TFT",
   wr: "Wild Rift",
   lor: "Legends of Runeterra",
@@ -610,14 +611,14 @@ function cleanTitle(s){
   // Remove in [brackets]
   t = t.replace(/\[[^\]]*\]/g, "");
 
-  // Remove short tag groups like (WR), (TFT), (LoR)
-  t = t.replace(/\((?:\s*(?:wr|tft|lor|wild rift|teamfight tactics|legends of runeterra)\s*[,&/]?)+\)/gi, "");
+  // Remove short tag groups like (WR), (TFT), (LoR), (timfernix)
+  t = t.replace(/\((?:\s*(?:wr|tft|lor|wild rift|teamfight tactics|legends of runeterra|timfernix)\s*[,&/]?)+\)/gi, "");
 
   // Remove __tokens
   t = t.replace(/__([a-z0-9-]+)/gi, "");
 
   // Remove isolated tag tokens
-  t = t.replace(/(?:^|[\s_\-])(wr|tft|lor)(?=$|[\s_\-])/gi, "");
+  t = t.replace(/(?:^|[\s_\-])(wr|tft|lor|timfernix)(?=$|[\s_\-])/gi, "");
 
   // Normalize separators/space
   t = t.replace(/[-_]+/g, " ").replace(/\s{2,}/g, " ").trim();

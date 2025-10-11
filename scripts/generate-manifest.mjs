@@ -31,6 +31,7 @@ const TAG_ALIASES = new Map([
   ["wr",    ["wr","wildrift","wild-rift"]],
   ["lor",   ["lor","runeterra","legends-of-runeterra","legends_of_runeterra"]],
   ["chroma",["chroma","chromas"]],
+  ["timfernix", ["timfernix","made-by-timfernix"]],
 ]);
 
 const SKINS_ROOT = await pickFirstExisting(CANDIDATES);
