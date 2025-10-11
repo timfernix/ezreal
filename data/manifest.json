@@ -294,6 +294,30 @@
           "tags": []
         },
         {
+          "type": "model",
+          "title": "Arcade Wild Rift Default Pose  WR",
+          "path": "assets/ezreal/skins/Arcade/model/Arcade_Wild_Rift_Default_Pose__WR.jpg",
+          "tags": [
+            "wr"
+          ]
+        },
+        {
+          "type": "model",
+          "title": "Arcade Wild Rift Idle  WR",
+          "path": "assets/ezreal/skins/Arcade/model/Arcade_Wild_Rift_Idle__WR.png",
+          "tags": [
+            "wr"
+          ]
+        },
+        {
+          "type": "model",
+          "title": "Arcade Wild Rift Ready Pose  WR",
+          "path": "assets/ezreal/skins/Arcade/model/Arcade_Wild_Rift_Ready_Pose__WR.jpg",
+          "tags": [
+            "wr"
+          ]
+        },
+        {
           "type": "model-face",
           "title": "Arcade Face by Khada Modelviewer",
           "path": "assets/ezreal/skins/Arcade/face/Arcade_Face_by_Khada_Modelviewer.png",
@@ -1264,9 +1288,11 @@
         },
         {
           "type": "ingame",
-          "title": "Crystal Rose Ability Ingame Ultimate by Skin Spotlights",
-          "path": "assets/ezreal/skins/Crystal Rose/ingame/Crystal_Rose_Ability_Ingame_Ultimate_by_Skin_Spotlights.png",
-          "tags": []
+          "title": "Crystal Rose Ability Ingame Ultimate by Skin Spotlights  WR",
+          "path": "assets/ezreal/skins/Crystal Rose/ingame/Crystal_Rose_Ability_Ingame_Ultimate_by_Skin_Spotlights__WR.png",
+          "tags": [
+            "wr"
+          ]
         },
         {
           "type": "youtube",
@@ -6535,9 +6561,10 @@
         },
         {
           "type": "ingame",
-          "title": "Weather Entity Ability Ingame Ultimate  timfernix",
-          "path": "assets/ezreal/skins/Weather Entity/ingame/Weather_Entity_Ability_Ingame_Ultimate__timfernix.jpg",
+          "title": "Weather Entity Ability Ingame Ultimate  WR  timfernix",
+          "path": "assets/ezreal/skins/Weather Entity/ingame/Weather_Entity_Ability_Ingame_Ultimate__WR__timfernix.jpg",
           "tags": [
+            "wr",
             "timfernix"
           ]
         },
