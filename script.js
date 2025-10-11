@@ -358,7 +358,6 @@ function buildCard(item, index){
     img.loading = "lazy";
     img.decoding = "async";
     img.setAttribute("fetchpriority", "low");
-    img.width = 1280; img.height = 720;
     img.src = buildAbsoluteUrl(item.thumb || `https://i.ytimg.com/vi/${item.youtubeId}/hqdefault.jpg`);
     btn.appendChild(img);
 
