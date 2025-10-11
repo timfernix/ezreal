@@ -279,6 +279,7 @@ main {
   content-visibility: auto;
   contain-intrinsic-size: 420px;
 }
+
 .thumb {
   aspect-ratio: 16/9;
   width: 100%;
@@ -286,6 +287,36 @@ main {
   display: block;
   background: var(--bg-soft);
 }
+
+.card > .thumb {
+  aspect-ratio: 16 / 9 !important;
+  width: 100%;
+  height: auto !important;
+  display: block;
+  background: var(--bg-soft);
+}
+
+.card > img.thumb,
+.card > video.thumb,
+.card > button.thumb {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.card > button.thumb {
+  position: relative;
+  overflow: hidden;
+}
+.card > button.thumb > img.thumb {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .card video.thumb {
   background: #000;
 }
