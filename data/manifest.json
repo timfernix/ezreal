@@ -295,25 +295,28 @@
         },
         {
           "type": "model",
-          "title": "Arcade Wild Rift Default Pose  WR",
-          "path": "assets/ezreal/skins/Arcade/model/Arcade_Wild_Rift_Default_Pose__WR.jpg",
+          "title": "Arcade Wild Rift Default Pose  timfernix  WR",
+          "path": "assets/ezreal/skins/Arcade/model/Arcade_Wild_Rift_Default_Pose__timfernix__WR.jpg",
           "tags": [
+            "timfernix",
             "wr"
           ]
         },
         {
           "type": "model",
-          "title": "Arcade Wild Rift Idle  WR",
-          "path": "assets/ezreal/skins/Arcade/model/Arcade_Wild_Rift_Idle__WR.png",
+          "title": "Arcade Wild Rift Idle  timfernix  WR",
+          "path": "assets/ezreal/skins/Arcade/model/Arcade_Wild_Rift_Idle__timfernix__WR.png",
           "tags": [
+            "timfernix",
             "wr"
           ]
         },
         {
           "type": "model",
-          "title": "Arcade Wild Rift Ready Pose  WR",
-          "path": "assets/ezreal/skins/Arcade/model/Arcade_Wild_Rift_Ready_Pose__WR.jpg",
+          "title": "Arcade Wild Rift Ready Pose  timfernix  WR",
+          "path": "assets/ezreal/skins/Arcade/model/Arcade_Wild_Rift_Ready_Pose__timfernix__WR.jpg",
           "tags": [
+            "timfernix",
             "wr"
           ]
         },
@@ -815,6 +818,33 @@
         },
         {
           "type": "model",
+          "title": "Battle Academia Wild Rift Default Pose  timfernix  WR",
+          "path": "assets/ezreal/skins/Battle Academia/model/Battle_Academia_Wild_Rift_Default_Pose__timfernix__WR.jpg",
+          "tags": [
+            "timfernix",
+            "wr"
+          ]
+        },
+        {
+          "type": "model",
+          "title": "Battle Academia Wild Rift Idle  timfernix  WR",
+          "path": "assets/ezreal/skins/Battle Academia/model/Battle_Academia_Wild_Rift_Idle__timfernix__WR.png",
+          "tags": [
+            "timfernix",
+            "wr"
+          ]
+        },
+        {
+          "type": "model",
+          "title": "Battle Academia Wild Rift Lounge Pose  timfernix  WR",
+          "path": "assets/ezreal/skins/Battle Academia/model/Battle_Academia_Wild_Rift_Lounge_Pose__timfernix__WR.jpg",
+          "tags": [
+            "timfernix",
+            "wr"
+          ]
+        },
+        {
+          "type": "model",
           "title": "Battle Academia Idle Set 13 Chroma by Khada Modelviewer  TFT",
           "path": "assets/ezreal/skins/Battle Academia/model/chroma/Battle_Academia_Idle_Set_13_Chroma_by_Khada_Modelviewer__TFT.png",
           "tags": [
@@ -861,6 +891,36 @@
           "path": "assets/ezreal/skins/Battle Academia/model/chroma/Battle_Academia_Mythic_Chroma_T-Pose_by_Khada_Modelviewer.png",
           "tags": [
             "chroma"
+          ]
+        },
+        {
+          "type": "model",
+          "title": "Battle Academia Mythic Chroma Wild Rift Default Pose  timfernix  WR",
+          "path": "assets/ezreal/skins/Battle Academia/model/chroma/Battle_Academia_Mythic_Chroma_Wild_Rift_Default_Pose__timfernix__WR.jpg",
+          "tags": [
+            "chroma",
+            "timfernix",
+            "wr"
+          ]
+        },
+        {
+          "type": "model",
+          "title": "Battle Academia Mythic Chroma Wild Rift Idle  timfernix  WR",
+          "path": "assets/ezreal/skins/Battle Academia/model/chroma/Battle_Academia_Mythic_Chroma_Wild_Rift_Idle__timfernix__WR.png",
+          "tags": [
+            "chroma",
+            "timfernix",
+            "wr"
+          ]
+        },
+        {
+          "type": "model",
+          "title": "Battle Academia Mythic Chroma Wild Rift Texting Pose  timfernix  WR",
+          "path": "assets/ezreal/skins/Battle Academia/model/chroma/Battle_Academia_Mythic_Chroma_Wild_Rift_Texting_Pose__timfernix__WR.jpg",
+          "tags": [
+            "chroma",
+            "timfernix",
+            "wr"
           ]
         },
         {
