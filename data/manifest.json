@@ -3443,6 +3443,33 @@
         },
         {
           "type": "model",
+          "title": "Lovestruck Wild Rift Alert Pose  timfernix  WR",
+          "path": "assets/ezreal/skins/Lovestruck/model/Lovestruck_Wild_Rift_Alert_Pose__timfernix__WR.jpg",
+          "tags": [
+            "timfernix",
+            "wr"
+          ]
+        },
+        {
+          "type": "model",
+          "title": "Lovestruck Wild Rift Default Pose  timfernix  WR",
+          "path": "assets/ezreal/skins/Lovestruck/model/Lovestruck_Wild_Rift_Default_Pose__timfernix__WR.jpg",
+          "tags": [
+            "timfernix",
+            "wr"
+          ]
+        },
+        {
+          "type": "model",
+          "title": "Lovestruck Wild Rift Idle  timfernix  WR",
+          "path": "assets/ezreal/skins/Lovestruck/model/Lovestruck_Wild_Rift_Idle__timfernix__WR.png",
+          "tags": [
+            "timfernix",
+            "wr"
+          ]
+        },
+        {
+          "type": "model",
           "title": "Lovestruck Wild Rift Model Collection 1",
           "path": "assets/ezreal/skins/Lovestruck/model/Lovestruck_Wild_Rift_Model_Collection_1.png",
           "tags": []
@@ -3458,6 +3485,15 @@
           "title": "Lovestruck Wild Rift Model Collection 3",
           "path": "assets/ezreal/skins/Lovestruck/model/Lovestruck_Wild_Rift_Model_Collection_3.png",
           "tags": []
+        },
+        {
+          "type": "model",
+          "title": "Lovestruck Wild Rift Princely Pose  timfernix  WR",
+          "path": "assets/ezreal/skins/Lovestruck/model/Lovestruck_Wild_Rift_Princely_Pose__timfernix__WR.jpg",
+          "tags": [
+            "timfernix",
+            "wr"
+          ]
         },
         {
           "type": "model",
@@ -4087,6 +4123,33 @@
           "title": "Pajama Guardian T Pose by Khada Modelviewer",
           "path": "assets/ezreal/skins/Pajama Guardian/model/Pajama_Guardian_T-Pose_by_Khada_Modelviewer.png",
           "tags": []
+        },
+        {
+          "type": "model",
+          "title": "Pajama Guardian Wild Rift Default Pose  timfernix  WR",
+          "path": "assets/ezreal/skins/Pajama Guardian/model/Pajama_Guardian_Wild_Rift_Default_Pose__timfernix__WR.jpg",
+          "tags": [
+            "timfernix",
+            "wr"
+          ]
+        },
+        {
+          "type": "model",
+          "title": "Pajama Guardian Wild Rift Idle  timfernix  WR",
+          "path": "assets/ezreal/skins/Pajama Guardian/model/Pajama_Guardian_Wild_Rift_Idle__timfernix__WR.png",
+          "tags": [
+            "timfernix",
+            "wr"
+          ]
+        },
+        {
+          "type": "model",
+          "title": "Pajama Guardian Wild Rift Reclined Pose  timfernix  WR",
+          "path": "assets/ezreal/skins/Pajama Guardian/model/Pajama_Guardian_Wild_Rift_Reclined_Pose__timfernix__WR.jpg",
+          "tags": [
+            "timfernix",
+            "wr"
+          ]
         },
         {
           "type": "model-face",
@@ -5203,6 +5266,42 @@
           "title": "Prestige Select Weather Entity Wild Rift Splashart Concept by Qi Mang  WR",
           "path": "assets/ezreal/skins/Prestige Select Weather Entity/concept/Prestige_Select_Weather_Entity_Wild_Rift_Splashart_Concept_by_Qi_Mang__WR.jpg",
           "tags": [
+            "wr"
+          ]
+        },
+        {
+          "type": "model",
+          "title": "Prestige Select Weather Entity Wild Rift Challenging Pose  timfernix  WR",
+          "path": "assets/ezreal/skins/Prestige Select Weather Entity/model/Prestige_Select_Weather_Entity_Wild_Rift_Challenging_Pose__timfernix__WR.jpg",
+          "tags": [
+            "timfernix",
+            "wr"
+          ]
+        },
+        {
+          "type": "model",
+          "title": "Prestige Select Weather Entity Wild Rift Daydreaming Pose  timfernix  WR",
+          "path": "assets/ezreal/skins/Prestige Select Weather Entity/model/Prestige_Select_Weather_Entity_Wild_Rift_Daydreaming_Pose__timfernix__WR.jpg",
+          "tags": [
+            "timfernix",
+            "wr"
+          ]
+        },
+        {
+          "type": "model",
+          "title": "Prestige Select Weather Entity Wild Rift Default Pose  timfernix  WR",
+          "path": "assets/ezreal/skins/Prestige Select Weather Entity/model/Prestige_Select_Weather_Entity_Wild_Rift_Default_Pose__timfernix__WR.jpg",
+          "tags": [
+            "timfernix",
+            "wr"
+          ]
+        },
+        {
+          "type": "model",
+          "title": "Prestige Select Weather Entity Wild Rift Idle  timfernix  WR",
+          "path": "assets/ezreal/skins/Prestige Select Weather Entity/model/Prestige_Select_Weather_Entity_Wild_Rift_Idle__timfernix__WR.png",
+          "tags": [
+            "timfernix",
             "wr"
           ]
         },
