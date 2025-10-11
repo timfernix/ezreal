@@ -95,13 +95,6 @@ body {
   gap: 0.8rem;
   align-items: center;
 }
-
-.header-actions {
-  display: flex;
-  gap: 0.5rem;
-  align-items: center;
-}
-
 .logo {
   width: 32px;
   height: 32px;
@@ -136,8 +129,6 @@ h1 .byline:hover {
 }
 
 .btn {
-  -webkit-appearance: none;
-  appearance: none;
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
@@ -149,21 +140,15 @@ h1 .byline:hover {
   cursor: pointer;
   box-shadow: var(--shadow);
   transition: transform 0.15s ease, background 0.2s ease;
-  text-decoration: none; 
-  font: inherit; 
-  line-height: 1.2;
-}
-
-.btn:link,
-.btn:visited,
-.btn:hover,
-.btn:active,
-.btn:focus {
   text-decoration: none;
+  font: inherit;
 }
-
-.btn:hover { transform: translateY(-1px); }
-.btn .icon { font-size: 1.1rem; }
+.btn:hover {
+  transform: translateY(-1px);
+}
+.btn .icon {
+  font-size: 1.1rem;
+}
 
 .controls {
   display: grid;
@@ -289,6 +274,10 @@ main {
   box-shadow: var(--shadow);
   display: grid;
   grid-template-rows: auto 1fr;
+
+  /* Performance */
+  content-visibility: auto;
+  contain-intrinsic-size: 420px;
 }
 .thumb {
   aspect-ratio: 16/9;
