@@ -1,7 +1,7 @@
 {
   "meta": {
     "champion": "Ezreal",
-    "generated": "2025-10-10"
+    "generated": "2025-10-11"
   },
   "skins": [
     {
@@ -1256,6 +1256,12 @@
           "tags": [
             "wr"
           ]
+        },
+        {
+          "type": "ingame",
+          "title": "Crystal Rose Ability Ingame Ultimate by Skin Spotlights",
+          "path": "assets/ezreal/skins/Crystal Rose/ingame/Crystal_Rose_Ability_Ingame_Ultimate_by_Skin_Spotlights.png",
+          "tags": []
         },
         {
           "type": "youtube",
@@ -3261,6 +3267,12 @@
           ]
         },
         {
+          "type": "ingame",
+          "title": "Lovestruck Ability Ingame Ultimate",
+          "path": "assets/ezreal/skins/Lovestruck/ingame/Lovestruck_Ability_Ingame_Ultimate.jpg",
+          "tags": []
+        },
+        {
           "type": "youtube",
           "title": "Lovestruck Ezreal Wild Rift Skin Spotlight",
           "youtubeId": "N7FMLStLHa0",
@@ -4987,6 +4999,12 @@
           ]
         },
         {
+          "type": "ingame",
+          "title": "Prestige Select Weather Entity Ability Ingame Ultimate",
+          "path": "assets/ezreal/skins/Prestige Select Weather Entity/ingame/Prestige_Select_Weather_Entity_Ability_Ingame_Ultimate.jpg",
+          "tags": []
+        },
+        {
           "type": "youtube",
           "title": "Prestige Select Weather Entity Ezreal Wild Rift Skin Spotlight",
           "youtubeId": "6iKxeml3snU",
@@ -5826,14 +5844,6 @@
         },
         {
           "type": "promo",
-          "title": "Star Guardian Wild Rift Animation  WR",
-          "path": "assets/ezreal/skins/Star Guardian/promo/Star_Guardian_Wild_Rift_Animation__WR.gif",
-          "tags": [
-            "wr"
-          ]
-        },
-        {
-          "type": "promo",
           "title": "Star Guardian Wild Rift Promoart by Foritis Wang  WR",
           "path": "assets/ezreal/skins/Star Guardian/promo/Star_Guardian_Wild_Rift_Promoart_by_Foritis_Wang__WR.jpg",
           "tags": [
@@ -6482,6 +6492,12 @@
           "tags": [
             "wr"
           ]
+        },
+        {
+          "type": "ingame",
+          "title": "Weather Entity Ability Ingame Ultimate",
+          "path": "assets/ezreal/skins/Weather Entity/ingame/Weather_Entity_Ability_Ingame_Ultimate.jpg",
+          "tags": []
         },
         {
           "type": "youtube",
