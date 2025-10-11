@@ -1339,6 +1339,42 @@
           ]
         },
         {
+          "type": "model",
+          "title": "Crystal Rose Wild Rift Default Pose  timfernix  WR",
+          "path": "assets/ezreal/skins/Crystal Rose/model/Crystal_Rose_Wild_Rift_Default_Pose__timfernix__WR.jpg",
+          "tags": [
+            "timfernix",
+            "wr"
+          ]
+        },
+        {
+          "type": "model",
+          "title": "Crystal Rose Wild Rift Determined Pose  timfernix  WR",
+          "path": "assets/ezreal/skins/Crystal Rose/model/Crystal_Rose_Wild_Rift_Determined_Pose__timfernix__WR.jpg",
+          "tags": [
+            "timfernix",
+            "wr"
+          ]
+        },
+        {
+          "type": "model",
+          "title": "Crystal Rose Wild Rift Fetching Pose  timfernix  WR",
+          "path": "assets/ezreal/skins/Crystal Rose/model/Crystal_Rose_Wild_Rift_Fetching_Pose__timfernix__WR.jpg",
+          "tags": [
+            "timfernix",
+            "wr"
+          ]
+        },
+        {
+          "type": "model",
+          "title": "Crystal Rose Wild Rift Idle  timfernix  WR",
+          "path": "assets/ezreal/skins/Crystal Rose/model/Crystal_Rose_Wild_Rift_Idle__timfernix__WR.png",
+          "tags": [
+            "timfernix",
+            "wr"
+          ]
+        },
+        {
           "type": "emote",
           "title": "Crystal Rose Need A Hand Emote  WR",
           "path": "assets/ezreal/skins/Crystal Rose/emote/Crystal_Rose_Need_A_Hand_Emote__WR.png",
@@ -7583,6 +7619,33 @@
           "title": "Classic Warriors Model 2 by Blur Studio",
           "path": "assets/ezreal/skins/classic/model/Classic_Warriors_Model_2_by_Blur_Studio.jpg",
           "tags": []
+        },
+        {
+          "type": "model",
+          "title": "Classic Wild Rift Default Confident  timfernix  WR",
+          "path": "assets/ezreal/skins/classic/model/Classic_Wild_Rift_Default_Confident__timfernix__WR.jpg",
+          "tags": [
+            "timfernix",
+            "wr"
+          ]
+        },
+        {
+          "type": "model",
+          "title": "Classic Wild Rift Default Pose  timfernix  WR",
+          "path": "assets/ezreal/skins/classic/model/Classic_Wild_Rift_Default_Pose__timfernix__WR.jpg",
+          "tags": [
+            "timfernix",
+            "wr"
+          ]
+        },
+        {
+          "type": "model",
+          "title": "Classic Wild Rift Idle  timfernix  WR",
+          "path": "assets/ezreal/skins/classic/model/Classic_Wild_Rift_Idle__timfernix__WR.png",
+          "tags": [
+            "timfernix",
+            "wr"
+          ]
         },
         {
           "type": "model-face",
