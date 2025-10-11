@@ -1007,16 +1007,19 @@
         },
         {
           "type": "ingame",
-          "title": "Battle Academia Ability Ingame Ultimate",
-          "path": "assets/ezreal/skins/Battle Academia/ingame/Battle_Academia_Ability_Ingame_Ultimate.jpg",
-          "tags": []
+          "title": "Battle Academia Ability Ingame Ultimate  timfernix",
+          "path": "assets/ezreal/skins/Battle Academia/ingame/Battle_Academia_Ability_Ingame_Ultimate__timfernix.jpg",
+          "tags": [
+            "timfernix"
+          ]
         },
         {
           "type": "ingame",
-          "title": "Battle Academia Mythic Chroma Ability Ingame Ultimate",
-          "path": "assets/ezreal/skins/Battle Academia/ingame/chroma/Battle_Academia_Mythic_Chroma_Ability_Ingame_Ultimate.jpg",
+          "title": "Battle Academia Mythic Chroma Ability Ingame Ultimate  timfernix",
+          "path": "assets/ezreal/skins/Battle Academia/ingame/chroma/Battle_Academia_Mythic_Chroma_Ability_Ingame_Ultimate__timfernix.jpg",
           "tags": [
-            "chroma"
+            "chroma",
+            "timfernix"
           ]
         },
         {
@@ -1757,9 +1760,11 @@
         },
         {
           "type": "ingame",
-          "title": "Faerie Court Ability Ingame Ultimate",
-          "path": "assets/ezreal/skins/Faerie Court/ingame/Faerie_Court_Ability_Ingame_Ultimate.jpg",
-          "tags": []
+          "title": "Faerie Court Ability Ingame Ultimate  timfernix",
+          "path": "assets/ezreal/skins/Faerie Court/ingame/Faerie_Court_Ability_Ingame_Ultimate__timfernix.jpg",
+          "tags": [
+            "timfernix"
+          ]
         },
         {
           "type": "youtube",
@@ -2785,9 +2790,11 @@
         },
         {
           "type": "ingame",
-          "title": "Heartsteel Ability Ingame Ultimate",
-          "path": "assets/ezreal/skins/HEARTSTEEL/ingame/Heartsteel_Ability_Ingame_Ultimate.jpg",
-          "tags": []
+          "title": "Heartsteel Ability Ingame Ultimate  timfernix",
+          "path": "assets/ezreal/skins/HEARTSTEEL/ingame/Heartsteel_Ability_Ingame_Ultimate__timfernix.jpg",
+          "tags": [
+            "timfernix"
+          ]
         },
         {
           "type": "youtube",
@@ -2995,9 +3002,11 @@
         },
         {
           "type": "ingame",
-          "title": "Heavenscale Ability Ingame Ultimate",
-          "path": "assets/ezreal/skins/Heavenscale/ingame/Heavenscale_Ability_Ingame_Ultimate.jpg",
-          "tags": []
+          "title": "Heavenscale Ability Ingame Ultimate  timfernix",
+          "path": "assets/ezreal/skins/Heavenscale/ingame/Heavenscale_Ability_Ingame_Ultimate__timfernix.jpg",
+          "tags": [
+            "timfernix"
+          ]
         },
         {
           "type": "youtube",
@@ -7717,9 +7726,11 @@
         },
         {
           "type": "ingame",
-          "title": "Classic Ability Ingame Ultimate",
-          "path": "assets/ezreal/skins/classic/ingame/Classic_Ability_Ingame_Ultimate.jpg",
-          "tags": []
+          "title": "Classic Ability Ingame Ultimate  timfernix",
+          "path": "assets/ezreal/skins/classic/ingame/Classic_Ability_Ingame_Ultimate__timfernix.jpg",
+          "tags": [
+            "timfernix"
+          ]
         },
         {
           "type": "youtube",
