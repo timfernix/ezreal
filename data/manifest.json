@@ -947,6 +947,16 @@
         },
         {
           "type": "model",
+          "title": "Battle Academia Wild Rift Action Animation  WR  timfernix",
+          "path": "assets/ezreal/skins/Battle Academia/model/Battle_Academia_Wild_Rift_Action_Animation__WR__timfernix.mp4",
+          "tags": [
+            "wr",
+            "timfernix"
+          ],
+          "isVideo": true
+        },
+        {
+          "type": "model",
           "title": "Battle Academia Wild Rift Default Pose  timfernix  WR",
           "path": "assets/ezreal/skins/Battle Academia/model/Battle_Academia_Wild_Rift_Default_Pose__timfernix__WR.jpg",
           "tags": [
@@ -954,6 +964,16 @@
             "wr"
           ],
           "isVideo": false
+        },
+        {
+          "type": "model",
+          "title": "Battle Academia Wild Rift Idle Animation  WR  timfernix",
+          "path": "assets/ezreal/skins/Battle Academia/model/Battle_Academia_Wild_Rift_Idle_Animation__WR__timfernix.mp4",
+          "tags": [
+            "wr",
+            "timfernix"
+          ],
+          "isVideo": true
         },
         {
           "type": "model",
@@ -1033,6 +1053,17 @@
         },
         {
           "type": "model",
+          "title": "Battle Academia Mythic Chroma Wild Rift Action Animation  WR  timfernix",
+          "path": "assets/ezreal/skins/Battle Academia/model/chroma/Battle_Academia_Mythic_Chroma_Wild_Rift_Action_Animation__WR__timfernix.mp4",
+          "tags": [
+            "chroma",
+            "wr",
+            "timfernix"
+          ],
+          "isVideo": true
+        },
+        {
+          "type": "model",
           "title": "Battle Academia Mythic Chroma Wild Rift Default Pose  timfernix  WR",
           "path": "assets/ezreal/skins/Battle Academia/model/chroma/Battle_Academia_Mythic_Chroma_Wild_Rift_Default_Pose__timfernix__WR.jpg",
           "tags": [
@@ -1041,6 +1072,17 @@
             "wr"
           ],
           "isVideo": false
+        },
+        {
+          "type": "model",
+          "title": "Battle Academia Mythic Chroma Wild Rift Idle Animation  WR  timfernix",
+          "path": "assets/ezreal/skins/Battle Academia/model/chroma/Battle_Academia_Mythic_Chroma_Wild_Rift_Idle_Animation__WR__timfernix.mp4",
+          "tags": [
+            "chroma",
+            "wr",
+            "timfernix"
+          ],
+          "isVideo": true
         },
         {
           "type": "model",
