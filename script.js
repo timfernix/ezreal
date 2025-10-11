@@ -3,15 +3,26 @@ const STATE = {
   filtered: [],
   skin: "all",
   types: new Set([
-    "splash","icon","promo","concept",
-    "loading","model","model-face",
-    "chroma","video","youtube","emote","merch","tenor", "ingame"
+    "splash", "icon", "promo", "concept",
+    "loading", "model", "model-face",
+    "chroma", "video", "youtube", "emote", "merch", "tenor", "ingame"
   ]),
   tags: new Set(),
   search: "",
   sortBy: "skin",
   tab: "gallery",
 };
+
+/* ------------ performance ------------ */
+const RENDER_BATCH = 80;   // cards per chunk
+let renderCursor = 0;      // index into STATE.filtered
+let io = null;             // IntersectionObserver for infinite scroll
+
+function debounce(fn, delay = 100) {
+  let t;
+  return (...args) => { clearTimeout(t); t = setTimeout(() => fn(...args), delay); };
+}
+/* ------------------------------------------- */
 
 const TYPE_LABEL = {
   splash: "Splash",
@@ -99,21 +110,50 @@ function hydrateTheme(){
 }
 
 function wireUI(){
-  els.skinFilter?.addEventListener("change", e => { STATE.skin = e.target.value; applyFilters(); });
+  const rerender = debounce(applyFilters, 80);
+
+  els.skinFilter?.addEventListener("change", e => { STATE.skin = e.target.value; rerender(); });
   els.typeChecks().forEach(cb => cb.addEventListener("change", ev => {
     const c = ev.currentTarget;
     if(c.checked) STATE.types.add(c.value); else STATE.types.delete(c.value);
-    applyFilters();
+    rerender();
   }));
   els.tagChecks().forEach(cb => cb.addEventListener("change", ev => {
     const c = ev.currentTarget;
     if(c.checked) STATE.tags.add(c.value); else STATE.tags.delete(c.value);
-    applyFilters();
+    rerender();
   }));
-  els.search?.addEventListener("input", e => { STATE.search = e.target.value.trim().toLowerCase(); applyFilters(); });
-  els.sortBy?.addEventListener("change", e => { STATE.sortBy = e.target.value; applyFilters(); });
+  els.search?.addEventListener("input", e => { STATE.search = e.target.value.trim().toLowerCase(); rerender(); });
+  els.sortBy?.addEventListener("change", e => { STATE.sortBy = e.target.value; rerender(); });
   els.tabs().forEach(btn => btn.addEventListener("click", onTab));
   document.addEventListener("keydown", e => { if(e.key === "Escape" && els.viewer.open) els.viewer.close(); });
+
+  els.gallery.addEventListener("click", (e) => {
+    const thumb = e.target.closest(".thumb");
+    if (thumb) {
+      if (thumb.tagName === "VIDEO") return;
+      const card = e.target.closest("article.card");
+      if (!card) return;
+      const idx = Number(card.dataset.idx);
+      if (Number.isFinite(idx)) openViewer(STATE.filtered[idx]);
+    }
+
+    const copyBtn = e.target.closest("button.js-copy");
+    if (copyBtn) {
+      const url = copyBtn.getAttribute("data-path") || "";
+      (async () => {
+        try {
+          await navigator.clipboard.writeText(url);
+          const old = copyBtn.textContent;
+          copyBtn.textContent = "Copied";
+          setTimeout(() => (copyBtn.textContent = old), 1200);
+        } catch {
+          copyBtn.textContent = "Failed";
+          setTimeout(() => (copyBtn.textContent = "Copy path"), 1200);
+        }
+      })();
+    }
+  });
 }
 
 function onTab(e){
@@ -151,24 +191,32 @@ async function loadManifest(){
       for(const m of (skin.media || [])){
         const tags = normalizeTags(m.tags || []);
 
-        // keep chroma consistency
         if(m.type === "chroma" && !tags.includes("chroma")) tags.push("chroma");
 
-        // NEW: add "lol" when no cross-game tag is present
         const hasGameTag = tags.includes("tft") || tags.includes("wr") || tags.includes("lor");
         if(!hasGameTag) tags.push("lol");
+
+        const title = cleanTitle(m.title || inferTitleFromPath(m.path || m.url, m.youtubeId));
+        const searchText = [
+          title,
+          skinName,
+          m.type || "",
+          (year || ""),
+          ...(tags || [])
+        ].join(" ").toLowerCase();
 
         items.push({
           skinId,
           skinName,
           year,
           type: m.type,
-          title: cleanTitle(m.title || inferTitleFromPath(m.path || m.url, m.youtubeId)),
+          title,
           path: m.path || null,
           url: m.url || null,
           youtubeId: m.youtubeId || null,
           thumb: m.thumb || null,
-          tags
+          tags,
+          searchText,
         });
       }
     }
@@ -207,13 +255,7 @@ function applyFilters(){
 
   if(STATE.search){
     const q = STATE.search;
-    out = out.filter(i =>
-      (i.title||"").toLowerCase().includes(q) ||
-      (i.skinName||"").toLowerCase().includes(q) ||
-      (i.type||"").toLowerCase().includes(q) ||
-      String(i.year||"").includes(q) ||
-      (i.tags||[]).join(" ").toLowerCase().includes(q)
-    );
+    out = out.filter(i => i.searchText?.includes(q));
   }
 
   switch(STATE.sortBy){
@@ -227,7 +269,9 @@ function applyFilters(){
   }
 
   STATE.filtered = out;
-  renderGallery();
+
+  startRender();
+
   els.empty.hidden = !(STATE.tab === "gallery" && out.length === 0);
   updateCounts();
 
@@ -235,152 +279,183 @@ function applyFilters(){
   if (els.countFiltered) els.countFiltered.textContent = STATE.filtered.length.toString();
 }
 
-function renderGallery(){
+/* ---------- chunked render / infinite scroll ---------- */
+function startRender(){
   const g = els.gallery;
   g.innerHTML = "";
-  const frag = document.createDocumentFragment();
+  renderCursor = 0;
+  if (io) { io.disconnect(); io = null; }
 
-  for(const item of STATE.filtered){
-    const card = document.createElement("article");
-    card.className = "card";
+  // sentinel to trigger loading
+  const sentinel = document.createElement("div");
+  sentinel.id = "sentinel";
+  sentinel.style.height = "1px";
+  g.appendChild(sentinel);
 
-    let mediaEl;
+  renderChunk();
 
-    if (item.type === "video" && (item.path || item.url)){
-      const v = document.createElement("video");
-      v.className = "thumb";
-      v.controls = true;
-      v.preload = "metadata";
-      v.playsInline = true;
-      v.src = buildAbsoluteUrl(item.path || item.url);
-      v.title = item.title;
-      mediaEl = v;
-
-    } else if (item.type === "youtube" && item.youtubeId){
-      const btn = document.createElement("button");
-      btn.type = "button";
-      btn.className = "thumb";
-      btn.style.position = "relative";
-      btn.style.cursor = "pointer";
-      btn.setAttribute("aria-label", `Play on YouTube: ${item.title || item.youtubeId}`);
-
-      const img = document.createElement("img");
-      img.className = "thumb";
-      img.alt = item.title || "YouTube";
-      img.loading = "lazy";
-      img.decoding = "async";
-      img.src = buildAbsoluteUrl(item.thumb || `https://i.ytimg.com/vi/${item.youtubeId}/hqdefault.jpg`);
-      btn.appendChild(img);
-
-      const play = document.createElement("div");
-      play.style.position = "absolute";
-      play.style.inset = "0";
-      play.style.display = "grid";
-      play.style.placeItems = "center";
-      play.innerHTML =
-        '<div style="width:68px;height:48px;background:rgba(0,0,0,.6);border-radius:10px;display:grid;place-items:center;">' +
-        '<svg width="26" height="26" viewBox="0 0 24 24" fill="white" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>' +
-        "</div>";
-      btn.appendChild(play);
-
-      btn.addEventListener("click", () => openViewer(item));
-      mediaEl = btn;
-
-    } else if (item.type === "tenor" && (item.url || item.thumb)) {
-      const img = document.createElement("img");
-      img.className = "thumb";
-      img.alt = item.title || "Tenor GIF";
-      img.loading = "lazy";
-      img.decoding = "async";
-      img.src = buildAbsoluteUrl(item.thumb || item.url);
-      img.addEventListener("click", () => openViewer(item));
-      mediaEl = img;
-
-    } else {
-      const img = document.createElement("img");
-      img.className = "thumb";
-      img.alt = item.title || "";
-      img.loading = "lazy";
-      img.decoding = "async";
-      img.src = buildAbsoluteUrl(item.thumb || item.path || item.url || "");
-      img.addEventListener("click", () => openViewer(item));
-      mediaEl = img;
-    }
-
-    if (!(mediaEl instanceof Node)) {
-      console.warn("Skipping item with invalid media node:", item);
-      continue;
-    }
-    card.appendChild(mediaEl);
-
-    const meta = document.createElement("div");
-    meta.className = "meta";
-
-    const left = document.createElement("div");
-    const title = document.createElement("div");
-    title.className = "title";
-    title.textContent = item.title || "Untitled";
-    left.appendChild(title);
-
-    const badges = document.createElement("div"); badges.className = "badges";
-    badges.innerHTML = `
-      <span class="badge" title="Skin">${escapeHtml(item.skinName)}</span>
-      <span class="badge" title="Type">${escapeHtml(TYPE_LABEL[item.type] || item.type)}</span>
-      ${item.year ? `<span class="badge" title="Original skin release year">${item.year}</span>` : ""}
-      ${(item.tags||[]).map(t => `<span class="badge" title="Tag: ${escapeHtml(TAG_LABEL[t] || t)}">${escapeHtml(TAG_LABEL[t] || t)}</span>`).join("")}
-    `;
-    left.appendChild(badges);
-
-    const actions = document.createElement("div");
-    actions.className = "actions";
-
-    const absPath = item.path ? buildAbsoluteUrl(item.path) : (item.url ? buildAbsoluteUrl(item.url) : null);
-    if (absPath) {
-      const rawLink = document.createElement("a");
-      rawLink.className = "action";
-      rawLink.href = absPath;
-      rawLink.target = "_blank";
-      rawLink.rel = "noopener";
-      rawLink.textContent = "Open raw";
-      actions.appendChild(rawLink);
-
-      const copyBtn = document.createElement("button");
-      copyBtn.className = "action js-copy";
-      copyBtn.type = "button";
-      copyBtn.textContent = "Copy path";
-      copyBtn.addEventListener("click", async () => {
-        const url = absPath;
-        try {
-          await navigator.clipboard.writeText(url);
-          copyBtn.textContent = "Copied";
-          setTimeout(() => (copyBtn.textContent = "Copy path"), 1200);
-        } catch {
-          copyBtn.textContent = "Failed";
-          setTimeout(() => (copyBtn.textContent = "Copy path"), 1200);
+  if (renderCursor < STATE.filtered.length) {
+    io = new IntersectionObserver((entries) => {
+      if (entries.some(e => e.isIntersecting)) {
+        renderChunk();
+        if (renderCursor >= STATE.filtered.length && io) {
+          io.disconnect();
+          io = null;
         }
-      });
-      actions.appendChild(copyBtn);
-    }
+      }
+    }, { root: null, rootMargin: "800px 0px", threshold: 0 });
 
-    if (item.youtubeId) {
-      const y = document.createElement("a");
-      y.className = "action";
-      y.href = `https://www.youtube.com/watch?v=${item.youtubeId}`;
-      y.target = "_blank";
-      y.rel = "noopener";
-      y.textContent = "YouTube";
-      actions.appendChild(y);
-    }
+    io.observe(sentinel);
+  }
+}
 
-    meta.appendChild(left);
-    meta.appendChild(actions);
-    card.appendChild(meta);
+function renderChunk(){
+  const g = els.gallery;
+  const frag = document.createDocumentFragment();
+  const end = Math.min(renderCursor + RENDER_BATCH, STATE.filtered.length);
 
+  for (let i = renderCursor; i < end; i++) {
+    const card = buildCard(STATE.filtered[i], i);
     frag.appendChild(card);
   }
 
   g.appendChild(frag);
+  renderCursor = end;
+
+  // keep sentinel last child
+  const sentinel = g.querySelector("#sentinel");
+  if (sentinel) g.appendChild(sentinel);
 }
+
+function buildCard(item, index){
+  const card = document.createElement("article");
+  card.className = "card";
+  card.dataset.idx = String(index);
+
+  let mediaEl;
+
+  if (item.type === "video" && (item.path || item.url)){
+    const v = document.createElement("video");
+    v.className = "thumb";
+    v.controls = true;
+    v.preload = "metadata";
+    v.playsInline = true;
+    v.src = buildAbsoluteUrl(item.path || item.url);
+    v.title = item.title;
+    mediaEl = v;
+
+  } else if (item.type === "youtube" && item.youtubeId){
+    const btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = "thumb";
+    btn.style.position = "relative";
+    btn.style.cursor = "pointer";
+    btn.setAttribute("aria-label", `Play on YouTube: ${item.title || item.youtubeId}`);
+
+    const img = document.createElement("img");
+    img.className = "thumb";
+    img.alt = item.title || "YouTube";
+    img.loading = "lazy";
+    img.decoding = "async";
+    img.setAttribute("fetchpriority", "low");
+    img.width = 1280; img.height = 720;
+    img.src = buildAbsoluteUrl(item.thumb || `https://i.ytimg.com/vi/${item.youtubeId}/hqdefault.jpg`);
+    btn.appendChild(img);
+
+    const play = document.createElement("div");
+    play.style.position = "absolute";
+    play.style.inset = "0";
+    play.style.display = "grid";
+    play.style.placeItems = "center";
+    play.innerHTML =
+      '<div style="width:68px;height:48px;background:rgba(0,0,0,.6);border-radius:10px;display:grid;place-items:center;">' +
+      '<svg width="26" height="26" viewBox="0 0 24 24" fill="white" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>' +
+      "</div>";
+    btn.appendChild(play);
+
+    mediaEl = btn;
+
+  } else if (item.type === "tenor" && (item.url || item.thumb)){
+    const img = document.createElement("img");
+    img.className = "thumb";
+    img.alt = item.title || "Tenor GIF";
+    img.loading = "lazy";
+    img.decoding = "async";
+    img.setAttribute("fetchpriority", "low");
+    img.width = 1280; img.height = 720;
+    img.src = buildAbsoluteUrl(item.thumb || item.url);
+    mediaEl = img;
+
+  } else {
+    const img = document.createElement("img");
+    img.className = "thumb";
+    img.alt = item.title || "";
+    img.loading = "lazy";
+    img.decoding = "async";
+    img.setAttribute("fetchpriority", "low");
+    img.width = 1280; img.height = 720;
+    img.src = buildAbsoluteUrl(item.thumb || item.path || item.url || "");
+    mediaEl = img;
+  }
+
+  card.appendChild(mediaEl);
+
+  const meta = document.createElement("div");
+  meta.className = "meta";
+
+  const left = document.createElement("div");
+  const title = document.createElement("div");
+  title.className = "title";
+  title.textContent = item.title || "Untitled";
+  left.appendChild(title);
+
+  const badges = document.createElement("div"); badges.className = "badges";
+  badges.innerHTML = `
+    <span class="badge" title="Skin">${escapeHtml(item.skinName)}</span>
+    <span class="badge" title="Type">${escapeHtml(TYPE_LABEL[item.type] || item.type)}</span>
+    ${item.year ? `<span class="badge" title="Original skin release year">${item.year}</span>` : ""}
+    ${(item.tags||[]).map(t => `<span class="badge" title="Tag: ${escapeHtml(TAG_LABEL[t] || t)}">${escapeHtml(TAG_LABEL[t] || t)}</span>`).join("")}
+  `;
+  left.appendChild(badges);
+
+  const actions = document.createElement("div");
+  actions.className = "actions";
+
+  const absPath = item.path ? buildAbsoluteUrl(item.path) : (item.url ? buildAbsoluteUrl(item.url) : null);
+  if (absPath) {
+    const rawLink = document.createElement("a");
+    rawLink.className = "action";
+    rawLink.href = absPath;
+    rawLink.target = "_blank";
+    rawLink.rel = "noopener";
+    rawLink.textContent = "Open raw";
+    actions.appendChild(rawLink);
+
+    const copyBtn = document.createElement("button");
+    copyBtn.className = "action js-copy";
+    copyBtn.type = "button";
+    copyBtn.textContent = "Copy path";
+    copyBtn.setAttribute("data-path", absPath);
+    actions.appendChild(copyBtn);
+  }
+
+  if (item.youtubeId) {
+    const y = document.createElement("a");
+    y.className = "action";
+    y.href = `https://www.youtube.com/watch?v=${item.youtubeId}`;
+    y.target = "_blank";
+    y.rel = "noopener";
+    y.textContent = "YouTube";
+    actions.appendChild(y);
+  }
+
+  meta.appendChild(left);
+  meta.appendChild(actions);
+  card.appendChild(meta);
+
+  return card;
+}
+/* ---------- end chunked rendering ---------- */
 
 function openViewer(item){
   const dlg = els.viewer;
