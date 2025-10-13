@@ -1,7 +1,7 @@
 {
   "meta": {
     "champion": "Ezreal",
-    "generated": "2025-10-11"
+    "generated": "2025-10-13"
   },
   "skins": [
     {
@@ -2696,6 +2696,51 @@
         },
         {
           "type": "promo",
+          "title": "Heartsteel Golden Spatula Band Personalities Close Ups  TFT",
+          "path": "assets/ezreal/skins/HEARTSTEEL/promo/Heartsteel_Golden_Spatula_Band_Personalities_Close_Ups__TFT.jpeg",
+          "tags": [
+            "tft"
+          ],
+          "isVideo": false
+        },
+        {
+          "type": "promo",
+          "title": "Heartsteel Golden Spatula Band Personalities  TFT",
+          "path": "assets/ezreal/skins/HEARTSTEEL/promo/Heartsteel_Golden_Spatula_Band_Personalities__TFT.jpeg",
+          "tags": [
+            "tft"
+          ],
+          "isVideo": false
+        },
+        {
+          "type": "promo",
+          "title": "Heartsteel Golden Spatula Remix Rumble Banner  TFT",
+          "path": "assets/ezreal/skins/HEARTSTEEL/promo/Heartsteel_Golden_Spatula_Remix_Rumble_Banner__TFT.jpg",
+          "tags": [
+            "tft"
+          ],
+          "isVideo": false
+        },
+        {
+          "type": "promo",
+          "title": "Heartsteel Golden Spatula Remix Rumble Battles of Popstars Post  TFT",
+          "path": "assets/ezreal/skins/HEARTSTEEL/promo/Heartsteel_Golden_Spatula_Remix_Rumble_Battles_of_Popstars_Post__TFT.jpg",
+          "tags": [
+            "tft"
+          ],
+          "isVideo": false
+        },
+        {
+          "type": "promo",
+          "title": "Heartsteel Golden Spatula Remix Rumble Post  TFT",
+          "path": "assets/ezreal/skins/HEARTSTEEL/promo/Heartsteel_Golden_Spatula_Remix_Rumble_Post__TFT.jpg",
+          "tags": [
+            "tft"
+          ],
+          "isVideo": false
+        },
+        {
+          "type": "promo",
           "title": "Heartsteel Lyricstory 08 by Studio Moross",
           "path": "assets/ezreal/skins/HEARTSTEEL/promo/Heartsteel_Lyricstory_08_by_Studio_Moross.webp",
           "tags": [],
@@ -3041,6 +3086,50 @@
           "title": "Heartsteel Worlds 2023 Opening Ceremony",
           "path": "assets/ezreal/skins/HEARTSTEEL/promo/Heartsteel_Worlds_2023_Opening_Ceremony.webp",
           "tags": [],
+          "isVideo": false
+        },
+        {
+          "type": "promo",
+          "title": "TFT Player Personalities Post Video",
+          "path": "assets/ezreal/skins/HEARTSTEEL/promo/TFT_Player_Personalities_Post_Video.mp4",
+          "tags": [],
+          "isVideo": true
+        },
+        {
+          "type": "promo",
+          "title": "TFT Player Personalities Post Videoframe",
+          "path": "assets/ezreal/skins/HEARTSTEEL/promo/TFT_Player_Personalities_Post_Videoframe.png",
+          "tags": [],
+          "isVideo": false
+        },
+        {
+          "type": "promo",
+          "title": "Heartsteel Golden Spatula Item Usage Post  TFT",
+          "path": "assets/ezreal/skins/HEARTSTEEL/promo/chroma/Heartsteel_Golden_Spatula_Item_Usage_Post__TFT.jpg",
+          "tags": [
+            "chroma",
+            "tft"
+          ],
+          "isVideo": false
+        },
+        {
+          "type": "promo",
+          "title": "Heartsteel Golden Spatula Remix Rumble Heartsteel Comb  TFT",
+          "path": "assets/ezreal/skins/HEARTSTEEL/promo/chroma/Heartsteel_Golden_Spatula_Remix_Rumble_Heartsteel_Comb__TFT.jpg",
+          "tags": [
+            "chroma",
+            "tft"
+          ],
+          "isVideo": false
+        },
+        {
+          "type": "promo",
+          "title": "Heartsteel Golden Spatula Upgrade Post  TFT",
+          "path": "assets/ezreal/skins/HEARTSTEEL/promo/chroma/Heartsteel_Golden_Spatula_Upgrade_Post__TFT.jpg",
+          "tags": [
+            "chroma",
+            "tft"
+          ],
           "isVideo": false
         },
         {
