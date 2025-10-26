@@ -1,7 +1,7 @@
 {
   "meta": {
     "champion": "Ezreal",
-    "generated": "2025-10-13"
+    "generated": "2025-10-26"
   },
   "skins": [
     {
@@ -761,6 +761,15 @@
           "type": "promo",
           "title": "Battle Academia Promovideo Tacticians Crown Videoframe  TFT",
           "path": "assets/ezreal/skins/Battle Academia/promo/Battle_Academia_Promovideo_Tacticians_Crown_Videoframe__TFT.jpg",
+          "tags": [
+            "tft"
+          ],
+          "isVideo": false
+        },
+        {
+          "type": "promo",
+          "title": "Battle Academia Skinbundle Art   TFT",
+          "path": "assets/ezreal/skins/Battle Academia/promo/Battle_Academia_Skinbundle_Art___TFT.jpeg",
           "tags": [
             "tft"
           ],
@@ -8898,6 +8907,13 @@
         },
         {
           "type": "promo",
+          "title": "Season 2014 Teambuilder Keyart",
+          "path": "assets/ezreal/skins/classic/promo/Season_2014_Teambuilder_Keyart.avif",
+          "tags": [],
+          "isVideo": false
+        },
+        {
+          "type": "promo",
           "title": "Season 2024 Keyart",
           "path": "assets/ezreal/skins/classic/promo/Season_2024_Keyart.avif",
           "tags": [],
@@ -8907,13 +8923,6 @@
           "type": "promo",
           "title": "Season unknown1 Keyart",
           "path": "assets/ezreal/skins/classic/promo/Season_unknown1_Keyart.avif",
-          "tags": [],
-          "isVideo": false
-        },
-        {
-          "type": "promo",
-          "title": "Season unknown2 Keyart",
-          "path": "assets/ezreal/skins/classic/promo/Season_unknown2_Keyart.avif",
           "tags": [],
           "isVideo": false
         },
@@ -9461,6 +9470,27 @@
           "type": "emote",
           "title": "Classic Tears of Joy Emote",
           "path": "assets/ezreal/skins/classic/emote/Classic_Tears_of_Joy_Emote.png",
+          "tags": [],
+          "isVideo": false
+        },
+        {
+          "type": "merch",
+          "title": "Classic Ezreal Keycaps 1",
+          "path": "assets/ezreal/skins/classic/merch/Classic_Ezreal_Keycaps_1.jpeg",
+          "tags": [],
+          "isVideo": false
+        },
+        {
+          "type": "merch",
+          "title": "Classic Ezreal Keycaps 2",
+          "path": "assets/ezreal/skins/classic/merch/Classic_Ezreal_Keycaps_2.png",
+          "tags": [],
+          "isVideo": false
+        },
+        {
+          "type": "merch",
+          "title": "Classic Ezreal Miniso",
+          "path": "assets/ezreal/skins/classic/merch/Classic_Ezreal_Miniso.jpeg",
           "tags": [],
           "isVideo": false
         },
