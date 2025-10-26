@@ -234,6 +234,12 @@ async function loadManifest(){
   }
 }
 
+function renderLastUpdated(){
+  if (!els.lastUpdated || !MANIFEST_META.generated) return;
+  const dt = new Date(MANIFEST_META.generated);
+  const formatted = dt.toLocaleDateString(undefined, { year: "numeric", month: "short", day: "numeric" });
+  els.lastUpdated.textContent = `Updated ${formatted}`;
+}
 
 function renderFilters(){
   const skins = Array.from(new Set(STATE.allItems.map(i => i.skinId)))
