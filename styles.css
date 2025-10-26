@@ -696,3 +696,37 @@ main {
   color: var(--muted);
   font-size: 0.95rem;
 }
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.6rem;
+  align-self: center;
+}
+
+.last-updated {
+  display: block;
+  font-size: 0.72rem;
+  line-height: 1;
+  color: var(--muted);
+  margin-top: 0.15rem;
+  text-align: right;
+  opacity: 0.95;
+}
+
+@media (max-width: 640px) {
+  .site-header { padding: 0.75rem 0.9rem; }
+  .header-actions { gap: 0.5rem; }
+
+  .btn {
+    padding: 0.48rem 0.7rem;
+    border-radius: 12px;
+    font-size: 0.95rem;
+  }
+  .btn .icon { font-size: 1rem; }
+}
+
+@media (max-width: 380px) {
+  .header-actions { flex-wrap: wrap; row-gap: 0.4rem; }
+}

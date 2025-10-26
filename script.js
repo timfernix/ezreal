@@ -67,6 +67,7 @@ const els = {
   counts: document.getElementById("counts"),
   countTotal: document.getElementById("countTotal"),
   countFiltered: document.getElementById("countFiltered"),
+  lastUpdated: document.getElementById("lastUpdated"),
 };
 
 function syncFiltersFromUI(){
@@ -87,6 +88,7 @@ async function init(){
   renderFilters();
   syncFiltersFromUI();
   applyFilters();
+  renderLastUpdated();
 }
 
 function updateCounts(){
@@ -183,6 +185,8 @@ async function loadManifest(){
     if(!res.ok) throw new Error(`manifest ${res.status}`);
     const data = await res.json();
 
+    MANIFEST_META = data.meta || { generated: null };
+
     const items = [];
     for(const skin of (data.skins || [])){
       const skinId = skin.id;
@@ -218,7 +222,6 @@ async function loadManifest(){
           thumb: m.thumb || null,
           tags,
           searchText,
-          // carry through from manifest
           isVideo: Boolean(m.isVideo)
         });
       }
@@ -227,8 +230,10 @@ async function loadManifest(){
   }catch(err){
     console.warn("Failed to load manifest:", err);
     STATE.allItems = [];
+    MANIFEST_META = { generated: null };
   }
 }
+
 
 function renderFilters(){
   const skins = Array.from(new Set(STATE.allItems.map(i => i.skinId)))
