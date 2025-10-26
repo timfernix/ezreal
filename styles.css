@@ -725,6 +725,10 @@ main {
     font-size: 0.95rem;
   }
   .btn .icon { font-size: 1rem; }
+
+  .last-updated,#lastUpdated {
+    display: none !important;
+  }
 }
 
 @media (max-width: 380px) {
