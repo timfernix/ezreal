@@ -1,7 +1,7 @@
 {
   "meta": {
     "champion": "Ezreal",
-    "generated": "2025-10-26"
+    "generated": "2025-11-07"
   },
   "skins": [
     {
@@ -8470,6 +8470,33 @@
           "title": "Classic Season 2024 Key Promoart cropped",
           "path": "assets/ezreal/skins/classic/promo/Classic_Season_2024_Key_Promoart_cropped.png",
           "tags": [],
+          "isVideo": false
+        },
+        {
+          "type": "promo",
+          "title": "Classic Teamfight Tactics Post 1 cropped  TFT",
+          "path": "assets/ezreal/skins/classic/promo/Classic_Teamfight_Tactics_Post_1_cropped__TFT.jpeg",
+          "tags": [
+            "tft"
+          ],
+          "isVideo": false
+        },
+        {
+          "type": "promo",
+          "title": "Classic Teamfight Tactics Post 2 cropped  TFT",
+          "path": "assets/ezreal/skins/classic/promo/Classic_Teamfight_Tactics_Post_2_cropped__TFT.jpeg",
+          "tags": [
+            "tft"
+          ],
+          "isVideo": false
+        },
+        {
+          "type": "promo",
+          "title": "Classic Teamfight Tactics Post 3 cropped  TFT",
+          "path": "assets/ezreal/skins/classic/promo/Classic_Teamfight_Tactics_Post_3_cropped__TFT.jpeg",
+          "tags": [
+            "tft"
+          ],
           "isVideo": false
         },
         {
