@@ -1,7 +1,7 @@
 {
   "meta": {
     "champion": "Ezreal",
-    "generated": "2025-11-07"
+    "generated": "2025-11-12"
   },
   "skins": [
     {
@@ -8424,6 +8424,15 @@
         },
         {
           "type": "promo",
+          "title": "Classic Promoart Riftiversary Bingo cropped  WR",
+          "path": "assets/ezreal/skins/classic/promo/Classic_Promoart_Riftiversary_Bingo_cropped__WR.jpg",
+          "tags": [
+            "wr"
+          ],
+          "isVideo": false
+        },
+        {
+          "type": "promo",
           "title": "Classic Promoart by Hika  WR",
           "path": "assets/ezreal/skins/classic/promo/Classic_Promoart_by_Hika__WR.jpg",
           "tags": [
@@ -8451,8 +8460,8 @@
         },
         {
           "type": "promo",
-          "title": "Classic Riftbound Promoart",
-          "path": "assets/ezreal/skins/classic/promo/Classic_Riftbound_Promoart.jpeg",
+          "title": "Classic Riftbound Promoart 2",
+          "path": "assets/ezreal/skins/classic/promo/Classic_Riftbound_Promoart_2.jpg",
           "tags": [],
           "isVideo": false
         },
@@ -9229,6 +9238,27 @@
         },
         {
           "type": "model",
+          "title": "Classic Project F Preview 1 cropped",
+          "path": "assets/ezreal/skins/classic/model/Classic_Project_F_Preview_1_cropped.png",
+          "tags": [],
+          "isVideo": false
+        },
+        {
+          "type": "model",
+          "title": "Classic Project F Preview 2 cropped",
+          "path": "assets/ezreal/skins/classic/model/Classic_Project_F_Preview_2_cropped.png",
+          "tags": [],
+          "isVideo": false
+        },
+        {
+          "type": "model",
+          "title": "Classic Project F Preview 3 cropped",
+          "path": "assets/ezreal/skins/classic/model/Classic_Project_F_Preview_3_cropped.png",
+          "tags": [],
+          "isVideo": false
+        },
+        {
+          "type": "model",
           "title": "Classic T Pose by Khada Modelviewer",
           "path": "assets/ezreal/skins/classic/model/Classic_T-Pose_by_Khada_Modelviewer.png",
           "tags": [],
@@ -9619,6 +9649,13 @@
           "tags": [
             "timfernix"
           ],
+          "isVideo": false
+        },
+        {
+          "type": "ingame",
+          "title": "Classic Riftbound Promoart",
+          "path": "assets/ezreal/skins/classic/ingame/Classic_Riftbound_Promoart.jpeg",
+          "tags": [],
           "isVideo": false
         },
         {
