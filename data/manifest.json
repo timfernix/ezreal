@@ -1,7 +1,7 @@
 {
   "meta": {
     "champion": "Ezreal",
-    "generated": "2025-11-12"
+    "generated": "2025-11-13"
   },
   "skins": [
     {
@@ -8460,8 +8460,22 @@
         },
         {
           "type": "promo",
+          "title": "Classic Riftbound Promoart",
+          "path": "assets/ezreal/skins/classic/promo/Classic_Riftbound_Promoart.jpeg",
+          "tags": [],
+          "isVideo": false
+        },
+        {
+          "type": "promo",
           "title": "Classic Riftbound Promoart 2",
           "path": "assets/ezreal/skins/classic/promo/Classic_Riftbound_Promoart_2.jpg",
+          "tags": [],
+          "isVideo": false
+        },
+        {
+          "type": "promo",
+          "title": "Classic Riftbound Promoart 3",
+          "path": "assets/ezreal/skins/classic/promo/Classic_Riftbound_Promoart_3.jpg",
           "tags": [],
           "isVideo": false
         },
@@ -9649,13 +9663,6 @@
           "tags": [
             "timfernix"
           ],
-          "isVideo": false
-        },
-        {
-          "type": "ingame",
-          "title": "Classic Riftbound Promoart",
-          "path": "assets/ezreal/skins/classic/ingame/Classic_Riftbound_Promoart.jpeg",
-          "tags": [],
           "isVideo": false
         },
         {
