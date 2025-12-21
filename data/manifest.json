@@ -1,7 +1,7 @@
 {
   "meta": {
     "champion": "Ezreal",
-    "generated": "2025-11-13"
+    "generated": "2025-12-21"
   },
   "skins": [
     {
@@ -6961,6 +6961,41 @@
           "isVideo": false
         },
         {
+          "type": "merch",
+          "title": "Pulsefire Pins 1",
+          "path": "assets/ezreal/skins/Pulsefire/merch/Pulsefire_Pins_1.png",
+          "tags": [],
+          "isVideo": false
+        },
+        {
+          "type": "merch",
+          "title": "Pulsefire Pins 2",
+          "path": "assets/ezreal/skins/Pulsefire/merch/Pulsefire_Pins_2.png",
+          "tags": [],
+          "isVideo": false
+        },
+        {
+          "type": "merch",
+          "title": "Pulsefire Shirt 1",
+          "path": "assets/ezreal/skins/Pulsefire/merch/Pulsefire_Shirt_1.jpeg",
+          "tags": [],
+          "isVideo": false
+        },
+        {
+          "type": "merch",
+          "title": "Pulsefire Shirt 2",
+          "path": "assets/ezreal/skins/Pulsefire/merch/Pulsefire_Shirt_2.png",
+          "tags": [],
+          "isVideo": false
+        },
+        {
+          "type": "merch",
+          "title": "Pulsefire Shirt 3",
+          "path": "assets/ezreal/skins/Pulsefire/merch/Pulsefire_Shirt_3.jpeg",
+          "tags": [],
+          "isVideo": false
+        },
+        {
           "type": "ingame",
           "title": "Pulsefire Ability Ingame Ultimate  timfernix",
           "path": "assets/ezreal/skins/Pulsefire/ingame/Pulsefire_Ability_Ingame_Ultimate__timfernix.jpg",
@@ -8456,6 +8491,34 @@
           "tags": [
             "lor"
           ],
+          "isVideo": false
+        },
+        {
+          "type": "promo",
+          "title": "Classic Riftbound Card 1",
+          "path": "assets/ezreal/skins/classic/promo/Classic_Riftbound_Card_1.jpeg",
+          "tags": [],
+          "isVideo": false
+        },
+        {
+          "type": "promo",
+          "title": "Classic Riftbound Card 2",
+          "path": "assets/ezreal/skins/classic/promo/Classic_Riftbound_Card_2.jpeg",
+          "tags": [],
+          "isVideo": false
+        },
+        {
+          "type": "promo",
+          "title": "Classic Riftbound Card 3",
+          "path": "assets/ezreal/skins/classic/promo/Classic_Riftbound_Card_3.jpeg",
+          "tags": [],
+          "isVideo": false
+        },
+        {
+          "type": "promo",
+          "title": "Classic Riftbound Card 4",
+          "path": "assets/ezreal/skins/classic/promo/Classic_Riftbound_Card_4.jpeg",
+          "tags": [],
           "isVideo": false
         },
         {
