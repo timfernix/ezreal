@@ -99,6 +99,55 @@
         },
         {
           "type": "icon",
+          "title": "Arcade Riftbound Card Ezreal Dashing",
+          "path": "assets/ezreal/skins/Ability Icons/icon/Arcade_Riftbound_Card_Ezreal_Dashing.webp",
+          "tags": [],
+          "isVideo": false
+        },
+        {
+          "type": "icon",
+          "title": "Classic Riftbound Card Arcane Shift",
+          "path": "assets/ezreal/skins/Ability Icons/icon/Classic_Riftbound_Card_Arcane_Shift.webp",
+          "tags": [],
+          "isVideo": false
+        },
+        {
+          "type": "icon",
+          "title": "Classic Riftbound Card Ezreal Dashing",
+          "path": "assets/ezreal/skins/Ability Icons/icon/Classic_Riftbound_Card_Ezreal_Dashing.webp",
+          "tags": [],
+          "isVideo": false
+        },
+        {
+          "type": "icon",
+          "title": "Classic Riftbound Card Ezreal Prodigy",
+          "path": "assets/ezreal/skins/Ability Icons/icon/Classic_Riftbound_Card_Ezreal_Prodigy.webp",
+          "tags": [],
+          "isVideo": false
+        },
+        {
+          "type": "icon",
+          "title": "Classic Riftbound Card Prodigal Explorer",
+          "path": "assets/ezreal/skins/Ability Icons/icon/Classic_Riftbound_Card_Prodigal_Explorer.webp",
+          "tags": [],
+          "isVideo": false
+        },
+        {
+          "type": "icon",
+          "title": "Classic Riftbound Card Prodigal Explorer 2",
+          "path": "assets/ezreal/skins/Ability Icons/icon/Classic_Riftbound_Card_Prodigal_Explorer_2.webp",
+          "tags": [],
+          "isVideo": false
+        },
+        {
+          "type": "icon",
+          "title": "Debonair Riftbound Card Ezreal Prodigy",
+          "path": "assets/ezreal/skins/Ability Icons/icon/Debonair_Riftbound_Card_Ezreal_Prodigy.webp",
+          "tags": [],
+          "isVideo": false
+        },
+        {
+          "type": "icon",
           "title": "Ezreal Card Level 1  LOR",
           "path": "assets/ezreal/skins/Ability Icons/icon/Ezreal_Card_Level_1__LOR.png",
           "tags": [
