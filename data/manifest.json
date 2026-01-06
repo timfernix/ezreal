@@ -1,7 +1,7 @@
 {
   "meta": {
     "champion": "Ezreal",
-    "generated": "2025-12-24"
+    "generated": "2026-01-06"
   },
   "skins": [
     {
@@ -8098,8 +8098,26 @@
         },
         {
           "type": "concept",
-          "title": "Weather Entity Wild Rift Model Concept  WR.jpeg",
-          "path": "assets/ezreal/skins/Weather Entity/concept/Weather_Entity_Wild_Rift_Model_Concept__WR.jpeg.jpg",
+          "title": "Weather Entity Wild Rift Model Concept  WR",
+          "path": "assets/ezreal/skins/Weather Entity/concept/Weather_Entity_Wild_Rift_Model_Concept__WR.jpg",
+          "tags": [
+            "wr"
+          ],
+          "isVideo": false
+        },
+        {
+          "type": "concept",
+          "title": "Weather Entity Wild Rift Model Concept by XHE 1992 1  WR",
+          "path": "assets/ezreal/skins/Weather Entity/concept/Weather_Entity_Wild_Rift_Model_Concept_by_XHE_1992_1__WR.webp",
+          "tags": [
+            "wr"
+          ],
+          "isVideo": false
+        },
+        {
+          "type": "concept",
+          "title": "Weather Entity Wild Rift Model Concept by XHE 1992 2  WR",
+          "path": "assets/ezreal/skins/Weather Entity/concept/Weather_Entity_Wild_Rift_Model_Concept_by_XHE_1992_2__WR.webp",
           "tags": [
             "wr"
           ],
