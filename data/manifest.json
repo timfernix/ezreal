@@ -1,7 +1,7 @@
 {
   "meta": {
     "champion": "Ezreal",
-    "generated": "2026-01-06"
+    "generated": "2026-01-14"
   },
   "skins": [
     {
@@ -1972,6 +1972,34 @@
           "url": "https://c.tenor.com/FjKKBKjaMSsAAAAC/tenor.gif",
           "thumb": "https://c.tenor.com/FjKKBKjaMSsAAAAC/tenor.gif",
           "tags": []
+        }
+      ]
+    },
+    {
+      "id": "Dream of the red chamber",
+      "name": "Dream Of The Red Chamber",
+      "release_year": null,
+      "media": [
+        {
+          "type": "splash",
+          "title": "Dream of the red chamber Splashart",
+          "path": "assets/ezreal/skins/Dream of the red chamber/splash/Dream_of_the_red_chamber_Splashart.jpg",
+          "tags": [],
+          "isVideo": false
+        },
+        {
+          "type": "promo",
+          "title": "Dream of the red chamber Promoart Skinline",
+          "path": "assets/ezreal/skins/Dream of the red chamber/promo/Dream_of_the_red_chamber_Promoart_Skinline.jpg",
+          "tags": [],
+          "isVideo": false
+        },
+        {
+          "type": "promo",
+          "title": "Dream of the red chamber Promoart Skinline cropped",
+          "path": "assets/ezreal/skins/Dream of the red chamber/promo/Dream_of_the_red_chamber_Promoart_Skinline_cropped.webp",
+          "tags": [],
+          "isVideo": false
         }
       ]
     },
@@ -8430,6 +8458,15 @@
           "title": "Classic Doom Bots 2025 Promoart",
           "path": "assets/ezreal/skins/classic/promo/Classic_Doom_Bots_2025_Promoart.jpg",
           "tags": [],
+          "isVideo": false
+        },
+        {
+          "type": "promo",
+          "title": "Classic Doublecast Post  WR",
+          "path": "assets/ezreal/skins/classic/promo/Classic_Doublecast_Post__WR.jpg",
+          "tags": [
+            "wr"
+          ],
           "isVideo": false
         },
         {
