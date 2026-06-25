@@ -449,6 +449,40 @@ main {
   background: rgba(0, 0, 0, 0.6);
   backdrop-filter: blur(3px);
 }
+
+.move-notice {
+  width: min(92vw, 560px);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 0;
+  background: var(--bg);
+  color: var(--text);
+  box-shadow: var(--shadow);
+}
+.move-notice::backdrop {
+  background: rgba(0, 0, 0, 0.62);
+  backdrop-filter: blur(3px);
+}
+.move-notice-content {
+  display: grid;
+  gap: 0.8rem;
+  padding: 1.2rem;
+}
+.move-notice-content h2 {
+  margin: 0;
+  font-size: 1.1rem;
+}
+.move-notice-content p {
+  margin: 0;
+}
+.move-notice-subtle {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+.move-notice-content .btn {
+  justify-self: end;
+}
+
 .viewer-close {
   position: absolute;
   right: 0.75rem;

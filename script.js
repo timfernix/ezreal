@@ -50,6 +50,8 @@ const TAG_LABEL = {
   lol: "League of Legends",
 };
 
+const MOVE_NOTICE_STORAGE_KEY = "ezrealMoveNoticeSeen-v1";
+
 const els = {
   skinFilter: document.getElementById("skinFilter"),
   typeChecks: () => [...document.querySelectorAll('input[name="type"]')],
@@ -68,6 +70,8 @@ const els = {
   countTotal: document.getElementById("countTotal"),
   countFiltered: document.getElementById("countFiltered"),
   lastUpdated: document.getElementById("lastUpdated"),
+  moveNotice: document.getElementById("moveNotice"),
+  moveNoticeDismiss: document.getElementById("moveNoticeDismiss"),
 };
 
 function syncFiltersFromUI(){
@@ -84,11 +88,46 @@ init().catch(console.error);
 async function init(){
   hydrateTheme();
   wireUI();
+  maybeShowMoveNotice();
   await loadManifest();
   renderFilters();
   syncFiltersFromUI();
   applyFilters();
   renderLastUpdated();
+}
+
+function maybeShowMoveNotice(){
+  const dlg = els.moveNotice;
+  const dismissBtn = els.moveNoticeDismiss;
+  if(!dlg || !dismissBtn) return;
+
+  let alreadyShown = false;
+  try {
+    alreadyShown = localStorage.getItem(MOVE_NOTICE_STORAGE_KEY) === "1";
+  } catch (_err) {
+    alreadyShown = false;
+  }
+  if(alreadyShown) return;
+
+  const markSeen = () => {
+    try {
+      localStorage.setItem(MOVE_NOTICE_STORAGE_KEY, "1");
+    } catch (_err) {
+    }
+  };
+
+  dismissBtn.addEventListener("click", () => {
+    markSeen();
+    dlg.close();
+  }, { once: true });
+
+  dlg.addEventListener("close", markSeen, { once: true });
+
+  if(typeof dlg.showModal === "function") {
+    dlg.showModal();
+    return;
+  }
+  dlg.setAttribute("open", "");
 }
 
 function updateCounts(){
