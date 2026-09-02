@@ -2,6 +2,89 @@
 <html lang="en" data-theme="dark">
   <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+    <meta name="color-scheme" content="dark light" />
+    <meta name="theme-color" content="#0b0f14" />
+    <title>Ezreal Media Archive - Moved</title>
+    <meta name="description" content="This archive has moved to its new home." />
+    <link rel="preload" as="style" href="styles.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="assets/ezreal/skins/classic/icon/Classic_Ezreal_Current_Icon.png" type="image/png" />
+    <link rel="apple-touch-icon" href="assets/ezreal/skins/classic/icon/Classic_Ezreal_Current_Icon.png" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Ezreal Media Archive - Moved" />
+    <meta property="og:description" content="This archive has moved to its new home." />
+    <meta property="og:url" content="https://timfernix.github.io/ezreal/" />
+    <meta property="og:image" content="https://timfernix.github.io/ezreal/assets/ezreal/skins/classic/icon/Classic_Ezreal_Current_Icon.png" />
+    <meta property="og:image:alt" content="Classic Ezreal icon" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="brand">
+        <div class="logo" aria-hidden="true">
+          <img src="https://timfernix.github.io/ezreal/assets/ezreal/skins/classic/icon/Classic_Ezreal_Current_Icon.png" alt="" width="32" height="32" decoding="async" loading="eager" />
+        </div>
+        <h1>Ezreal Media Archive</h1>
+      </div>
+    </header>
+
+    <main class="archive-placeholder" aria-hidden="true"></main>
+
+    <dialog id="moveNotice" class="move-notice" aria-labelledby="moveNoticeTitle" aria-describedby="moveNoticeDescription">
+      <div class="move-notice-content">
+        <div class="move-notice-status" aria-hidden="true">
+          <span class="move-notice-spinner"></span>
+          <strong id="moveNoticeCountdown">30</strong>
+        </div>
+        <h2 id="moveNoticeTitle">The archive has moved</h2>
+        <p id="moveNoticeDescription">The Ezreal Media Archive now lives at ezreal.timfernix.dev with a refreshed page and updated content.</p>
+        <p class="move-notice-subtle" aria-live="polite">Redirecting in <span id="moveNoticeSeconds">30</span> seconds.</p>
+        <a id="moveNoticeLink" class="btn" href="https://ezreal.timfernix.dev/">Go to the new archive</a>
+      </div>
+    </dialog>
+
+    <footer class="site-footer">
+      <div class="made-by" role="contentinfo" aria-label="Site attribution">
+        <span class="made-by-text">Made with ❤️‍🔥 by <a href="https://timfernix.github.io/" target="_blank" rel="noopener">timfernix</a></span>
+      </div>
+      <p class="legal">
+        This project was created under Riot Games' "Legal Jibber Jabber" policy using assets owned by Riot Games. Riot Games does not endorse or sponsor this project.<br /><br />
+        The former archive has permanently moved to <a href="https://ezreal.timfernix.dev/">ezreal.timfernix.dev</a>.
+      </p>
+    </footer>
+
+    <script>
+      const newArchiveUrl = "https://ezreal.timfernix.dev/";
+      const moveNotice = document.getElementById("moveNotice");
+      const countdown = document.getElementById("moveNoticeCountdown");
+      const seconds = document.getElementById("moveNoticeSeconds");
+      const archiveLink = document.getElementById("moveNoticeLink");
+      let remaining = 30;
+
+      moveNotice.addEventListener("cancel", (event) => event.preventDefault());
+      moveNotice.showModal();
+
+      archiveLink.addEventListener("click", (event) => {
+        event.preventDefault();
+        window.location.assign(newArchiveUrl);
+      });
+
+      const timer = window.setInterval(() => {
+        remaining -= 1;
+        countdown.textContent = remaining;
+        seconds.textContent = remaining;
+        if (remaining === 0) {
+          window.clearInterval(timer);
+          window.location.assign(newArchiveUrl);
+        }
+      }, 1000);
+    </script>
+    <!-- Cloudflare Web Analytics --><script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "872aa0053fb94ba7bf52129ad5b003ea"}'></script><!-- End Cloudflare Web Analytics -->
+  </body>
+</html><!DOCTYPE html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="utf-8" />
     <meta
       name="viewport"
       content="width=device-width,initial-scale=1,viewport-fit=cover"
@@ -9,20 +92,20 @@
     <meta name="color-scheme" content="dark light" />
     <meta name="theme-color" content="#0b0f14" id="themeColorMeta" />
     <title>Ezreal Media Archive</title>
-    <meta name="description" content="All Ezreal media in one place." />
+    <meta name="description" content="This archive has moved to its new home." />
     <link rel="preload" as="style" href="styles.css" />
     <link rel="stylesheet" href="styles.css" />
     <link rel="icon" href="assets/ezreal/skins/classic/icon/Classic_Ezreal_Current_Icon.png" type="image/png" />
     <link rel="apple-touch-icon" href="assets/ezreal/skins/classic/icon/Classic_Ezreal_Current_Icon.png" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Ezreal Media Archive" />
-    <meta property="og:description" content="All Ezreal media in one place" />
+    <meta property="og:description" content="This archive has moved to its new home." />
     <meta property="og:url" content="https://timfernix.github.io/ezreal/" />
     <meta property="og:image" content="https://timfernix.github.io/ezreal/assets/ezreal/skins/classic/icon/Classic_Ezreal_Current_Icon.png" />
     <meta property="og:image:alt" content="Classic Ezreal icon" />
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:title" content="Ezreal Media Archive" />
-    <meta name="twitter:description" content="All Ezreal media in one place." />
+    <meta name="twitter:description" content="This archive has moved to its new home." />
     <meta name="twitter:image" content="https://timfernix.github.io/ezreal/assets/ezreal/skins/classic/icon/Classic_Ezreal_Current_Icon.png" />
   </head>
   <body>
